@@ -13,6 +13,8 @@ use App\Http\Controllers\admin\ProductController;
 use App\Http\Controllers\admin\ProfileController;
 use App\Http\Controllers\admin\StaffController;
 use App\Http\Controllers\admin\UserController;
+use App\Http\Controllers\user\BlogController;
+use App\Http\Controllers\user\HomeController;
 use App\Models\Permission;
 use Illuminate\Support\Facades\Route;
 
@@ -126,7 +128,13 @@ Route::get('images/{filename}', [CommonController::class,'show_image'])->name('i
 //user routes
 Route::group(['as' => 'user.'], function() {
 
-    Route::view('/', 'user/home');
+    Route::controller(HomeController::class)->group(function(){
+        Route::get('/', 'homePage');
+    });
+
+    Route::controller(BlogController::class)->group(function(){
+        Route::get('/blogs', 'index')->name('blogs.index');
+    });
 
 
 });

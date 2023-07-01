@@ -1,0 +1,3971 @@
+/* ############################# COLOR VARIABLES #######################3 */
+
+:root {
+    --btn-color: #f07e01;
+    --subsection-background-color: #fcf5f0;
+    --section-background-color: #fdf9f6;
+  }
+  
+  /* ######################### COMMON CSS  #############################  */
+  
+  /* body */
+  
+  body {
+    background-color: white !important;
+    box-sizing: border-box !important;
+    width: fit-content !important;
+    font-family: 'Inter', sans-serif !important;
+    margin: 0;
+  }
+  
+  button{
+    font-family: 'Inter', sans-serif !important;
+  }
+  
+  
+  .below-heading-line {
+    margin: auto;
+    display: block;
+    width: 6%;
+    height: 0.2rem;
+    background-color: var(--btn-color);
+    border-radius: 0.5rem;
+    flex-shrink: 0;
+  }
+  
+  textarea{
+    resize: none;
+    min-height: 133.6px !important;
+    max-height: 133.6px !important;
+  }
+  
+  /* mobile css start */
+  
+  @media only screen and (max-width: 768px) {
+  p, li{
+    font-size: 31px !important;
+    line-height: 50px !important;
+    padding: 4px !important;
+    letter-spacing: 0.5px !important;
+  }
+  
+  h5{
+    font-size: 35px !important;
+  }
+  
+  h2,h1{
+    font-size: 50px !important;
+  }
+  
+  
+  button{
+    font-size: 28px !important;
+  }
+  
+  /*   
+  .navbar{
+    position: relative !important;
+  } */
+  
+  .nav-link {
+    padding: 20px 0px !important;
+    font-size: 30px !important;
+    border-bottom: 0.5px solid rgba(128, 128, 128, 0.601) !important;
+  }
+  
+  .navbar button {
+    padding: 3.4% 4% !important;
+    margin: 20px 0px !important;
+  }
+  
+  .dropdown-item {
+    padding: 20px !important;
+    border-bottom: 0.5px solid rgba(128, 128, 128, 0.601);
+  }
+  
+  .dropdown-toggle::after {
+    height: 30px;
+    width: 13px;
+    margin-top: 10px;
+    font-size: 35px;
+    rotate: 270deg;
+    float: right;
+    transition: 0.3s;
+  }
+  
+  
+  .toggle-change{
+    &::after {
+    rotate: 360deg !important;
+    margin-top: 19px;
+    }
+  }
+  
+  
+  .header-content-detail h2 {
+    font-size: 4.5rem !important;
+  }
+  
+  .header-content-detail p, .header-content-detail h5 {
+    display: none !important;
+  }
+  
+  /* .header-content {
+    height: 42.4rem !important;
+    top: -0.4rem !important;
+  } */
+  
+  
+  .header-content-desc {
+    font-size: 28px !important;
+    width: 100% !important;
+    line-height: unset !important;
+  }
+  
+  .header-content-detail {
+    width: 100% !important;
+  }
+  
+  
+  .reflect-your-sense-of-style-section-heading {
+    width: 100% !important;
+  }
+  
+  .reflect-your-sense-of-style-section-wrapper {
+    padding: 0px !important;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+  }
+  
+  .reflect-your-sense-of-style-section-content-images>div {
+    width: -webkit-fill-available !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  
+  .reflect-your-sense-of-style-section-content .Kitchen-design-wrapper {
+    min-width: 19rem !important;
+  }
+  
+  .reflect-your-sense-of-style-section-content .desc-wrapper div:first-child {
+    margin: 0px !important;
+  }
+  
+  .reflect-your-sense-of-style-section-content .desc-wrapper div img {
+  width: 35px !important;
+  height: 35px !important;
+  margin-top: -15px;
+  }
+  
+  .reflect-your-sense-of-style-section-content .desc-wrapper div p {
+  padding: 0 !important;
+  }
+  
+  .reflect-your-sense-of-style-section-content .desc-btn-wrapper {
+  left: 3% !important;
+  }
+  
+  .reflect-your-sense-of-style-section-content-images {
+    width: 100% !important;
+    height: unset !important;
+  }
+  
+  .reflect-your-sense-of-style-section-content .Kitchen-Design-img-2, .reflect-your-sense-of-style-section-content .Kitchen-Design-img-4 {
+    position: unset !important;
+  }
+  
+  .reflect-your-sense-of-style-section-content-images div .Kitchen-design-wrapper {
+  height: 20rem !important;
+  padding: 12px;
+  width: 95% !important;
+  }
+  
+  .reflect-your-sense-of-style-section-content .reflect-your-sense-of-style-section-content-desc {
+    padding-top: 1rem !important;
+  }
+  
+  
+  .why-choose-us-section-wrapper {
+    padding: 0 !important;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+  }
+  
+  .why-choose-us-section-content {
+    margin: 15px !important;
+  }
+  
+  .why-choose-us-section-content-images {
+    width: 100% !important;
+    margin: 20px 0px 0px!important;
+    height: 350px !important;
+  
+  }
+  
+  .why-choose-us-section-content-desc p{
+    margin: 0 !important;
+  }
+  
+  .why-choose-us-section-content-desc ul{
+    padding: 0 1rem !important;
+  }
+  
+  
+  
+  .why-choose-us-section-content-desc {
+    width: 100% !important;
+  }
+  
+  .our-recent-kitchens-design-section-wrapper {
+    padding: 0 !important;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+  }
+  
+  .our-recent-kitchens-design-section-heading {
+    width: 100% !important;
+  }
+  
+  .our-recent-kitchens-design-section-content>div:not(:last-child) {
+    width: 100% !important;
+    padding: 0px 15px !important;
+    height: 30rem !important;
+  }
+  
+  .our-recent-kitchens-design-section-content .img-wrapper {
+    height: 70% !important;
+  }
+  
+  .our-recent-kitchens-design-section-content-card-2 .img-wrapper {
+    top: 0 !important;
+  }
+  
+  .our-recent-kitchens-design-section-content-card-2 .detail-wrapper {
+    top: 0 !important;
+  }
+  
+  .our-recent-kitchens-design-section-content-card-4 .img-wrapper {
+    top: 0 !important;
+  }
+  
+  .our-recent-kitchens-design-section-content-card-4 .detail-wrapper {
+    top: 0 !important;
+  }
+  
+  .our-recent-kitchens-design-section-content-btn-wrapper{
+    margin-bottom: 8px !important;
+  }
+  
+  .our-recent-kitchens-design-section-content div .detail-wrapper .desc-wrapper p {
+    text-align: left !important;
+    font-size: 30px !important;
+    line-height: 35px !important;
+  }
+  
+  .our-recent-kitchens-design-section-content div .detail-wrapper .desc-wrapper label {
+    font-size: 25px !important;
+    float: left !important;
+    padding: 4px !important;
+  }
+  
+  .our-recent-kitchens-design-section-content div .detail-wrapper .btn-wrapper p{
+    font-size: 30px !important;
+    line-height: 35px !important;
+    text-align: end !important;
+  }
+  
+  .our-recent-kitchens-design-section-content div .detail-wrapper .btn-wrapper img {
+    width: 2rem !important;
+    height: 20px !important;
+    margin: 25px 8px !important;
+  }
+  
+  .what-our-customer-say-section-wrapper {
+  padding: 15px 0 !important;
+  }
+  
+  .what-our-customer-say-section-wrapper {
+    height: 44rem !important;
+  }
+  
+  .swiper-js.carousel-wrapper {
+    padding: 0 1rem !important;
+  }
+  
+  .swiper-js.card-desc {
+    font-size: 22px !important;
+  }
+  
+  .swiper-js.star-icon-style {
+    font-size: 17px !important;
+  }
+  
+  .gallery-section-wrapper {
+    padding: 0px !important;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+  }
+  
+  .gallery-section-content-left-img-wrapper {
+    min-width: 40rem !important;
+    left: 2%;
+  }
+  
+  .gallery-section-content-right-img {
+    width: 100% !important;
+    height: unset !important;
+  }
+  
+  .gallery-section-content-right-img>div {
+    flex-direction: column;
+    margin: 0 10px !important;
+  }
+  
+  .gallery-section-content-right-img div {
+    height: 30rem !important;
+  }
+  
+  .gallery-section-content-left-img-wrapper div {
+    width: 94% !important;
+  }
+  
+  .latest-blog-posts-section-wrapper {
+    padding: 0 !important;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+  }
+  
+  
+  .latest-blog-posts-section-content-cards .card p {
+    font-size: 30px !important;
+    line-height: 40px !important;
+    top: 11rem !important;
+  }
+  
+  .latest-blog-posts-section-content-cards .card {
+     min-width: 40rem !important;
+  }
+  
+  .get-a-free-quote-section-content form input {
+    padding: 20px 10px !important;
+    margin: 20px 0px !important ;
+  
+  }
+  
+  .get-a-free-quote-section-content form textarea {
+    padding: 20px 10px !important;
+    margin: 20px 0px !important ;
+  }
+  
+  .get-a-free-quote-section-content button {
+    margin-top: 4.5rem !important;
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+  }
+  
+  .get-a-free-quote-section {
+    width: 95% !important;
+    height: unset !important;
+    padding-top: 3rem!important;
+    padding-bottom: 3rem!important;
+  
+  }
+  
+  
+  .get-a-free-quote-section-content {
+    width: unset !important;
+    padding-top: 2rem!important;
+    padding-bottom: 3rem!important;
+  
+  }
+  
+  .get-a-free-quote-section-content form>div {
+    flex-direction: column;
+  }
+  
+  .get-a-free-quote-section-content p {
+    width: unset !important;
+  }
+  
+  .get-a-free-quote-section-content form input,.get-a-free-quote-section-content form  textarea {
+    font-size: 28px !important;
+  }
+  
+  .footer-content {
+    width: 100% !important;
+    padding-top: 20px !important;
+  }
+  
+  .footer-content .desc .brand-logo {
+    height: auto !important;
+    width: 25% !important;
+  }
+  
+  .footer-content .helpful-links h6 {
+    font-size: 35px !important;
+  }
+  
+  .footer-content .services h6 {
+    font-size: 35px !important;
+  }
+  
+  .footer-content .helpful-links ul li,.footer-content .services ul li {
+    font-size: 30px !important;
+  }
+  
+  .footer-content .contact-us h6 {
+    font-size: 35px !important;
+  }
+  
+  .footer-content .contact-us div {
+    font-size: 30px !important;
+  }
+  
+  .footer-content .desc p {
+    font-size: 30px !important;
+  }
+  
+  .footer-content ul li::before {
+    height: 22px !important;
+    width: 18px !important;
+  }
+  
+  
+  
+  /* Kitchen design main page */
+  
+  .Kitchen-Design-And-Renovation-center,.Kitchen-Renovation-And-Design-Vancouver-center {
+    top: 3.3rem !important;
+  }
+  
+  /* .relative-position-for-Kitchen-Design-And-Renovation-Header {
+    top: 0px !important;
+  } */
+  
+  .Kitchen-Design-And-Renovation-center div:last-child button:last-child , .Kitchen-Renovation-And-Design-Vancouver-center div:last-child button:last-child{
+    padding: 0.7rem 3.4rem !important;
+    margin-top: 10px !important;
+  }
+  
+  .Kitchen-Design-And-Renovation-center div:last-child{
+    margin-top: 0px !important;
+  }
+  
+  .Kitchen-Design-And-Renovation-center p, .Kitchen-Renovation-And-Design-Vancouver-center p{
+    color: #d5d5d5 !important;
+    font-size: 28px !important;
+    width: 100% !important;
+    line-height: unset !important;
+    font-weight: 300 !important;
+    letter-spacing: 0.5px !important;
+  
+  }
+  
+  .Kitchen-Design-And-Renovation-center h5, .Kitchen-Renovation-And-Design-Vancouver-center h5{
+    color: #d5d5d5 !important;
+    font-size: 34px !important;
+    width: 100% !important;
+    line-height: unset !important;
+    font-weight: 400 !important;
+    letter-spacing: 0.5px !important;
+  }
+  
+  .fs-70 {
+    font-size: 70px !important;
+  }
+  
+  .overlay-recent-kitchen h4{
+    font-size: 30px !important;
+  }
+  
+  .Kitchen-Design-Consultancy-heading6 {
+    font-size: 39px !important;
+  }
+  
+  #OurRecentKitchenBeforeAndAfterTransformationcarousel .carousel-control-next-icon{
+    display: none !important;
+  }
+  
+  #OurRecentKitchenBeforeAndAfterTransformationcarousel .carousel-control-prev{
+    display: none !important;
+  }
+  
+  .Kitchen-Design-Consultancy-content-background p{
+    text-align: left !important;
+  }
+  
+  .section-backgroud-style {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  
+  
+  .section-backgroud-style div{
+    padding-left: 7px !important;
+    padding-right: 7px !important;
+  }
+  
+  
+  .next-after-button-for-before-After {
+    position: relative !important;
+    top: -48px !important;
+    left: 81% !important;
+    bottom: 0;
+    color: black !important;
+    cursor: pointer !important;
+    font-size: 30px !important;
+  }
+  
+  .prev-before-button-for-before-After {
+    position: relative !important;
+    top:48px !important;
+    left: 4% !important;
+    bottom: 0;
+  color:black !important;
+  cursor: pointer !important;
+  font-size: 30px !important;
+  }
+  
+  #FeaturedBeforeAndAfterTransformationcarousel .carousel-control-next-icon{
+    display: none !important;
+  }
+  
+  #FeaturedBeforeAndAfterTransformationcarousel .carousel-control-prev{
+    display: none !important;
+  }
+  
+  .premier-equipment-section{
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+  
+  .section-backgroud-style div:first-child h5{
+  font-size: 40px !important;
+  }
+  
+  .feature-before-after-beautiful-kitchen-heading{
+    font-size: 47px !important;
+  
+  }
+  
+  .feature-before-after-beautiful-kitchen-button{
+    text-align: left !important;
+  }
+  
+  /* building-service in calgary */
+  
+  .building-servives-calgary-header-content div p {
+    margin-bottom: 10px !important;
+    line-height: 1.2 !important;
+  }
+  
+  /* .building-servives-calgary-header-content {
+      height: 46.4rem !important;
+      top: -0.4rem !important;
+  } */
+  
+  .building-servives-calgary-header-content div h2 {
+    font-size: 3rem !important;
+    line-height: 1.2 !important;
+  }
+  
+  .building-servives-calgary-header-content div:last-child {
+    margin-top: 25px !important;
+  }
+  
+  .our-process-section-wrapper {
+  padding: 15px 0 !important;
+  }
+  
+  .our-process-section-content-desc , .our-process-section-content-list{
+    width: 100% !important;
+  }
+  
+  .our-process-section-content-list-item {
+    padding: 0 !important;
+  }
+  
+  .permits-designs-drawing-drafting-section-wrapper {
+    padding: 15px 0 !important;
+  }
+  
+  .permits-designs-drawing-drafting-section-content-item {
+   font-size: 40px !important;
+  }
+  
+  .flooring-samples-design-section {
+    max-width: 185vw !important;
+  }
+  
+  .flooring-sample-design-section>p{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  
+  /* pricing page  */
+  
+  .pricing-page.header-content {
+    width: 100% !important;
+  }
+  
+  .pricing-page.header-content {
+    top: 6.6rem !important;
+  }
+  
+  .pricing-page.header-content-detail p {
+    font-size: 28px !important;
+    padding: 30px !important;
+    text-align: justify;
+  }
+  
+  .pricing-page.header-content-detail h2 {
+    font-size: 3.4rem !important;
+    padding: 10px !important;
+  }
+  
+  .pricing-cards-section-cards , .pricing-cards-section-wrapper {
+    width: 99% !important;
+  }
+  
+  .pricing-cards-section-cards .card {
+    height: 70rem !important;
+    margin: 5rem 10px !important;
+  }
+  
+  .pricing-cards-section-cards .card .cost {
+    font-size: 40px !important;
+  }
+  
+  .pricing-cards-section-cards .card .desc .desc-sub-heading {
+    font-size: 33px !important;
+  }
+  
+  .pricing-cards-section-cards .card .desc .desc-heading{
+    font-size: 50px !important;
+  }
+  
+  .pricing-cards-section-cards .card .desc .tags div {
+    font-size: 30px !important;
+  }
+  
+  /* about us */
+  
+   .about-us-page.header-content-wrapper {
+    height: 25rem !important;
+  } 
+  
+   .about-us-page.header-content {
+    top: 7rem !important;
+  } 
+  
+  
+  .trusted-kitchen-renovation-section-wrapper {
+    padding: 15px 0 !important;
+  }
+  
+  .trusted-kitchen-renovation-section-heading {
+    width: 100% !important;
+  }
+  
+  
+  .trusted-kitchen-renovation-section-heading {
+    width: 100% !important;
+  }
+  
+  .trusted-kitchen-renovation-section-wrapper {
+    padding: 0px !important;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+  }
+  
+  .trusted-kitchen-renovation-section-content-images>div {
+    width: -webkit-fill-available !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  
+  .trusted-kitchen-renovation-section-content .Kitchen-design-wrapper {
+    min-width: 19rem !important;
+  }
+  
+  .trusted-kitchen-renovation-section-content .desc-wrapper div:first-child {
+    margin: 0px !important;
+  }
+  
+  .trusted-kitchen-renovation-section-content .desc-wrapper div img {
+  width: 35px !important;
+  height: 35px !important;
+  margin-top: -15px;
+  }
+  
+  .trusted-kitchen-renovation-section-content .desc-wrapper div p {
+  padding: 0 !important;
+  }
+  
+  .trusted-kitchen-renovation-section-content .desc-btn-wrapper {
+  left: 3% !important;
+  }
+  
+  .trusted-kitchen-renovation-section-content-images {
+    width: 100% !important;
+    height: unset !important;
+  }
+  
+  .trusted-kitchen-renovation-section-content .Kitchen-Design-img-2, .trusted-kitchen-renovation-section-content .Kitchen-Design-img-4 {
+    position: unset !important;
+  }
+  
+  .trusted-kitchen-renovation-section-content-images div .Kitchen-design-wrapper {
+  height: 20rem !important;
+  padding: 12px;
+  width: 95% !important;
+  }
+  
+  .trusted-kitchen-renovation-section-content .trusted-kitchen-renovation-section-content-desc {
+    padding-top: 1rem !important;
+  }
+  
+  .trusted-kitchen-renovation-section-content-desc h5 {
+   font-size: 50px !important;
+  }
+  
+  .trusted-kitchen-renovation-section-content-desc p {
+    font-size: 31px !important;
+  }
+  
+  .trusted-kitchen-renovation-section-content-desc ul li img {
+    width: 1.9rem !important;
+    height: 35px !important;
+    margin-right: 10px !important;
+    margin-top: 12px !important;
+  }
+  
+  .trusted-kitchen-renovation-section-content-desc ul li {
+    display: flex !important;
+  }
+  
+  .about-us-why-choose-us-section-wrapper {
+    padding: 0 8px !important;
+    margin: 0 20px !important;
+  }
+  
+  .about-us-why-choose-us-section-content {
+    margin: 0 !important;
+    padding: 5px !important;
+  }
+  
+  .about-us-why-choose-us-section-content-cards-item {
+    width: 100% !important;
+  }
+  
+  .about-us-why-choose-us-section-content-cards-item img {
+    width: 2.3em !important;
+    margin-bottom: 13px !important;
+    margin-right: 5px !important;
+  }
+  
+  .about-us-why-choose-us-section-content-cards-item h5 {
+    font-size: 40px !important;
+  }
+  
+  /* blog post  */
+  
+  .blog-post-page.header-content-wrapper {
+    height: 24rem !important;
+  }
+  
+  .blog-post-page.header-content {
+    top: 7.6rem !important;
+  }
+  
+  .blog-post-page.main-content-wrapper {
+    width: 100% !important;
+  }
+  
+  .blog-post-page.left-side-section {
+    padding: 20px 0 !important;
+  }
+  
+  .blog-post-main-content-image {
+    height: 20rem !important;
+  }
+  
+  h4.blog-post-page {
+    font-size: 37px !important;
+  }
+  
+  .blog-post-page.main-wrapper {
+    min-width: 42.5rem;
+  }
+  
+  /* .blog-post-page.header-content {
+    height: 22.4rem !important;
+    top: -0.4rem !important;
+  } */
+  
+  
+  
+  /* blog post detail  */
+  
+  .blog-post-detail-page.header-content-wrapper {
+   height: 24rem !important;
+  }
+  
+  .blog-post-detail-page.header-content {
+   top: 7.6rem !important;
+  }
+  
+  .blog-post-detail-page.main-wrapper {
+    min-width: 42.5rem;
+  }
+  
+  .blog-post-detail-page.header-content-detail h2 {
+    font-size: 3.5rem !important;
+  }
+  
+  .blog-post-detail-page.main-content-wrapper {
+    width: 100% !important;
+  }
+  
+  .blog-post-detail-page.left-side-section {
+    padding: 20px 0 !important;
+  }
+  
+  .blog-post-detail-page.desc-wrapper h4 {
+    font-size: 3.4rem !important;
+  }
+  
+  .blog-post-detail-page.desc-wrapper .desc-sub-heading {
+    font-size: 32px !important;
+  }
+  
+  /* contact us  */
+  
+  .contact-us.header-content div:last-child{
+    display: none !important;
+  }
+  
+  /* .contact-us.header-content {
+    height: 30.4rem !important;
+  } */
+  
+  
+  }
+  
+  /* mobile css end */
+  
+  
+  .overlay-recent-kitchen h4{
+    font-family: 'Inter', sans-serif !important;
+  }
+  
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Cardo', serif !important;
+    font-weight: 400 !important;
+  }
+  
+  
+  /* main-wrapper */
+  
+  .main-wrapper {
+    height: 100vh;
+    min-width: 42rem;
+  }
+  
+  .navbar-toggler {
+    background-color: transparent !important;
+  }
+  
+  .navbar-toggler-icon {
+    width: 2em !important;
+  }
+  
+  /* navbar */
+  
+  .navbar {
+    position: fixed ;
+    top: 0 !important;
+    z-index: 999 !important;
+    background-color: white;
+    width: 100% !important;
+    padding: 5px 5% !important;
+    box-shadow: 0px 0.1px 1050rem #9f9b9b70 !important;
+  }
+  
+  .navbar button a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .navbar .brand-logo {
+    height: 80px;
+    object-fit: cover;
+    vertical-align: top;
+    flex-shrink: 0;
+  }
+  
+  .navbar-items {
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .navbar button {
+    padding: 1.4% 4%;
+    font-size: 18px;
+    background-color: var(--btn-color);
+    color: white;
+    border: none;
+    border-radius: 8px;
+  }
+  
+  .dropdown-menu {
+    border: none !important;
+  }
+  
+  .dropdown-item {
+    text-wrap: wrap !important;
+    /* box-shadow: 0px 3px 3px #8888885e; */
+  }
+  
+  .dropdown-item.active, .dropdown-item:active {
+    color: black !important;
+    text-decoration: none !important;
+    background-color: #e9ecef !important;
+  }
+  
+  .nav-link {
+    padding: 10px 13px;
+    color: rgb(0 0 0) !important;
+    font-size: 1.3vw ;
+    font-weight: 400 !important;
+  }
+  
+  .nav-link:hover {
+    color: rgb(0 0 0) !important;
+  }
+  
+  .navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 0.6 !important;
+    align-items: center;
+    justify-content: inherit !important;
+  }
+  
+  @media only screen and (max-width: 992px) and  (min-width: 500px){
+    .nav-link {
+      font-size: 15px !important;
+    }
+  }
+  
+  @media only screen and (min-width: 1250px) {
+    .nav-link {
+      font-size: 1.1vw !important;
+    }
+  }
+  
+  /* header */
+  
+  
+  .header-content-wrapper {
+    background: url("../images/elegant-background-image.jpeg");
+    height: 42rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  
+  .building-servives-calgary-header-content-wrapper {
+    background: url("../images/building-services-in-calgary.jpg");
+    height: 46rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  .basement-renovation-and-development-expert-in-calgary-header-content-wrapper{
+    background: url("../images/basement-background-image.png");
+    height: 46rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  
+  .building-servives-calgary-header-content {
+    height: 40.4rem;
+    backdrop-filter: brightness(0.4);
+    color: white;
+    position: relative;
+    top: 5.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .building-servives-calgary-header-h2{
+    font-size: 2.7rem !important;
+    width: 87%;
+    display: block;
+    margin: auto;
+  }
+  
+  .header-content {
+    height: 36.4rem;
+    backdrop-filter: brightness(0.4);
+    color: white;
+    position: relative;
+    top: 5.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .header-content-detail {
+    text-align: center;
+    width: 80%;
+    font-size: larger;
+  }
+  
+  .header-content-detail p:first-child {
+    font-family: 'Cardo', serif;
+    margin: 0;
+  }
+  
+  .header-content-detail p {
+    color: #d5d5d5;
+    letter-spacing: 1px;
+  }
+  
+  .header-content-detail h2 {
+    font-size: 4.5rem;
+    font-weight: 700 !important;
+  
+  }
+  
+  .header-content-detail h2 span {
+    color: orange;
+  }
+  
+  .header-content-desc {
+    font-size: initial;
+    width: 50rem;
+    display: block;
+    margin: auto;
+    margin-bottom: 1rem;
+    width: 67%;
+    font-weight: 300;
+  }
+  
+  .header-content-buttons button {
+    margin: 10px;
+    letter-spacing: 1px;
+    border-radius: 12px;
+    padding: 12px 40px;
+    font-weight: 400;
+  }
+  
+  .header-content-buttons button:first-child {
+    border: none;
+    background-color: var(--btn-color);
+    color: white;
+  }
+  
+  .header-content-buttons button:last-child {
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+  }
+  
+  /* reflect-your-sense-of-style-section */
+  
+  .reflect-your-sense-of-style-section-wrapper {
+    background: white;
+    padding: 50px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .reflect-your-sense-of-style-section-heading {
+    text-align: center;
+    width: 62%;
+    margin: 20px 0px;
+  }
+  
+  .reflect-your-sense-of-style-section-heading h2 {
+    font-size: 45px;
+    margin-bottom: 1rem;
+  
+  }
+  
+  .below-heading-line {
+    margin: auto;
+    display: block;
+    width: 6%;
+    height: 0.2rem;
+    background-color: var(--btn-color);
+    border-radius: 0.5rem;
+    flex-shrink: 0;
+  }
+  
+  .reflect-your-sense-of-style-section-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .reflect-your-sense-of-style-section-content-images {
+    display: flex;
+    width: 42%;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 43rem;
+    min-width: 28rem;
+  }
+  
+  .reflect-your-sense-of-style-section-content-images>div {
+    width: auto;
+  }
+  
+  .reflect-your-sense-of-style-section-content .Kitchen-design-wrapper {
+    width: 45%;
+    margin: 10px;
+    height: 14rem;
+    border-radius: 12px;
+    min-width: 15rem;
+  }
+  
+  .reflect-your-sense-of-style-section-content .Kitchen-Design-img-1 {
+    background: url("../images/Kitchen-Design-1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 24rem;
+  
+  }
+  
+  .reflect-your-sense-of-style-section-content .Kitchen-Design-img-2 {
+    background: url("../images/Kitchen-Design-2.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    top: 2rem;
+  }
+  
+  .reflect-your-sense-of-style-section-content .Kitchen-Design-img-3 {
+    background: url("../images/Kitchen-Design-3.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  
+  }
+  
+  .reflect-your-sense-of-style-section-content .Kitchen-Design-img-4 {
+    background: url("../images/Kitchen-Design-4.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 24rem;
+    position: relative;
+    top: -8rem;
+  }
+  
+  
+  .reflect-your-sense-of-style-section-content .reflect-your-sense-of-style-section-content-desc {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-left: 2%;
+  }
+  
+  .reflect-your-sense-of-style-section-content .desc-wrapper {
+    text-align: left;
+    display: flex;
+    align-items: baseline;
+  
+  }
+  
+  .reflect-your-sense-of-style-section-content .desc-wrapper div img {
+    width: 100%;
+  }
+  
+  .reflect-your-sense-of-style-section-content .desc-wrapper div:first-child {
+    margin-left: 2rem;
+  }
+  
+  .reflect-your-sense-of-style-section-content .desc-wrapper>div {
+    margin: 0px 0.5rem;
+  }
+  
+  
+  .reflect-your-sense-of-style-section-content .desc-wrapper div p {
+    font-size: 17px;
+    font-weight: 400;
+  }
+  
+  .reflect-your-sense-of-style-section-content .desc-wrapper div h5 {
+    font-weight: 600 !important;
+    font-family: 'Inter', sans-serif !important;
+  }
+  
+  .reflect-your-sense-of-style-section-content .desc-btn-wrapper {
+    position: relative;
+    left: 8%;
+    align-self: baseline;
+  }
+  
+  .reflect-your-sense-of-style-section-content .desc-btn-wrapper button {
+    margin: 10px;
+    color: white;
+    border: none;
+    letter-spacing: 1px;
+    border-radius: 12px;
+    padding: 12px 40px;
+    font-weight: 600;
+    background-color: var(--btn-color);
+  }
+  
+  
+  /* why choose us section */
+  
+  .why-choose-us-section-wrapper {
+    background: white;
+    padding: 50px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .why-choose-us-section-heading {
+    text-align: center;
+    width: 62%;
+    margin: 20px 0px;
+  }
+  
+  .why-choose-us-section-heading h2 {
+    font-size: 45px;
+    margin-bottom: 1rem;
+  }
+  
+  .why-choose-us-section-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 50px;
+  }
+  
+  .why-choose-us-section-content-desc {
+    width: 47%;
+  }
+  
+  .why-choose-us-section-content-desc p,
+  .why-choose-us-section-content-desc ul li {
+    text-align: left;
+    margin: 15px;
+    font-size: 17px;
+    font-weight: 400;
+  }
+  
+  .why-choose-us-section-content-images {
+    background: url("../images/Kitchen-Design-5.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 38rem;
+    width: 42%;
+    border-radius: 12px;
+  }
+  
+  /* our-recent-kitchens-design-section */
+  
+  .our-recent-kitchens-design-section-wrapper {
+    background: white;
+    padding: 0px 50px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .our-recent-kitchens-design-section-heading {
+    text-align: center;
+    width: 62%;
+    margin: 20px 0px;
+  }
+  
+  .our-recent-kitchens-design-section-heading h2 {
+    font-size: 45px;
+    margin-bottom: 1rem;
+  }
+  
+  .our-recent-kitchens-design-section-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .our-recent-kitchens-design-section-content>div:not(:last-child) {
+    width: 46%;
+    height: 35rem;
+  }
+  
+  .our-recent-kitchens-design-section-content div .img-wrapper {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 12px;
+    width: 100%;
+    height: 80%;
+  }
+  
+  .our-recent-kitchens-design-section-content div .detail-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+  }
+  
+  .our-recent-kitchens-design-section-content div .detail-wrapper .desc-wrapper p {
+    margin: 0;
+    font-weight: 600;
+  }
+  
+  .our-recent-kitchens-design-section-content div .detail-wrapper .btn-wrapper {
+    color: var(--btn-color);
+    display: flex;
+  }
+  
+  .our-recent-kitchens-design-section-content div .detail-wrapper .btn-wrapper img{
+    width: 1rem;
+    height: 13px;
+    rotate: -35deg;
+    margin: 4px 8px;
+  }
+  
+  .our-recent-kitchens-design-section-content-card-1 .img-wrapper {
+    background: url("../images/Kitchen-Design-6.png");
+  
+  }
+  
+  .our-recent-kitchens-design-section-content-card-2 .img-wrapper {
+    background: url("../images/Kitchen-Design-7.png");
+    position: relative;
+    top: 1.2rem;
+  }
+  
+  .our-recent-kitchens-design-section-content-card-2 .detail-wrapper {
+    position: relative;
+    top: 1.2rem;
+  }
+  
+  .our-recent-kitchens-design-section-content-card-3 .img-wrapper {
+    background: url("../images/Kitchen-Design-8.png");
+  
+  }
+  
+  .our-recent-kitchens-design-section-content-card-4 .img-wrapper {
+    background: url("../images/Kitchen-Design-9.png");
+    position: relative;
+    top: 1.2rem;
+  }
+  
+  .our-recent-kitchens-design-section-content-card-4 .detail-wrapper {
+    position: relative;
+    top: 1.2rem;
+  }
+  
+  .our-recent-kitchens-design-section-content-btn-wrapper button {
+    margin: 5px;
+    color: var(--btn-color);
+    border: 1px solid var(--btn-color);
+    letter-spacing: 1px;
+    border-radius: 12px;
+    padding: 11px 65px;
+    font-weight: 600;
+    background-color: transparent;
+  }
+  
+  /* what-our-customer-say-section */
+  
+  .what-our-customer-say-section-wrapper{
+    margin: auto;
+    background-color: var(--subsection-background-color);
+  }
+  
+  .Customers-profile{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  cursor: pointer;
+  box-sizing: border-box;
+  padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+  width: 4rem;
+  height: 4.1rem;
+  position: absolute;
+  left: 1.5rem;
+  top: 1rem;
+  box-shadow: 0 0.2rem 1.2rem rgba(0, 0, 0, 0.0599999987);
+  background-color: #ffffff;
+  border-radius: 3.4rem;
+  border: 1px solid #8080802e;
+  }
+  
+  .btn:hover{
+    background-color: var(--btn-color) !important;
+  }
+  
+  .btn:active{
+    background-color: var(--btn-color) !important;
+  }
+  
+  .section-with-carousel.swiper-js .swiper-slide.swiper-js  {
+    position: relative ;
+    overflow: hidden !important;
+  }
+  
+  .section-with-carousel.swiper-js .swiper-slide.swiper-js  {
+    width: auto;
+    object-fit: cover ;
+  }
+  
+  
+  .swiper-js.carousel-wrapper{
+    position: absolute;
+    top: -53%;
+    width: -webkit-fill-available;
+  }
+  
+  @media (min-width: 768px) {
+    .section-with-carousel.swiper-js .swiper-slide.swiper-js{
+      height: 370px !important;
+    }
+  
+  }
+  
+  @media (min-width: 1200px) {
+    .section-with-carousel.swiper-js .swiper-slide.swiper-js {
+      height: 420px !important;
+    }
+  }
+  
+  .swiper-js.carousel-controls{
+    position: absolute;
+    right: 40%;
+  }
+  
+  @media (min-width: 1400px) {
+    .swiper-js.carousel-controls{
+      top: 200px !important;
+    }
+  }
+  
+  @media (min-width:992px) {
+    .swiper-js.carousel-controls{
+      top: 230px !important ;
+      left: -48% !important;
+  
+    }
+  }
+  
+  @media (max-width:601px) {
+    .swiper-js.carousel-controls{
+      right: unset !important;
+      top: -30px !important;
+      padding-left: 40%;
+    }
+    .gallery-what-our-customer-says-hr{
+      margin-left: auto !important;
+    }
+  }
+  
+  @media only screen and (min-width:601px) and (max-width:767px) {
+    .swiper-js.carousel-controls{
+      right: unset !important;
+      top: -5px !important;
+      padding-left: 40%;
+    }
+    .gallery-what-our-customer-says-hr{
+      margin-left: auto !important;
+    }
+  }
+  
+  
+  @media only screen and (min-width:767px) and (max-width:992px) {
+    .swiper-js.carousel-controls{
+      right: unset !important;
+      top: 0px !important;
+      padding-left: 42%;
+  
+    }
+    .gallery-what-our-customer-says-hr{
+      margin-left: auto !important;
+    }
+  }
+  
+  .gallery-what-our-customer-says-hr {
+    height: 4px;
+    background-color: var(--btn-color);
+    width: 70px;
+    margin-left: 0 ;
+    margin-right: auto !important;
+    color: var(--btn-color) !important;
+    border: 0 !important;
+    opacity: 1 !important;
+  }
+  
+  .swiper-js.card-content {
+    height: 16.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .swiper-js.star-icon-style{
+    margin-right: 8px;
+    font-size: 13px;
+  }
+  .swiper-js.card-desc {
+    font-size: 15px ;
+    color: #797573;
+  }
+  
+  
+  
+  .what-our-customer-say-section-heading {
+    padding-left: 20px !important;
+  }
+  
+  
+  @media only screen and (max-width: 992px){
+    .what-our-customer-say-section-wrapper {
+      height: 35rem;
+      padding: 10px 20px;
+      text-align: center;
+      }
+  
+      .swiper-js.carousel-wrapper{
+        margin-top: 3rem !important;
+        margin-bottom: 3rem !important;
+      }
+  }
+  
+  
+  @media only screen and (min-width: 992px){
+    .what-our-customer-say-section-wrapper {
+      height: 410px !important;
+      text-align: unset;
+        }
+  }
+  
+  .quotation {
+    width: 1.7rem !important;
+    object-fit: contain;
+    vertical-align: top;
+    opacity: 0.6;
+  }
+  
+  .border-radius-20px{
+    border-radius: 20px !important;
+  }
+  
+  .border-radius-12px{
+    border-radius: 12px !important;
+  }
+  
+  .display-card{
+      background-color: white;
+      position: absolute;
+      z-index: -1;
+      width: 100%;
+      height: 15rem;
+      position: absolute;
+      left: 5px;
+      top: 3.3rem;
+      box-shadow: 0 0.2rem 0.7rem rgba(0, 0, 0, 0.0599999987);
+      border-radius: 0.7rem;
+  }
+  
+  
+  @media only screen and (max-width: 600px) {
+    .px-xs-5{
+      padding-right: 3rem!important;
+      padding-left: 3rem!important;
+    }
+  }
+  
+  
+  /* gallery-section */
+  
+  .gallery-section-wrapper {
+    background: white;
+    padding: 50px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .gallery-section-heading {
+    text-align: center;
+    width: 62%;
+    margin: 20px 0px;
+  }
+  
+  .gallery-section-heading h2 {
+    font-size: 45px;
+    margin-bottom: 1rem;
+  }
+  
+  .gallery-section-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 100%;
+  }
+  
+  .gallery-section-content-left-img-wrapper {
+    width: 50%;
+    height: 37rem;
+    min-width: 25rem;
+  }
+  
+  .gallery-section-content-left-img-wrapper div {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 12px;
+    width: 85% ;
+  }
+  
+  .gallery-section-content-left-img-1 {
+    background: url("../images/Kitchen-Design-12.png");
+    height: 30rem;
+    position: relative;
+    top: 3rem;
+  }
+  
+  .gallery-section-content-left-img-2 {
+    background: url("../images/Kitchen-Design-11.png");
+    left: 1rem;
+    position: relative;
+    top: -28rem;
+    height: 32rem;
+    filter: drop-shadow(2px 4px 6px black);
+  }
+  
+  .gallery-section-content-left-img-3 {
+    background: url("../images/Kitchen-Design-10.png");
+    position: relative;
+    top: -61rem;
+    left: 2rem;
+    height: 34rem;
+    filter: drop-shadow(2px 4px 6px black);
+  }
+  
+  .gallery-section-content-right-img {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 36rem;
+    position: relative;
+    top: -1rem;
+    min-width: 25rem;
+  }
+  
+  .gallery-section-content-right-img>div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .gallery-section-content-right-img div {
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: cover !important;
+    border-radius: 3px;
+    width: -webkit-fill-available;
+    height: 17rem;
+    margin: 10px;
+  }
+  
+  .gallery-section-content-right-img .img-1 {
+    background: url("../images/Kitchen-Design-11.png");
+  }
+  
+  .gallery-section-content-right-img .img-2 {
+    background: url("../images/Kitchen-Design-12.png");
+  }
+  
+  .gallery-section-content-right-img .img-3 {
+    background: url("../images/Kitchen-Design-13.png");
+  }
+  
+  .gallery-section-content-right-img .img-4 {
+    background: url("../images/Kitchen-Design-14.png");
+  }
+  
+  .gallery-section.gallery,
+  .gallery-section.gallery .gallery-section.slide,
+  .gallery-section.gallery-image,
+  .gallery-section.gallery-image .gallery-section.content,
+  .gallery-section.gallery-image:before {
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    transition: all 0s ease-out;
+  }
+  
+  .gallery-section.gallery-cards .gallery-section.slide {
+    transition: transform 0s ease-out, opacity 0.01s ease-out;
+  }
+  
+  .gallery-section.gallery-cards {
+    .panel {
+      position: relative;
+      display: flex;
+      flex: 0 0 50%;
+    }
+  
+    .gallery-section.slide {
+      position: absolute;
+      top: 48%;
+      left: 50%;
+      padding: 0;
+  
+      transform: translateY(-50%) translateX(-50%);
+    }
+  
+    .gallery-section.content {
+      background-color: darkturquoise;
+      color: #fff;
+      text-align: center;
+  
+      .gallery-section.slide {
+        opacity: 0;
+  
+        &[data-order="1"] {
+          opacity: 1;
+        }
+      }
+  
+      h2 {
+        font-size: 3em;
+      }
+    }
+  
+    .gallery-section.images {
+      -webkit-perspective: 1000;
+      perspective: 1000;
+  
+      .gallery-section.slide {
+        &[data-order="1"] {
+          transform: translateY(-50%) translateX(-50%) translateZ(0) scale(1);
+          z-index: 1004;
+          height: 35rem;
+          width: 30rem;
+        }
+  
+        &[data-order="2"] {
+          transform: translateY(-50%) translateX(-58%) translateZ(-50px) scale(0.95);
+          z-index: 1003;
+          opacity: 0.85;
+          height: 36.8rem;
+          width: 30rem;
+        }
+  
+        &[data-order="3"] {
+          transform: translateY(-50%) translateX(-66%) translateZ(-100px) scale(0.9);
+          z-index: 1002;
+          opacity: 0.7;
+          height: 38.5rem;
+          width: 30rem;
+        }
+  
+  
+        &.leave {
+          transform: translateY(0) translateX(0) translateZ(0);
+          z-index: 1005;
+          opacity: 0;
+          width: 0 !important;
+          height: 0 !important;
+        }
+      }
+  
+      .gallery-section.slide {
+        &:before {
+          content: none;
+        }
+      }
+    }
+  }
+  
+  /* latest-blog-posts-section */
+  
+  .latest-blog-posts-section-wrapper {
+    background: white;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 50px;
+    padding-bottom: 30rem !important;
+  }
+  
+  .latest-blog-posts-section-heading {
+    text-align: center;
+    width: 62%;
+    margin: 20px 0px;
+  }
+  
+  .latest-blog-posts-section-heading h2 {
+    font-size: 45px;
+    margin-bottom: 1rem;
+  }
+  
+  .latest-blog-posts-section-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    width: 100%;
+  }
+  
+  .latest-blog-posts-section-content-cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .latest-blog-posts-section-content-cards .card {
+    width: 30%;
+    min-width: 25rem;
+    margin: 10px;
+    border-radius: 12px;
+    height: 20rem;
+  }
+  
+  .latest-blog-posts-section-content-cards .card .img {
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: cover !important;
+    width: 100%;
+    height: -webkit-fill-available;
+    position: absolute;
+    border-radius: 12px;
+    z-index: 0;
+  }
+  
+  .latest-blog-posts-section-content-cards .card .img::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, transparent 40%, rgb(0 0 0 / 65%) 100%);
+    border-radius: 12px;
+  }
+  
+  .latest-blog-posts-section-content-cards .card-1 .img {
+    background: url("../images/Kitchen-Design-15.png");
+  }
+  
+  .latest-blog-posts-section-content-cards .card-2 .img {
+    background: url("../images/Kitchen-Design-16.png");
+  }
+  
+  .latest-blog-posts-section-content-cards .card-3 .img {
+    background: url("../images/Kitchen-Design-17.png");
+  }
+  
+  .latest-blog-posts-section-content-cards .card p {
+    margin: 0;
+      color: white;
+      font-weight: 400;
+      position: relative;
+      top: 14rem;
+      letter-spacing: 1px;
+      padding: 0px 10px;
+  }
+  
+  .latest-blog-posts-section-content-cards .card span {
+    padding: 5px 5%;
+    background-color: #8080807d;
+    width: 39%;
+    border-radius: 2px;
+    color: white;
+    font-size: smaller;
+    right: -53%;
+    position: relative;
+    margin: 5px;
+  }
+  
+  .latest-blog-posts-section-content-btn {
+    position: relative;
+    top: 2rem;
+  }
+  
+  .latest-blog-posts-section-content-btn button {
+    color: var(--btn-color);
+    padding: 12px 65px;
+    border-radius: 12px;
+    font-weight: 500;
+    border: 1px solid var(--btn-color);
+    background-color: transparent;
+    letter-spacing: 1px;
+  }
+  
+  /* get-a-free-quote-section */
+  
+  .get-a-free-quote-section {
+    width: 75%;
+    height: 40rem;
+    display: block;
+    margin: auto;
+    background-color: var(--subsection-background-color);
+    position: relative;
+    border-radius: 12px;
+    top: -26rem;
+    z-index: 0;
+  }
+  
+  .get-a-free-quote-section-heading {
+    text-align: center;
+    margin: 20px 0px;
+    padding: 25px 0px 0px 0px;
+  }
+  
+  .get-a-free-quote-section-heading h2 {
+    font-size: 45px;
+    margin-bottom: 1rem;
+  }
+  
+  .get-a-free-quote-section-content {
+    width: 85%;
+    display: block;
+    margin: auto;
+  }
+  
+  .get-a-free-quote-section-content p {
+    text-align: center;
+    font-size: 16px;
+    display: block;
+    margin: auto;
+    width: 85%;
+    color: #934824;
+  }
+  
+  .get-a-free-quote-section-content form {
+    margin: 20px;
+  }
+  
+  .get-a-free-quote-section-content form input {
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .get-a-free-quote-section-content button {
+    margin: 0px 22px;
+    border: none;
+    padding: 12px 65px;
+    border-radius: 12px;
+    background-color: var(--btn-color);
+    color: white;
+    letter-spacing: 1px;
+  
+  }
+  
+  /* footer */
+  
+  
+  footer {
+    background-color: #1f2c3a;
+    position: relative;
+    top: -42rem;
+    z-index: -1;
+    padding-bottom: 19rem;
+  }
+  
+  @media (max-width: 400px) {
+    .footer-content {
+      position: relative;
+      top: 18rem;
+      display: block;
+      margin: auto;
+      width: 80%;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      letter-spacing: 1px;
+    }
+  }
+  
+  @media (min-width: 400px) {
+    .footer-content {
+      position: relative;
+      top: 18rem;
+      width: 80%;
+      display: block;
+      margin: auto;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      letter-spacing: 1px;
+    }
+  }
+  
+  .footer-content .desc {
+    padding-right: 7%;
+    min-width: 5rem;
+  }
+  
+  .footer-content .desc .brand-logo-wrapper {
+    margin-bottom: 1rem;
+  }
+  
+  .footer-content .desc .brand-logo {
+    width: auto;
+    object-fit: cover;
+    margin-top: -10px;
+    vertical-align: top;
+    margin-bottom: 10px;
+  }
+  
+  
+  
+  
+  .footer-content .desc p {
+    color: #d9d9d9;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  
+  .footer-content .helpful-links {
+  
+    color: white;
+    min-width: 5rem;
+  }
+  
+  .footer-content .helpful-links h6 {
+    margin: 2rem 0rem;
+  }
+  
+  .footer-content ul li::before {
+    content: '';
+    display: inline-block;
+    margin-right: 10px;
+    width: 5px;
+    background-image: url("../images/gt-icon.png");
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: cover !important;
+  }
+  
+  
+  
+  .footer-content ul {
+    padding: 0;
+  }
+  
+  .footer-content .helpful-links ul li {
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.87);
+    list-style: none;
+    background-size: 5px;
+    text-wrap: nowrap;
+    font-size: 14px;
+    line-height: 2;
+  }
+  
+  
+  .footer-content .services {
+  
+    color: white;
+    min-width: 5rem;
+  }
+  
+  .footer-content .services h6 {
+    margin: 2rem 0rem;
+  }
+  
+  .footer-content .services ul li {
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.87);
+    list-style-type: none;
+    text-wrap: nowrap;
+    font-size: 14px;
+    line-height: 2;
+  }
+  
+  .footer-content .contact-us {
+  
+    color: white;
+  
+    min-width: 5rem;
+  }
+  
+  .footer-content .contact-us div {
+    margin: 12px 0px;
+    font-size: 14px;
+    line-height: 2;
+    color: #d9d9d9;
+  
+  }
+  
+  .footer-content .contact-us h6 {
+    margin: 2rem 0rem;
+  }
+  
+  footer>hr,
+  footer>p {
+    text-align: center;
+    color: #d9d9d9;
+    font-weight: 300;
+    position: relative;
+    top: 19rem;
+    margin-top: 2rem;
+  }
+  
+  @media screen and (max-width: 820px) {
+    footer {
+      font-size: 2vw;
+    }
+  }
+  
+  
+  @media screen and (max-width: 568px) {
+    .footer-content ul li::before {
+      height: 6px;
+    }
+  }
+  
+  @media screen and (min-width: 568px) {
+    .footer-content ul li::before {
+      height: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 915px) {
+    .footer-content .helpful-links h6 {
+      margin: 24px 0rem;
+    }
+  }
+  
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  img {
+    vertical-align: middle;
+    border-style: none;
+  }
+  
+  .img-rounded {
+    border-radius: 0.75rem !important;
+  }
+  
+  
+  @media (max-width: 600px) {
+    .mb-sm-2 {
+      margin-bottom: 20px;
+    }
+  }
+  
+  .fw-900{
+    font-weight: 900 !important;
+  }
+  
+  .fw-800{
+    font-weight: 800 !important;
+  }
+  
+  .fw-700{
+    font-weight: 700 !important;
+  }
+  
+  .fw-600{
+    font-weight: 600 !important;
+  }
+  
+  .fw-500{
+    font-weight: 500 !important;
+  }
+  
+  .fw-400{
+    font-weight: 400 !important;
+  }
+  
+  .fw-300{
+    font-weight: 300 !important;
+  }
+  
+  .fw-200{
+    font-weight: 200 !important;
+  }
+  
+  .fw-100{
+    font-weight: 100 !important;
+  }
+  
+  
+  .ff-heading{
+    font-family: 'cardo',serif !important;
+  }
+  
+  .ff-other{
+    font-family: 'Inter',sans-serif !important;
+  }
+  
+  .fs-22 {
+    font-size: 22px;
+  }
+  
+  .fs-24 {
+    font-size: 24px;
+  }
+  
+  .fs-8 {
+    font-size: 8px;
+  }
+  
+  .fs-10 {
+    font-size: 10px;
+  }
+  
+  .fs-12 {
+    font-size: 12px;
+  }
+  
+  .fs-11 {
+    font-size: 11px;
+  }
+  
+  .fs-15 {
+    font-size: 15px;
+  }
+  
+  .fs-17 {
+    font-size: 17px;
+  }
+  
+  
+  @media (max-width: 550px) {
+    .fs-60 {
+      font-size: 10vw;
+    }
+  }
+  
+  @media (min-width: 550px) {
+    .fs-60 {
+      font-size: 60px;
+    }
+  }
+  
+  @media (max-width: 680px) {
+    .fs-70 {
+      font-size: 10vw;
+      font-weight: 700 !important;
+    }
+  }
+  
+  @media (min-width: 680px) {
+    .fs-70 {
+      font-size: 70px;
+      font-weight: 700 !important;
+    }
+  }
+  
+  .header-button-style{
+    padding: 0.7rem 2.4rem !important;
+    letter-spacing: 1.5px;
+  }
+  
+  
+  
+  .ls-1{
+    letter-spacing: 1px;
+  }
+  
+  .-ls-1{
+    letter-spacing: -1px;
+  }
+  .ws-1{
+    word-spacing: 1px;
+  }
+  
+  .fs-18 {
+    font-size: 18px;
+  }
+  
+  .h-550 {
+    height: 550px;
+  }
+  
+  .h-420 {
+    height: 420px;
+  }
+  
+  .h-460 {
+    height: 460px;
+  }
+  
+  .h-400 {
+    height: 460px;
+  }
+  
+  .h-520 {
+    height: 520px;
+  }
+  
+  .fs-20 {
+    font-size: 20px;
+  }
+  
+  .mt-5percent {
+    margin-top: 5%;
+  }
+  
+  .position-relative {
+    position: relative;
+  }
+  
+  .text-orange {
+    color: var(--btn-color) !important;
+  }
+  
+  .btn-orange {
+    background-color: var(--btn-color) !important;
+  }
+  
+  .border-bottom-20 {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  
+  .border-radius-20px {
+    border-radius: 20px;
+  }
+  
+  .line-height-1-5 {
+    line-height: 1.5;
+  }
+  
+  .line-height-1-7 {
+    line-height: 1.7;
+  }
+  
+  .text-left{
+  text-align: left !important;
+  }
+  
+  .Kitchen-Design-page-5-hr {
+    height: 4px;
+    background-color: var(--btn-color);
+    width: 70px;
+  
+    margin-left: auto !important;
+    margin-right: auto !important;
+    color: var(--btn-color) !important;
+    border: 0 !important;
+    opacity: 1 !important;
+  }
+  
+  
+  
+  
+  @media (max-width: 600px) {
+    .d-xs-none {
+      display: none !important;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .px-xs-5 {
+      padding-right: 3rem !important;
+      padding-left: 3rem !important;
+    }
+  
+    .px-xs-2 {
+      padding-right: 1rem !important;
+      padding-left: 1rem !important;
+    }
+  
+    .pb-xs-4 {
+      padding-bottom: 2rem !important;
+    }
+  
+    .mb-xs-4 {
+      margin-bottom: 2rem !important;
+    }
+  }
+  
+  
+  
+  
+  
+  /* ###############################  BLOG POSTS #################################  */
+  
+  /* header */
+  
+  .blog-post-page.header-content-wrapper {
+    background: url("../images/Kitchen-Design-10.png");
+    height: 22rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  
+  .blog-post-page.header-content {
+    height: 16.4rem;
+    backdrop-filter: brightness(0.4);
+    color: white;
+    position: relative;
+    top: 5.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .blog-post-page.header-content-detail {
+    text-align: center;
+    width: 80%;
+    font-size: larger;
+  }
+  
+  .blog-post-page.header-content-detail h2{
+    font-size: 3rem;
+      letter-spacing: 1px;
+      font-weight: 400 !important;
+  }
+  
+  /* main-content wrapper */
+  
+  .blog-post-page.main-content-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 94%;
+    margin: auto;
+  }
+  
+  /* left side section */
+  
+  .blog-post-page.left-side-section {
+    width: 70%;
+    padding: 20px;
+  }
+  
+  /* right side section */
+  .blog-post-page.right-side-section {
+    width: 25%;
+    position: sticky;
+    top: 5rem;
+    height: 100%;
+    padding: 10px 35px 0px 0px;
+  }
+  
+  /*  Blog post -styling **************************************************************************** */
+  
+  .relative-position-for-blog-post {
+    position: relative;
+    top: 100px;
+  }
+  
+  .blog-post-header-background-section {
+    background-image: url("images/kitchen-background-image.jpg");
+    height: 300px;
+  }
+  
+  
+  .blog-post-main-content-image {
+    width: 100%;
+    height: 520px;
+    min-width: 25rem;
+  }
+  
+  .blog-poster-hero-section {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 300px;
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+    cursor: pointer;
+  }
+  
+  
+  @media (max-width: 450px) {
+    .blog-post-header-text-center {
+      position: absolute;
+      top: 100px;
+      left: 25%;
+      padding: 0px;
+    }
+  }
+  
+  @media (min-width: 450px) {
+    .blog-post-header-text-center {
+      position: absolute;
+      top: 90px;
+      left: 25%;
+      padding: 40px;
+    }
+  }
+  
+  @media (min-width: 600px) {
+    .blog-post-header-text-center {
+      position: absolute;
+      top: 100px;
+      left: 35%;
+      padding: 20px;
+    }
+  }
+  
+  @media (min-width: 1000px) {
+    .blog-post-header-text-center {
+      position: absolute;
+      top: 100px;
+      left: 42%;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .blog-post-header-text-center {
+      position: absolute;
+      top: 100px;
+      left: 42%;
+    }
+  }
+  
+  @media (min-width: 1400px) {
+    .blog-post-header-text-center {
+      position: absolute;
+      top: 100px;
+      left: 42%;
+    }
+  }
+  
+  @media (min-width: 1600px) {
+    .blog-post-header-text-center {
+      position: absolute;
+      top: 100px;
+      left: 42%;
+    }
+  }
+  
+  @media (min-width: 2500px) {
+    .blog-post-header-text-center {
+      position: absolute;
+      top: 100px;
+      left: 42%;
+    }
+  }
+  
+  
+  /*Popular posts blog section  style *****************************************************************************************/
+  
+  
+  
+  @media (max-width: 768px) {
+    aside {
+      width: 0%;
+      display: none;
+    }
+  
+    .blog-post-page.right-side-section {
+      width: 0%;
+      display: none;
+    }
+  }
+  
+  
+  .popular-post-hr {
+    margin: 1rem 0;
+    color: inherit;
+    border: 0;
+    border-top: 1px dashed !important;
+    opacity: .25;
+  }
+  
+  .blog-post-popular-post-images {
+    width: 100%;
+    height: 110px;
+  }
+  
+  
+  /*Kitchen renovation and remodelling section style *****************************************************************************************/
+  
+  
+  
+  
+  @media (max-width: 768px) {
+    .kitchen-renovation-and-remodelling-card-style {
+      width: 100%;
+  
+    }
+  
+    .blog-post-page.left-side-section {
+      width: 100%;
+    }
+  }
+  
+  
+  .bg-color-none {
+    background-color: none !important;
+  }
+  
+  
+  /* footer */
+  
+  
+  footer.blog-post-page {
+    background-color: #1f2c3a;
+    position: relative;
+    z-index: 0;
+    top: 0;
+    padding-bottom: 0;
+  }
+  
+  @media (max-width: 400px) {
+    .blog-post-page.footer-content {
+      position: relative;
+      top: 2rem;
+      display: block;
+      margin: auto;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      letter-spacing: 1px;
+    }
+  }
+  
+  @media (min-width: 400px) {
+    .blog-post-page.footer-content {
+      position: relative;
+      top: 2rem;
+      width: 80%;
+      display: block;
+      margin: auto;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      letter-spacing: 1px;
+    }
+  }
+  
+  .blog-post-page.footer-content .desc {
+    padding-right: 7%;
+    min-width: 5rem;
+  }
+  
+  .blog-post-page.footer-content .desc .brand-logo-wrapper {
+    margin-bottom: 1rem;
+  }
+  
+  .blog-post-page.footer-content .desc .brand-logo {
+    width: auto;
+    object-fit: cover;
+    vertical-align: top;
+  }
+  
+  .blog-post-page.footer-content .contact-us div {
+    margin: 12px 0px;
+  }
+  
+  .blog-post-page.footer-content .contact-us h6 {
+    margin: 2rem 0rem;
+  }
+  
+  footer.blog-post-page>hr,
+  footer.blog-post-page>p {
+    text-align: center;
+    color: #d9d9d9;
+    font-weight: 400;
+    position: relative;
+    top: 0rem;
+    margin-top: 2rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0rem;
+  }
+  
+  @media screen and (max-width: 820px) {
+    footer {
+      font-size: 2vw;
+    }
+  }
+  
+  /* ############################### PRICING PAGE ############################# */
+  
+  /* header */
+  
+  .pricing-page.header-content-wrapper {
+    background-color: var(--section-background-color) !important;
+    background: url("");
+    display: flex;
+    justify-content: center;
+    height: unset;
+  }
+  
+  .pricing-page.header-content {
+    position: relative;
+    top: 5.6rem;
+    width: 75%;
+    padding-bottom: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    BACKDROP-FILTER: NONE;
+    color: black;
+    height: unset;
+  }
+  
+  .pricing-page.header-content-detail {
+    text-align: center;
+    font-size: larger;
+    word-spacing: 1px;
+    width: unset;
+  }
+  
+  .pricing-page.header-content-detail p {
+  
+    color: unset;
+    letter-spacing: unset;
+  }
+  
+  .pricing-page.header-content-detail h2 {
+  
+    font-size: 2.7rem;
+    font-weight: 600;
+  }
+  
+  .pricing-page.header-content-desc {
+    display: block;
+    margin: auto;
+    margin-bottom: 1rem;
+    width: unset;
+  }
+  
+  /* pricing-cards-section-cards */
+  
+  .pricing-cards-section-wrapper {
+    width: 80%;
+    display: block;
+    margin: auto;
+  }
+  
+  .pricing-cards-section-cards {
+    width: 75%;
+    display: block;
+    margin: auto;
+  }
+  
+  .pricing-cards-section-cards .card {
+    height: 50rem;
+    margin: 5rem 0;
+    border-radius: 12px;
+  }
+  
+  .pricing-cards-section-cards .card .img {
+    background: url("../images/pricing-card-img.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 100%;
+    height: 80%;
+  }
+  
+  .pricing-cards-section-cards .card .desc {
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 1px solid #80808085;
+  }
+  
+  .pricing-cards-section-cards .card .desc .desc-sub-heading {
+    font-weight: 500;
+  }
+  
+  .pricing-cards-section-cards .card .desc .tags {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .pricing-cards-section-cards .card .desc .tags div {
+    background-color: var(--subsection-background-color);
+    padding: 8px;
+    margin: 8px;
+    border-radius: 8px;
+    font-weight: 500;
+  }
+  
+  .pricing-cards-section-cards .card .cost {
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+  }
+  
+  /* footer */
+  
+  footer.pricing-page {
+    background-color: #1f2c3a;
+    position: relative;
+    top: -42rem;
+    z-index: -1;
+    padding-bottom: 19rem;
+  }
+  
+  .pricing-page.footer-content {
+    position: relative;
+    top: 18rem;
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 1px;
+    min-width: 30rem;
+  }
+  
+  
+  
+  /* kitchen-design-and-renovation */
+  
+  .header-background-section-for-kitchen-design-and-renovation {
+    background-image: url("../images/kitchen-background-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 650px;
+  }
+  
+  .relative-position-for-Kitchen-Design-And-Renovation-Header {
+    position: relative;
+    top: 100px;
+  }
+  
+  .Kitchen-Design-And-Renovation-Header {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 650px;
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    backdrop-filter: brightness(0.4);
+    z-index: 1;
+    cursor: pointer;
+    align-items: center;
+  }
+  
+  .Kitchen-Design-And-Renovation-center {
+    position: relative;
+    top: 10rem;
+    display: block;
+    margin: auto;
+  }
+  
+  /* kitchen-renovation-experts-in-calgary */
+  
+  .header-background-section-for-kitchen-renovation-experts-in-calgary {
+    background-image: url("../images/Kitchen-Design-2.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+  }
+  
+  /* kitchen-renovation-experts-in-edmonton */
+  
+  .header-background-section-for-kitchen-renovation-experts-in-edmonton {
+    background-image: url("../images/Kitchen-Design-14.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 650px;
+  }
+  
+  
+  /* kitchen-renovation-and-design-vancouver */
+  .header-background-section-for-kitchen-renovation-and-design-vancouver {
+    background-image: url("../images/blog-post-kitchen-design-image1.webp");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 650px;
+  }
+  
+  /* flooring Installation page-header */
+  .header-background-section-for-flooring-installation{
+  
+    background-image: url("../images/flooring-installation.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 650px;
+  
+  }
+  
+  .Kitchen-Renovation-And-Design-Vancouver-center {
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 10rem;
+  }
+  
+  
+  /*Recent Kitchen section *****************************************************************************************/
+  
+  .recent-kitchen-margin-top {
+    margin-top: 100px !important;
+  }
+  
+  /* Also used in  'Featured Before & After Transformation'  */
+  .overlay-recent-kitchen {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 50px;
+    top: 550px;
+    left: 0%;
+    right: 0%;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif !important;
+  }
+  
+  
+  
+  /* Kitchen Design Consultancy */
+  
+  .Kitchen-Design-Consultancy-heading6 {
+    font-size: 30px;
+  }
+  
+  .Kitchen-Design-Consultancy-content-background {
+    background-color: var(--subsection-background-color);
+  }
+  
+  .Kitchen-Design-Consultancy-para {
+    font-size: 1rem;
+  
+  }
+  
+  
+  
+  /*Beauty , Functionality & Space section *****************************************************************************************/
+  
+  .beauty-section-style {
+    background-color: var(--subsection-background-color);
+  }
+  
+  .revolution-process-hr {
+  
+    background-color: var(--btn-color) !important;
+  
+    height: 2px !important;
+  
+    width: 75% !important;
+    margin-left: 0 !important;
+    margin-right: auto !important;
+    color: var(--btn-color) !important;
+    border: 0 !important;
+    opacity: 1 !important;
+  }
+  
+  
+  
+  
+  
+  /*ESTIMATED COST STYLE *****************************************************************************************/
+  
+  .esimated-section-style {
+    background-color: var(--subsection-background-color);
+  
+  }
+  
+  .section-backgroud-style {
+    background-color: var(--subsection-background-color);
+  }
+  
+  
+  /*Premier Equipment STYLE *****************************************************************************************/
+  
+  
+  .mySlides {
+    display: block;
+  }
+  
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  
+  
+  
+  
+    /* The dots/bullets/indicators */
+    .dot {
+      cursor: pointer !important;
+      height: 7px !important;
+      width: 7px !important;
+      padding: 1px !important;
+      margin: 0 2px !important;
+      background-color: #bbb !important;
+      border-radius: 50% !important;
+      display: inline-block !important;
+      transition: background-color 0.6s ease !important;
+    }
+  
+  .crausal-active,
+  .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+  
+    .prev,
+    .next,
+    .text {
+      font-size: 11px;
+    }
+  }
+  
+  /*What Customers Say section STYLE *****************************************************************************************/
+  
+  .kitchen-renovation-page.what-our-customer-say-section-wrapper {
+    background-color: white;
+  }
+  
+  .kitchen-renovation-page.Customers-profile {
+    background-color: #ffffff;
+  }
+  
+  .kitchen-renovation-page.btn:hover {
+    background-color: (--btn-color) !important;
+  }
+  
+  .kitchen-renovation-page.btn:active {
+    background-color: (--btn-color) !important;
+  }
+  
+  .kitchen-renovation-page#slider-container .btn:hover {
+    transform: scale(1.2);
+  }
+  
+  .kitchen-renovation-page#slider-container .btn.inactive {
+    border-color: (--subsection-background-color);
+  }
+  
+  .kitchen-renovation-page.display-card {
+    background-color: var(--subsection-background-color);
+  }
+  
+  .customers-arrow-icon-right {
+    font-size: 30px;
+    padding-right: 30px;
+  }
+  
+  .customers-arrow-icon-left {
+    font-size: 30px;
+  
+  }
+  
+  .star-icon-style {
+    margin-right: 10px;
+    font-size: 14px;
+  }
+  
+  /* ###############################  BLOG POSTS DETAIL #################################  */
+  
+  /* header */
+  
+  .blog-post-detail-page.header-content-wrapper {
+    background: url("../images/blog-post-kitchen-design-image1.webp");
+    height: 22rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  
+  .blog-post-detail-page.header-content {
+    height: 16.4rem;
+    backdrop-filter: brightness(0.5);
+    color: white;
+    position: relative;
+    top: 5.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .blog-post-detail-page.header-content-detail {
+    text-align: center;
+    width: 80%;
+    font-size: large;
+  }
+  
+  .blog-post-detail-page.header-content-detail h2 {
+    font-size: 2.6rem;
+    display: block;
+    letter-spacing: 2px;
+    margin: auto;
+    word-spacing: 2px;
+  }
+  
+  @media screen and (max-width: 796px) {
+    .blog-post-detail-page.header-content-detail h2 {
+      font-size: 2rem;
+    }
+  }
+  
+  /* main-content wrapper */
+  
+  .blog-post-detail-page.main-content-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 94%;
+    margin: auto;
+  }
+  
+  /* left side section */
+  
+  .blog-post-detail-page.left-side-section {
+    width: 70%;
+    padding: 20px;
+    padding-right: 4%;
+  }
+  
+  /* right side section */
+  .blog-post-detail-page.right-side-section {
+    width: 25%;
+    position: sticky;
+    top: 5rem;
+    height: 100%;
+    padding: 10px 35px 0px 0px;
+  }
+  
+  .blog-post-detail-page.desc-wrapper {
+    margin: 10px;
+  }
+  .blog-post-detail-page.desc-wrapper h4 {
+    letter-spacing: -1px;
+    font-weight: unset !important;
+    font-size: 2rem;
+  }
+  
+  .blog-post-detail-page.desc-wrapper .desc-sub-heading {
+    color: #ccc8c8;
+    font-size: 17px;
+  }
+  
+  .blog-post-detail-page.desc-wrapper p:first-child {
+    font-size: 13px;
+  }
+  
+  .blog-post-detail-page.desc-wrapper p {
+    font-size: 17px;
+  }
+  .blog-post-detail-page.desc-wrapper .desc-footer p:first-child {
+    font-weight: 500;
+    opacity: 1 !important;
+    font-size: 21px;
+  }
+  
+  .blog-post-detail-page.desc-wrapper .desc-footer p {
+    opacity: 0.7;
+  }
+  
+  /*  Blog post -styling **************************************************************************** */
+  
+  .relative-position-for-blog-post {
+    position: relative;
+    top: 100px;
+  }
+  
+  .blog-post-header-background-section {
+    background-image: url("images/kitchen-background-image.jpg");
+    height: 300px;
+  }
+  
+  
+  .blog-post-main-content-image {
+    width: 100%;
+    height: 520px;
+    min-width: 15rem;
+  }
+  
+  
+  /*Popular posts blog section  style *****************************************************************************************/
+  
+  
+  
+  @media (max-width: 768px) {
+    aside {
+      width: 0%;
+      display: none;
+    }
+  
+    .blog-post-detail-page.right-side-section {
+      width: 0%;
+      display: none;
+    }
+  }
+  
+  
+  .popular-post-hr {
+    margin: 1rem 0;
+    color: inherit;
+    border: 0;
+    border-top: 1px dashed !important;
+    opacity: .25;
+  }
+  
+  .blog-post-popular-post-images {
+    width: 90%;
+    height: 110px;
+  }
+  
+  
+  /*Kitchen renovation and remodelling section style *****************************************************************************************/
+  
+  
+  @media (min-width: 768px) {
+    .kitchen-renovation-and-remodelling-card-style {
+    }
+  
+  }
+  
+  @media (max-width: 768px) {
+    .kitchen-renovation-and-remodelling-card-style {
+      width: 100%;
+    }
+  
+    .blog-post-detail-page.left-side-section {
+      width: 100%;
+    }
+  }
+  
+  
+  .bg-color-none {
+    background-color: none !important;
+  }
+  
+  
+  /* footer */
+  
+  
+  footer.blog-post-detail-page {
+    background-color: #1f2c3a;
+    position: relative;
+    z-index: 0;
+    top: 0;
+    padding-bottom: 0;
+  }
+  
+  @media (max-width: 400px) {
+    .blog-post-detail-page.footer-content {
+      position: relative;
+      top: 2rem;
+      display: block;
+      margin: auto;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      letter-spacing: 1px;
+    }
+  }
+  
+  @media (min-width: 400px) {
+    .blog-post-detail-page.footer-content {
+      position: relative;
+      top: 2rem;
+      width: 80%;
+      display: block;
+      margin: auto;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      letter-spacing: 1px;
+    }
+  }
+  
+  .blog-post-detail-page.footer-content .desc {
+    padding-right: 7%;
+    min-width: 5rem;
+  }
+  
+  .blog-post-detail-page.footer-content .desc .brand-logo-wrapper {
+    margin-bottom: 1rem;
+  }
+  
+  .blog-post-detail-page.footer-content .desc .brand-logo {
+    width: auto;
+    object-fit: cover;
+    vertical-align: top;
+  }
+  
+  
+  
+  .blog-post-detail-page.footer-content .contact-us div {
+    margin: 12px 0px;
+  }
+  
+  .blog-post-detail-page.footer-content .contact-us h6 {
+    margin: 2rem 0rem;
+  }
+  
+  footer.blog-post-detail-page>hr,
+  footer.blog-post-detail-page>p {
+    text-align: center;
+    color: #d9d9d9;
+    font-weight: 400;
+    position: relative;
+    top: 0rem;
+    margin-top: 2rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0rem;
+  }
+  
+  @media screen and (max-width: 820px) {
+    footer {
+      font-size: 2vw;
+    }
+  }
+  
+  /* ############################ BUILDING SERVICES IN CALGARY ########################## */
+  
+  /* our process section */
+  
+  .our-process-section-wrapper {
+    background: white;
+    padding: 50px 50px 0px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .our-process-section-heading {
+    text-align: center;
+    width: 62%;
+    margin: 20px 0px;
+  }
+  
+  .our-process-section-heading h2 {
+    font-size: 45px;
+    margin-bottom: 1rem;
+  }
+  
+  .our-process-section-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .our-process-section-content-desc{
+    background-color: var(--subsection-background-color);
+    border-radius: 12px;
+    margin: 10px;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .our-process-section-content-desc ul li{
+    font-size: 17px;
+    padding: 10px;
+  }
+  
+  .our-process-section-content-desc ul{
+    margin: 0;
+  }
+  
+  .our-process-section-content-desc h5{
+    font-weight: bolder !important;
+  
+  }
+  
+  .our-process-section-content-list-item{
+    background-color: var(--subsection-background-color);
+    display: flex;
+    border-radius: 12px;
+    padding: 12px 15px;
+    margin: 10px 15px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .our-process-section-content-list-item img{
+    width: 20px;
+    margin: 10px;
+  }
+  
+  .our-process-section-content-list-item p{
+    margin: 0;
+  }
+  
+  /* permits-designs-drawing-drafting-section */
+  
+  .permits-designs-drawing-drafting-section-wrapper {
+    background: white;
+    padding: 50px 50px 0px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .permits-designs-drawing-drafting-section-heading {
+    text-align: center;
+    width: 62%;
+    margin: 20px 0px;
+  }
+  
+  .permits-designs-drawing-drafting-section-heading h2 {
+    font-size: 45px;
+    margin-bottom: 1rem;
+  }
+  
+  .permits-designs-drawing-drafting-section-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .permits-designs-drawing-drafting-section-content-desc{
+    margin: 0px 10px 10px 10px;
+    padding: 0px 20px 20px 20px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .permits-designs-drawing-drafting-section-content-tags{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .permits-designs-drawing-drafting-section-content-item{
+    background-color: var(--subsection-background-color);
+    padding: 10px;
+      margin: 14px 7px;
+      border-radius: 10px;
+      letter-spacing: -1px;
+      font-size: 21px;
+      font-family: 'intra',serif;
+      font-weight: 500;
+  }
+  
+  
+  
+  
+  
+  /* before - After crousal styling section */
+  
+  @media only screen and (min-width:500px) and (max-width: 1200px) {
+    .prev-before-button-for-before-After {
+  
+      position: relative !important;
+      top:25px !important;
+      left: 23% !important;
+      bottom: 0;
+    color:black !important;
+    cursor: pointer !important;
+    }
+  
+    .next-after-button-for-before-After {
+  
+      position: relative !important;
+      top:-26px !important;
+      left: 62% !important;
+      bottom: 0;
+    color:black !important;
+    cursor: pointer !important;
+    }
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    .prev-before-button-for-before-After {
+  
+      position: relative !important;
+      top:25px !important;
+      left: 33% !important;
+      bottom: 0;
+    color:black !important;
+    cursor: pointer !important;
+    }
+  
+    .next-after-button-for-before-After {
+  
+      position: relative !important;
+      top:-26px !important;
+      left: 52% !important;
+      bottom: 0;
+    color:black !important;
+    cursor: pointer !important;
+    }
+  }
+  
+  /* ############################### ABOUT US ################################ */
+  
+  .about-us-page.header-content-wrapper{
+    height: 23.6rem;
+    background: url("../images/kitchen-background-image.jpg");
+  }
+  
+  .about-us-page.header-content{
+    height: 18rem;
+  }
+  
+  .about-us-page.header-content-detail h2{
+    font-family: 'cardo',serif;
+    font-weight: 700 !important;
+    font-size: 3.1rem;
+  }
+  
+  /* trusted-kitchen-renovation-section */
+  
+  .trusted-kitchen-renovation-section-wrapper {
+    background: white;
+    padding: 50px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .trusted-kitchen-renovation-section-heading {
+    text-align: center;
+    width: 62%;
+    margin: 20px 0px;
+  }
+  
+  .trusted-kitchen-renovation-section-heading h2 {
+    font-size: 45px;
+    margin-bottom: 1rem;
+  }
+  
+  .trusted-kitchen-renovation-section-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .trusted-kitchen-renovation-section-content {
+      justify-content: space-around;
+    }
+  
+  }
+  
+  .trusted-kitchen-renovation-section-content-images {
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 43rem;
+    min-width: 24rem;
+  }
+  
+  .trusted-kitchen-renovation-section-content-images>div {
+    width: auto;
+  }
+  
+  .trusted-kitchen-renovation-section-content .Kitchen-design-wrapper {
+    width: 45%;
+    margin: 10px;
+    height: 14rem;
+    border-radius: 12px;
+    min-width: 15rem;
+  }
+  
+  .trusted-kitchen-renovation-section-content .Kitchen-Design-img-1 {
+    background: url("../images/Kitchen-Design-1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 24rem;
+  }
+  
+  .trusted-kitchen-renovation-section-content .Kitchen-Design-img-2 {
+    background: url("../images/Kitchen-Design-2.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    top: 2rem;
+  }
+  
+  .trusted-kitchen-renovation-section-content .Kitchen-Design-img-3 {
+    background: url("../images/Kitchen-Design-3.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  
+  .trusted-kitchen-renovation-section-content .Kitchen-Design-img-4 {
+    background: url("../images/Kitchen-Design-4.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 24rem;
+    position: relative;
+    top: -8rem;
+  }
+  
+  .trusted-kitchen-renovation-section-content .trusted-kitchen-renovation-section-content-desc {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: center;
+    padding-left: 2%;
+  }
+  
+  .trusted-kitchen-renovation-section-content-desc p{
+    text-align: left;
+    font-size: 16px;
+    font-family: 'Inter',sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.7px;
+    word-spacing: 1px;
+    display: inline-block;
+  }
+  
+  @media screen and (max-width: 1200px) and (min-width: 500px) {
+    .trusted-kitchen-renovation-section-content-desc p{
+      font-size: 14px !important;
+    }
+  }
+  
+  @media screen and (max-width: 991px) and (min-width: 500px) {
+    .trusted-kitchen-renovation-section-content-desc p{
+      font-size: 16px !important;
+    }
+  }
+  
+  .trusted-kitchen-renovation-section-content-desc h5{
+    font-weight: 700 !important;
+    font-family: 'cardo',serif;
+    text-align: left;
+  }
+  
+  .trusted-kitchen-renovation-section-content-desc ul li img{
+    width: 1.1rem;
+    margin-right: 10px;
+  }
+  
+  .trusted-kitchen-renovation-section-content-desc ul{
+    padding: 0;
+  }
+  
+  .trusted-kitchen-renovation-section-content-desc ul li{
+  list-style: none;
+  text-align: left;
+  margin: 5px 0px;
+  }
+  
+  .trusted-kitchen-renovation-section-content-desc ul li p{
+    margin: 0;
+  }
+  
+  /* about us why choose us section */
+  
+  .about-us-why-choose-us-section-wrapper {
+    background: var(--subsection-background-color);
+    padding: 50px 30px;
+    margin: 0px 100px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+  }
+  
+  .about-us-why-choose-us-section-heading {
+    text-align: center;
+    width: 62%;
+    margin: 20px 0px;
+  }
+  
+  .about-us-why-choose-us-section-heading h2 {
+    font-size: 45px;
+    margin-bottom: 1rem;
+  }
+  
+  .about-us-why-choose-us-section-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+  }
+  
+  .about-us-why-choose-us-section-content-desc {
+    width: 95%;
+  }
+  
+  .about-us-why-choose-us-section-content-desc p {
+    text-align: center;
+    margin: 5px;
+    font-size: 17px;
+    font-weight: 400;
+  }
+  
+  
+  .about-us-why-choose-us-section-content-cards{
+    display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      align-items: center;
+      margin-top: 1.5rem;
+  }
+  
+  .about-us-why-choose-us-section-content-cards-item{
+    width: 35%;
+    margin: 20px;
+    text-align: left;
+  }
+  
+  .about-us-why-choose-us-section-content-cards-item img{
+    width: 1.3em;
+    margin-bottom: 2px;
+  }
+  
+  .about-us-why-choose-us-section-content-cards-item h5{
+    display: inline-block;
+    margin: 0px 3px;
+    font-weight: 700 !important;
+  }
+  
+  .about-us-why-choose-us-section-content-cards-item p{
+    font-size: 17px;
+  }
+  
+  
+  /* ############################### CONTACT US ################################## */
+  /* header */
+  
+  .contact-us.header-content-wrapper {
+    background: url("../images/contact-us.jpg");
+    height: 30rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  
+  .contact-us.header-content {
+    height: 24.4rem;
+    backdrop-filter: brightness(0.4);
+    color: white;
+    position: relative;
+    top: 5.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* get-a-free-quote-section */
+  
+  .contact-us.get-a-free-quote-section {
+    position: unset;
+    margin: 55px auto;
+    border-radius: 25px !important;
+  }
+  
+  
+  .contact-us.get-a-free-quote-section-content p {
+    text-align: center;
+    font-size: 16px;
+    display: block;
+    margin: auto;
+    width: 85%;
+    color: #934824;
+  }
+  
+  .contact-us.get-a-free-quote-section-content form {
+    margin: 20px;
+  }
+  
+  .contact-us.get-a-free-quote-section-content form input {
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-us.get-a-free-quote-section-content button {
+    margin: 0px 22px;
+    border: none;
+    padding: 12px 65px;
+    border-radius: 12px;
+    background-color: var(--btn-color);
+    color: white;
+    letter-spacing: 1px;
+  
+  }
+  
+  /* footer */
+  
+  
+  footer.contact-us {
+    position: unset !important;
+    padding-bottom: 0;
+  }
+  
+  @media (max-width: 400px) {
+    .contact-us.footer-content {
+      position: unset;
+    }
+  }
+  
+  @media (min-width: 400px) {
+    .contact-us.footer-content {
+      position: unset;
+    }
+  }
+  
+  footer.contact-us>hr,
+  footer.contact-us>p {
+    position: unset;
+  }
+  
+  
+  /* // ############################# FLOORING INSTALLATION SECTION ##################################3 */
+  
+  
+  
+  .flooring-samples-design-section{
+    max-width: 80vw;
+    display: block;
+    margin: auto;
+    width: 90%;
+  
+  }
+  
+  .owl-dots{
+    display: none;
+  }
+  
+  .owl-stage-outer{
+    border-radius:10px;
+  }
+  
+  .owl-nav button span{
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+  }
+  
+  .owl-theme .owl-nav [class*=owl-]:hover {
+  background: transparent !important;
+  color: #FFF;
+  text-decoration: none;
+  }
+  
+  .owl-next{
+    position: absolute;
+    top: 3rem;
+    left: 93%;
+  }
+  
+  .owl-prev{
+    position: absolute;
+    top: 3rem;
+    right: 93%;
+  }
+  
+  
+  .owl-nav{
+    height: 0px !important;
+    width: 0px !important;
+  }
+  
+    .owl-carousel {
+      height: 165px !important;
+    }
+  
+  
+  
