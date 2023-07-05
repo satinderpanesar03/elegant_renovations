@@ -30,7 +30,7 @@
         <header>
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
-                    <img class="brand-logo navbar-brand" src="./images/brand-logo.png" />
+                    <img class="brand-logo navbar-brand" src="{{asset('user/images/brand-logo.png')}}" />
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -58,13 +58,13 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="pricing-page.html">Pricing</a>
+                                    <a class="nav-link" href="{{route('user.pricing.index')}}">Pricing</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="gallery.html">Gallery</a>
+                                    <a class="nav-link" href="{{route('user.gallery.index')}}">Gallery</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="about-us.html">About Us</a>
+                                    <a class="nav-link" href="{{route('user.aboutus.index')}}">About Us</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{route('user.blogs.index')}}     ">Blogs</a>

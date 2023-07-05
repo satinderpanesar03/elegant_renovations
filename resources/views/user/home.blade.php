@@ -44,7 +44,7 @@
                 </div>
                 <div class="reflect-your-sense-of-style-section-content-desc col-md-12 col-lg-6">
                     <div class="desc-1 desc-wrapper">
-                        <div><img src="./images/success-tick.png.png" alt=""></div>
+                        <div><img src="{{asset('user/images/success-tick.png.png')}}" alt=""></div>
                         <div>
                             <h5>All-in-One Experience</h5>
                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil natus, at explicabo dicta
@@ -54,7 +54,7 @@
                         </div>
                     </div>
                     <div class="desc-2 desc-wrapper">
-                        <div><img src="./images/success-tick.png.png" alt=""></div>
+                        <div><img src="{{asset('user/images/success-tick.png.png')}}" alt=""></div>
                         <div>
                             <h5>Stunning Design</h5>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, sed dignissimos! Dolorum,
@@ -64,7 +64,7 @@
                         </div>
                     </div>
                     <div class="desc-3 desc-wrapper">
-                        <div><img src="./images/success-tick.png.png" alt=""></div>
+                        <div><img src="{{asset('user/images/success-tick.png.png')}}" alt=""></div>
                         <div>
                             <h5>Quality Materials</h5>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum consequuntur asperiores
@@ -131,10 +131,10 @@
                         </div>
                         <div class="btn-wrapper">
                             <p>See the design</p>
-                            <img src="./images/orange-arrow.png.png" alt="">
+                            <img src="{{asset('user/images/orange-arrow.png.png')}}" alt="">
                         </div>
                     </div>
-                </div>
+                </div>{{asset('user/images/orange-arrow.png.png')}}
                 <div class="our-recent-kitchens-design-section-content-card-2">
                     <div class="img-wrapper">
                     </div>
@@ -145,7 +145,7 @@
                         </div>
                         <div class="btn-wrapper">
                             <p>See the design</p>
-                            <img src="./images/orange-arrow.png.png" alt="">
+                            <img src="{{asset('user/images/orange-arrow.png.png')}}" alt="">
                         </div>
                     </div>
                 </div>
@@ -159,7 +159,7 @@
                         </div>
                         <div class="btn-wrapper">
                             <p>See the design</p>
-                            <img src="./images/orange-arrow.png.png" alt="">
+                            <img src="{{asset('user/images/orange-arrow.png.png')}}" alt="">
                         </div>
                     </div>
                 </div>
@@ -173,7 +173,7 @@
                         </div>
                         <div class="btn-wrapper">
                             <p>See the design</p>
-                            <img src="./images/orange-arrow.png.png" alt="">
+                            <img src="{{asset('user/images/orange-arrow.png.png')}}" alt="">
                         </div>
                     </div>
                 </div>
@@ -220,7 +220,7 @@
                                                 <div class=" swiper-js slide px-4 pt-5 pb-3 border-radius-20px">
                                                     <div class=" swiper-js display-card"></div>
                                                     <div class=" swiper-js Customers-profile">
-                                                        <img src="./images/quotation-mark-icon.png" height="25px" class=" swiper-js quotation">
+                                                        <img src="{{asset('user/images/quotation-mark-icon.png')}}" height="25px" class=" swiper-js quotation">
                                                     </div>
                                                     <div class=" swiper-js card-content p-3">
                                                         <div class=" swiper-js text-center mb-md-4">
@@ -247,7 +247,7 @@
                                                 <div class=" swiper-js slide px-4 pt-5 pb-3 border-radius-20px">
                                                     <div class=" swiper-js display-card"></div>
                                                     <div class=" swiper-js Customers-profile">
-                                                        <img src="./images/quotation-mark-icon.png" height="25px" class=" swiper-js quotation">
+                                                        <img src="{{asset('user/images/quotation-mark-icon.png')}}" height="25px" class=" swiper-js quotation">
                                                     </div>
                                                     <div class=" swiper-js card-content p-3">
                                                         <div class=" swiper-js text-center mb-md-4">
@@ -274,7 +274,7 @@
                                                 <div class=" swiper-js slide px-4 pt-5 pb-3 border-radius-20px">
                                                     <div class=" swiper-js display-card"></div>
                                                     <div class=" swiper-js Customers-profile">
-                                                        <img src="./images/quotation-mark-icon.png" height="25px" class=" swiper-js quotation">
+                                                        <img src="{{asset('user/images/quotation-mark-icon.png')}}" height="25px" class=" swiper-js quotation">
                                                     </div>
                                                     <div class=" swiper-js card-content p-3">
                                                         <div class=" swiper-js text-center mb-md-4">
@@ -301,7 +301,7 @@
                                                 <div class=" swiper-js slide px-4 pt-5 pb-3 border-radius-20px">
                                                     <div class=" swiper-js display-card"></div>
                                                     <div class=" swiper-js Customers-profile">
-                                                        <img src="./images/quotation-mark-icon.png" height="25px" class=" swiper-js quotation">
+                                                        <img src="{{asset('user/images/quotation-mark-icon.png')}}" height="25px" class=" swiper-js quotation">
                                                     </div>
                                                     <div class=" swiper-js card-content p-3">
                                                         <div class=" swiper-js text-center mb-md-4">
@@ -328,7 +328,7 @@
                                                 <div class=" swiper-js slide px-4 pt-5 pb-3 border-radius-20px">
                                                     <div class=" swiper-js display-card"></div>
                                                     <div class=" swiper-js Customers-profile">
-                                                        <img src="./images/quotation-mark-icon.png" height="25px" class=" swiper-js quotation">
+                                                        <img src="{{asset('user/images/quotation-mark-icon.png')}}" height="25px" class=" swiper-js quotation">
                                                     </div>
                                                     <div class=" swiper-js card-content p-3">
                                                         <div class=" swiper-js text-center mb-md-4">
@@ -355,7 +355,7 @@
                                                 <div class=" swiper-js slide px-4 pt-5 pb-3 border-radius-20px">
                                                     <div class=" swiper-js display-card"></div>
                                                     <div class=" swiper-js Customers-profile">
-                                                        <img src="./images/quotation-mark-icon.png" height="25px" class=" swiper-js quotation">
+                                                        <img src="{{asset('user/images/quotation-mark-icon.png')}}" height="25px" class=" swiper-js quotation">
                                                     </div>
                                                     <div class=" swiper-js card-content p-3">
                                                         <div class=" swiper-js text-center mb-md-4">
@@ -382,7 +382,7 @@
                                                 <div class=" swiper-js slide px-4 pt-5 pb-3 border-radius-20px">
                                                     <div class=" swiper-js display-card"></div>
                                                     <div class=" swiper-js Customers-profile">
-                                                        <img src="./images/quotation-mark-icon.png" height="25px" class=" swiper-js quotation">
+                                                        <img src="{{asset('user/images/quotation-mark-icon.png')}}" height="25px" class=" swiper-js quotation">
                                                     </div>
                                                     <div class=" swiper-js card-content p-3">
                                                         <div class=" swiper-js text-center mb-md-4">
@@ -409,7 +409,7 @@
                                                 <div class=" swiper-js slide px-4 pt-5 pb-3 border-radius-20px">
                                                     <div class=" swiper-js display-card"></div>
                                                     <div class=" swiper-js Customers-profile">
-                                                        <img src="./images/quotation-mark-icon.png" height="25px" class=" swiper-js quotation">
+                                                        <img src="{{asset('user/images/quotation-mark-icon.png')}}" height="25px" class=" swiper-js quotation">
                                                     </div>
                                                     <div class=" swiper-js card-content p-3">
                                                         <div class=" swiper-js text-center mb-md-4">

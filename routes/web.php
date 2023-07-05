@@ -17,6 +17,7 @@ use App\Http\Controllers\user\AboutUsController;
 use App\Http\Controllers\user\BlogController;
 use App\Http\Controllers\user\GalleryController;
 use App\Http\Controllers\user\HomeController;
+use App\Http\Controllers\user\PricingController;
 use App\Models\Permission;
 use Illuminate\Support\Facades\Route;
 
@@ -146,7 +147,7 @@ Route::group(['as' => 'user.'], function() {
         Route::get('/gallery', 'index')->name('gallery.index');
     });
 
-    Route::controller(GalleryController::class)->group(function(){
+    Route::controller(PricingController::class)->group(function(){
         Route::get('/pricing', 'index')->name('pricing.index');
     });
 
