@@ -20,6 +20,7 @@ use App\Http\Controllers\user\HomeController;
 use App\Http\Controllers\user\PricingController;
 use App\Http\Controllers\user\RenovationController;
 use App\Http\Controllers\user\ServiceController;
+use App\Http\Controllers\user\ContactUsController as UserContactUsController;
 use App\Models\Permission;
 use Illuminate\Support\Facades\Route;
 
@@ -166,5 +167,8 @@ Route::group(['as' => 'user.'], function() {
         Route::get('/basement-renovation-and-development', 'basementRenovation')->name('basement.renovation');
     });
 
+    Route::controller(UserContactUsController::class)->group(function() {
+        Route::get('contact-us', 'contactUs')->name('contact.us');
+    });
 
 });

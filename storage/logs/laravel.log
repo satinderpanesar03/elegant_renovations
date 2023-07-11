@@ -2041,3 +2041,19 @@
 #50 C:\\Users\\Sunny\\Desktop\\elegant_renovations\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Users\\\\Sunny\\\\...')
 #51 {main}
 "} 
+[2023-07-11 07:59:07] local.ERROR: Cannot use App\Http\Controllers\user\ContactUsController as ContactUsController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\user\\ContactUsController as ContactUsController because the name is already in use at C:\\Users\\Sunny\\Desktop\\elegant_renovations\\routes\\web.php:23)
+[stacktrace]
+#0 {main}
+"} 
+[2023-07-11 07:59:18] local.ERROR: Cannot use App\Http\Controllers\user\ContactUsController as ContactUsController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\user\\ContactUsController as ContactUsController because the name is already in use at C:\\Users\\Sunny\\Desktop\\elegant_renovations\\routes\\web.php:23)
+[stacktrace]
+#0 {main}
+"} 
+[2023-07-11 07:59:25] local.ERROR: Cannot use App\Http\Controllers\user\ContactUsController as ContactUsController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\user\\ContactUsController as ContactUsController because the name is already in use at C:\\Users\\Sunny\\Desktop\\elegant_renovations\\routes\\web.php:23)
+[stacktrace]
+#0 {main}
+"} 
+[2023-07-11 07:59:25] local.ERROR: Cannot use App\Http\Controllers\user\ContactUsController as ContactUsController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\user\\ContactUsController as ContactUsController because the name is already in use at C:\\Users\\Sunny\\Desktop\\elegant_renovations\\routes\\web.php:23)
+[stacktrace]
+#0 {main}
+"} 
