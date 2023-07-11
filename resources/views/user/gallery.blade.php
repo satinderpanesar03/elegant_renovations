@@ -24,7 +24,7 @@
                                 </div>
 
                                 <div class="">
-                                    <img src="images/section2-Image.jpg" class="border-radius-20px h-550 w-100">
+                                    <img src="{{asset('user/images/section2-Image.jpg')}}" class="border-radius-20px h-550 w-100">
                                 </div>
 
                             </div>
@@ -37,7 +37,7 @@
                                 </div>
 
                                 <div class="">
-                                    <img src="images/blog-post-kitchen-design-image1.webp"
+                                    <img src="{{asset('user/images/blog-post-kitchen-design-image1.webp')}}"
                                         class="border-radius-20px h-550 w-100">
                                 </div>
                             </div>
@@ -55,7 +55,7 @@
                                 </div>
 
                                 <div class="">
-                                    <img src="images/section2-Image2.jpg" class="border-radius-20px h-550 w-100">
+                                    <img src="{{asset('user/images/section2-Image2.jpg')}}" class="border-radius-20px h-550 w-100">
                                 </div>
 
                             </div>
@@ -68,7 +68,7 @@
                                 </div>
 
                                 <div class="">
-                                    <img src="images/Kitchen-Design-1.jpeg" class="border-radius-20px h-550 w-100">
+                                    <img src="{{asset('user/images/Kitchen-Design-1.jpeg')}}" class="border-radius-20px h-550 w-100">
                                 </div>
                             </div>
 
@@ -86,7 +86,7 @@
                                 </div>
 
                                 <div class="">
-                                    <img src="images/section5-Image2.jpg" class="border-radius-20px h-550 w-100">
+                                    <img src="{{asset('user/images/section5-Image2.jpg')}}" class="border-radius-20px h-550 w-100">
                                 </div>
 
                             </div>
@@ -99,7 +99,7 @@
                                 </div>
 
                                 <div class="">
-                                    <img src="images/kitchen-background-image.jpg"
+                                    <img src="{{asset('user/images/kitchen-background-image.jpg')}}"
                                         class="border-radius-20px h-550 w-100">
                                 </div>
                             </div>
@@ -147,7 +147,7 @@
                                     </div>
     
                                     <div class="">
-                                        <img src="images/Kitchen-Design-2.jpeg" class="border-radius-20px h-550 w-100">
+                                        <img src="{{asset('user/images/Kitchen-Design-2.jpeg')}}" class="border-radius-20px h-550 w-100">
                                     </div>
     
                                 </div>
@@ -160,7 +160,7 @@
                                     </div>
     
                                     <div class="">
-                                        <img src="images/Kitchen-Design-3.jpeg"
+                                        <img src="{{asset('user/images/Kitchen-Design-3.jpeg')}}"
                                             class="border-radius-20px h-550 w-100">
                                     </div>
                                 </div>
@@ -178,7 +178,7 @@
                                     </div>
     
                                     <div class="">
-                                        <img src="images/Kitchen-Design-4.jpeg" class="border-radius-20px h-550 w-100">
+                                        <img src="{{asset('user/images/Kitchen-Design-4.jpeg')}}" class="border-radius-20px h-550 w-100">
                                     </div>
     
                                 </div>
@@ -191,7 +191,7 @@
                                     </div>
     
                                     <div class="">
-                                        <img src="images/Kitchen-Design-5.png" class="border-radius-20px h-550 w-100">
+                                        <img src="{{asset('user/images/Kitchen-Design-5.png')}}" class="border-radius-20px h-550 w-100">
                                     </div>
                                 </div>
     
@@ -209,7 +209,7 @@
                                     </div>
     
                                     <div class="">
-                                        <img src="images/Kitchen-Design-6.png" class="border-radius-20px h-550 w-100">
+                                        <img src="{{asset('user/images/Kitchen-Design-6.png')}}" class="border-radius-20px h-550 w-100">
                                     </div>
     
                                 </div>
@@ -222,7 +222,7 @@
                                     </div>
     
                                     <div class="">
-                                        <img src="images/Kitchen-Design-7.png"
+                                        <img src="{{asset('user/images/Kitchen-Design-7.png')}}"
                                             class="border-radius-20px h-550 w-100">
                                     </div>
                                 </div>
@@ -272,7 +272,7 @@
                                 </div>
 
                                 <div class="">
-                                    <img src="images/Kitchen-Design-8.png" class="border-radius-20px h-550 w-100">
+                                    <img src="{{asset('user/images/Kitchen-Design-8.png')}}" class="border-radius-20px h-550 w-100">
                                 </div>
 
                             </div>
@@ -285,7 +285,7 @@
                                 </div>
 
                                 <div class="">
-                                    <img src="images/Kitchen-Design-9.png"
+                                    <img src="{{asset('user/images/Kitchen-Design-9.png')}}"
                                         class="border-radius-20px h-550 w-100">
                                 </div>
                             </div>
@@ -303,7 +303,7 @@
                                 </div>
 
                                 <div class="">
-                                    <img src="images/Kitchen-Design-10.png" class="border-radius-20px h-550 w-100">
+                                    <img src="{{asset('user/images/Kitchen-Design-10.png')}}" class="border-radius-20px h-550 w-100">
                                 </div>
 
                             </div>
@@ -316,7 +316,7 @@
                                 </div>
 
                                 <div class="">
-                                    <img src="images/Kitchen-Design-11.png" class="border-radius-20px h-550 w-100">
+                                    <img src="{{asset('user/images/Kitchen-Design-11.png')}}" class="border-radius-20px h-550 w-100">
                                 </div>
                             </div>
 
@@ -334,7 +334,7 @@
                                 </div>
 
                                 <div class="">
-                                    <img src="images/Kitchen-Design-12.png" class="border-radius-20px h-550 w-100">
+                                    <img src="{{asset('user/images/Kitchen-Design-12.png')}}" class="border-radius-20px h-550 w-100">
                                 </div>
 
                             </div>
@@ -347,7 +347,7 @@
                                 </div>
 
                                 <div class="">
-                                    <img src="images/Kitchen-Design-13.png"
+                                    <img src="{{asset('user/images/Kitchen-Design-13.png')}}"
                                         class="border-radius-20px h-550 w-100">
                                 </div>
                             </div>
@@ -397,7 +397,7 @@
                                 </div>
 
                                 <div class="">
-                                    <img src="images/Kitchen-Design-14.png" class="border-radius-20px h-550 w-100">
+                                    <img src="{{asset('user/images/Kitchen-Design-14.png')}}" class="border-radius-20px h-550 w-100">
                                 </div>
 
                             </div>
@@ -410,7 +410,7 @@
                                 </div>
 
                                 <div class="">
-                                    <img src="images/Kitchen-Design-15.png"
+                                    <img src="{{asset('user/images/Kitchen-Design-15.png')}}"
                                         class="border-radius-20px h-550 w-100">
                                 </div>
                             </div>
@@ -428,7 +428,7 @@
                                 </div>
 
                                 <div class="">
-                                    <img src="images/Kitchen-Design-16.png" class="border-radius-20px h-550 w-100">
+                                    <img src="{{asset('user/images/Kitchen-Design-16.png')}}" class="border-radius-20px h-550 w-100">
                                 </div>
 
                             </div>
@@ -441,7 +441,7 @@
                                 </div>
 
                                 <div class="">
-                                    <img src="images/Kitchen-Design-17.png" class="border-radius-20px h-550 w-100">
+                                    <img src="{{asset('user/images/Kitchen-Design-17.png')}}" class="border-radius-20px h-550 w-100">
                                 </div>
                             </div>
 
@@ -459,7 +459,7 @@
                                 </div>
 
                                 <div class="">
-                                    <img src="images/section2-Image2.jpg" class="border-radius-20px h-550 w-100">
+                                    <img src="{{asset('user/images/section2-Image2.jpg.png')}}" class="border-radius-20px h-550 w-100">
                                 </div>
 
                             </div>
@@ -472,7 +472,7 @@
                                 </div>
 
                                 <div class="">
-                                    <img src="images/kitchen-background-image.jpg"
+                                    <img src="{{asset('user/images/kitchen-background-image.jpg')}}"
                                         class="border-radius-20px h-550 w-100">
                                 </div>
                             </div>

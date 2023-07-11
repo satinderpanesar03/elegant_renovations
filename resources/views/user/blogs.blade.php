@@ -1,146 +1,316 @@
-@extends('user.layouts.header')
+<!DOCTYPE html>
+<html lang="en">
 
-@section('title', 'Blogs')
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
 
-@section('content')
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+      
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+  integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+  integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="{{asset('css/master-style.css')}}">
 
-<div class="blog-post-page main-content-wrapper">
-    <div class="blog-post-page left-side-section">
-        <div class="blog-post-page container py-2">
-            <div>
-                <div class="blog-post-page card border-top-0 img-rounded kitchen-renovation-and-remodelling-card-style ">
-                    <img class="blog-post-page card-img-top img-rounded blog-post-main-content-image" src="./images/Kitchen-Design-17.png" alt="image error">
-                    <div class="blog-post-page card-body px-0 pb-0">
-                        <p class="blog-post-page text-orange text-center fs-12">KITCHEN RENOVATION & REMODELLING</p>
-                        <h4 class="blog-post-page text-center mb-4 ">Top 3 Kitchen Island
-                            mistakes when renovating your kitchen</h4>
-                        <p class="blog-post-page text-center fs-15 line-height-2 px-1">When it comes to designing a kitchen, functionality and style are
-                            both important factors to consider. A functional kitchen should be designed to meet your specific needs
-                            and make cooking and meal prep as efficient as possible. A stylish kitchen, other hand, should reflect
-                            your personal taste and make your space feel inviting and comfortable.</p>
-                    </div>
-                    <div class="blog-post-page card-footer text-center text-orange bg-transparent pt-0 border-bottom-0">
+  <script src="https://kit.fontawesome.com/cc528d7a8e.js" crossorigin="anonymous"></script>
+  
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/cc528d7a8e.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+  integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-                        <p class="blog-post-page fs-20 mt-3 text-orange ">Read more &nbsp;&nbsp;&nbsp;<i class="blog-post-page fa fa-arrow-right fs-18"></i></p>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+  integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+  integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+    <div class="blog-post-page main-wrapper ">
+        <!-- header start here -->
+        <header>
+        <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <img class="brand-logo navbar-brand" src="{{asset('user/images/brand-logo.png')}}" />
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-items collapse navbar-collapse" id="collapsibleNavbar">
+                        <div>
+                            <ul class="navbar-nav">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Kitchen Renovation</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="{{route('user.kitchen.renovation.calgary')}}">Kitchen Renovation Calgary</a></li>
+                                        <li><a class="dropdown-item" href="{{route('user.kitchen.renovation.edmonton')}}">Kitchen Renovation Edmonton</a></li>
+                                        <li><a class="dropdown-item" href="{{route('user.kitchen.renovation.vancouver')}}">Kitchen Renovation Vancouver</a></li>
+                                        <li><a class="dropdown-item" href="{{route('user.kitchen.designer')}}">Kitchen Designer</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">All
+                                        Services</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Kitchen Remodeling</a></li>
+                                        <li><a class="dropdown-item" href="{{route('user.flooring.installation')}}">Flooring Installation</a></li>
+                                        <li><a class="dropdown-item" href="{{route('user.building.services')}}">Building Permits</a></li>
+                                        <li><a class="dropdown-item" href="{{route('user.basement.renovation')}}">Basement Renovations & development</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{route('user.pricing.index')}}">Pricing</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{route('user.gallery.index')}}">Gallery</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{route('user.aboutus.index')}}">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{route('user.blogs.index')}}     ">Blogs</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <button> <a href="contact-us.html" class="">Contact Us</a></button>
                     </div>
                 </div>
-
-            </div>
-        </div>
-        <div class="blog-post-page container mt-5 py-2">
-            <div>
-                <div class="blog-post-page card border-top-0 img-rounded  kitchen-renovation-and-remodelling-card-style">
-                    <img class="blog-post-page card-img-top img-rounded blog-post-main-content-image " src="./images/Kitchen-Design-17.png" alt="image error">
-                    <div class="blog-post-page card-body px-0 pb-0">
-                        <p class="blog-post-page text-orange text-center fs-12">KITCHEN RENOVATION & REMODELLING</p>
-                        <h4 class="blog-post-page text-center mb-4 ">Top 3 Kitchen Island
-                            mistakes when renovating your kitchen</h4>
-                        <p class="blog-post-page text-center fs-15 line-height-2 px-1">When it comes to designing a kitchen, functionality and style are
-                            both important factors to consider. A functional kitchen should be designed to meet your specific needs
-                            and make cooking and meal prep as efficient as possible. A stylish kitchen, other hand, should reflect
-                            your personal taste and make your space feel inviting and comfortable.</p>
-                    </div>
-                    <div class="blog-post-page card-footer text-center text-orange bg-transparent pt-0 border-bottom-0">
-
-                        <p class="blog-post-page fs-20 mt-3 text-orange ">Read more &nbsp;&nbsp;&nbsp;<i class="blog-post-page fa fa-arrow-right fs-18"></i></p>
-
-                    </div>
+            </nav>
+            <div class="blog-post-page header-content-wrapper">
+                <div class="blog-post-page header-content">
+                    <div class="blog-post-page header-content-detail">
+                        <h2>Blog Posts</h2>                       
+                    </div>                  
                 </div>
-
             </div>
-        </div>
-        <div class="blog-post-page container mt-5 py-2 mb-4">
-            <div>
-                <div class="blog-post-page card border-top-0 img-rounded  kitchen-renovation-and-remodelling-card-style">
-                    <img class="blog-post-page card-img-top img-rounded blog-post-main-content-image" src="./images/Kitchen-Design-17.png" alt="image error">
-                    <div class="blog-post-page card-body px-0 pb-0">
-                        <p class="blog-post-page text-orange text-center fs-12">KITCHEN RENOVATION & REMODELLING</p>
-                        <h4 class="blog-post-page text-center mb-4 ">Top 3 Kitchen Island
-                            mistakes when renovating your kitchen</h4>
-                        <p class="blog-post-page text-center fs-15 line-height-2 px-1">When it comes to designing a kitchen, functionality and style are
-                            both important factors to consider. A functional kitchen should be designed to meet your specific needs
-                            and make cooking and meal prep as efficient as possible. A stylish kitchen, other hand, should reflect
-                            your personal taste and make your space feel inviting and comfortable.</p>
-                    </div>
-                    <div class="blog-post-page card-footer text-center text-orange bg-transparent  pt-0 border-bottom-0">
+        </header>
+        <!-- header ends here -->
 
-                        <p class="blog-post-page fs-20 mt-3 text-orange ">Read more &nbsp;&nbsp;&nbsp;<i class="blog-post-page fa fa-arrow-right fs-18"></i></p>
+    <!-- main-content start here -->
 
-                    </div>
-                </div>
-
+    <div class="blog-post-page main-content-wrapper">
+      <div class="blog-post-page left-side-section">
+      <div class="blog-post-page container py-2">
+        <div>
+          <div class="blog-post-page card border-top-0 img-rounded kitchen-renovation-and-remodelling-card-style " >
+            <img class="blog-post-page card-img-top img-rounded blog-post-main-content-image" src="./images/Kitchen-Design-17.png" alt="image error"
+              >
+            <div class="blog-post-page card-body px-0 pb-0">
+              <p class="blog-post-page text-orange text-center fs-12">KITCHEN RENOVATION & REMODELLING</p>
+              <h4 class="blog-post-page text-center mb-4 " >Top 3 Kitchen Island
+                mistakes when renovating your kitchen</h4>
+              <p class="blog-post-page text-center fs-15 line-height-2 px-1">When it comes to designing a kitchen, functionality and style are
+                both important factors to consider. A functional kitchen should be designed to meet your specific needs
+                and make cooking and meal prep as efficient as possible. A stylish kitchen, other hand, should reflect
+                your personal taste and make your space feel inviting and comfortable.</p>
             </div>
+            <div class="blog-post-page card-footer text-center text-orange bg-transparent pt-0 border-bottom-0">
+    
+              <p class="blog-post-page fs-20 mt-3 text-orange ">Read more &nbsp;&nbsp;&nbsp;<i class="blog-post-page fa fa-arrow-right fs-18"></i></p>
+    
+            </div>
+          </div>
+    
         </div>
+      </div>
+      <div class="blog-post-page container mt-5 py-2">
+        <div>
+          <div class="blog-post-page card border-top-0 img-rounded  kitchen-renovation-and-remodelling-card-style" >
+            <img class="blog-post-page card-img-top img-rounded blog-post-main-content-image " src="./images/Kitchen-Design-17.png" alt="image error"
+              >
+            <div class="blog-post-page card-body px-0 pb-0">
+              <p class="blog-post-page text-orange text-center fs-12">KITCHEN RENOVATION & REMODELLING</p>
+              <h4 class="blog-post-page text-center mb-4 ">Top 3 Kitchen Island
+                mistakes when renovating your kitchen</h4>
+              <p class="blog-post-page text-center fs-15 line-height-2 px-1">When it comes to designing a kitchen, functionality and style are
+                both important factors to consider. A functional kitchen should be designed to meet your specific needs
+                and make cooking and meal prep as efficient as possible. A stylish kitchen, other hand, should reflect
+                your personal taste and make your space feel inviting and comfortable.</p>
+            </div>
+            <div class="blog-post-page card-footer text-center text-orange bg-transparent pt-0 border-bottom-0">
+  
+              <p class="blog-post-page fs-20 mt-3 text-orange ">Read more &nbsp;&nbsp;&nbsp;<i class="blog-post-page fa fa-arrow-right fs-18"></i></p>
+  
+            </div>
+          </div>
+  
+        </div>
+      </div>
+      <div class="blog-post-page container mt-5 py-2 mb-4">
+        <div>
+          <div class="blog-post-page card border-top-0 img-rounded  kitchen-renovation-and-remodelling-card-style" >
+            <img class="blog-post-page card-img-top img-rounded blog-post-main-content-image" src="./images/Kitchen-Design-17.png" alt="image error"
+          >
+            <div class="blog-post-page card-body px-0 pb-0">
+              <p class="blog-post-page text-orange text-center fs-12">KITCHEN RENOVATION & REMODELLING</p>
+              <h4 class="blog-post-page text-center mb-4 " >Top 3 Kitchen Island
+                mistakes when renovating your kitchen</h4>
+              <p class="blog-post-page text-center fs-15 line-height-2 px-1">When it comes to designing a kitchen, functionality and style are
+                both important factors to consider. A functional kitchen should be designed to meet your specific needs
+                and make cooking and meal prep as efficient as possible. A stylish kitchen, other hand, should reflect
+                your personal taste and make your space feel inviting and comfortable.</p>
+            </div>
+            <div class="blog-post-page card-footer text-center text-orange bg-transparent  pt-0 border-bottom-0">
+  
+              <p class="blog-post-page fs-20 mt-3 text-orange ">Read more &nbsp;&nbsp;&nbsp;<i class="blog-post-page fa fa-arrow-right fs-18"></i></p>
+  
+            </div>
+          </div>
+  
+        </div>
+      </div>
     </div>
     <div class="blog-post-page right-side-section">
-        <aside id="popularPost" class="blog-post-page  py-3 ">
-            <div class="blog-post-page card  img-rounded w-100 ">
-                <h5 class="blog-post-page text-center pt-3"><b>Popular Posts</b></h5>
-                <hr class="blog-post-page mx-3 mt-0">
-                <img class="blog-post-page card-img-top img-rounded border-radius-20px px-3 w-100" src="./images/Kitchen-Design-1.png" alt="image error" height="160">
-                <div class="blog-post-page card-body px-3 pb-0">
-                    <p class="blog-post-page text-orange fs-12 mb-2 "><b>KITCHEN RENOVATION</b></p>
-                    <p class="blog-post-page fs-12 fw-600">5 REASONS WHY CUSTOMERS KITCHEN CABINETS ARE BETTER THAN STOCK CABINETS</p>
-
-                    <div class="blog-post-page row mt-5">
-                        <div class="blog-post-page col-6 ">
-                            <img class="blog-post-page rounded blog-post-popular-post-images" src="./images/Kitchen-Design-1.png" alt="image error">
-
-                        </div>
-                        <div class="blog-post-page col-6 p-0 line-height-1-5 py-1">
-                            <p class="blog-post-page text-orange fs-11 mb-2"><b>KITCHEN RENOVATION</b></p>
-                            <p class="blog-post-page fs-11 fw-600">5 REASONS WHY CUSTOMERS KITCHEN CABINETS ARE BETTER THAN STOCK CABINETS</p>
-
-                        </div>
-                    </div>
-                    <hr class="blog-post-page popular-post-hr mt-2">
-                    <div class="blog-post-page row mt-2">
-                        <div class="blog-post-page col-6 ">
-                            <img class="blog-post-page rounded blog-post-popular-post-images " src="./images/Kitchen-Design-1.png" alt="image error">
-
-                        </div>
-                        <div class="blog-post-page col-6 p-0 line-height-1-5 py-1">
-                            <p class="blog-post-page text-orange fs-11 mb-2"><b>KITCHEN RENOVATION</b></p>
-                            <p class="blog-post-page fs-11 fw-600">5 REASONS WHY CUSTOMERS KITCHEN CABINETS ARE BETTER THAN STOCK CABINETS</p>
-
-                        </div>
-                    </div>
-                    <hr class="blog-post-page popular-post-hr mt-2">
-                    <div class="blog-post-page row mt-2">
-                        <div class="blog-post-page col-6 ">
-                            <img class="blog-post-page rounded blog-post-popular-post-images " src="./images/Kitchen-Design-1.png" alt="image error">
-
-                        </div>
-                        <div class="blog-post-page col-6 p-0 line-height-1-5 py-1">
-                            <p class="blog-post-page text-orange fs-11 mb-2"><b>KITCHEN RENOVATION</b></p>
-                            <p class="blog-post-page fs-11 fw-600">5 REASONS WHY CUSTOMERS KITCHEN CABINETS ARE BETTER THAN STOCK CABINETS</p>
-
-                        </div>
-                    </div>
-                    <hr class="blog-post-page popular-post-hr mt-2">
-                    <div class="blog-post-page row mt-2">
-                        <div class="blog-post-page col-6 ">
-                            <img class="blog-post-page rounded blog-post-popular-post-images " src="./images/Kitchen-Design-1.png" alt="image error">
-
-                        </div>
-                        <div class="blog-post-page col-6 p-0 line-height-1-5 py-1">
-                            <p class="blog-post-page text-orange fs-11 mb-2"><b>KITCHEN RENOVATION</b></p>
-                            <p class="blog-post-page fs-11 fw-600">5 REASONS WHY CUSTOMERS KITCHEN CABINETS ARE BETTER THAN STOCK CABINETS</p>
-
-                        </div>
-                    </div>
-
-                </div>
-
+      <aside id="popularPost" class="blog-post-page  py-3 " >
+        <div class="blog-post-page card  img-rounded w-100 ">
+          <h5 class="blog-post-page text-center pt-3"><b>Popular Posts</b></h5>
+          <hr class="blog-post-page mx-3 mt-0">
+          <img class="blog-post-page card-img-top img-rounded border-radius-20px px-3 w-100" src="./images/Kitchen-Design-1.png" alt="image error"
+            height="160">
+          <div class="blog-post-page card-body px-3 pb-0">
+            <p class="blog-post-page text-orange fs-12 mb-2 "><b>KITCHEN RENOVATION</b></p>
+            <p class="blog-post-page fs-12 fw-600">5 REASONS WHY CUSTOMERS KITCHEN CABINETS ARE BETTER THAN STOCK CABINETS</p>
+    
+            <div class="blog-post-page row mt-5">
+              <div class="blog-post-page col-6 ">
+                <img class="blog-post-page rounded blog-post-popular-post-images" src="./images/Kitchen-Design-1.png" alt="image error"
+                 >
+    
+              </div>
+              <div class="blog-post-page col-6 p-0 line-height-1-5 py-1">
+                <p class="blog-post-page text-orange fs-11 mb-2"><b>KITCHEN RENOVATION</b></p>
+                <p class="blog-post-page fs-11 fw-600">5 REASONS WHY CUSTOMERS KITCHEN CABINETS ARE BETTER THAN STOCK CABINETS</p>
+    
+              </div>
             </div>
-
-        </aside>
+            <hr class="blog-post-page popular-post-hr mt-2">
+            <div class="blog-post-page row mt-2">
+              <div class="blog-post-page col-6 ">
+                <img class="blog-post-page rounded blog-post-popular-post-images " src="./images/Kitchen-Design-1.png" alt="image error"
+                  >
+    
+              </div>
+              <div class="blog-post-page col-6 p-0 line-height-1-5 py-1">
+                <p class="blog-post-page text-orange fs-11 mb-2"><b>KITCHEN RENOVATION</b></p>
+                <p class="blog-post-page fs-11 fw-600">5 REASONS WHY CUSTOMERS KITCHEN CABINETS ARE BETTER THAN STOCK CABINETS</p>
+    
+              </div>
+            </div>
+            <hr class="blog-post-page popular-post-hr mt-2">
+            <div class="blog-post-page row mt-2">
+              <div class="blog-post-page col-6 ">
+                <img class="blog-post-page rounded blog-post-popular-post-images " src="./images/Kitchen-Design-1.png" alt="image error"
+                  >
+    
+              </div>
+              <div class="blog-post-page col-6 p-0 line-height-1-5 py-1">
+                <p class="blog-post-page text-orange fs-11 mb-2"><b>KITCHEN RENOVATION</b></p>
+                <p class="blog-post-page fs-11 fw-600">5 REASONS WHY CUSTOMERS KITCHEN CABINETS ARE BETTER THAN STOCK CABINETS</p>
+    
+              </div>
+            </div>
+            <hr class="blog-post-page popular-post-hr mt-2">
+            <div class="blog-post-page row mt-2">
+              <div class="blog-post-page col-6 ">
+                <img class="blog-post-page rounded blog-post-popular-post-images " src="./images/Kitchen-Design-1.png" alt="image error"
+                  >
+    
+              </div>
+              <div class="blog-post-page col-6 p-0 line-height-1-5 py-1">
+                <p class="blog-post-page text-orange fs-11 mb-2"><b>KITCHEN RENOVATION</b></p>
+                <p class="blog-post-page fs-11 fw-600">5 REASONS WHY CUSTOMERS KITCHEN CABINETS ARE BETTER THAN STOCK CABINETS</p>
+    
+              </div>
+            </div>
+        
+          </div>
+    
+        </div>
+    
+      </aside>
     </div>
-</div>
+    </div>
 
-@endsection
+    <!-- main-content end here -->
 
-@push('head')
+        <!-- footer start here -->
+        <footer class="blog-post-page">
+            <div class="blog-post-page footer-content">
+              <div class="blog-post-page row p-0 m-0">
+                <div class="blog-post-page col-lg-5 col-md-12 col-sm-12">
+                    <div class="blog-post-page desc">
+                        <div class="blog-post-page brand-logo-wrapper">
+                            <img class="blog-post-page brand-logo" src="{{asset('user/images/brand-logo.png')}}" height="70" />
+                        </div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit necessitatibus itaque
+                            accusamus eaque eos mollitia eius, aperiam quasi minus hic fuga maxime architecto in
+                            reprehenderit delectus voluptatibus fugit? Recusandae, unde?</p>
+                    </div>
+  
+                </div>
+                <div class="blog-post-page col-lg-2 col-md-12 col-sm-12">
+                    <div class="blog-post-page helpful-links">
+                        <h6 class="blog-post-page ff-other">Helpful Links</h6>
+                        <ul>
+                            <li>About Us</li>
+                            <li>Features</li>
+                            <li>FAQ's</li>
+                            <li>Blog</li>
+                            <li>Contact</li>
+                        </ul>
+                    </div>
+  
+                </div>
+                <div class="blog-post-page col-lg-2 col-md-12 col-sm-12">
+  
+                    <div class="blog-post-page services">
+                        <h6 class="blog-post-page ff-other">Services</h6>
+                        <ul>
+                            <li>Worldwide</li>
+                            <li>Scalable</li>
+                            <li>Modular</li>
+                            <li>Connectivity</li>
+                            <li>Corporate</li>
+                        </ul>
+                    </div>
+  
+                </div>
+                <div class="blog-post-page col-lg-3 col-md-12 col-sm-12">
+                    <div class="blog-post-page contact-us">
+                        <h6 class="blog-post-page ff-other">Contact Us</h6>
+                        <div>455 West Orchard Street Kings Mountain, NC 28086</div>
+                        <div>Phone: (272) 211-7370</div>
+                        <div>E-Mail: support@yourbrand.com</div>
+                    </div>
+  
+                </div>
+  
+            </div>
+               
+             
+             
+            </div>
+            <hr>
+            <p class="blog-post-page fs-15">&copy; 2020 KITCHEN. All Rights Reserved.</p>
+        </footer>
 
-@endpush
+        <!-- footer start here -->
+
+    </div>
+    <script src="./js/master.js"></script>
+  </body>
+
+</html>

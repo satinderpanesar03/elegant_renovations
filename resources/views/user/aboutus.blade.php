@@ -3,6 +3,15 @@
 @section('title', 'Welcome')
 
 @section('content')
+<div>
+        <header>
+            <div class="about-us-page header-content-wrapper">
+                <div class="about-us-page header-content">
+                    <div class="about-us-page header-content-detail">
+                        <h2>ABOUT US</h2>                        
+                </div>
+            </div>
+        </header>
         <div class="trusted-kitchen-renovation-section-wrapper">
             <div class="trusted-kitchen-renovation-section-heading">
                 <h2>Trusted Kitchen Renovation & Cabinets Company in Calgary & Edmonton</h2>

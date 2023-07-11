@@ -18,6 +18,8 @@ use App\Http\Controllers\user\BlogController;
 use App\Http\Controllers\user\GalleryController;
 use App\Http\Controllers\user\HomeController;
 use App\Http\Controllers\user\PricingController;
+use App\Http\Controllers\user\RenovationController;
+use App\Http\Controllers\user\ServiceController;
 use App\Models\Permission;
 use Illuminate\Support\Facades\Route;
 
@@ -149,6 +151,19 @@ Route::group(['as' => 'user.'], function() {
 
     Route::controller(PricingController::class)->group(function(){
         Route::get('/pricing', 'index')->name('pricing.index');
+    });
+
+    Route::controller(RenovationController::class)->group(function(){
+        Route::get('/kitchen-renovation-calgary', 'KrCalgary')->name('kitchen.renovation.calgary');
+        Route::get('/kitchen-renovation-edmonton', 'KrEdmonton')->name('kitchen.renovation.edmonton');
+        Route::get('/kitchen-renovation-vancouver', 'KrVancouver')->name('kitchen.renovation.vancouver');
+        Route::get('/kitchen-designer', 'kitchenDesign')->name('kitchen.designer');
+    });
+
+    Route::controller(ServiceController::class)->group(function() {
+        Route::get('/flooring-installation', 'flooring')->name('flooring.installation');
+        Route::get('/building-services-in-calgary', 'buildingServices')->name('building.services');
+        Route::get('/basement-renovation-and-development', 'basementRenovation')->name('basement.renovation');
     });
 
 

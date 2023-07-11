@@ -3,7 +3,21 @@
 @section('title', 'Welcome')
 
 @section('content')
-
+<div class="pricing-page header-content-wrapper">
+                <div class="pricing-page header-content pt-4">
+                    <div class="pricing-page header-content-detail py-4">
+                        <h2 class="ls-1">Featured Kitchen <br> Renovation Projects and Pricing</h2>
+                        <p class="pricing-page header-content-desc fw-400 line-height-1-7">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Quisquam, voluptate amet minima aspernatur tempore magni! Nesciunt, nisi, quam aliquam iste
+                            perferendis voluptatem laborum. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Quisquam, voluptate amet minima aspernatur tempore magni! Nesciunt, nisi, quam aliquam iste
+                            perferendis voluptatem laborum. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Quisquam, voluptate amet minima aspernatur tempore magni! Nesciunt, nisi, quam aliquam iste
+                            perferendis voluptatem laborum. Lorem ipsum dolor sit amet.</p>
+                    </div>                   
+                </div>
+            </div>
+            
     <div class="pricing-page pricing-cards-section-wrapper">
         <div class="pricing-page pricing-cards-section-cards">
             <div class="pricing-page card-1 card">
