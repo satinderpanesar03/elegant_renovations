@@ -378,35 +378,7 @@
     <!-- latest-blog-posts-section end here -->
 
     <!-- get-a-free-quote-section start here -->
-    <div class="pricing-page get-a-free-quote-section">
-        <div class="pricing-page get-a-free-quote-section-heading">
-            <h2>Get A Free Quote</h2>
-        </div>
-        <div class="pricing-page get-a-free-quote-section-content">
-            <p>Contact our Kitchen renovation experts serving calgary, edmonton & vancouver</p>
-            <form>
-                <div class="pricing-page row">
-                    <div class="pricing-page col">
-                        <input type="text" class="pricing-page form-control" placeholder="First name" name="firstname">
-                    </div>
-                    <div class="pricing-page col">
-                        <input type="text" class="pricing-page form-control" placeholder="last name" name="lastname">
-                    </div>
-                </div>
-                <div class="pricing-page row">
-                    <div class="pricing-page col">
-                        <input type="text" class="pricing-page form-control" placeholder="Phone no" name="phone">
-                    </div>
-                    <div class="pricing-page col">
-                        <input type="text" class="pricing-page form-control" placeholder="E-mail" name="email">
-                    </div>
-                </div>
-                <textarea class="pricing-page form-control" placeholder="Enter your message" rows="5" id="comment" name="text"></textarea>
-
-            </form>
-            <button type="submit">Submit</button>
-        </div>
-    </div>
+    @include('user.layouts.qoute')
 @endsection
 
 @push('head')

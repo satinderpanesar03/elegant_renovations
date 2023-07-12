@@ -113,13 +113,14 @@
             </div>
             <div class="contact-us get-a-free-quote-section-content">
                 <p>Contact our Kitchen renovation experts serving calgary, edmonton & vancouver</p>
-                <form>
+                <form action="{{route('user.contact.us.store')}}" method="post">
+            @csrf
                     <div class="contact-us row">
                         <div class="contact-us col">
-                            <input type="text" class="contact-us form-control" placeholder="First name" name="firstname">
+                            <input type="text" class="contact-us form-control" placeholder="First name" name="name">
                         </div>
                         <div class="contact-us col">
-                            <input type="text" class="contact-us form-control" placeholder="last name" name="lastname">
+                            <input type="text" class="contact-us form-control" placeholder="last name" name="last_name">
                         </div>
                     </div>
                     <div class="contact-us row">
@@ -131,10 +132,11 @@
                         </div>
                     </div>
                     <textarea class="contact-us form-control" placeholder="Enter your message" rows="5" id="comment"
-                        name="text"></textarea>
+                        name="message"></textarea>
 
-                </form>
+                
                 <button type="submit">Submit</button>
+                </form>
             </div>
         </div>
         <!-- get-a-free-quote-section end here -->

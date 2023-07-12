@@ -169,6 +169,7 @@ Route::group(['as' => 'user.'], function() {
 
     Route::controller(UserContactUsController::class)->group(function() {
         Route::get('contact-us', 'contactUs')->name('contact.us');
+        Route::post('contact-us-store', 'store')->name('contact.us.store');
     });
 
 });
