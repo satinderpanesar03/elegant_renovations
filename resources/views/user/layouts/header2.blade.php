@@ -42,7 +42,7 @@
     <div class="blog-post-page main-wrapper ">
         <!-- header start here -->
         <header>
-        <nav class="navbar navbar-expand-lg">
+            <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
                     <img class="brand-logo navbar-brand" src="{{asset('user/images/brand-logo.png')}}" />
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -85,11 +85,10 @@
                                 </li>
                             </ul>
                         </div>
-                        <button> <a href="contact-us.html" class="">Contact Us</a></button>
+                        <a class="btn btn-warning" href="{{route('user.contact.us')}}" class="">Contact Us</a>
                     </div>
                 </div>
             </nav>
-
         </header>
 
         <div>
