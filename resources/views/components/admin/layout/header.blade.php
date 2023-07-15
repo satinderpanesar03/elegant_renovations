@@ -3,8 +3,7 @@
         <i class="bx bx-menu fs-3"></i>
     </button>
     <ul class="list-unstyled d-flex gap-4 align-items-center">
-        <li><button class="reset-btn"><i class="bx bxs-bell fs-3"></i></button></li>
-        <li><a href="/admin/staff"><i class="bx bxs-group fs-3"></i></a></li>
+
         <li>
             <div class="dropdown">
                 <button class="reset-btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">

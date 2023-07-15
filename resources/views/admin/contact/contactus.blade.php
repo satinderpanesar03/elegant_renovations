@@ -26,11 +26,11 @@
                 <div>
                   <h4 class='m-0 lh-normal'>Contact</h4>
                 </div>
-                <div>
+                {{-- <div>
                   <button class="btn btn-primary">
                     <i class="bx bxs-cloud-upload fs-5 align-bottom"></i> <span>Export</span>
                   </button>
-                </div>
+                </div> --}}
               </div>
               <!--  Search Field  -->
               <div class="input-group mb-3">

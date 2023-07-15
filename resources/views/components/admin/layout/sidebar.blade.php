@@ -15,7 +15,7 @@
     <div class="menu-bar">
         <ul class="list-unstyled mb-0">
             <!-- General  -->
-            <li class="mb-1 linkTitle">
+            {{-- <li class="mb-1 linkTitle">
                 <h6 class="m-0 text-light-grey fs-12">GENERAL</h6>
             </li>
             <li class="lh-0 mb-1 {{Request::is('admin/dashboard','admin.dashboard') ? 'menu-active':''}}">
@@ -23,8 +23,8 @@
                     <i class='bx bxs-dashboard fs-5'></i>
                     <span class="lh-normal fs-14 linkTitle">Dashboard</span>
                 </a>
-            </li>
-            <li class="lh-0 mb-1 {{Request::is('admin/user','admin.user.index') ? 'menu-active':''}}">
+            </li> --}}
+            {{-- <li class="lh-0 mb-1 {{Request::is('admin/user','admin.user.index') ? 'menu-active':''}}">
                 <a href="{{route('admin.user.index')}}" class="d-inline-flex align-items-center gap-1 w-100">
                     <i class='bx bx-user fs-5'></i>
                     <span class="lh-normal fs-14 linkTitle">Users</span>
@@ -35,7 +35,7 @@
                     <i class='bx bx-laptop fs-5'></i>
                     <span class="lh-normal fs-14 linkTitle">Products</span>
                 </a>
-            </li>
+            </li> --}}
             <!-- MANAGEMENT  -->
             <li class="mt-3 mb-1 linkTitle">
                 <h6 class="m-0 text-light-grey fs-12">MANAGEMENT</h6>
@@ -66,18 +66,26 @@
                     </div>
                 </div>
             </li>
-            <li class="lh-0 mb-1">
+            {{-- <li class="lh-0 mb-1">
                 <a href="{{route('admin.Faqlisting')}}" class="d-inline-flex align-items-center gap-1 w-100">
                     <i class='bx bx-help-circle fs-5'></i>
                     <span class="lh-normal fs-14 linkTitle">FAQs</span>
                 </a>
-            </li>
+            </li> --}}
             <li class="lh-0 mb-1">
                 <a href="{{route('admin.contactus')}}" class="d-inline-flex align-items-center gap-1 w-100">
                     <i class='bx bx-book fs-5'></i>
                     <span class="lh-normal fs-14 linkTitle">Contact</span>
                 </a>
             </li>
+
+            <li class="lh-0 mb-1">
+                <a href="{{route('admin.blogs.index')}}" class="d-inline-flex align-items-center gap-1 w-100">
+                    <i class='bx bx-book fs-5'></i>
+                    <span class="lh-normal fs-14 linkTitle">Blogs</span>
+                </a>
+            </li>
+
 {{--            <li class="lh-0 mb-1">--}}
 {{--                <div class="accordion" id="accordionContentList">--}}
 {{--                    <div class="accordion-item border-0">--}}
@@ -105,18 +113,18 @@
 {{--            </li>--}}
 
 
-            <li class="lh-0 mb-1">
+            {{-- <li class="lh-0 mb-1">
                 <a href="/admin/homepage" class="d-inline-flex align-items-center gap-1 w-100">
                     <i class='bx bx-home fs-5'></i>
                     <span class="lh-normal fs-14 linkTitle">Home Page</span>
                 </a>
-            </li>
-            <li class="lh-0 mb-1">
+            </li> --}}
+            {{-- <li class="lh-0 mb-1">
                 <a href="/notification" class="d-inline-flex align-items-center gap-1 w-100">
                     <i class='bx bx-bell fs-5'></i>
                     <span class="lh-normal fs-14 linkTitle">Notification</span>
                 </a>
-            </li>
+            </li> --}}
             <li class="lh-0 mb-1">
                 <a href="{{route('admin.db.backup.form')}}" class="d-inline-flex align-items-center gap-1 w-100">
                     <i class='bx bx-cloud-upload fs-5'></i>

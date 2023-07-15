@@ -20,6 +20,7 @@ use App\Http\Controllers\user\HomeController;
 use App\Http\Controllers\user\PricingController;
 use App\Http\Controllers\user\RenovationController;
 use App\Http\Controllers\user\ServiceController;
+use App\Http\Controllers\admin\BlogController as AdminBlogController;
 use App\Http\Controllers\user\ContactUsController as UserContactUsController;
 use App\Models\Permission;
 use Illuminate\Support\Facades\Route;
@@ -58,6 +59,10 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
             Route::post('user/dective', 'userDective')->name('user.dective');
         });
 
+        Route::controller(AdminBlogController::class)->group(function () {
+            Route::get('blog', 'index')->name('blogs.index');
+        });
+
         Route::post('product-visibility', [ProductController::class, 'visibility'])->name('product.visibility');
 
         Route::resources([
@@ -67,16 +72,16 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
             //Staff
 
         // Staff Module
-        Route::get('staff', [StaffController::class,'index'])->name('staff_listing');
-        Route::get('staff/add', [StaffController::class,'create'])->name('staff_add_form');;
-        Route::post('staff/add', [StaffController::class,'store'])->name('staff_store');;
-        Route::get('staff/view/{id}',  [StaffController::class,'show'])->name('staff_show');
-        Route::get('staff/view/{id}',  [StaffController::class,'show'])->name('staff_show');
-        Route::get('staff/edit/{id}', [StaffController::class,'edit'])->name('staff_edit');
-        Route::post('staff/edit', [StaffController::class,'update'])->name('staff_update');
-        Route::get('staff/block-unblock/{id}', [StaffController::class,'block_unblock'])->name('staff_block_unblock');
+        // Route::get('staff', [StaffController::class,'index'])->name('staff_listing');
+        // Route::get('staff/add', [StaffController::class,'create'])->name('staff_add_form');;
+        // Route::post('staff/add', [StaffController::class,'store'])->name('staff_store');;
+        // Route::get('staff/view/{id}',  [StaffController::class,'show'])->name('staff_show');
+        // Route::get('staff/view/{id}',  [StaffController::class,'show'])->name('staff_show');
+        // Route::get('staff/edit/{id}', [StaffController::class,'edit'])->name('staff_edit');
+        // Route::post('staff/edit', [StaffController::class,'update'])->name('staff_update');
+        // Route::get('staff/block-unblock/{id}', [StaffController::class,'block_unblock'])->name('staff_block_unblock');
 
-        Route::get('staff/delete/{id}', [StaffController::class,'destroy'])->name('staff_destroy');
+        // Route::get('staff/delete/{id}', [StaffController::class,'destroy'])->name('staff_destroy');
 
 
         Route::middleware("ensure_permission:".Permission::Faqs)->controller(AdminFAQController::class)->group(function() {
