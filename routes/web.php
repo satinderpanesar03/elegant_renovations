@@ -22,6 +22,7 @@ use App\Http\Controllers\user\PricingController;
 use App\Http\Controllers\user\RenovationController;
 use App\Http\Controllers\user\ServiceController;
 use App\Http\Controllers\admin\BlogController as AdminBlogController;
+use App\Http\Controllers\admin\BlogCtaegoryController;
 use App\Http\Controllers\user\ContactUsController as UserContactUsController;
 use App\Models\Permission;
 use Illuminate\Support\Facades\Route;
@@ -67,6 +68,10 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
         Route::controller(SettingController::class)->group(function () {
             Route::get('setting', 'index')->name('setting.index');
             Route::post('setting-store', 'store')->name('setting.store');
+        });
+
+        Route::controller(BlogCtaegoryController::class)->group(function () {
+            Route::get('blog-category', 'index')->name('blog.category.index');
         });
 
         Route::post('product-visibility', [ProductController::class, 'visibility'])->name('product.visibility');

@@ -6,6 +6,7 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'App\\Console\\Commands\\MakeServiceCommand' => $baseDir . '/app/Console/Commands/MakeServiceCommand.php',
     'App\\Console\\Kernel' => $baseDir . '/app/Console/Kernel.php',
     'App\\Exceptions\\Handler' => $baseDir . '/app/Exceptions/Handler.php',
     'App\\Http\\Controllers\\Controller' => $baseDir . '/app/Http/Controllers/Controller.php',
@@ -46,6 +47,9 @@ return array(
     'App\\Http\\Middleware\\VerifyCsrfToken' => $baseDir . '/app/Http/Middleware/VerifyCsrfToken.php',
     'App\\Models\\AdminLogin' => $baseDir . '/app/Models/AdminLogin.php',
     'App\\Models\\BannerImage' => $baseDir . '/app/Models/BannerImage.php',
+    'App\\Models\\Blog' => $baseDir . '/app/Models/Blog.php',
+    'App\\Models\\BlogCtegory' => $baseDir . '/app/Models/BlogCtegory.php',
+    'App\\Models\\BlogLike' => $baseDir . '/app/Models/BlogLike.php',
     'App\\Models\\Contactus' => $baseDir . '/app/Models/Contactus.php',
     'App\\Models\\ContentPage' => $baseDir . '/app/Models/ContentPage.php',
     'App\\Models\\Country' => $baseDir . '/app/Models/Country.php',
@@ -61,6 +65,7 @@ return array(
     'App\\Providers\\BroadcastServiceProvider' => $baseDir . '/app/Providers/BroadcastServiceProvider.php',
     'App\\Providers\\EventServiceProvider' => $baseDir . '/app/Providers/EventServiceProvider.php',
     'App\\Providers\\RouteServiceProvider' => $baseDir . '/app/Providers/RouteServiceProvider.php',
+    'App\\Services\\ImageUploadService' => $baseDir . '/app/Services/ImageUploadService.php',
     'App\\Traits\\ImageUploadTrait' => $baseDir . '/app/Traits/ImageUploadTrait.php',
     'App\\View\\Components\\Admin\\Layout\\Header' => $baseDir . '/app/View/Components/Admin/Layout/Header.php',
     'App\\View\\Components\\Admin\\Layout\\Sidebar' => $baseDir . '/app/View/Components/Admin/Layout/Sidebar.php',
@@ -181,6 +186,7 @@ return array(
     'Database\\Seeders\\DatabaseSeeder' => $baseDir . '/database/seeders/DatabaseSeeder.php',
     'Database\\Seeders\\PermissionSeeder' => $baseDir . '/database/seeders/PermissionSeeder.php',
     'Database\\Seeders\\RoleSeeder' => $baseDir . '/database/seeders/RoleSeeder.php',
+    'Database\\Seeders\\SettingSeeder' => $baseDir . '/database/seeders/SettingSeeder.php',
     'DeepCopy\\DeepCopy' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/DeepCopy.php',
     'DeepCopy\\Exception\\CloneException' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/Exception/CloneException.php',
     'DeepCopy\\Exception\\PropertyException' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/Exception/PropertyException.php',

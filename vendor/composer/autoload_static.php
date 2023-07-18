@@ -528,6 +528,7 @@ class ComposerStaticInit510a03970b3e283a8022cfdd3c58dfbc
     );
 
     public static $classMap = array (
+        'App\\Console\\Commands\\MakeServiceCommand' => __DIR__ . '/../..' . '/app/Console/Commands/MakeServiceCommand.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
@@ -568,6 +569,9 @@ class ComposerStaticInit510a03970b3e283a8022cfdd3c58dfbc
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
         'App\\Models\\AdminLogin' => __DIR__ . '/../..' . '/app/Models/AdminLogin.php',
         'App\\Models\\BannerImage' => __DIR__ . '/../..' . '/app/Models/BannerImage.php',
+        'App\\Models\\Blog' => __DIR__ . '/../..' . '/app/Models/Blog.php',
+        'App\\Models\\BlogCtegory' => __DIR__ . '/../..' . '/app/Models/BlogCtegory.php',
+        'App\\Models\\BlogLike' => __DIR__ . '/../..' . '/app/Models/BlogLike.php',
         'App\\Models\\Contactus' => __DIR__ . '/../..' . '/app/Models/Contactus.php',
         'App\\Models\\ContentPage' => __DIR__ . '/../..' . '/app/Models/ContentPage.php',
         'App\\Models\\Country' => __DIR__ . '/../..' . '/app/Models/Country.php',
@@ -583,6 +587,7 @@ class ComposerStaticInit510a03970b3e283a8022cfdd3c58dfbc
         'App\\Providers\\BroadcastServiceProvider' => __DIR__ . '/../..' . '/app/Providers/BroadcastServiceProvider.php',
         'App\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/app/Providers/EventServiceProvider.php',
         'App\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/app/Providers/RouteServiceProvider.php',
+        'App\\Services\\ImageUploadService' => __DIR__ . '/../..' . '/app/Services/ImageUploadService.php',
         'App\\Traits\\ImageUploadTrait' => __DIR__ . '/../..' . '/app/Traits/ImageUploadTrait.php',
         'App\\View\\Components\\Admin\\Layout\\Header' => __DIR__ . '/../..' . '/app/View/Components/Admin/Layout/Header.php',
         'App\\View\\Components\\Admin\\Layout\\Sidebar' => __DIR__ . '/../..' . '/app/View/Components/Admin/Layout/Sidebar.php',
@@ -703,6 +708,7 @@ class ComposerStaticInit510a03970b3e283a8022cfdd3c58dfbc
         'Database\\Seeders\\DatabaseSeeder' => __DIR__ . '/../..' . '/database/seeders/DatabaseSeeder.php',
         'Database\\Seeders\\PermissionSeeder' => __DIR__ . '/../..' . '/database/seeders/PermissionSeeder.php',
         'Database\\Seeders\\RoleSeeder' => __DIR__ . '/../..' . '/database/seeders/RoleSeeder.php',
+        'Database\\Seeders\\SettingSeeder' => __DIR__ . '/../..' . '/database/seeders/SettingSeeder.php',
         'DeepCopy\\DeepCopy' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/DeepCopy.php',
         'DeepCopy\\Exception\\CloneException' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/Exception/CloneException.php',
         'DeepCopy\\Exception\\PropertyException' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/Exception/PropertyException.php',

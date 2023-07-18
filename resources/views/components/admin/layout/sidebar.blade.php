@@ -80,6 +80,13 @@
             </li>
 
             <li class="lh-0 mb-1">
+                <a href="{{route('admin.blog.category.index')}}" class="d-inline-flex align-items-center gap-1 w-100">
+                    <i class='bx bx-book fs-5'></i>
+                    <span class="lh-normal fs-14 linkTitle">Blog Category</span>
+                </a>
+            </li>
+
+            <li class="lh-0 mb-1">
                 <a href="{{route('admin.blogs.index')}}" class="d-inline-flex align-items-center gap-1 w-100">
                     <i class='bx bx-book fs-5'></i>
                     <span class="lh-normal fs-14 linkTitle">Blogs</span>
