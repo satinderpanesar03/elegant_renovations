@@ -131,6 +131,12 @@
                     <span class="lh-normal fs-14 linkTitle">DB Backup</span>
                 </a>
             </li>
+            <li class="lh-0 mb-1">
+                <a href="{{route('admin.setting.index')}}" class="d-inline-flex align-items-center gap-1 w-100">
+                    <i class='bx bx-cloud-upload fs-5'></i>
+                    <span class="lh-normal fs-14 linkTitle">Settings</span>
+                </a>
+            </li>
         </ul>
     </div>
 </aside>

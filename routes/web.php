@@ -8,6 +8,7 @@ use App\Http\Controllers\admin\ContactUsController;
 use App\Http\Controllers\admin\ContentPageController;
 use App\Http\Controllers\admin\DashboardController;
 use App\Http\Controllers\admin\DbBackupController;
+use App\Http\Controllers\admin\SettingController;
 use App\Http\Controllers\admin\LoginController;
 use App\Http\Controllers\admin\ProductController;
 use App\Http\Controllers\admin\ProfileController;
@@ -61,6 +62,11 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
 
         Route::controller(AdminBlogController::class)->group(function () {
             Route::get('blog', 'index')->name('blogs.index');
+        });
+
+        Route::controller(SettingController::class)->group(function () {
+            Route::get('setting', 'index')->name('setting.index');
+            Route::post('setting-store', 'store')->name('setting.store');
         });
 
         Route::post('product-visibility', [ProductController::class, 'visibility'])->name('product.visibility');
@@ -120,10 +126,6 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
             Route::get('database-download', 'createDownload')->name('db.backup.download');
 
         });
-
-        Route::view('notification', 'admin/notification');
-        // Content List Module
-        Route::view('commission', 'admin/content-list/commission');
     });
 });
 Route::get('/access-denied', function (){

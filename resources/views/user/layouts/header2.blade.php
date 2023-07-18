@@ -1,3 +1,7 @@
+@php
+use App\Models\Setting;
+$setting = Setting::first();
+@endphp
 <!DOCTYPE html>
 <html lang="en">
 
@@ -139,9 +143,10 @@
                 <div class="blog-post-page col-lg-3 col-md-12 col-sm-12">
                     <div class="blog-post-page contact-us">
                         <h6 class="blog-post-page ff-other">Contact Us</h6>
-                        <div>455 West Orchard Street Kings Mountain, NC 28086</div>
-                        <div>Phone: (272) 211-7370</div>
-                        <div>E-Mail: support@yourbrand.com</div>
+                        <div>{{$setting->address}}</div>
+                        <div>
+                            Phone: ({{$setting->country_code}}) {{$setting->phone_number}}</div>
+                        <div>E-Mail: {{$setting->email}}</div>
                     </div>
 
                 </div>

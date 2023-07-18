@@ -1,3 +1,7 @@
+@php
+use App\Models\Setting;
+$setting = Setting::first();
+@endphp
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,20 +12,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-        
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
     integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
     integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="{{asset('css/master-style.css')}}">
 
     <script src="https://kit.fontawesome.com/cc528d7a8e.js" crossorigin="anonymous"></script>
-    
+
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/cc528d7a8e.js" crossorigin="anonymous"></script>
@@ -91,7 +95,7 @@
                     </div>
                 </div>
             </nav>
-            
+
         </header>
         <!-- header ends here -->
 
@@ -146,9 +150,10 @@
                     <div class="col-lg-3 col-md-12 col-sm-12">
                         <div class="contact-us">
                             <h6 class="ff-other">Contact Us</h6>
-                            <div>455 West Orchard Street Kings Mountain, NC 28086</div>
-                            <div>Phone: (272) 211-7370</div>
-                            <div>E-Mail: support@yourbrand.com</div>
+                            <div>{{$setting->address}}</div>
+                            <div>
+                                Phone: ({{$setting->country_code}}) {{$setting->phone_number}}</div>
+                            <div>E-Mail: {{$setting->email}}</div>
                         </div>
 
                     </div>
