@@ -40,9 +40,9 @@ class BlogCtaegoryController extends Controller
         }
     }
 
-    public function update(Request $request, $id)
+    public function update(Request $request)
     {
-        $item=BlogCtegory::find($id);
+        $item=BlogCtegory::find($request->id);
 
         if(!$item){
             return response()->json([
@@ -54,9 +54,9 @@ class BlogCtaegoryController extends Controller
         if($request->category){
             $input["category"]=$request->category;
         }
-        $status=BlogCtegory::find($id)->update($input);
+        $status=BlogCtegory::find($request->id)->update($input);
         if($status){
-            return redirect('admin/blog-categories');
+            return redirect()->route('admin.blog.category.index')->with('success', 'Category Successfully added');
         }
 
         return view('admin.blog_category.edit',compact('item'));
