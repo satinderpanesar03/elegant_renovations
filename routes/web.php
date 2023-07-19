@@ -72,6 +72,10 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
 
         Route::controller(BlogCtaegoryController::class)->group(function () {
             Route::get('blog-category', 'index')->name('blog.category.index');
+            Route::get('blog-category-add', 'create')->name('blog.category.create');
+            Route::post('blog-category-store', 'store')->name('blog.category.store');
+            Route::get('blog-category-edit/{id}', 'edit')->name('blog.category.edit');
+            Route::get('blog-category-update', 'update')->name('blog.category.update');
         });
 
         Route::post('product-visibility', [ProductController::class, 'visibility'])->name('product.visibility');
