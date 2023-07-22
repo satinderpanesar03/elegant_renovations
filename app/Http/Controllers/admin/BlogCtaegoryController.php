@@ -81,4 +81,12 @@ class BlogCtaegoryController extends Controller
         }
     }
 
+    public function delete($id){
+        $category = BlogCtegory::find($id);
+
+        $category->delete();
+        return redirect()->route('admin.blog.category.index')->with('success', 'Category Successfully deleted');
+
+    }
+
 }

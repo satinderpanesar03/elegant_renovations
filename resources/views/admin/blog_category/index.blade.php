@@ -64,7 +64,12 @@
                                         Edit
                                     </a>
 
-                                    <a id="Delete-{{$item->id}}" class="text-danger pointer p-1" data-toggle="tooltip" title="Delete">
+                                    <a href="{{route('admin.blog.category.delete', $item->id)}}" class="text-danger pointer p-1" data-toggle="tooltip" title="Delete">
+                                        {{-- <i data-feather="edit"></i> --}}
+                                        Delete
+                                    </a>
+
+                                    <!-- <a id="Delete-{{$item->id}}" class="text-danger pointer p-1" data-toggle="tooltip" title="Delete">
                                         {{-- <i data-feather="trash-2"></i> --}}
                                         Delete
                                     </a>
@@ -99,7 +104,7 @@
                                                 }
                                             });
                                         });
-                                    </script>
+                                    </script> -->
                                 </td>
                             </tr>
                         @endforeach

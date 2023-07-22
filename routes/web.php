@@ -63,6 +63,10 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
 
         Route::controller(AdminBlogController::class)->group(function () {
             Route::get('blog', 'index')->name('blogs.index');
+            Route::get('blog-create', 'create')->name('blogs.create');
+            Route::post('blog-store', 'store')->name('blogs.store');
+            Route::get('blog-edit/{id}', 'edit')->name('blogs.edit');
+            Route::post('blog-update', 'update')->name('blogs.update');
         });
 
         Route::controller(SettingController::class)->group(function () {
@@ -76,6 +80,7 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
             Route::post('blog-category-store', 'store')->name('blog.category.store');
             Route::get('blog-category-edit/{id}', 'edit')->name('blog.category.edit');
             Route::post('blog-category-update', 'update')->name('blog.category.update');
+            Route::get('blog-category-delete/{id}', 'delete')->name('blog.category.delete');
         });
 
         Route::post('product-visibility', [ProductController::class, 'visibility'])->name('product.visibility');
