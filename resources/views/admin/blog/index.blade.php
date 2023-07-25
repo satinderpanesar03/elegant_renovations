@@ -19,7 +19,7 @@
 
                         <div class="table-responsive">
                             <div class="dt-ext table-responsive">
-                                <table class="display" id="basic-2">
+                                <table class="display table" id="basic-2" style="width: 100%;max-width: 100%;">
                                     <thead>
                                         <tr>
                                             <th class="all">#</th>
@@ -42,11 +42,11 @@
                                                         <i data-feather="eye"></i>
                                                     </a>
                                                     <a href="{{ route('admin.blogs.edit', $item->id) }}"
-                                                        class="text-warning p-1" data-toggle="tooltip" title="Edit">
+                                                        class="btn btn-warning p-1" data-toggle="tooltip" title="Edit">
                                                        Edit
                                                     </a>
 
-                                                    <a id="Delete-{{ $item->id }}" class="text-danger pointer p-1"
+                                                    <a id="Delete-{{ $item->id }}" class="btn btn-danger pointer p-1"
                                                         data-toggle="tooltip" title="Delete">
                                                         Delete
                                                     </a>

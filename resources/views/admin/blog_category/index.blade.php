@@ -59,12 +59,12 @@
                                 <td>{{$item->category }}</td>
                                 <td>{{ date('d-m-Y',strtotime($item->created_at)) ?? ''}}</td>
                                 <td>
-                                    <a href="{{route('admin.blog.category.edit', $item->id)}}" class="text-warning p-1" data-toggle="tooltip" title="Edit">
+                                    <a href="{{route('admin.blog.category.edit', $item->id)}}" class="btn btn-warning p-1" data-toggle="tooltip" title="Edit">
                                         {{-- <i data-feather="edit"></i> --}}
                                         Edit
                                     </a>
 
-                                    <a href="{{route('admin.blog.category.delete', $item->id)}}" class="text-danger pointer p-1" data-toggle="tooltip" title="Delete">
+                                    <a href="{{route('admin.blog.category.delete', $item->id)}}" class="btn btn-danger pointer p-1" data-toggle="tooltip" title="Delete">
                                         {{-- <i data-feather="edit"></i> --}}
                                         Delete
                                     </a>

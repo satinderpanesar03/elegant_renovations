@@ -7,7 +7,7 @@
         <li>
             <div class="dropdown">
                 <button class="reset-btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <img src="#" alt="avaatar" class="small-image" />
+                    <img src="{{asset('storage/thumbnail/'.$user->image)}}" alt="avaatar" class="small-image" />
                 </button>
                 <ul class="dropdown-menu py-3">
                     <li><a class="reset-btn px-3 pb-2 w-100 d-inline-block" href="{{ route('admin.profile') }}">Profile</a></li>

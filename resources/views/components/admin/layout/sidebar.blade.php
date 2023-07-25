@@ -1,12 +1,12 @@
 <aside class="sidebar">
     <!-- Logo  -->
-    <div class="logo-wrapper mb-4">
-        <a href="/admin/dashboard"><img src="{{asset('images/logo.png')}}" alt="logo" class="d-md-inline d-none" /></a>
+    <div class="logo-wrapper mb-4 d-flex justify-content-center">
+        <a href="/admin/dashboard"><img src="{{asset('user/images/brand-logo.png')}}" alt="logo" class="d-md-inline d-none" style="height: 70px;"  /></a>
         <a href="/admin/dashboard"><img src="{{asset('images/small-logo.png')}}" alt="logo" class="d-inline d-md-none"></a>
     </div>
     <!-- user detail  -->
     <div class="user-detail-wrapper p-md-2 d-flex gap-3 align-items-center mb-4">
-        <img src="" alt="avaatar" class="profile-image" />
+        <img src="{{asset('storage/thumbnail/'.$user->image)}}" alt="avaatar" class="profile-image" />
         <div class="user-detail-text linkTitle">
             <h6 class="m-0 mb-1 fs-14 fw-semibold">{{$user->name}}</h6>
             <p class="text-light-grey m-0 fs-14 fw-normal">Admin</p>
