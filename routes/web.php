@@ -67,6 +67,7 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
             Route::post('blog-store', 'store')->name('blogs.store');
             Route::get('blog-edit/{id}', 'edit')->name('blogs.edit');
             Route::post('blog-update', 'update')->name('blogs.update');
+            Route::get('blog-publish/{id}', 'publish')->name('blogs.publish');
         });
 
         Route::controller(SettingController::class)->group(function () {

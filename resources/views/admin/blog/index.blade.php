@@ -50,6 +50,17 @@
                                                         data-toggle="tooltip" title="Delete">
                                                         Delete
                                                     </a>
+
+                                                    <a href="{{ route('admin.blogs.publish', $item->id) }}"
+                                                        class="btn btn-success p-1" data-toggle="tooltip" title="Publish">
+                                                       @if ($item->status == 'Published')
+                                                            Published
+                                                            @else
+                                                            Publish
+                                                       @endif
+                                                    </a>
+
+
                                                     <script>
                                                         $('#Delete-{{ $item->id }}').click(function() {
                                                             console.log("hello");

@@ -114,6 +114,12 @@ class BlogController extends Controller
         return view('admin.blog.edit',compact('item'));
     }
 
+    public function publish($id){
+        $blog = Blog::find($id);
 
+        $blog->update(['status' => 'Published']);
+
+        return redirect()->route('admin.blogs.index')->with('success', 'Blog successfully published');
+    }
 
 }
