@@ -162,6 +162,7 @@ Route::group(['as' => 'user.'], function() {
 
     Route::controller(BlogController::class)->group(function(){
         Route::get('/blogs', 'index')->name('blogs.index');
+        Route::get('/blog-detail/{id}', 'blogDetail')->name('blog.detail.index');
     });
 
     Route::controller(AboutUsController::class)->group(function(){

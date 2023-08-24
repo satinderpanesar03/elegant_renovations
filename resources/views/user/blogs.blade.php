@@ -25,7 +25,7 @@
                 </div>
                 <div class="blog-post-page card-footer text-center text-orange bg-transparent pt-0 border-bottom-0">
 
-                  <p class="blog-post-page fs-20 mt-3 text-orange ">Read more &nbsp;&nbsp;&nbsp;<i class="blog-post-page fa fa-arrow-right fs-18"></i></p>
+                 <a href="{{route('user.blog.detail.index', $blog->id)}}"> <p class="blog-post-page fs-20 mt-3 text-orange ">Read more &nbsp;&nbsp;&nbsp;<i class="blog-post-page fa fa-arrow-right fs-18"></i></p></a>
 
                 </div>
               </div>

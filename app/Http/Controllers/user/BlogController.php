@@ -13,9 +13,9 @@ class BlogController extends Controller
         return view('user.blogs', compact('blogs'));
     }
 
-    public function show($id){
+    public function blogDetail($id){
         $blog = Blog::with('category')->find($id);
-        return view('user.blogs', compact('blog'));
+        return view('user.blog-detail', compact('blog'));
     }
 
 }
