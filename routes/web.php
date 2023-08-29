@@ -154,7 +154,7 @@ Route::get('images/{filename}', [CommonController::class,'show_image'])->name('i
 
 
 //user routes
-Route::middleware('track_visitor')->group(['as' => 'user.'], function() {
+Route::group(['as' => 'user.'], function() {
 
     Route::controller(HomeController::class)->group(function(){
         Route::get('/', 'homePage');
@@ -195,4 +195,4 @@ Route::middleware('track_visitor')->group(['as' => 'user.'], function() {
         Route::post('contact-us-store', 'store')->name('contact.us.store');
     });
 
-});
+})->middleware('track_visitor');
