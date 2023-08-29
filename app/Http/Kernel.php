@@ -21,7 +21,7 @@ class Kernel extends HttpKernel
         \Illuminate\Foundation\Http\Middleware\ValidatePostSize::class,
         \App\Http\Middleware\TrimStrings::class,
         \Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull::class,
-        \App\Http\Middleware\TrackVisitor::class,
+//        \App\Http\Middleware\TrackVisitor::class,
     ];
 
     /**
@@ -65,6 +65,7 @@ class Kernel extends HttpKernel
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
         'verified' => \Illuminate\Auth\Middleware\EnsureEmailIsVerified::class,
         'isLogin' => \App\Http\Middleware\LoginCheck::class,
+        'track_visitor' => \App\Http\Middleware\TrackVisitor::class,
         'ensure_permission'=> \App\Http\Middleware\EnsurePermission::class,
     ];
 }

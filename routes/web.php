@@ -154,7 +154,7 @@ Route::get('images/{filename}', [CommonController::class,'show_image'])->name('i
 
 
 //user routes
-Route::group(['as' => 'user.'], function() {
+Route::middleware('track_visitor')->group(['as' => 'user.'], function() {
 
     Route::controller(HomeController::class)->group(function(){
         Route::get('/', 'homePage');
