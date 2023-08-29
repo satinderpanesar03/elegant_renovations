@@ -8,8 +8,8 @@ use Illuminate\Http\Request;
 class RenovationController extends Controller
 {
     public function KrCalgary(){
-        $heading = '<h2 class="fs-70 fw-700"> <span class="text-white">Kitchen Renovation </span><br><span class="text-orange">
-        Experts in Calgary</span></h2>';
+        $heading = '<h2 class="fs-70 fw-700"> <span class="text-white">Reimagine Your Kitchen Space </span><br><span class="text-orange">
+       Calgarys Premier  </span></h2>';
         return view('user.renovation', compact('heading'));
     }
 

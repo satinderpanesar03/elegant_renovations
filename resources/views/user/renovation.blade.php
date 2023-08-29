@@ -10,7 +10,7 @@
                     <div class="Kitchen-Renovation-And-Design-Vancouver-center px-1">
 
                         <div class="text-center">
-                            <h5 class="text-white m-0 py-2 fs-20">Designer Kitchen - Delivered On Time - Within Budget</h5>
+                            <h5 class="text-white m-0 py-2 fs-20">Elevate Your Kitchen - On-Time, In-Budget</h5>
                         </div>
                         <div class="text-center ">
                             {!! $heading !!}
@@ -26,7 +26,7 @@
                     </div>
 
                 </div>
-            </div>   
+            </div>
             <div class="header-background-section-for-kitchen-renovation-experts-in-calgary"></div>
 
         </div>
@@ -192,7 +192,7 @@
                             Technical skills <br>
                             Understanding human behavior <br>
                             Kitchen
-                            
+
                         </p>
                         <div class="m-0 p-0 mb-sm-4 mb-xs-4 pb-sm-4 pb-xs-4">
                             <p class="line-height-1-7 fw-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis risus et nunc
@@ -236,7 +236,7 @@
                                         Pellentesque quis risus et
                                         nunc cursus
                                         eleifend. </li>
-                                 
+
                                     <li class="mb-4 line-height-1-7 fw-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
 
                                 </ul>
