@@ -42,10 +42,10 @@ document.querySelectorAll('.dropdown-toggle').forEach(item => {
         $(document).off("show.bs.dropdown", ".dropdown");
         $('.dropdown').hover(
           function() {
-            $(this).find('.dropdown-menu').slideDown(9800);
+            $(this).find('.dropdown-menu').slideDown(100);
           },
           function() {
-            $(this).find('.dropdown-menu').slideUp(9800);
+            $(this).find('.dropdown-menu').slideUp(100);
           }
         );
       }
