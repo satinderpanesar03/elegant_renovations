@@ -57,7 +57,7 @@ $setting = Setting::first();
                     <div class="navbar-items collapse navbar-collapse" id="collapsibleNavbar">
                         <div>
                             <ul class="navbar-nav">
-                                <li class="nav-item dropdown">
+                                <li class="nav-item dropdown mx-3">
                                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Kitchen Renovation</a>
                                     <ul class="dropdown-menu">
                                         <li><a class="dropdown-item" href="{{route('user.kitchen.renovation.calgary')}}">Kitchen Renovation Calgary</a></li>
