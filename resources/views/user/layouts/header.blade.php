@@ -50,7 +50,10 @@ $setting = Setting::first();
         <header>
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
-                    <img class="brand-logo navbar-brand" src="{{asset('user/images/brand-logo.png')}}" />
+                    <a href="/">
+                        <img class="brand-logo navbar-brand" src="{{asset('user/images/brand-logo.png')}}" />
+                    </a>
+
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
