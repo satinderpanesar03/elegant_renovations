@@ -9,9 +9,9 @@
 <div class="header-content-wrapper">
                 <div class="header-content">
                     <div class="header-content-detail">
-                        <p>Reliable and Accredited Kitchen Transformation Firm</p>
-                        <h2>Masterful Kitchen  <span>Remodelers</span></h2>
-                        <p class="header-content-desc"> Exquisite Kitchen Concepts - Punctual Completion - Budget Adherence</p>
+                        <p>Reliable and Accredited Home Renovation Firm</p>
+                        <h2>Masterful Home  <span>Renovators</span></h2>
+                        <p class="header-content-desc"> Exquisite Home Concepts - Punctual Completion - Budget Adherence</p>
                     </div>
                     <div class="header-content-buttons">
                         <button>Get a Quote</button>
