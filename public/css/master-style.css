@@ -1144,7 +1144,7 @@
   }
 
   .reflect-your-sense-of-style-section-content .Kitchen-Design-img-1 {
-    background: url("../user/images/Kitchen-Design-1.png");
+    background: url("../user/images/kithen1.webp");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -1153,7 +1153,7 @@
   }
 
   .reflect-your-sense-of-style-section-content .Kitchen-Design-img-2 {
-    background: url("../user/images/Kitchen-Design-2.png");
+    background: url("../user/images/kithen2.webp");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -1162,7 +1162,7 @@
   }
 
   .reflect-your-sense-of-style-section-content .Kitchen-Design-img-3 {
-    background: url("../user/images/Kitchen-Design-3.png");
+    background: url("../user/images/kithen3.webp");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -1170,7 +1170,7 @@
   }
 
   .reflect-your-sense-of-style-section-content .Kitchen-Design-img-4 {
-    background: url("../user/images/Kitchen-Design-4.png");
+    background: url("../user/images/kithen4.webp");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -1280,7 +1280,7 @@
   }
 
   .why-choose-us-section-content-images {
-    background: url("../user/images/Kitchen-Design-5.png");
+    background: url("../user/images/interior_green_area.webp");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -1661,14 +1661,14 @@
   }
 
   .gallery-section-content-left-img-1 {
-    background: url("../user/images/Kitchen-Design-12.png");
+    background: url("../user/images/g_home_1_kitchen.webp");
     height: 30rem;
     position: relative;
     top: 3rem;
   }
 
   .gallery-section-content-left-img-2 {
-    background: url("../user/images/Kitchen-Design-11.png");
+    background: url("../user/images/g_home_1_kitchen.webp");
     left: 1rem;
     position: relative;
     top: -28rem;
@@ -1677,7 +1677,7 @@
   }
 
   .gallery-section-content-left-img-3 {
-    background: url("../user/images/Kitchen-Design-10.png");
+    background: url("../user/images/g_home_1_kitchen.webp");
     position: relative;
     top: -61rem;
     left: 2rem;
@@ -1713,19 +1713,19 @@
   }
 
   .gallery-section-content-right-img .img-1 {
-    background: url("../user/images/Kitchen-Design-11.png");
+    background: url("../user/images/homeg1_ga.jpeg");
   }
 
   .gallery-section-content-right-img .img-2 {
-    background: url("../user/images/Kitchen-Design-12.png");
+    background: url("../user/images/homeg2_ga.jpeg");
   }
 
   .gallery-section-content-right-img .img-3 {
-    background: url("../user/images/Kitchen-Design-13.png");
+    background: url("../user/images/homeg3_ga.jpeg");
   }
 
   .gallery-section-content-right-img .img-4 {
-    background: url("../user/images/Kitchen-Design-14.png");
+    background: url("../user/images/homeg4_ga.jpeg");
   }
 
   .gallery-section.gallery,
