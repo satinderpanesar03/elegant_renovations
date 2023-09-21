@@ -50,14 +50,14 @@ $setting = Setting::first();
     <meta property="og:url" content="https://amkahomes.ca/" />
     <meta property="og:title" content="AMKA Homes - Transform Your Home Into A Dream Home" />
     <meta property="og:description" content="Expertise and craftsmanship for all your home renovation and remodeling needs, bringing lifestyle to your living spaces." />
-    <meta property="og:image" content="{{asset('user/images/meta_tag.jpeg')}}"  />
+    <meta property="og:image" content="{{asset('user/images/meta_head_amka.png')}}"  />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://amkahomes.ca/" />
     <meta property="twitter:title" content="AMKA Homes - Transform Your Home Into A Dream Home" />
     <meta property="twitter:description" content="Expertise and craftsmanship for all your home renovation and remodeling needs, bringing lifestyle to your living spaces." />
-    <meta property="twitter:image" content="{{asset('user/images/meta_tag.jpeg')}}" />
+    <meta property="twitter:image" content="{{asset('user/images/meta_head_amka.png')}}" />
 
     <!-- Meta Tags Generated with https://metatags.io -->
 
