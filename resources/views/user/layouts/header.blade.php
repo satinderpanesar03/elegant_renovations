@@ -40,7 +40,27 @@ $setting = Setting::first();
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
     integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <title>Elegant Renovation</title>
+    <!-- Primary Meta Tags -->
+    <title>AMKA Homes - Transform Your Home Into A Dream Home</title>
+    <meta name="title" content="AMKA Homes - Transform Your Home Into A Dream Home" />
+    <meta name="description" content="Expertise and craftsmanship for all your home renovation and remodeling needs, bringing lifestyle to your living spaces." />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://amkahomes.ca/" />
+    <meta property="og:title" content="AMKA Homes - Transform Your Home Into A Dream Home" />
+    <meta property="og:description" content="Expertise and craftsmanship for all your home renovation and remodeling needs, bringing lifestyle to your living spaces." />
+    <meta property="og:image" content="{{asset('user/images/meta-tags.jpg')}}"  />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://amkahomes.ca/" />
+    <meta property="twitter:title" content="AMKA Homes - Transform Your Home Into A Dream Home" />
+    <meta property="twitter:description" content="Expertise and craftsmanship for all your home renovation and remodeling needs, bringing lifestyle to your living spaces." />
+    <meta property="twitter:image" content="{{asset('user/images/meta-tags.jpg')}}" />
+
+    <!-- Meta Tags Generated with https://metatags.io -->
+
     @stack('head')
 </head>
 
