@@ -112,6 +112,9 @@ $setting = Setting::first();
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{route('user.blogs.index')}}     ">Blogs</a>
                                 </li>
+                                <li class="nav-item mobile-display">
+                                    <a class="nav-link" href="{{route('user.contact.us')}}     ">Contact us</a>
+                                </li>
                             </ul>
                         </div>
                          <button class="desktop-display"> <a class="text-decoration-none text-white " href="{{route('user.contact.us')}}"  >Contact Us</a></button>
