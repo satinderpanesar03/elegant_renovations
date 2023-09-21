@@ -71,7 +71,7 @@ $setting = Setting::first();
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
                     <a href="/">
-                        <img class="brand-logo navbar-brand" src="{{asset('user/images/amka_svg_logo.svg')}}" style="zoom: 1.05;" />
+                        <img class="brand-logo navbar-brand" src="{{asset('user/images/amka_svg_logo.svg')}}" style="scale: 1.3;" />
                     </a>
 
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
