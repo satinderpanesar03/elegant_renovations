@@ -924,7 +924,15 @@
     border: none;
     border-radius: 8px;
   }
-
+ .button-primary {
+    padding: 1.4% 4%;
+    font-size: 18px;
+     height: 60px;
+    background-color: var(--btn-color);
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
   .dropdown-menu {
     border: none !important;
   }

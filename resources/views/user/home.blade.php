@@ -10,12 +10,12 @@
                 <div class="header-content">
                     <div class="header-content-detail">
                         <p>Reliable and Accredited Home Renovation Firm</p>
-                        <h2>Masterful Home  <span>Renovators</span></h2>
-                        <p class="header-content-desc"> Exquisite Home Concepts - Punctual Completion - Budget Adherence</p>
+                        <h2>Transform Your Home Into A Dream Home With  <span>AMKA Homes</span></h2>
+                        <p class="header-content-desc">  Expertise and craftsmanship for all your home renovation and remodeling needs, bringing lifestyle to your living spaces.</p>
                     </div>
                     <div class="header-content-buttons">
-                        <button>Get a Quote</button>
-                        <button>Explore More</button>
+                        <button>  <a href="{{route('user.contact.us')}}" class="text-decoration-none text-white" > Get a Quote </a></button>
+                        <button>  <a href="{{route('user.aboutus.index')}}" class="text-decoration-none text-white" > About us </a></button>
                     </div>
                 </div>
             </div>
@@ -63,7 +63,7 @@
                         </div>
                     </div>
                     <div class="desc-btn-wrapper">
-                        <button class="">Get a Quote</button>
+                       <button >  <a href="{{route('user.contact.us')}}" class="text-decoration-none text-white"    >Get a Quote</a></button>
                     </div>
                 </div>
             </div>
