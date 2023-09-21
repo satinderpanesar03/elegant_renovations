@@ -80,7 +80,7 @@ $setting = Setting::first();
                     <div class="navbar-items collapse navbar-collapse" id="collapsibleNavbar">
                         <div>
                             <ul class="navbar-nav">
-                                <li class="nav-item dropdown mx-3">
+                                <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Kitchen Renovation</a>
                                     <ul class="dropdown-menu">
                                         <li><a class="dropdown-item" href="{{route('user.kitchen.renovation.calgary')}}">Kitchen Renovation Calgary</a></li>
@@ -114,7 +114,7 @@ $setting = Setting::first();
                                 </li>
                             </ul>
                         </div>
-                        <a class="btn btn-warning" href="{{route('user.contact.us')}}" class="">Contact Us</a>
+                         <button class="desktop-display"> <a class="text-decoration-none text-white " href="{{route('user.contact.us')}}"  >Contact Us</a></button>
                     </div>
                 </div>
             </nav>

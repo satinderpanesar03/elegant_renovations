@@ -3975,3 +3975,33 @@
     }
 
 
+
+
+/* Desktop Styles (for screens with a minimum width of 768px) */
+@media (min-width: 768px) {
+
+    .mobile-display{
+        display: none ;
+    }
+    .desktop-display{
+        display: block ;
+    }
+    /* Add more desktop-specific styles here */
+}
+
+/* Mobile Styles (for screens with a maximum width of 767px) */
+@media (max-width: 768px) {
+    .heading_hompage{
+        font-size: 16px;
+    }
+
+    .mobile-display{
+        display: block;
+    }
+    .desktop-display{
+        display: none;
+    }
+
+
+    /* Add more mobile-specific styles here */
+}

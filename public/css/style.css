@@ -245,20 +245,3 @@
 }
 
 
-
-
-/* Desktop Styles (for screens with a minimum width of 768px) */
-@media (min-width: 768px) {
-
-    /* Add more desktop-specific styles here */
-}
-
-/* Mobile Styles (for screens with a maximum width of 767px) */
-@media (max-width: 768px) {
-    .heading_hompage{
-        font-size: 16px;
-    }
-
-
-    /* Add more mobile-specific styles here */
-}
