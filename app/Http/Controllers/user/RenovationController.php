@@ -20,8 +20,8 @@ class RenovationController extends Controller
     }
 
     public function KrVancouver(){
-        $heading = '<h2 class="fs-70 fw-700"> <span class="text-white">Kitchen Renovation </span><br><span class="text-orange">
-        Experts in Vancouver</span></h2>';
+        $heading = '<h2 class="fs-70 fw-700"> <span class="text-white">Vancouver</span><br><span class="text-orange">
+         Dream Builder</span></h2>';
        return view('user.renovation', compact('heading'));
     }
 

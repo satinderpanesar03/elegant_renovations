@@ -1,6 +1,6 @@
 <div class="reflect-your-sense-of-style-section-wrapper">
     <div class="reflect-your-sense-of-style-section-heading">
-        <h2> Capture Your Unique Style and Transform Your Kitchen Dreams into Tangible Reality</h2>
+        <h2> Capture Your Unique Style and Transform Your Dreams into Tangible Reality</h2>
         <div class="below-heading-line"></div>
     </div>
     <div class="reflect-your-sense-of-style-section-content">

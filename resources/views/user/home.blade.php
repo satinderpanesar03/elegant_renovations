@@ -35,8 +35,6 @@
         @endsection
         <!-- footer start here -->
 
-        <!-- footer end here -->
-
 @push('head')
 <script src="{{asset('js/master.js')}}"></script>
 @endpush
