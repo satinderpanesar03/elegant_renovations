@@ -990,7 +990,7 @@
   }
 
   .building-servives-calgary-header-content-wrapper {
-    background: url("../user/images/building-services-in-calgary.jpg");
+    background: url("../user/images/building/b1.jpg");
     height: 46rem;
     background-repeat: no-repeat;
     background-position: center center;
@@ -1304,6 +1304,19 @@
     width: 42%;
     border-radius: 12px;
   }
+
+
+
+.why-choose-us-section-content-images-builder-choose {
+    background: url("../user/images/building/woman_building.webp");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 38rem;
+    width: 42%;
+    border-radius: 12px;
+}
+
 
 
 .why-choose-us-section-content-floor-images {

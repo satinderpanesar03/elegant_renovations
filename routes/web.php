@@ -190,13 +190,13 @@ Route::group(['as' => 'user.'], function() {
     Route::controller(RenovationController::class)->group(function(){
         Route::get('/kitchen-renovation-calgary', 'KrCalgary')->name('kitchen.renovation.calgary');
         Route::get('/kitchen-renovation-edmonton', 'KrEdmonton')->name('kitchen.renovation.edmonton');
-        Route::get('/kitchen-renovation-vancouver', 'KrVancouver')->name('kitchen.renovation.vancouver');
+        Route::get('/homes-renovation-vancouver', 'KrVancouver')->name('kitchen.renovation.vancouver');
         Route::get('/kitchen-designer', 'kitchenDesign')->name('kitchen.designer');
     });
 
     Route::controller(ServiceController::class)->group(function() {
         Route::get('/flooring-installation', 'flooring')->name('flooring.installation');
-        Route::get('/building-services-in-calgary', 'buildingServices')->name('building.services');
+        Route::get('/building-services-in-vancouver', 'buildingServices')->name('building.services');
         Route::get('/basement-renovation-and-development', 'basementRenovation')->name('basement.renovation');
     });
 

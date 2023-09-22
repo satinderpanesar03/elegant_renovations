@@ -18,11 +18,18 @@
                                 Flooring Installation</span></h2>
                         </div>
                         <div class="text-center mt-5">
-                            <button type="button" class="btn btn-orange text-white header-button-style mx-1 mb-2 border-radius-12px">Get Free
+                            <button type="button" class="btn btn-orange text-white header-button-style mx-1 mb-2 border-radius-12px">
+                                <a href="{{route('user.contact.us')}}" class="text-decoration-none text-white">
+                                Get Free
                                 Estimate
-                                Now</button>
+                                Now
+                                </a>
+                            </button>
                             <button type="button" class="btn btn-outline-light text-white header-button-style mx-1 mb-2 border-radius-12px">Call:
-                                (003) 014-1024
+                                <a href="tel:+16047860949">
+                                    Call:
+                                    +1 604-786-0949
+                                </a>
                             </button>
                         </div>
                     </div>
@@ -111,6 +118,18 @@
                         <p> Subfloor Options: Discuss subfloor options, such as leveling or moisture barriers, if necessary.</p>
                     </div>
 
+                    <div class="our-process-section-content-list-item">
+                        <img src="{{asset('user/images/our-process-list-icon.png')}}" alt="">
+                        <p>   Scheduling: Allow customers to choose a convenient installation date and time.</p>
+                    </div>
+                    <div class="our-process-section-content-list-item">
+                        <img src="{{asset('user/images/our-process-list-icon.png')}}" alt="">
+                        <p> Installation Type: Offer options like nail-down, glue-down, or floating installation methods, based on the chosen flooring material.</p>
+                    </div>
+
+
+
+                    Timeline: Communicate the estimated installation timeline, and ensure customers know what to expect in terms of disruption and access to the space.
 
 
 
