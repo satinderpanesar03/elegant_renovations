@@ -3,26 +3,21 @@
         <h2>Latest Blog Posts</h2>
         <div class="below-heading-line"></div>
     </div>
+
     <div class="latest-blog-posts-section-content">
         <div class="latest-blog-posts-section-content-cards">
+            @foreach ($blogs as $blog)
             <div class="card-1 card">
-                <div class="img"></div>
-                <span>APR 09</span>
-                <p>Chief clubhouse for female excecutives opens in Manhattan</p>
+                <div class="img" style="background: url({{asset('storage/'.$blog->image)}})"></div>
+                <span>{{$blog->title}}</span>
+                <p>{{$blog->title}}</p>
             </div>
-            <div class="card-2 card">
-                <div class="img"></div>
-                <span>APR 09</span>
-                <p>Chief clubhouse for female excecutives opens in Manhattan</p>
-            </div>
-            <div class="card-3 card">
-                <div class="img"></div>
-                <span>APR 09</span>
-                <p>Chief clubhouse for female excecutives opens in Manhattan</p>
-            </div>
+            @endforeach
+
+
         </div>
         <div class="latest-blog-posts-section-content-btn">
-            <button>View more</button>
+            <button><a href="{{route('user.blogs.index')}}" class="text-decoration-none text-dark">View more</a></button>
         </div>
     </div>
 </div>

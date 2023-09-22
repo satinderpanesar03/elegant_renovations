@@ -1901,7 +1901,7 @@
     border-radius: 12px;
   }
 
-  .latest-blog-posts-section-content-cards .card-1 .img {
+  /* .latest-blog-posts-section-content-cards .card-1 .img {
     background: url("../user/images/Kitchen-Design-15.png");
   }
 
@@ -1911,7 +1911,7 @@
 
   .latest-blog-posts-section-content-cards .card-3 .img {
     background: url("../user/images/Kitchen-Design-17.png");
-  }
+  } */
 
   .latest-blog-posts-section-content-cards .card p {
     margin: 0;

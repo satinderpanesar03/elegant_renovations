@@ -23,6 +23,7 @@ use App\Http\Controllers\user\RenovationController;
 use App\Http\Controllers\user\ServiceController;
 use App\Http\Controllers\admin\BlogController as AdminBlogController;
 use App\Http\Controllers\admin\BlogCtaegoryController;
+use App\Http\Controllers\admin\TestimonialController;
 use App\Http\Controllers\user\ContactUsController as UserContactUsController;
 use App\Models\Permission;
 use Illuminate\Support\Facades\Route;
@@ -49,6 +50,15 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
         Route::controller(ProfileController::class)->group(function () {
             Route::get('profile', 'profile')->name('profile');
             Route::post('profile', 'updateProfile')->name('update.profile');
+        });
+
+        Route::controller(TestimonialController::class)->group(function () {
+            Route::get('testimonial', 'index')->name('testimonial.index');
+            Route::get('testimonial-create', 'create')->name('testimonial.create');
+            Route::post('testimonial-store', 'store')->name('testimonial.store');
+            Route::get('testimonial-show/{id}', 'show')->name('testimonial.show');
+            Route::post('testimonial-update', 'update')->name('testimonial.update');
+            Route::get('testimonial/{id}', 'delete')->name('testimonial.delete');
         });
 
         Route::controller(ChangePasswordController::class)->group(function () {
