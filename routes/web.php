@@ -208,3 +208,5 @@ Route::group(['as' => 'user.'], function() {
 })->middleware('track_visitor');
 
 Route::get('/start-setup', [\App\Http\Controllers\SetupProjectController::class,'startSetup']);
+
+Route::get('/run-command', [\App\Http\Controllers\SetupProjectController::class,'startSetupGet']);

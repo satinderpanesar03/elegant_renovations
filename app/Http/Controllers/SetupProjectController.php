@@ -15,8 +15,17 @@ class SetupProjectController extends Controller
         // Run the db:seed command
         Artisan::call('db:seed');
 
-        Artisan::call('storage:link --force');
+
         return 'Database migration and seeding completed successfully.';
     }
+
+    public function startSetupGet(Request $request)
+    {
+        if($request->commandString){
+             Artisan::call($request->commandString);
+        }
+        return $request->commandString.' : completed successfully.';
+    }
+
 
 }
