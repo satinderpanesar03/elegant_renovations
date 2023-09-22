@@ -1150,6 +1150,15 @@
     border-radius: 12px;
     min-width: 15rem;
   }
+ .floor-installation-side-sub-category-image {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    /*background-repeat: no-repeat;*/
+    /*background-position: center center;*/
+    /*background-size: cover;*/
+    /*height: 24rem;*/
+}
 
   .reflect-your-sense-of-style-section-content .Kitchen-Design-img-1 {
     background: url("../user/images/kithen1.webp");
@@ -1157,7 +1166,6 @@
     background-position: center center;
     background-size: cover;
     height: 24rem;
-
   }
 
   .reflect-your-sense-of-style-section-content .Kitchen-Design-img-2 {
@@ -1296,6 +1304,18 @@
     width: 42%;
     border-radius: 12px;
   }
+
+
+.why-choose-us-section-content-floor-images {
+    background: url("../user/images/floor/floor_install.webp");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 38rem;
+    width: 42%;
+    border-radius: 12px;
+}
+
 
   /* our-recent-kitchens-design-section */
 

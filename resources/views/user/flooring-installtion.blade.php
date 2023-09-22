@@ -14,8 +14,8 @@
                             <h5 class="text-white m-0 py-2 fs-20">Quality - Delivered On Time - Within Budget</h5>
                         </div>
                         <div class="text-center ">
-                            <h2 class="fs-70 fw-700"> <span class="text-white">Flooring Installation </span><br><span class="text-orange">
-                                Experts in Calgary</span></h2>
+                            <h2 class="fs-70 fw-700"> <span class="text-white">Elevate Your Space with Amka Homes  </span><br><span class="text-orange">
+                                Flooring Installation</span></h2>
                         </div>
                         <div class="text-center mt-5">
                             <button type="button" class="btn btn-orange text-white header-button-style mx-1 mb-2 border-radius-12px">Get Free
@@ -28,7 +28,7 @@
                     </div>
 
                 </div>
-            </div>   
+            </div>
             <div class="header-background-section-for-flooring-installation"></div>
 
         </div>
@@ -41,43 +41,79 @@
         <!-- our-process-section start here-->
 
         <div class="our-process-section-wrapper recent-kitchen-margin-top ">
-            <div class="our-process-section-heading">   
+            <div class="our-process-section-heading">
                 <h2>Our Process</h2>
                 <div class="below-heading-line"></div>
             </div>
             <div class="our-process-section-content">
                 <div class="our-process-section-content-desc col-10 col-lg-5">
                   <h5>Save Time & Money</h5>
-                  <ul>
-                    <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa necessitatibus totam rerum impedit, quibusdam saepe maiores vel. Ratione porro nobis non facere reiciendis molestias dolorem quisquam aspernatur velit deleniti cumque officiis, beatae dignissimos, veniam dicta quae at tenetur. Qui pariatur et delectus esse provident quas facilis culpa distinctio possimus explicabo.</li>
-                    <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa necessitatibus totam rerum impedit, quibusdam saepe maiores vel. Ratione porro nobis non facere reiciendis molestias dolorem quisquam aspernatur velit deleniti cumque officiis, beatae dignissimos, veniam dicta quae at tenetur. Qui pariatur et delectus esse provident quas facilis culpa distinctio possimus explicabo.</li>
-                  </ul>
+                    <p style="text-align: justify"> At Amka Homes, we believe that your home or business deserves nothing but the best, and that's precisely what we deliver with our top-tier flooring installation services. Our commitment to excellence, paired with our expert craftsmanship, ensures that your space will be transformed into a stunning showcase of beauty, functionality, and durability.
+                    </p>
+                    <p style="text-align: justify">  We understand that your time and budget are valuable. That's why our flooring installation services are designed to not only transform your space but also save you both time and money.
+                        </p><p style="text-align: justify">
+                        Efficiency: Our highly skilled team of professionals brings years of experience to every project. We work efficiently, minimizing installation time without compromising quality. This means you can enjoy your stunning new floors sooner, reducing any inconvenience or disruption to your daily life.
+                        </p><p style="text-align: justify">
+                        Cost-Effective Solutions: We believe that a luxurious floor doesn't have to come with a hefty price tag. We offer a wide range of flooring options to suit various budgets without compromising on quality. Our transparent pricing and commitment to affordability ensure that you receive the best value for your investment.
+                        </p><p style="text-align: justify">
+                        Minimized Maintenance: We select and install flooring materials that are not only visually appealing but also built to last. This means fewer replacements and repairs down the road, ultimately saving you money in the long term.
+                        </p><p style="text-align: justify">
+                        Expert Guidance: Our experts are here to guide you through the selection process, helping you choose materials and designs that meet your aesthetic preferences and financial constraints. We're committed to ensuring you make cost-effective choices that align with your vision.
+                        </p><p style="text-align: justify">
+                        With Amka Homes, you can trust that your flooring installation project will be a seamless, cost-effective, and efficient experience from start to finish. Save both time and money while elevating your space with our exceptional flooring solutions.
+                        </p>
+
                 </div>
                 <div class="our-process-section-content-list col-10 col-lg-6">
                     <div class="our-process-section-content-list-item">
                         <img src="{{asset('user/images/our-process-list-icon.png')}}" alt="">
-                        <p>We will visit your home to discuss and measure your requirements and options.</p>
+                        <p>In-Person or Virtual: Customers can choose between an in-person consultation at their location or a virtual consultation for convenience.</p>
                     </div>
                     <div class="our-process-section-content-list-item">
                         <img src="{{asset('user/images/our-process-list-icon.png')}}" alt="">
-                        <p>We will visit your home to discuss and measure your requirements and options.</p>
+                        <p>Material Selection: Discuss the wide range of flooring materials available, including hardwood, laminate, tile, vinyl, and carpet. Provide information on each material's characteristics, durability, and aesthetics.
+                            </p>
                     </div>
                     <div class="our-process-section-content-list-item">
                         <img src="{{asset('user/images/our-process-list-icon.png')}}" alt="">
-                        <p>We will visit your home to discuss and measure your requirements and options.</p>
+                        <p>Budget Discussion: Determine the customer's budget to help narrow down material choices.</p>
                     </div>
                     <div class="our-process-section-content-list-item">
                         <img src="{{asset('user/images/our-process-list-icon.png')}}" alt="">
-                        <p>We will visit your home to discuss and measure your requirements and options.</p>
+                        <p>Custom Design: Offer the option for custom flooring designs, including patterns, borders, and inlays.
+                            </p>
                     </div>
                     <div class="our-process-section-content-list-item">
                         <img src="{{asset('user/images/our-process-list-icon.png')}}" alt="">
-                        <p>We will visit your home to discuss and measure your requirements and options.</p>
+                        <p>Room Layout: Discuss room layout options, such as diagonal or herringbone patterns for a unique look.
+                            </p>
                     </div>
                     <div class="our-process-section-content-list-item">
                         <img src="{{asset('user/images/our-process-list-icon.png')}}" alt="">
-                        <p>We will visit your home to discuss and measure your requirements and options.</p>
+                        <p>Color and Finish: Provide a variety of color and finish options for the selected material.</p>
                     </div>
+                    <div class="our-process-section-content-list-item">
+                        <img src="{{asset('user/images/our-process-list-icon.png')}}" alt="">
+                        <p> Material Selection: Once the customer has made their choices, facilitate the purchase of the selected flooring materials.</p>
+                    </div>
+
+                    <div class="our-process-section-content-list-item">
+                        <img src="{{asset('user/images/our-process-list-icon.png')}}" alt="">
+                        <p>Quality Assurance: Assure customers that you only source high-quality, certified materials.</p>
+                    </div>
+                    <div class="our-process-section-content-list-item">
+                        <img src="{{asset('user/images/our-process-list-icon.png')}}" alt="">
+                        <p>  Site Assessment: Assess the condition of the existing floor and subfloor to identify any repairs or preparation needed.</p>
+                    </div>
+
+                    <div class="our-process-section-content-list-item">
+                        <img src="{{asset('user/images/our-process-list-icon.png')}}" alt="">
+                        <p> Subfloor Options: Discuss subfloor options, such as leveling or moisture barriers, if necessary.</p>
+                    </div>
+
+
+
+
                 </div>
             </div>
         </div>
@@ -87,80 +123,88 @@
 
         <!-- Flooring Samples Designs section start -->
 
-        <div class="container mt-4 flooring-sample-design-section">
+        <div class="container mt-4 flooring-sample-design-section ">
             <h1 class="text-center mb-3">Flooring Samples</h1>
-            <p class="text-center mb-5 px-xs-5 px-sm-5 px-md-4 px-lg-0 fs-20 fw-500">Some of the popular selling vinyl flooring samples are shown below.</p>
-
-            <div class="mb-4 flooring-samples-design-section">
-                <div class="owl-carousel owl-theme">
-                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-1.jpeg')}}" alt="" height="150"></div>
-                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-1.jpeg')}}" alt="" height="150"></div>
-                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-3.jpeg')}}" alt="" height="150"></div>
-                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-4.jpeg')}}" alt="" height="150"></div>
-                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-5.jpeg')}}" alt="" height="150"></div>
-                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-7.jpeg')}}" alt="" height="150"></div>
-                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-7.jpeg')}}" alt="" height="150"></div>
-                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-1.jpeg')}}" alt="" height="150"></div>
-                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-3.jpeg')}}" alt="" height="150"></div>
-                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-4.jpeg')}}" alt="" height="150"></div>
-                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-5.jpeg')}}" alt="" height="150"></div>
-                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-7.jpeg')}}" alt="" height="150"></div>
-                  </div>
-
-                <div class="text-center  pb-3">
-                    <p class="text-center text-muted fs-18">Luxury Vinyl</p>
-                </div>
+            <div class="d-flex justify-content-center my-4">
+                <img src="{{asset('user/images/floor/floor_sample.jpg')}}" />
             </div>
+            <p > At Amka Homes, we understand that choosing the perfect flooring can be a challenging decision. That's why we offer a wide selection of flooring samples to make the process easier for you. Our samples allow you to see and feel the actual materials, textures, and colors in the comfort of your home. By providing you with the opportunity to examine our flooring options firsthand, you can confidently make choices that align with your style, preferences, and the unique character of your space. Our flooring samples are a tangible representation of our commitment to ensuring your complete satisfaction with your flooring investment. </p>
 
-            <div class="mb-4 flooring-samples-design-section">
+            <div class="mb-3 d-flex justify-content-center">
+                <button type="button" class="btn btn-orange text-white header-button-style mr-2 border-radius-12px fs-18">  <a href="{{route('user.contact.us')}}" class="text-decoration-none text-white"> Get Consultation </a> </button>
 
-                <div class="owl-carousel owl-theme">
-                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-1.jpeg')}}" alt="" height="150"></div>
-                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-3.jpeg')}}" alt="" height="150"></div>
-                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-5.jpeg')}}" alt="" height="150"></div>
-                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-6.jpeg')}}" alt="" height="150"></div>
-                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-1.jpeg')}}" alt="" height="150"></div>
-                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-6.jpeg')}}" alt="" height="150"></div>
-                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-5.jpeg')}}" alt="" height="150"></div>
-                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-3.jpeg')}}" alt="" height="150"></div>
-                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-5.jpeg')}}" alt="" height="150"></div>
-                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-6.jpeg')}}" alt="" height="150"></div>
-                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-5.jpeg')}}" alt="" height="150"></div>
-                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-6.jpeg')}}" alt="" height="150"></div>
-                  </div>
-
-                <div class="text-center  pb-3">
-                    <p class="text-center text-muted fs-18">Laminate Flooring</p>
-                </div>
             </div>
+            <p class="text-center mb-5 px-xs-5 px-sm-5 px-md-4 px-lg-0 fs-20 fw-500">Contact us today to request samples and take the first step toward creating a beautiful and functional space that reflects your personal style.</p>
+{{--            <div class="mb-4 flooring-samples-design-section">--}}
+{{--                <div class="owl-carousel owl-theme">--}}
+{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-1.jpeg')}}" alt="" height="150"></div>--}}
+{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-1.jpeg')}}" alt="" height="150"></div>--}}
+{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-3.jpeg')}}" alt="" height="150"></div>--}}
+{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-4.jpeg')}}" alt="" height="150"></div>--}}
+{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-5.jpeg')}}" alt="" height="150"></div>--}}
+{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-7.jpeg')}}" alt="" height="150"></div>--}}
+{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-7.jpeg')}}" alt="" height="150"></div>--}}
+{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-1.jpeg')}}" alt="" height="150"></div>--}}
+{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-3.jpeg')}}" alt="" height="150"></div>--}}
+{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-4.jpeg')}}" alt="" height="150"></div>--}}
+{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-5.jpeg')}}" alt="" height="150"></div>--}}
+{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-7.jpeg')}}" alt="" height="150"></div>--}}
+{{--                  </div>--}}
 
-            <div class="mb-4 flooring-samples-design-section">
+{{--                <div class="text-center  pb-3">--}}
+{{--                    <p class="text-center text-muted fs-18">Luxury Vinyl</p>--}}
+{{--                </div>--}}
+{{--            </div>--}}
 
-                <div class="owl-carousel owl-theme">
-                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-6.jpeg')}}" alt="" height="150"></div>
-                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-3.jpeg')}}" alt="" height="150"></div>
-                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-4.jpeg')}}" alt="" height="150"></div>
-                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-5.jpeg')}}" alt="" height="150"></div>
-                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-1.jpeg')}}" alt="" height="150"></div>
-                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-2.jpeg')}}" alt="" height="150"></div>
-                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-5.jpeg')}}" alt="" height="150"></div>
-                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-3.jpeg')}}" alt="" height="150"></div>
-                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-4.jpeg')}}" alt="" height="150"></div>
-                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-.jpeg')}}" alt="" height="150"></div>
-                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-2.jpeg')}}" alt="" height="150"></div>
-                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-1.jpeg')}}" alt="" height="150"></div>
-                  </div>
+{{--            <div class="mb-4 flooring-samples-design-section">--}}
 
-                <div class="text-center  pb-3">
-                    <p class="text-center text-muted fs-18">Engineered Hardwood</p>
-                </div>
-            </div>
+{{--                <div class="owl-carousel owl-theme">--}}
+{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-1.jpeg')}}" alt="" height="150"></div>--}}
+{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-3.jpeg')}}" alt="" height="150"></div>--}}
+{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-5.jpeg')}}" alt="" height="150"></div>--}}
+{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-6.jpeg')}}" alt="" height="150"></div>--}}
+{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-1.jpeg')}}" alt="" height="150"></div>--}}
+{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-6.jpeg')}}" alt="" height="150"></div>--}}
+{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-5.jpeg')}}" alt="" height="150"></div>--}}
+{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-3.jpeg')}}" alt="" height="150"></div>--}}
+{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-5.jpeg')}}" alt="" height="150"></div>--}}
+{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-6.jpeg')}}" alt="" height="150"></div>--}}
+{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-5.jpeg')}}" alt="" height="150"></div>--}}
+{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-6.jpeg')}}" alt="" height="150"></div>--}}
+{{--                  </div>--}}
+
+{{--                <div class="text-center  pb-3">--}}
+{{--                    <p class="text-center text-muted fs-18">Laminate Flooring</p>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+
+{{--            <div class="mb-4 flooring-samples-design-section">--}}
+
+{{--                <div class="owl-carousel owl-theme">--}}
+{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-6.jpeg')}}" alt="" height="150"></div>--}}
+{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-3.jpeg')}}" alt="" height="150"></div>--}}
+{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-4.jpeg')}}" alt="" height="150"></div>--}}
+{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-5.jpeg')}}" alt="" height="150"></div>--}}
+{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-1.jpeg')}}" alt="" height="150"></div>--}}
+{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-2.jpeg')}}" alt="" height="150"></div>--}}
+{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-5.jpeg')}}" alt="" height="150"></div>--}}
+{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-3.jpeg')}}" alt="" height="150"></div>--}}
+{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-4.jpeg')}}" alt="" height="150"></div>--}}
+{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-.jpeg')}}" alt="" height="150"></div>--}}
+{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-2.jpeg')}}" alt="" height="150"></div>--}}
+{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-1.jpeg')}}" alt="" height="150"></div>--}}
+{{--                  </div>--}}
+
+{{--                <div class="text-center  pb-3">--}}
+{{--                    <p class="text-center text-muted fs-18">Engineered Hardwood</p>--}}
+{{--                </div>--}}
+{{--            </div>--}}
         </div>
 
 
-      
 
- 
+
+
         <!-- Flooring Samples Designs section start -->
 
 
@@ -179,36 +223,50 @@
                                 are:</h5>
 
                         <div class="py-1">
-                            <p class="">
+                            <p style="text-align: justify;">
+                                <b> 1. Material Costs: </b>
 
-                                <ul class="">
-                                    <li class="mb-2 fw-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
-                                    <li class="mb-2 fw-500">Lorem ipsum dolor sit amet, </li>
-                                    <li class="mb-2 fw-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                        Pellentesque
-                                    </li>
-                                    <li class="mb-2 fw-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                        Pellentesque
-                                    </li>
-                                    <li class="mb-2 fw-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                        Pellentesque
-                                    </li>
-
-                                </ul>
+                                Explain that material costs vary based on the type of flooring chosen (e.g., hardwood, laminate, tile).
+                                Mention that higher-quality materials may come at a premium cost.
 
                             </p>
-                            <div class="mb-4 p-0">
-                                <p class="fw-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis risus et
-                                    nunc cursus
-                                    eleifend. Sed hendrerit purus odio, id rutrum neque hendrerit a Lorem ipsum dolor
-                                    sit amet,
-                                    consectetur adipiscing elit. </p>
-                            </div>
-                            <div class="mb-3">
-                                <button type="button" class="btn btn-orange text-white header-button-style mr-2 border-radius-12px fs-18">Get
-                                    Free Quote
-                                    Now</button>
-                            </div>
+
+                            <p style="text-align: justify;">
+                                <b>2. Labor Costs:</b>
+
+                            Describe that labor costs depend on factors like the size of the project and the complexity of the installation.
+                            Explain that skilled craftsmanship ensures a quality installation.
+                            </p>
+                            <p style="text-align: justify;">
+                                <b> 3. Design and Customization:</b>
+
+                            Mention that custom designs, patterns, and inlays may incur additional costs.
+                            Explain that the level of customization can influence the overall cost.
+                            </p>
+                            <p style="text-align: justify;">
+                                <b> 4. Preparation and Repairs:</b>
+
+                            Highlight that existing flooring removal, subfloor preparation, and repairs (if needed) can affect the overall cost.
+                            Explain that necessary repairs are essential for a durable and flawless installation.
+                            </p>
+                            <p style="text-align: justify;">
+                                <b> 5. Additional Services:</b>
+
+                            List optional services like baseboard installation, trim work, or staining/finishing.
+                            Mention that these services are available upon request and can add to the total cost.
+                            </p>
+                            <p style="text-align: justify;">
+                                <b> 6. Room Size and Layout:</b>
+
+                            Explain that larger rooms or irregular layouts may require more materials and labor, impacting the cost.
+                            Mention that efficient design solutions can optimize costs.
+                            </p>
+                            <p style="text-align: justify;">
+                                <b> 7. Type of Flooring Installation: </b>
+                                Describe different installation methods (e.g., nail-down, glue-down, floating) and how they can affect costs.
+                                Explain the advantages and considerations of each method.
+                            </p>
+
                         </div>
                     </div>
 
@@ -220,23 +278,36 @@
                         <div class="row h-100">
                             <div class="col-12 border-radius-20px p-3 section-backgroud-style  mb-4">
 
-                                <h5 class="mb-3 fs-20 text-center pt-4 fw-bolder">Example 1-9 ft x 6 ft</h5>
 
-                                <p class="text-center fw-500">Showing Results for "6 X 9 Kitchen Ideas". Browse through the
-                                    largest collection
-                                    of home design ideas for every room in your home.</p>
+                                <p style="text-align: justify;">
+                                    <b>  8. Maintenance and Warranty:</b>
 
+                                Mention that regular maintenance may incur ongoing costs to keep the flooring in optimal condition.
+                                Explain any warranty options available for materials and workmanship.
+                                </p>
+                                <p style="text-align: justify;">
+                                    <b> 9. Consultation and Estimates:</b>
+
+                                Highlight that Amka Homes offers personalized consultations and estimates.
+                                Explain that these consultations are an opportunity to discuss project specifics and receive a detailed cost breakdown.
+                                </p>
+                                <p style="text-align: justify;">
+                                    <b>  10. Cost Transparency:</b>
+
+                                Emphasize Amka Homes' commitment to transparent pricing with no hidden fees.
+                                Mention that customers will receive a clear estimate detailing the scope of work and associated costs.
+                                </p>
+
+                                <p> We work closely with you to provide a tailored estimate that aligns with your preferences and budget. Contact us for a personalized estimate and let us help you plan your flooring project efficiently and effectively.</p>
+
+                                <div class="mb-3 d-flex justify-content-center">
+                                    <button type="button" class="btn btn-orange text-white header-button-style mr-2 border-radius-12px fs-18">
+                                        <a href="{{route('user.contact.us')}}" class="text-decoration-none text-white">  Calculate Estimated Cost  </a>
+                                        </button>
+                                </div>
                             </div>
 
-                            <div class="col-12 border-radius-20px p-3 section-backgroud-style">
 
-                                <h5 class=" fs-20 text-center pt-4 fw-bolder">Example 1-9 ft x 6 ft</h5>
-
-                                <p class="text-center fw-500">Showing Results for "6 X 9 Kitchen Ideas". Browse through the
-                                    largest collection
-                                    of home design ideas for every room in your home.</p>
-
-                            </div>
                         </div>
 
                     </div>
@@ -250,33 +321,23 @@
         <!-- why-choose-us-section start here-->
         <div class="why-choose-us-section-wrapper pb-0">
             <div class="why-choose-us-section-heading">
-                <h2>Why Choose Us</h2>
+                <h2>Why Choose Amka Homes for Your Flooring Installation?</h2>
                 <div class="below-heading-line"></div>
             </div>
             <div class="why-choose-us-section-content">
                 <div class="why-choose-us-section-content-desc col-10 col-lg-6">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, sint explicabo. Eos in
-                        aliquid sint rerum numquam veniam voluptas. Est nam sapiente quia atque ex laboriosam facilis
-                        fugit, quis cum quibusdam illum. Debitis ab</p>
+                    <p> When you choose Amka Homes for your flooring installation needs, you're choosing a company dedicated to enhancing your space in every possible way. Here's what makes us the preferred choice for flooring installation:</p>
                     <ul>
-                        <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus suscipit impedit et
-                            hic maiores delectus. Voluptates nostrum velit.</li>
-                        <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, quasi! Saepe iusto
-                            laborum maiores nemo, aspernatur est magni evenies.</li>
-                        <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium labore nostrum
-                            deleniti saepe qui. Architecto officia exercitationeti distinctio.</li>
-                        <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus suscipit impedit et
-                            hic maiores delectus. Voluptates nostrum velit.</li>
-                        <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, quasi! Saepe iusto
-                            laborum maiores nemo, aspernatur est magni evenies.</li>
-                        <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium labore nostrum
-                            deleniti saepe qui. Architecto officia exercitationeti distinctio.</li>
-
+                        <li>Skilled Craftsmanship: Our team of seasoned flooring installers possesses the skills, knowledge, and experience needed to provide flawless installation for a variety of flooring types.</li>
+                        <li>Comprehensive Selection: Whether it's the warmth of hardwood, the versatility of laminate, the elegance of tile, or the comfort of carpet, we offer a wide range of flooring materials to suit your style and preferences.</li>
+                        <li>Quality Assurance: We are committed to using only the highest-quality materials and techniques, ensuring that your new floor not only looks beautiful but also stands the test of time.</li>
+                        <li>Meticulous Precision: Attention to detail is at the core of our work. We meticulously plan and execute each installation, ensuring a seamless finish and a perfect fit.</li>
+                        <li>Timely Completion: We understand the importance of deadlines. Our efficient team works diligently to complete your project on time without compromising quality.</li>
                     </ul>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio odit facere, temporibus natus
-                        autem repellat voluptates, iure accusantium quis fugit atque.</p>
+                    <p> Your satisfaction is paramount. We take the time to understand your unique needs, provide expert guidance, and collaborate closely with you to bring your vision to life.</p>
                 </div>
-                <div class="why-choose-us-section-content-images col-10 col-lg-6"></div>
+                <div class="why-choose-us-section-content-floor-images col-10 col-lg-6">
+                </div>
             </div>
         </div>
         <!-- why-choose-us-section end here-->
@@ -284,457 +345,64 @@
            <!-- reflect-your-sense-of-style-section start here-->
            <div class="reflect-your-sense-of-style-section-wrapper">
             <div class="reflect-your-sense-of-style-section-heading">
-                <h2>Reflect Your sense of style and Turn your dream kitchen into reality</h2>
+                <h2> Step into Luxury: Amka Homes Flooring Installation</h2>
+                <p>Amka Homes' commitment to providing luxurious flooring installation services that go beyond aesthetics to encompass the quality of materials, craftsmanship, and personalization that truly define luxury underfoot.</p>
                 <div class="below-heading-line"></div>
+
             </div>
             <div class="reflect-your-sense-of-style-section-content">
                 <div class="reflect-your-sense-of-style-section-content-images col-md-12 col-lg-6">
                     <div class="d-flex">
-                        <div class="Kitchen-Design-img-1 Kitchen-design-wrapper">
-                        </div>
-                        <div class="Kitchen-Design-img-2 Kitchen-design-wrapper">
-                        </div>
-                    </div>
-                    <div class="d-flex">
-                        <div class="Kitchen-Design-img-3 Kitchen-design-wrapper">
-                        </div>
-                        <div class="Kitchen-Design-img-4 Kitchen-design-wrapper">
+                        <div class="floor-installation-side-sub-category-image"  >
+                        <img src="{{asset('user/images/floor/f3.jpg')}}" class="w-100"/>
                         </div>
                     </div>
+
                 </div>
                 <div class="reflect-your-sense-of-style-section-content-desc col-md-12 col-lg-6">
                     <div class="desc-1 desc-wrapper">
                         <div><img src="./images/success-tick.png.png" alt=""></div>
                         <div>
-                            <h5>All-in-One Experience</h5>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil natus, at explicabo dicta
-                                delectus alias architecto sint harum quos itaque debitis maxime earum minima adipisci
-                                ab!
-                                Dignissimos optio delectus eius.</p>
+                            <h5>Exquisite Material Selection</h5>
+                            <p>Amka Homes offers a curated selection of high-quality flooring materials that exude luxury and elegance. From rich hardwoods to luxurious carpets and exquisite tile options, our range of materials ensures that you can create a luxurious ambiance that matches your unique style and vision.</p>
                         </div>
                     </div>
                     <div class="desc-2 desc-wrapper">
                         <div><img src="./images/success-tick.png.png" alt=""></div>
                         <div>
-                            <h5>Stunning Design</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, sed dignissimos! Dolorum,
-                                obcaecati sunt tempora corporis veritatis repellendus laboriosam voluptate vitae
-                                incidunt ut
-                                tempore, ipsa deleniti explicabo doloremque cupiditate. Molestias!</p>
+                            <h5>Meticulous Craftsmanship</h5>
+                            <p>Our experienced team of craftsmen approaches each flooring installation with meticulous attention to detail. We understand that luxury is in the details, and our professionals ensure that every plank, tile, or carpet is flawlessly placed, resulting in a floor that not only looks luxurious but also feels exceptional underfoot.</p>
                         </div>
                     </div>
                     <div class="desc-3 desc-wrapper">
                         <div><img src="./images/success-tick.png.png" alt=""></div>
                         <div>
-                            <h5>Quality Materials</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum consequuntur asperiores
-                                dolorem totam natus amet rerum expedita ipsa, veniam beatae animi? Eum, commodi iste?
-                                Cupiditate quisquam repellat reiciendis architecto aperiam?</p>
+                            <h5>Tailored Design and Personalization</h5>
+                            <p>At Amka Homes, we believe that luxury is a reflection of individual taste. We work closely with our clients to create custom flooring designs that align perfectly with their preferences. Whether you desire intricate patterns, unique inlays, or specific color schemes, our experts will transform your vision into a luxurious reality.</p>
                         </div>
                     </div>
                     <div class="desc-btn-wrapper">
-                        <button class="">Get a Quote</button>
+                        <button class=""> <a href="{{route('user.contact.us')}}" class="text-decoration-none text-white"> Get a Quote </a></button>
                     </div>
                 </div>
             </div>
         </div>
         <!-- reflect-your-sense-of-style-section ends here -->
+      {{--    Testimonials--}}
+      <x-User.Testimonial/>
+      {{--Testimonial End--}}
 
-         <!-- gallery-section start here -->
-         <div class="gallery-section-wrapper gallery-section py-0">
-            <div class="gallery-section-heading gallery-section">
-                <h2>Gallery</h2>
-                <div class="below-heading-line gallery-section"></div>
-            </div>
-            <div class="gallery-section-content gallery gallery-cards gallery-section">
-                <div class="gallery-section-content-left-img-wrapper col-sm-10 col-lg-5 images panel gallery-section">
-                    <div class="gallery-section-content-left-img-1 slide gallery-section" data-order="1">
-                    </div>
-                    <div class="gallery-section-content-left-img-2 slide gallery-section" data-order="2">
-                    </div>
-                    <div class="gallery-section-content-left-img-3 slide gallery-section" data-order="3">
-                    </div>
-                </div>
-                <div class="gallery-section-content-right-img col-sm-10 col-lg-5 gallery-section">
-                    <div>
-                        <div class="img-1 gallery-section"></div>
-                        <div class="img-2 gallery-section"></div>
-                    </div>
-                    <div>
-                        <div class="img-3 gallery-section"></div>
-                        <div class="img-4 gallery-section"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- gallery-section end here -->
+      {{--     gallery start--}}
+      <x-User.Gallery/>
+      <!-- gallery-section end here -->
 
+      <!-- latest-blog-posts-section start here -->
+      <x-User.Homeblog/>
+      <!-- latest-blog-posts-section end here -->
 
-         <!-- why-Our-customer-say-section start here-->
-         <div class="kitchen-renovation-page what-our-customer-say-section-wrapper  pt-0">
-
-            <div class="kitchen-renovation-page what-our-customer-say-section container px-0 ">
-                <div class="kitchen-renovation-page row g-0 m-0  d-flex">
-                    <div
-                        class="kitchen-renovation-page what-our-customer-say-section-heading col-lg-4  col-sm-12 mb-sm-2 pb-xs-4 mt-5 px-3">
-                        <h1 class="kitchen-renovation-page">What are customers says about us ?</h1>
-                        <hr class="m-lg-0 gallery-what-our-customer-says-hr rounded ">
-                    </div>
-
-                    <div class="kitchen-renovation-page col-lg-8 col-sm-12">
-                        <div id="container">
-                            <section
-                                class=" swiper-js section-with-carousel section-with-left-offset position-relative ">
-
-                                <div class=" swiper-js carousel-controls d-flex">
-                                    <div class=" swiper-js carousel-control carousel-control-left ">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="40"
-                                            height="40">
-                                            <path fill-rule="evenodd"
-                                                d="M10.78 19.03a.75.75 0 01-1.06 0l-6.25-6.25a.75.75 0 010-1.06l6.25-6.25a.75.75 0 111.06 1.06L5.81 11.5h14.44a.75.75 0 010 1.5H5.81l4.97 4.97a.75.75 0 010 1.06z">
-                                            </path>
-                                        </svg>
-                                    </div>
-                                    <div class=" swiper-js carousel-control carousel-control-right mx-4">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="40"
-                                            height="40">
-                                            <path fill-rule="evenodd"
-                                                d="M13.22 19.03a.75.75 0 001.06 0l6.25-6.25a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 10-1.06 1.06l4.97 4.97H3.75a.75.75 0 000 1.5h14.44l-4.97 4.97a.75.75 0 000 1.06z">
-                                            </path>
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class=" swiper-js carousel-wrapper px-5 ">
-                                    <div class=" swiper-js swiper">
-                                        <div class=" swiper-js swiper-wrapper">
-
-                                            <div class=" swiper-js swiper-slide ">
-                                                <div
-                                                    class=" swiper-js kitchen-renovation-page slide px-4 pt-5 pb-3 border-radius-20px">
-                                                    <div class=" swiper-js kitchen-renovation-page display-card"></div>
-                                                    <div class=" swiper-js kitchen-renovation-page Customers-profile">
-                                                        <img src="./images/quotation-mark-icon.png" height="25px"
-                                                            class=" swiper-js kitchen-renovation-page quotation">
-                                                    </div>
-                                                    <div class=" swiper-js kitchen-renovation-page card-content p-3">
-                                                        <div
-                                                            class=" swiper-js kitchen-renovation-page text-center mb-md-4">
-                                                            <i
-                                                                class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                            <i
-                                                                class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                            <i
-                                                                class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                            <i
-                                                                class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                            <i
-                                                                class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                        </div>
-
-                                                        <p
-                                                            class=" swiper-js kitchen-renovation-page text-center card-desc mb-md-4">
-                                                            "Browse through
-                                                            the largest
-                                                            collection
-                                                            of home design ideas for every room in your home. "</p>
-
-                                                        <h5 class=" swiper-js kitchen-renovation-page text-center fs-20">
-                                                            <b>Ward U.</b></h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class=" swiper-js swiper-slide ">
-                                                <div
-                                                    class=" swiper-js kitchen-renovation-page slide px-4 pt-5 pb-3 border-radius-20px">
-                                                    <div class=" swiper-js kitchen-renovation-page display-card"></div>
-                                                    <div class=" swiper-js kitchen-renovation-page Customers-profile">
-                                                        <img src="./images/quotation-mark-icon.png" height="25px"
-                                                            class=" swiper-js kitchen-renovation-page quotation">
-                                                    </div>
-                                                    <div class=" swiper-js kitchen-renovation-page card-content p-3">
-                                                        <div
-                                                            class=" swiper-js kitchen-renovation-page text-center mb-md-4">
-                                                            <i
-                                                                class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                            <i
-                                                                class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                            <i
-                                                                class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                            <i
-                                                                class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                            <i
-                                                                class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                        </div>
-
-                                                        <p
-                                                            class=" swiper-js kitchen-renovation-page text-center  card-desc mb-md-4">
-                                                            "Browse through
-                                                            the largest
-                                                            collection
-                                                            of home design ideas for every room in your home. "</p>
-
-                                                        <h5 class=" swiper-js kitchen-renovation-page text-center fs-20">
-                                                            <b>Ward U.</b></h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class=" swiper-js swiper-slide ">
-                                                <div
-                                                    class=" swiper-js kitchen-renovation-page slide px-4 pt-5 pb-3 border-radius-20px">
-                                                    <div class=" swiper-js kitchen-renovation-page display-card"></div>
-                                                    <div class=" swiper-js kitchen-renovation-page Customers-profile">
-                                                        <img src="./images/quotation-mark-icon.png" height="25px"
-                                                            class=" swiper-js kitchen-renovation-page quotation">
-                                                    </div>
-                                                    <div class=" swiper-js kitchen-renovation-page card-content p-3">
-                                                        <div
-                                                            class=" swiper-js kitchen-renovation-page text-center mb-md-4">
-                                                            <i
-                                                                class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                            <i
-                                                                class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                            <i
-                                                                class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                            <i
-                                                                class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                            <i
-                                                                class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                        </div>
-
-                                                        <p
-                                                            class=" swiper-js kitchen-renovation-page text-center  card-desc mb-md-4">
-                                                            "Browse through
-                                                            the largest
-                                                            collection
-                                                            of home design ideas for every room in your home. "</p>
-
-                                                        <h5 class=" swiper-js kitchen-renovation-page text-center fs-20">
-                                                            <b>Ward U.</b></h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class=" swiper-js swiper-slide ">
-                                                <div
-                                                    class=" swiper-js kitchen-renovation-page slide px-4 pt-5 pb-3 border-radius-20px">
-                                                    <div class=" swiper-js kitchen-renovation-page display-card"></div>
-                                                    <div class=" swiper-js kitchen-renovation-page Customers-profile">
-                                                        <img src="./images/quotation-mark-icon.png" height="25px"
-                                                            class=" swiper-js kitchen-renovation-page quotation">
-                                                    </div>
-                                                    <div class=" swiper-js kitchen-renovation-page card-content p-3">
-                                                        <div
-                                                            class=" swiper-js kitchen-renovation-page text-center mb-md-4">
-                                                            <i
-                                                                class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                            <i
-                                                                class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                            <i
-                                                                class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                            <i
-                                                                class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                            <i
-                                                                class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                        </div>
-
-                                                        <p
-                                                            class=" swiper-js kitchen-renovation-page text-center  card-desc mb-md-4">
-                                                            "Browse through
-                                                            the largest
-                                                            collection
-                                                            of home design ideas for every room in your home. "</p>
-
-                                                        <h5 class=" swiper-js kitchen-renovation-page text-center fs-20">
-                                                            <b>Ward U.</b></h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class=" swiper-js swiper-slide ">
-                                                <div
-                                                    class=" swiper-js kitchen-renovation-page slide px-4 pt-5 pb-3 border-radius-20px">
-                                                    <div class=" swiper-js kitchen-renovation-page display-card"></div>
-                                                    <div class=" swiper-js kitchen-renovation-page Customers-profile">
-                                                        <img src="./images/quotation-mark-icon.png" height="25px"
-                                                            class=" swiper-js kitchen-renovation-page quotation">
-                                                    </div>
-                                                    <div class=" swiper-js kitchen-renovation-page card-content p-3">
-                                                        <div
-                                                            class=" swiper-js kitchen-renovation-page text-center mb-md-4">
-                                                            <i
-                                                                class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                            <i
-                                                                class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                            <i
-                                                                class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                            <i
-                                                                class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                            <i
-                                                                class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                        </div>
-
-                                                        <p
-                                                            class=" swiper-js kitchen-renovation-page text-center  card-desc mb-md-4">
-                                                            "Browse through
-                                                            the largest
-                                                            collection
-                                                            of home design ideas for every room in your home. "</p>
-
-                                                        <h5 class=" swiper-js kitchen-renovation-page text-center fs-20">
-                                                            <b>Ward U.</b></h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class=" swiper-js swiper-slide ">
-                                                <div
-                                                    class=" swiper-js kitchen-renovation-page slide px-4 pt-5 pb-3 border-radius-20px">
-                                                    <div class=" swiper-js kitchen-renovation-page display-card"></div>
-                                                    <div class=" swiper-js kitchen-renovation-page Customers-profile">
-                                                        <img src="./images/quotation-mark-icon.png" height="25px"
-                                                            class=" swiper-js kitchen-renovation-page quotation">
-                                                    </div>
-                                                    <div class=" swiper-js kitchen-renovation-page card-content p-3">
-                                                        <div
-                                                            class=" swiper-js kitchen-renovation-page text-center mb-md-4">
-                                                            <i
-                                                                class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                            <i
-                                                                class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                            <i
-                                                                class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                            <i
-                                                                class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                            <i
-                                                                class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                        </div>
-
-                                                        <p
-                                                            class=" swiper-js kitchen-renovation-page text-center  card-desc mb-md-4">
-                                                            "Browse through
-                                                            the largest
-                                                            collection
-                                                            of home design ideas for every room in your home. "</p>
-
-                                                        <h5 class=" swiper-js kitchen-renovation-page text-center fs-20">
-                                                            <b>Ward U.</b></h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class=" swiper-js swiper-slide ">
-                                                <div
-                                                    class=" swiper-js kitchen-renovation-page slide px-4 pt-5 pb-3 border-radius-20px">
-                                                    <div class=" swiper-js kitchen-renovation-page display-card"></div>
-                                                    <div class=" swiper-js kitchen-renovation-page Customers-profile">
-                                                        <img src="./images/quotation-mark-icon.png" height="25px"
-                                                            class=" swiper-js kitchen-renovation-page quotation">
-                                                    </div>
-                                                    <div class=" swiper-js kitchen-renovation-page card-content p-3">
-                                                        <div
-                                                            class=" swiper-js kitchen-renovation-page text-center mb-md-4">
-                                                            <i
-                                                                class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                            <i
-                                                                class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                            <i
-                                                                class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                            <i
-                                                                class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                            <i
-                                                                class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                        </div>
-
-                                                        <p
-                                                            class=" swiper-js kitchen-renovation-page text-center  card-desc mb-md-4">
-                                                            "Browse through
-                                                            the largest
-                                                            collection
-                                                            of home design ideas for every room in your home. "</p>
-
-                                                        <h5 class=" swiper-js kitchen-renovation-page text-center fs-20">
-                                                            <b>Ward U.</b></h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class=" swiper-js swiper-slide ">
-                                                <div
-                                                    class=" swiper-js kitchen-renovation-page slide px-4 pt-5 pb-3 border-radius-20px">
-                                                    <div class=" swiper-js kitchen-renovation-page display-card"></div>
-                                                    <div class=" swiper-js kitchen-renovation-page Customers-profile">
-                                                        <img src="./images/quotation-mark-icon.png" height="25px"
-                                                            class=" swiper-js kitchen-renovation-page quotation">
-                                                    </div>
-                                                    <div class=" swiper-js kitchen-renovation-page card-content p-3">
-                                                        <div
-                                                            class=" swiper-js kitchen-renovation-page text-center mb-md-4">
-                                                            <i
-                                                                class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                            <i
-                                                                class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                            <i
-                                                                class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                            <i
-                                                                class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                            <i
-                                                                class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                        </div>
-
-                                                        <p
-                                                            class=" swiper-js kitchen-renovation-page text-center  card-desc mb-md-4">
-                                                            "Browse through
-                                                            the largest
-                                                            collection
-                                                            of home design ideas for every room in your home. "</p>
-
-                                                        <h5 class=" swiper-js kitchen-renovation-page text-center fs-20">
-                                                            <b>Ward U.</b></h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                            </section>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- why-Our-customer-say-section end here-->
-
-
-        <!-- latest-blog-posts-section start here -->
-        <div class="latest-blog-posts-section-wrapper ">
-            <div class="latest-blog-posts-section-heading">
-                <h2>Latest Blog Posts</h2>
-                <div class="below-heading-line"></div>
-            </div>
-            <div class="latest-blog-posts-section-content">
-                <div class="latest-blog-posts-section-content-cards">
-                    <div class="card-1 card">
-                        <div class="img"></div>
-                        <span>APR 09</span>
-                        <p>Chief clubhouse for female excecutives opens in Manhattan</p>
-                    </div>
-                    <div class="card-2 card">
-                        <div class="img"></div>
-                        <span>APR 09</span>
-                        <p>Chief clubhouse for female excecutives opens in Manhattan</p>
-                    </div>
-                    <div class="card-3 card">
-                        <div class="img"></div>
-                        <span>APR 09</span>
-                        <p>Chief clubhouse for female excecutives opens in Manhattan</p>
-                    </div>
-                </div>
-                <div class="latest-blog-posts-section-content-btn">
-                    <button>View more</button>
-                </div>
-            </div>
-        </div>
-        <!-- latest-blog-posts-section end here -->
-
-        <!-- get-a-free-quote-section start here -->
-        @include('user.layouts.qoute')
+      <!-- get-a-free-quote-section start here -->
+      <x-User.Getquote/>
+      <!-- get-a-free-quote-section end here -->
 
 @endsection
 
