@@ -997,7 +997,7 @@
     background-size: cover;
   }
   .basement-renovation-and-development-expert-in-calgary-header-content-wrapper{
-    background: url("../user/images/basement-background-image.png");
+    background: url("../user/images/basement/basement_red.webp");
     height: 46rem;
     background-repeat: no-repeat;
     background-position: center center;
@@ -1304,6 +1304,16 @@
     width: 42%;
     border-radius: 12px;
   }
+
+.why-choose-us-section-content-images-basement {
+    background: url("../user/images/basement/rm.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 38rem;
+    width: 42%;
+    border-radius: 12px;
+}
 
 
 

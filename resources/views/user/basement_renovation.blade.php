@@ -7,75 +7,43 @@
                 <div class="building-servives-calgary-header-content">
                     <div class="header-content-detail">
                         <p class="ff-heading">Quality - Delivered On Time - Within Budget</p>
-                   
-                        <h2 class="text-orange fs-60">Basement Renovation & <br>Development <span class="text-white"> Experts in Calgary</span></h2>
+
+                        <h2 class="text-orange fs-60"> Vancouver's Premier Basement Renovation & Development  <span class="text-white"> Experts</span></h2>
 
                     </div>
                     <div class="text-center mt-5">
-                        <button type="button" class="btn btn-orange text-white header-button-style mx-1 mb-2 border-radius-12px">Get Free
+                        <button type="button" class="btn btn-orange text-white header-button-style mx-1 mb-2 border-radius-12px">
+                            <a href="{{route('user.contact.us')}}" class="text-decoration-none text-white">Get Free
                             Estimate
-                            Now</button>
-                        <button type="button" class="btn btn-outline-light text-white header-button-style mx-1 mb-2 border-radius-12px">Call:
-                            (003) 014-1024
+                                Now </a></button>
+                        <button type="button" class="btn btn-outline-light text-white header-button-style mx-1 mb-2 border-radius-12px">
+                            <a href="tel:+16047860949" class="text-decoration-none text-white">
+                                Call:
+                                +1 604-786-0949
+                            </a>
                         </button>
                     </div>
                 </div>
             </div>
 <div class="reflect-your-sense-of-style-section-wrapper pb-0">
                     <div class="reflect-your-sense-of-style-section-heading">
-                        <h2 class="-ls-1">In-law suite, Gym, Home theatre, Playroom for <br> kids, Recreation room or legal basement suite?</h2>
+                        <h2 class="-ls-1">Catering to Your Basement Dreams: In-law Suites, Home Gyms, Home Theaters, Playrooms, Recreation Rooms, and Legal Suites</h2>
                         <div class="below-heading-line"></div>
                     </div>
                     <div class="reflect-your-sense-of-style-section-content">
-                        <div class="reflect-your-sense-of-style-section-content-images col-md-12 col-lg-6">
-                            <div class="d-flex">
-                                <div class="Kitchen-Design-img-1 Kitchen-design-wrapper">
-                                </div>
-                                <div class="Kitchen-Design-img-2 Kitchen-design-wrapper">
-                                </div>
-                            </div>
-                            <div class="d-flex">
-                                <div class="Kitchen-Design-img-3 Kitchen-design-wrapper">
-                                </div>
-                                <div class="Kitchen-Design-img-4 Kitchen-design-wrapper">
-                                </div>
+                        <div class=" col-md-12 col-lg-6">
+                            <div class="d-flex justify-content-center align-items-center">
+                                <img src="{{asset('user/images/basement/basement_main.webp')}}" style="width: 100%;" />
                             </div>
                         </div>
-                        <div class="reflect-your-sense-of-style-section-content-desc col-md-12 col-lg-6">
+                        <div class=" col-md-12 col-lg-6">
                             <div class="text-left px-4 pb-2">
-                                <h5 class="-ls-1"><b>Factor that contribute to the basement renovation or development costs :</b></h5>
-                                <p class="fs-17">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil natus, at explicabo dicta
-                                    delectus alias architecto sint harum quos itaque debitis maxime.
+                                <h5 class="-ls-1"><b> "Unlock the Full Potential of Your Basement Space with Our Renovation Expertise"</b></h5>
+                                <p class="fs-17"> Transform your basement into a multifunctional paradise with our expert renovation services. Whether you're looking to create an in-law suite for extended family, a private gym to stay fit and healthy, a home theater for unforgettable movie nights, a playroom that sparks joy for your kids, a versatile recreation room for entertainment, or even a legal basement suite for rental income, we've got you covered. With our skillful craftsmanship and creative design solutions, we'll turn your basement into a space that suits your unique needs and enhances your lifestyle. Let us bring your vision to life, creating a basement that's both functional and beautiful, making every square foot count.
                                    </p>
-                            </div>
-                            <div class="desc-1 desc-wrapper">
-                                <div><img src="./images/success-tick.png.png" alt=""></div>
-                                <div>
-                                    <h5>All-in-One Experience</h5>
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil natus, at explicabo dicta
-                                        delectus alias architecto sint harum quos itaque debitis maxime earum minima adipisci
-                                        ab!
-                                        Dignissimos optio delectus eius.</p>
-                                </div>
-                            </div>
-                            <div class="desc-2 desc-wrapper">
-                                <div><img src="./images/success-tick.png.png" alt=""></div>
-                                <div>
-                                    <h5>Stunning Design</h5>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, sed dignissimos! Dolorum,
-                                        obcaecati sunt tempora corporis veritatis repellendus laboriosam voluptate vitae
-                                        incidunt ut
-                                        tempore, ipsa deleniti explicabo doloremque cupiditate. Molestias!</p>
-                                </div>
-                            </div>
-                            <div class="desc-3 desc-wrapper">
-                                <div><img src="./images/success-tick.png.png" alt=""></div>
-                                <div>
-                                    <h5>Quality Materials</h5>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum consequuntur asperiores
-                                        dolorem totam natus amet rerum expedita ipsa, veniam beatae animi? Eum, commodi iste?
-                                        Cupiditate quisquam repellat reiciendis architecto aperiam?</p>
-                                </div>
+                                <p>
+                                    Ready to transform your Vancouver basement into a beautiful and functional space? Contact us today for a consultation. Our team of experts is here to answer your questions, provide a detailed project proposal, and guide you through every step of the renovation process.
+                                </p>
                             </div>
                             <div class="desc-btn-wrapper">
                                 <button class="">Get a Quote</button>
@@ -88,480 +56,129 @@
         <!-- our-process-section start here-->
 
         <div class="our-process-section-wrapper pt-0 mt-2">
-            <div class="our-process-section-heading">   
+            <div class="our-process-section-heading">
                 <h2>Our Process</h2>
+                <p>
+                    At AMKA Homes, we're passionate about turning your basement into a space that's not just functional but also a reflection of your lifestyle and taste. Our well-defined basement renovation process ensures a hassle-free and rewarding experience, delivering exceptional results that exceed your expectations.
+                </p>
                 <div class="below-heading-line"></div>
             </div>
             <div class="our-process-section-content">
-                <div class="our-process-section-content-desc col-10 col-lg-5">
+                <div class="our-process-section-content-desc col-12 col-lg-12">
                   <h5>Save Time & Money</h5>
-                  <ul>
-                    <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa necessitatibus totam rerum impedit, quibusdam saepe maiores vel. Ratione porro nobis non facere reiciendis molestias dolorem quisquam aspernatur velit deleniti cumque officiis, beatae dignissimos, veniam dicta quae at tenetur. Qui pariatur et delectus esse provident quas facilis culpa distinctio possimus explicabo.</li>
-                    <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa necessitatibus totam rerum impedit, quibusdam saepe maiores vel. Ratione porro nobis non facere reiciendis molestias dolorem quisquam aspernatur velit deleniti cumque officiis, beatae dignissimos, veniam dicta quae at tenetur. Qui pariatur et delectus esse provident quas facilis culpa distinctio possimus explicabo.</li>
-                  </ul>
+                    <p>
+                       <b> 1. Expertise and Efficiency </b>
+                        Our experienced team of professionals brings extensive knowledge and skill to your basement renovation project. This expertise translates into efficient project management, accurate timelines, and streamlined processes. With AMKA Homes, you can be confident that your project will be completed on schedule.
+                    </p>
+                    <p>
+                        <b>
+
+                            2. Comprehensive Design and Planning </b>
+                    Our meticulous design and planning phase allows us to create a detailed roadmap for your basement renovation. This minimizes the risk of unexpected delays or changes during construction, saving you both time and money.
+
+                    </p>
+                    <p>
+                        <b>
+                            3. Budget Transparency </b>
+                    We believe in transparent communication when it comes to your budget. Our comprehensive budget proposals provide a clear breakdown of costs, ensuring you have a full understanding of where your investment is allocated. This transparency helps you make informed decisions and prevents any budgetary surprises.
+                    </p>
                 </div>
-                <div class="our-process-section-content-list col-10 col-lg-6">
+                <div class="our-process-section-content-list col-12 col-lg-12 d-flex justify-content-start flex-wrap">
                     <div class="our-process-section-content-list-item">
-                        <img src="./images/our-process-list-icon.png" alt="">
-                        <p>We will visit your home to discuss and measure your requirements and options.</p>
+                        <img src="user/images/our-process-list-icon.png" alt="">
+                        <p style="text-align: left">1. Initial Consultation.</p>
                     </div>
                     <div class="our-process-section-content-list-item">
-                        <img src="./images/our-process-list-icon.png" alt="">
-                        <p>We will visit your home to discuss and measure your requirements and options.</p>
+                        <img src="user/images/our-process-list-icon.png" alt="">
+                        <p>2. Design and Planning</p>
                     </div>
                     <div class="our-process-section-content-list-item">
-                        <img src="./images/our-process-list-icon.png" alt="">
-                        <p>We will visit your home to discuss and measure your requirements and options.</p>
+                        <img src="user/images/our-process-list-icon.png" alt="">
+                        <p>3. Budget Proposal</p>
                     </div>
                     <div class="our-process-section-content-list-item">
-                        <img src="./images/our-process-list-icon.png" alt="">
-                        <p>We will visit your home to discuss and measure your requirements and options.</p>
+                        <img src="user/images/our-process-list-icon.png" alt="">
+                        <p>4. Permits and Approvals</p>
                     </div>
                     <div class="our-process-section-content-list-item">
-                        <img src="./images/our-process-list-icon.png" alt="">
-                        <p>We will visit your home to discuss and measure your requirements and options.</p>
+                        <img src="user/images/our-process-list-icon.png" alt="">
+                        <p>5. Construction & Renovation</p>
                     </div>
                     <div class="our-process-section-content-list-item">
-                        <img src="./images/our-process-list-icon.png" alt="">
-                        <p>We will visit your home to discuss and measure your requirements and options.</p>
+                        <img src="user/images/our-process-list-icon.png" alt="">
+                        <p>6. Quality Assurance.</p>
                     </div>
+                    <div class="our-process-section-content-list-item">
+                        <img src="user/images/our-process-list-icon.png" alt="">
+                        <p>7. Final Walkthrough</p>
+                    </div>
+                    <div class="our-process-section-content-list-item">
+                        <img src="user/images/our-process-list-icon.png" alt="">
+                        <p>8. Project Completion</p>
+                    </div>
+                    <div class="our-process-section-content-list-item">
+                        <img src="user/images/our-process-list-icon.png" alt="">
+                        <p>9. Ongoing Support</p>
+                    </div>
+
+
+
+
+
                 </div>
             </div>
         </div>
 
         <!-- our-process-section end here-->
 
-    
+
         <!-- why-choose-us-section start here-->
         <div class="why-choose-us-section-wrapper">
             <div class="why-choose-us-section-heading">
-                <h2>Why Choose Us</h2>
+                <h2>Why Choose AMKA Homes for Your Basement Renovation</h2>
+                <p>
+                    When it comes to transforming your basement into a space that suits your lifestyle and reflects your unique vision, choosing the right partner is essential. At AMKA Homes, we stand out as the premier choice for your basement renovation project. Here are compelling reasons why you should choose us:
+                </p>
                 <div class="below-heading-line"></div>
             </div>
             <div class="why-choose-us-section-content">
                 <div class="why-choose-us-section-content-desc col-10 col-lg-6">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, sint explicabo. Eos in
-                        aliquid sint rerum numquam veniam voluptas. Est nam sapiente quia atque ex laboriosam facilis
-                        fugit, quis cum quibusdam illum. Debitis ab</p>
-                    <ul>
-                        <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus suscipit impedit et
-                            hic maiores delectus. Voluptates nostrum velit.</li>
-                        <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, quasi! Saepe iusto
-                            laborum maiores nemo, aspernatur est magni evenies.</li>
-                        <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium labore nostrum
-                            deleniti saepe qui. Architecto officia exercitationeti distinctio.</li>
-                        <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus suscipit impedit et
-                            hic maiores delectus. Voluptates nostrum velit.</li>
-                        <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, quasi! Saepe iusto
-                            laborum maiores nemo, aspernatur est magni evenies.</li>
-                        <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium labore nostrum
-                            deleniti saepe qui. Architecto officia exercitationeti distinctio.</li>
 
-                    </ul>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio odit facere, temporibus natus
-                        autem repellat voluptates, iure accusantium quis fugit atque.</p>
+
+                    <p>
+                    1. Unmatched Expertise: With years of experience in the industry, our team brings unmatched expertise to every project. We have a deep understanding of basement renovations, staying up-to-date with the latest trends, materials, and technologies. This ensures that your project is executed with precision and excellence.
+                    </p>
+                    <p>
+                    2. Client-Centric Approach: Your satisfaction is our top priority. We take the time to listen to your ideas, needs, and goals, tailoring our services to match your unique requirements. From the initial consultation to project completion, your vision guides every step of the way.
+                    </p>
+                    <p>
+                    3. Creative Design Solutions: Our talented designers work closely with you to create a design that is not only functional but also visually stunning. We excel at translating your ideas into a practical and aesthetically pleasing space that you'll love.
+                    </p>
+
+                    <p>
+                        Choose AMKA Homes as your trusted partner for your basement renovation project, and experience the difference of working with a team that is passionate about delivering outstanding results. Your vision is our mission, and we're committed to making your basement transformation a reality. Contact us today to get started on your dream basement renovation.
+                    </p>
                 </div>
-                <div class="why-choose-us-section-content-images col-10 col-lg-6"></div>
+                <div class="why-choose-us-section-content-images-basement col-10 col-lg-6"></div>
             </div>
         </div>
-        <!-- why-choose-us-section end here-->
 
-               <!-- gallery-section start here -->
-               <div class="gallery-section-wrapper gallery-section py-0">
-                <div class="gallery-section-heading gallery-section">
-                    <h2>Gallery</h2>
-                    <div class="below-heading-line gallery-section"></div>
-                </div>
-                <div class="gallery-section-content gallery gallery-cards gallery-section">
-                    <div class="gallery-section-content-left-img-wrapper col-sm-10 col-lg-5 images panel gallery-section">
-                        <div class="gallery-section-content-left-img-1 slide gallery-section" data-order="1">
-                        </div>
-                        <div class="gallery-section-content-left-img-2 slide gallery-section" data-order="2">
-                        </div>
-                        <div class="gallery-section-content-left-img-3 slide gallery-section" data-order="3">
-                        </div>
-                    </div>
-                    <div class="gallery-section-content-right-img col-sm-10 col-lg-5 gallery-section">
-                        <div>
-                            <div class="img-1 gallery-section"></div>
-                            <div class="img-2 gallery-section"></div>
-                        </div>
-                        <div>
-                            <div class="img-3 gallery-section"></div>
-                            <div class="img-4 gallery-section"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            {{--    Testimonials--}}
+            <x-User.Testimonial/>
+            {{--Testimonial End--}}
+
+            {{--     gallery start--}}
+            <x-User.Gallery/>
             <!-- gallery-section end here -->
 
-        <!-- What are customers says about us section start -->
-          
-            <div class="kitchen-renovation-page what-our-customer-say-section-wrapper  pt-0">
+            <!-- latest-blog-posts-section start here -->
+            <x-User.Homeblog/>
+            <!-- latest-blog-posts-section end here -->
 
-                <div class="kitchen-renovation-page what-our-customer-say-section container px-0 ">
-                    <div class="kitchen-renovation-page row g-0 m-0  d-flex">
-                        <div
-                            class="kitchen-renovation-page what-our-customer-say-section-heading col-lg-4  col-sm-12 mb-sm-2 pb-xs-4 mt-5 px-3">
-                            <h1 class="kitchen-renovation-page">What are customers says about us ?</h1>
-                            <hr class="m-lg-0 gallery-what-our-customer-says-hr rounded ">
-                        </div>
-    
-                        <div class="kitchen-renovation-page col-lg-8 col-sm-12">
-                            <div id="container">
-                                <section
-                                    class=" swiper-js section-with-carousel section-with-left-offset position-relative ">
-    
-                                    <div class=" swiper-js carousel-controls d-flex">
-                                        <div class=" swiper-js carousel-control carousel-control-left ">
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="40"
-                                                height="40">
-                                                <path fill-rule="evenodd"
-                                                    d="M10.78 19.03a.75.75 0 01-1.06 0l-6.25-6.25a.75.75 0 010-1.06l6.25-6.25a.75.75 0 111.06 1.06L5.81 11.5h14.44a.75.75 0 010 1.5H5.81l4.97 4.97a.75.75 0 010 1.06z">
-                                                </path>
-                                            </svg>
-                                        </div>
-                                        <div class=" swiper-js carousel-control carousel-control-right mx-4">
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="40"
-                                                height="40">
-                                                <path fill-rule="evenodd"
-                                                    d="M13.22 19.03a.75.75 0 001.06 0l6.25-6.25a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 10-1.06 1.06l4.97 4.97H3.75a.75.75 0 000 1.5h14.44l-4.97 4.97a.75.75 0 000 1.06z">
-                                                </path>
-                                            </svg>
-                                        </div>
-                                    </div>
-                                    <div class=" swiper-js carousel-wrapper px-5 ">
-                                        <div class=" swiper-js swiper">
-                                            <div class=" swiper-js swiper-wrapper">
-    
-                                                <div class=" swiper-js swiper-slide ">
-                                                    <div
-                                                        class=" swiper-js kitchen-renovation-page slide px-4 pt-5 pb-3 border-radius-20px">
-                                                        <div class=" swiper-js kitchen-renovation-page display-card"></div>
-                                                        <div class=" swiper-js kitchen-renovation-page Customers-profile">
-                                                            <img src="./images/quotation-mark-icon.png" height="25px"
-                                                                class=" swiper-js kitchen-renovation-page quotation">
-                                                        </div>
-                                                        <div class=" swiper-js kitchen-renovation-page card-content p-3">
-                                                            <div
-                                                                class=" swiper-js kitchen-renovation-page text-center mb-md-4">
-                                                                <i
-                                                                    class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                                <i
-                                                                    class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                                <i
-                                                                    class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                                <i
-                                                                    class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                                <i
-                                                                    class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                            </div>
-    
-                                                            <p
-                                                                class=" swiper-js kitchen-renovation-page text-center card-desc mb-md-4">
-                                                                "Browse through
-                                                                the largest
-                                                                collection
-                                                                of home design ideas for every room in your home. "</p>
-    
-                                                            <h5 class=" swiper-js kitchen-renovation-page text-center fs-20">
-                                                                <b>Ward U.</b></h5>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class=" swiper-js swiper-slide ">
-                                                    <div
-                                                        class=" swiper-js kitchen-renovation-page slide px-4 pt-5 pb-3 border-radius-20px">
-                                                        <div class=" swiper-js kitchen-renovation-page display-card"></div>
-                                                        <div class=" swiper-js kitchen-renovation-page Customers-profile">
-                                                            <img src="./images/quotation-mark-icon.png" height="25px"
-                                                                class=" swiper-js kitchen-renovation-page quotation">
-                                                        </div>
-                                                        <div class=" swiper-js kitchen-renovation-page card-content p-3">
-                                                            <div
-                                                                class=" swiper-js kitchen-renovation-page text-center mb-md-4">
-                                                                <i
-                                                                    class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                                <i
-                                                                    class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                                <i
-                                                                    class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                                <i
-                                                                    class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                                <i
-                                                                    class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                            </div>
-    
-                                                            <p
-                                                                class=" swiper-js kitchen-renovation-page text-center  card-desc mb-md-4">
-                                                                "Browse through
-                                                                the largest
-                                                                collection
-                                                                of home design ideas for every room in your home. "</p>
-    
-                                                            <h5 class=" swiper-js kitchen-renovation-page text-center fs-20">
-                                                                <b>Ward U.</b></h5>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class=" swiper-js swiper-slide ">
-                                                    <div
-                                                        class=" swiper-js kitchen-renovation-page slide px-4 pt-5 pb-3 border-radius-20px">
-                                                        <div class=" swiper-js kitchen-renovation-page display-card"></div>
-                                                        <div class=" swiper-js kitchen-renovation-page Customers-profile">
-                                                            <img src="./images/quotation-mark-icon.png" height="25px"
-                                                                class=" swiper-js kitchen-renovation-page quotation">
-                                                        </div>
-                                                        <div class=" swiper-js kitchen-renovation-page card-content p-3">
-                                                            <div
-                                                                class=" swiper-js kitchen-renovation-page text-center mb-md-4">
-                                                                <i
-                                                                    class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                                <i
-                                                                    class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                                <i
-                                                                    class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                                <i
-                                                                    class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                                <i
-                                                                    class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                            </div>
-    
-                                                            <p
-                                                                class=" swiper-js kitchen-renovation-page text-center  card-desc mb-md-4">
-                                                                "Browse through
-                                                                the largest
-                                                                collection
-                                                                of home design ideas for every room in your home. "</p>
-    
-                                                            <h5 class=" swiper-js kitchen-renovation-page text-center fs-20">
-                                                                <b>Ward U.</b></h5>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class=" swiper-js swiper-slide ">
-                                                    <div
-                                                        class=" swiper-js kitchen-renovation-page slide px-4 pt-5 pb-3 border-radius-20px">
-                                                        <div class=" swiper-js kitchen-renovation-page display-card"></div>
-                                                        <div class=" swiper-js kitchen-renovation-page Customers-profile">
-                                                            <img src="./images/quotation-mark-icon.png" height="25px"
-                                                                class=" swiper-js kitchen-renovation-page quotation">
-                                                        </div>
-                                                        <div class=" swiper-js kitchen-renovation-page card-content p-3">
-                                                            <div
-                                                                class=" swiper-js kitchen-renovation-page text-center mb-md-4">
-                                                                <i
-                                                                    class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                                <i
-                                                                    class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                                <i
-                                                                    class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                                <i
-                                                                    class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                                <i
-                                                                    class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                            </div>
-    
-                                                            <p
-                                                                class=" swiper-js kitchen-renovation-page text-center  card-desc mb-md-4">
-                                                                "Browse through
-                                                                the largest
-                                                                collection
-                                                                of home design ideas for every room in your home. "</p>
-    
-                                                            <h5 class=" swiper-js kitchen-renovation-page text-center fs-20">
-                                                                <b>Ward U.</b></h5>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class=" swiper-js swiper-slide ">
-                                                    <div
-                                                        class=" swiper-js kitchen-renovation-page slide px-4 pt-5 pb-3 border-radius-20px">
-                                                        <div class=" swiper-js kitchen-renovation-page display-card"></div>
-                                                        <div class=" swiper-js kitchen-renovation-page Customers-profile">
-                                                            <img src="./images/quotation-mark-icon.png" height="25px"
-                                                                class=" swiper-js kitchen-renovation-page quotation">
-                                                        </div>
-                                                        <div class=" swiper-js kitchen-renovation-page card-content p-3">
-                                                            <div
-                                                                class=" swiper-js kitchen-renovation-page text-center mb-md-4">
-                                                                <i
-                                                                    class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                                <i
-                                                                    class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                                <i
-                                                                    class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                                <i
-                                                                    class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                                <i
-                                                                    class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                            </div>
-    
-                                                            <p
-                                                                class=" swiper-js kitchen-renovation-page text-center  card-desc mb-md-4">
-                                                                "Browse through
-                                                                the largest
-                                                                collection
-                                                                of home design ideas for every room in your home. "</p>
-    
-                                                            <h5 class=" swiper-js kitchen-renovation-page text-center fs-20">
-                                                                <b>Ward U.</b></h5>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class=" swiper-js swiper-slide ">
-                                                    <div
-                                                        class=" swiper-js kitchen-renovation-page slide px-4 pt-5 pb-3 border-radius-20px">
-                                                        <div class=" swiper-js kitchen-renovation-page display-card"></div>
-                                                        <div class=" swiper-js kitchen-renovation-page Customers-profile">
-                                                            <img src="./images/quotation-mark-icon.png" height="25px"
-                                                                class=" swiper-js kitchen-renovation-page quotation">
-                                                        </div>
-                                                        <div class=" swiper-js kitchen-renovation-page card-content p-3">
-                                                            <div
-                                                                class=" swiper-js kitchen-renovation-page text-center mb-md-4">
-                                                                <i
-                                                                    class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                                <i
-                                                                    class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                                <i
-                                                                    class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                                <i
-                                                                    class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                                <i
-                                                                    class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                            </div>
-    
-                                                            <p
-                                                                class=" swiper-js kitchen-renovation-page text-center  card-desc mb-md-4">
-                                                                "Browse through
-                                                                the largest
-                                                                collection
-                                                                of home design ideas for every room in your home. "</p>
-    
-                                                            <h5 class=" swiper-js kitchen-renovation-page text-center fs-20">
-                                                                <b>Ward U.</b></h5>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class=" swiper-js swiper-slide ">
-                                                    <div
-                                                        class=" swiper-js kitchen-renovation-page slide px-4 pt-5 pb-3 border-radius-20px">
-                                                        <div class=" swiper-js kitchen-renovation-page display-card"></div>
-                                                        <div class=" swiper-js kitchen-renovation-page Customers-profile">
-                                                            <img src="./images/quotation-mark-icon.png" height="25px"
-                                                                class=" swiper-js kitchen-renovation-page quotation">
-                                                        </div>
-                                                        <div class=" swiper-js kitchen-renovation-page card-content p-3">
-                                                            <div
-                                                                class=" swiper-js kitchen-renovation-page text-center mb-md-4">
-                                                                <i
-                                                                    class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                                <i
-                                                                    class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                                <i
-                                                                    class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                                <i
-                                                                    class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                                <i
-                                                                    class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                            </div>
-    
-                                                            <p
-                                                                class=" swiper-js kitchen-renovation-page text-center  card-desc mb-md-4">
-                                                                "Browse through
-                                                                the largest
-                                                                collection
-                                                                of home design ideas for every room in your home. "</p>
-    
-                                                            <h5 class=" swiper-js kitchen-renovation-page text-center fs-20">
-                                                                <b>Ward U.</b></h5>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class=" swiper-js swiper-slide ">
-                                                    <div
-                                                        class=" swiper-js kitchen-renovation-page slide px-4 pt-5 pb-3 border-radius-20px">
-                                                        <div class=" swiper-js kitchen-renovation-page display-card"></div>
-                                                        <div class=" swiper-js kitchen-renovation-page Customers-profile">
-                                                            <img src="./images/quotation-mark-icon.png" height="25px"
-                                                                class=" swiper-js kitchen-renovation-page quotation">
-                                                        </div>
-                                                        <div class=" swiper-js kitchen-renovation-page card-content p-3">
-                                                            <div
-                                                                class=" swiper-js kitchen-renovation-page text-center mb-md-4">
-                                                                <i
-                                                                    class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                                <i
-                                                                    class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                                <i
-                                                                    class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                                <i
-                                                                    class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                                <i
-                                                                    class=" swiper-js kitchen-renovation-page fa fa-star star-icon-style"></i>
-                                                            </div>
-    
-                                                            <p
-                                                                class=" swiper-js kitchen-renovation-page text-center  card-desc mb-md-4">
-                                                                "Browse through
-                                                                the largest
-                                                                collection
-                                                                of home design ideas for every room in your home. "</p>
-    
-                                                            <h5 class=" swiper-js kitchen-renovation-page text-center fs-20">
-                                                                <b>Ward U.</b></h5>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-    
-    
-                                </section>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-      
+            <!-- get-a-free-quote-section start here -->
+            <x-User.Getquote/>
+            <!-- get-a-free-quote-section end here -->
 
-        <!--  What are customers says about us end -->
-
-        <!-- latest-blog-posts-section start here -->
-        <div class="latest-blog-posts-section-wrapper">
-            <div class="latest-blog-posts-section-heading">
-                <h2>Latest Blog Posts</h2>
-                <div class="below-heading-line"></div>
-            </div>
-            <div class="latest-blog-posts-section-content">
-                <div class="latest-blog-posts-section-content-cards">
-                    <div class="card-1 card">
-                        <div class="img"></div>
-                        <span>APR 09</span>
-                        <p>Chief clubhouse for female excecutives opens in Manhattan</p>
-                    </div>
-                    <div class="card-2 card">
-                        <div class="img"></div>
-                        <span>APR 09</span>
-                        <p>Chief clubhouse for female excecutives opens in Manhattan</p>
-                    </div>
-                    <div class="card-3 card">
-                        <div class="img"></div>
-                        <span>APR 09</span>
-                        <p>Chief clubhouse for female excecutives opens in Manhattan</p>
-                    </div>
-                </div>
-                <div class="latest-blog-posts-section-content-btn">
-                    <button>View more</button>
-                </div>
-            </div>
-        </div>
-        <!-- latest-blog-posts-section end here -->
-
-        <!-- get-a-free-quote-section start here -->
-        @include('user.layouts.qoute')
 @endsection
 
 @push('head')
