@@ -100,6 +100,15 @@
                 </a>
             </li>
 
+            <li class="lh-0 mb-1">
+                <a href="{{route('admin.gallery.index')}}" class="d-inline-flex align-items-center gap-1 w-100">
+                    <i class='bx bx-book fs-5'></i>
+                    <span class="lh-normal fs-14 linkTitle">Gallery</span>
+                </a>
+            </li>
+
+
+
 {{--            <li class="lh-0 mb-1">--}}
 {{--                <div class="accordion" id="accordionContentList">--}}
 {{--                    <div class="accordion-item border-0">--}}
