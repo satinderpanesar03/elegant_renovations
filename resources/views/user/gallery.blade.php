@@ -6,19 +6,24 @@
         <!-- header start here -->
         <!-- L-shaped Kitchen with Island Remodel Before & After section start here -->
         <div class="container recent-kitchen-margin-top mt-5">
-            <h1 class="text-center mb-4">L-shaped Kitchen with Island Remodel Before & After</h1>
+            <h1 class="text-center mb-4">L-shaped Kitchen wiq1th Island Remodel Before & After</h1>
+            <div class="d-flex justify-content-center py-2 gap-1">
+                <button class="btn btn-primary" id="prev_g1_button"> Prev </button>
+                <button class="btn btn-primary" id="next_g1_button"> Next </button>
+            </div>
+
             <hr class="Kitchen-Design-page-5-hr text-center rounded my-0">
             <div id="L-Shaped-KitchenBeforeAndAfterTransformationcarousel" class="carousel slide" data-bs-ride="carousel">
 
-
-                <div class="center_my_gallery">
+                <center>
+                <div class="center_my_gallery d-flex">
                         @for($i=1;$i<=40;$i++)
                             <div class="m-2">
-                                <img src="{{asset('user/images/gallery/g1/g'.$i.'.jpg')}}" class="border-radius-20px    " style="max-height: 300px;max-width: 100%;">
+                                <img src="{{asset('user/images/gallery/g1/g'.$i.'.jpg')}}" class="border-radius-20px    " style="height: 400px;max-width: 100%;">
                             </div>
                         @endfor
                 </div>
-
+                </center>
 
 {{--                <div class="carousel-inner">--}}
 {{--                    <div class="carousel-item active">--}}
@@ -888,33 +893,35 @@
         infinite: false,
         speed: 300,
         autoplay:true,
-        slidesToShow: 4,
-        slidesToScroll: 4,
-        prevArrow:'<button style="position: absolute; top:40%; z-index: 10; transform: translateY(-50%);"> Prev </button>',
-        nextArrow:'<button style="position: absolute; top:40%;right: 0; z-index: 10; transform: translateY(-50%);"> Next </button>',
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        prevArrow:document.getElementById('prev_g1_button'),
+        nextArrow:document.getElementById('next_g1_button'),
         responsive: [
             {
                 breakpoint: 1024,
                 settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 3,
+                    slidesToShow: 2,
+                    slidesToScroll: 2                       ,
                     infinite: true,
-                    dots: true,
-                    prevArrow:'<button style="position: absolute; top:50%; z-index: 10; transform: translateY(-50%);"> hi </button>',
-                    nextArrow:'<button style="position: absolute; top:50%;right: 0; z-index: 10; transform: translateY(-50%);"> hi </button>',
+                    dots: false,
+                    prevArrow:'',
+                    nextArrow:'',
                 }
             },
             {
                 breakpoint: 600,
                 settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2,
+                    dots: false,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
                     arrows:false,
                 }
             },
             {
                 breakpoint: 480,
                 settings: {
+                    dots: false,
                     slidesToShow: 1,
                     slidesToScroll: 1,
                     arrows:false,
