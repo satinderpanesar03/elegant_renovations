@@ -24,6 +24,7 @@ use App\Http\Controllers\user\ServiceController;
 use App\Http\Controllers\admin\BlogController as AdminBlogController;
 use App\Http\Controllers\admin\BlogCtaegoryController;
 use App\Http\Controllers\admin\TestimonialController;
+use App\Http\Controllers\admin\GalleryController as GalleryControllerAdmin;
 use App\Http\Controllers\user\ContactUsController as UserContactUsController;
 use App\Models\Permission;
 use Illuminate\Support\Facades\Route;
@@ -59,6 +60,15 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
             Route::get('testimonial-show/{id}', 'show')->name('testimonial.show');
             Route::post('testimonial-update', 'update')->name('testimonial.update');
             Route::get('testimonial/{id}', 'delete')->name('testimonial.delete');
+        });
+
+        Route::controller(GalleryControllerAdmin::class)->group(function () {
+            Route::get('gallery', 'index')->name('gallery.index');
+            Route::get('gallery-create', 'create')->name('gallery.create');
+            Route::post('gallery-store', 'store')->name('gallery.store');
+            Route::get('gallery-show/{id}', 'show')->name('gallery.show');
+            Route::post('gallery-update', 'update')->name('gallery.update');
+            Route::get('gallery/{id}', 'delete')->name('gallery.delete');
         });
 
         Route::controller(ChangePasswordController::class)->group(function () {
