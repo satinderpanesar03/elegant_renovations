@@ -48,7 +48,10 @@ $setting = Setting::first();
         <header>
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
-                    <img class="brand-logo navbar-brand" src="{{asset('user/images/brand-logo.png')}}" />
+                    <a href="/">
+                        <img class="brand-logo navbar-brand" src="{{asset('user/images/amka_svg_logo.svg')}}" style="scale: 1.3;" />
+                    </a>
+
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -56,12 +59,12 @@ $setting = Setting::first();
                         <div>
                             <ul class="navbar-nav">
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Kitchen Renovation</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="{{route('user.kitchen.renovation.calgary')}}">Kitchen Renovation Calgary</a></li>
-                                        <li><a class="dropdown-item" href="{{route('user.kitchen.renovation.edmonton')}}">Kitchen Renovation Edmonton</a></li>
-                                        <li><a class="dropdown-item" href="{{route('user.kitchen.renovation.vancouver')}}">Kitchen Renovation Vancouver</a></li>
-                                        <li><a class="dropdown-item" href="{{route('user.kitchen.designer')}}">Kitchen Designer</a></li>
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Homes Renovation</a>
+                                    <ul class="dropdown-menu" style="width: 200px;">
+                                        {{--                                        <li><a class="dropdown-item" href="{{route('user.kitchen.renovation.calgary')}}">Kitchen Renovation Calgary</a></li>--}}
+                                        {{--                                        <li><a class="dropdown-item" href="{{route('user.kitchen.renovation.edmonton')}}">Kitchen Renovation Edmonton</a></li>--}}
+                                        <li><a class="dropdown-item" href="{{route('user.kitchen.renovation.vancouver')}}">Homes Renovation Vancouver</a></li>
+                                        {{--                                        <li><a class="dropdown-item" href="{{route('user.kitchen.designer')}}">Kitchen Designer</a></li>--}}
                                     </ul>
                                 </li>
                                 <li class="nav-item dropdown">
@@ -75,9 +78,9 @@ $setting = Setting::first();
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="{{route('user.pricing.index')}}">Pricing</a>
-                                </li>
+                                {{--                                <li class="nav-item">--}}
+                                {{--                                    <a class="nav-link" href="{{route('user.pricing.index')}}">Pricing</a>--}}
+                                {{--                                </li>--}}
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{route('user.gallery.index')}}">Gallery</a>
                                 </li>
@@ -87,12 +90,16 @@ $setting = Setting::first();
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{route('user.blogs.index')}}     ">Blogs</a>
                                 </li>
+                                <li class="nav-item mobile-display">
+                                    <a class="nav-link" href="{{route('user.contact.us')}}     ">Contact us</a>
+                                </li>
                             </ul>
                         </div>
-                        <a class="btn btn-warning" href="{{route('user.contact.us')}}" class="">Contact Us</a>
+                        <button class="desktop-display"> <a class="text-decoration-none text-white " href="{{route('user.contact.us')}}"  >Contact Us</a></button>
                     </div>
                 </div>
             </nav>
+
         </header>
 
         <div>
@@ -104,12 +111,13 @@ $setting = Setting::first();
               <div class="blog-post-page row p-0 m-0">
                 <div class="blog-post-page col-lg-5 col-md-12 col-sm-12">
                     <div class="blog-post-page desc">
-                        <div class="blog-post-page brand-logo-wrapper">
-                            <img class="blog-post-page brand-logo" src="{{asset('user/images/brand-logo.png')}}" height="70" />
+                        <div class="brand-logo-wrapper">
+                            <img class="brand-logo" src="{{asset('user/images/amka_svg_logo.svg')}}" height="70" />
                         </div>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit necessitatibus itaque
-                            accusamus eaque eos mollitia eius, aperiam quasi minus hic fuga maxime architecto in
-                            reprehenderit delectus voluptatibus fugit? Recusandae, unde?</p>
+                        <p>
+                            Welcome to Amka Homes, your trusted partner for all your home renovation needs. We are a premier home renovation company dedicated to transforming your living spaces into the epitome of style, comfort, and functionality. With a focus on home, stair, kitchen, floor, and interior and exterior renovations, we have the expertise to bring your vision to life.
+
+                        </p>
                     </div>
 
                 </div>
@@ -118,26 +126,16 @@ $setting = Setting::first();
                         <h6 class="blog-post-page ff-other">Helpful Links</h6>
                         <ul>
                             <li>About Us</li>
-                            <li>Features</li>
-                            <li>FAQ's</li>
                             <li>Blog</li>
-                            <li>Contact</li>
+                            <li>Contact us</li>
+                            <li>Terms & Condition</li>
                         </ul>
                     </div>
 
                 </div>
                 <div class="blog-post-page col-lg-2 col-md-12 col-sm-12">
 
-                    <div class="blog-post-page services">
-                        <h6 class="blog-post-page ff-other">Services</h6>
-                        <ul>
-                            <li>Worldwide</li>
-                            <li>Scalable</li>
-                            <li>Modular</li>
-                            <li>Connectivity</li>
-                            <li>Corporate</li>
-                        </ul>
-                    </div>
+
 
                 </div>
                 <div class="blog-post-page col-lg-3 col-md-12 col-sm-12">
@@ -157,7 +155,7 @@ $setting = Setting::first();
 
             </div>
             <hr>
-            <p class="blog-post-page fs-15">&copy; 2020 KITCHEN. All Rights Reserved.</p>
+            <p class="blog-post-page fs-15">&copy; 2023 Amka Homes. All Rights Reserved.</p>
         </footer>
 
         <!-- footer start here -->

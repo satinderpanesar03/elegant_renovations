@@ -67,9 +67,7 @@ $setting = Setting::first();
 </head>
 
 <body>
-<div>
-    @yield('content')
-</div>
+
     <div class="main-wrapper ">
         <!-- header start here -->
         <header>
@@ -134,7 +132,9 @@ $setting = Setting::first();
 
         {{-- header ends --}}
 
-
+        <div>
+            @yield('content')
+        </div>
         <footer>
             <div class="footer-content">
                 <div class="row p-0 m-0">
