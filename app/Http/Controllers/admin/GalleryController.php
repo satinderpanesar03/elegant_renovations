@@ -43,8 +43,11 @@ class GalleryController extends Controller
     }
 
     public function show($id){
-        $data = Gallery::find($id);
-        return view('admin.gallery.edit', compact('data'));
+        $item = Gallery::find($id);
+        $gallery = Gallery::where('type', $item->type)->get();
+        $Sr = 1;
+        // dd($gallery);
+        return view('admin.gallery.edit', compact('gallery','item','Sr'));
     }
 
     public function update(Request $request){

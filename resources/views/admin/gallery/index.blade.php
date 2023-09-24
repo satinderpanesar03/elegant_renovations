@@ -47,12 +47,7 @@
                                                 <td>
                                                     <a href="{{ route('admin.gallery.show', $item->id) }}"
                                                         class="btn btn-warning p-1" data-toggle="tooltip" title="Edit">
-                                                    Edit
-                                                    </a>
-
-                                                    <a  href="{{ route('admin.gallery.delete', $item->id) }}" class="btn btn-danger pointer p-1"
-                                                        data-toggle="tooltip" title="Delete">
-                                                        Delete
+                                                    View
                                                     </a>
 
                                                 </td>
