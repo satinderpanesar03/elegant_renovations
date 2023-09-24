@@ -11,117 +11,129 @@
             <div id="L-Shaped-KitchenBeforeAndAfterTransformationcarousel" class="carousel slide" data-bs-ride="carousel">
 
 
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-
-
-                        <div class="row">
-                            <div class="  col-lg-6 col-sm-12 px-3  ">
-                                <div class="overlay-recent-kitchen border-bottom-20">
-                                    <div class="text-center py-2">
-                                        <h4 class="text-white">Before</h4>
-                                    </div>
-                                </div>
-
-                                <div class="">
-                                    <img src="{{asset('user/images/section2-Image.jpg')}}" class="border-radius-20px h-550 w-100">
-                                </div>
-
+                <div class="center_my_gallery">
+                        @for($i=1;$i<=40;$i++)
+                            <div class="m-2">
+                                <img src="{{asset('user/images/gallery/g1/g'.$i.'.jpg')}}" class="border-radius-20px    " style="max-height: 300px;max-width: 100%;">
                             </div>
-
-                            <div class="col-lg-6 col-sm-12 px-3">
-                                <div class="overlay-recent-kitchen border-bottom-20">
-                                    <div class="text-center py-2">
-                                        <h4 class="text-white">After</h4>
-                                    </div>
-                                </div>
-
-                                <div class="">
-                                    <img src="{{asset('user/images/blog-post-kitchen-design-image1.webp')}}"
-                                        class="border-radius-20px h-550 w-100">
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="carousel-item ">
-
-                        <div class="row">
-                            <div class="  col-lg-6 col-sm-12 px-3  ">
-                                <div class="overlay-recent-kitchen border-bottom-20">
-                                    <div class="text-center py-2">
-                                        <h4 class="text-white">Before</h4>
-                                    </div>
-                                </div>
-
-                                <div class="">
-                                    <img src="{{asset('user/images/section2-Image2.jpg')}}" class="border-radius-20px h-550 w-100">
-                                </div>
-
-                            </div>
-
-                            <div class="col-lg-6 col-sm-12 px-3">
-                                <div class="overlay-recent-kitchen border-bottom-20">
-                                    <div class="text-center py-2">
-                                        <h4 class="text-white">After</h4>
-                                    </div>
-                                </div>
-
-                                <div class="">
-                                    <img src="{{asset('user/images/Kitchen-Design-1.jpeg')}}" class="border-radius-20px h-550 w-100">
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="carousel-item ">
-
-
-                        <div class="row">
-                            <div class="  col-lg-6 col-sm-12 px-3">
-                                <div class="overlay-recent-kitchen border-bottom-20">
-                                    <div class="text-center py-2">
-                                        <h4 class="text-white">Before</h4>
-                                    </div>
-                                </div>
-
-                                <div class="">
-                                    <img src="{{asset('user/images/section5-Image2.jpg')}}" class="border-radius-20px h-550 w-100">
-                                </div>
-
-                            </div>
-
-                            <div class="col-lg-6 col-sm-12 px-3">
-                                <div class="overlay-recent-kitchen border-bottom-20">
-                                    <div class="text-center py-2">
-                                        <h4 class="text-white">After</h4>
-                                    </div>
-                                </div>
-
-                                <div class="">
-                                    <img src="{{asset('user/images/kitchen-background-image.jpg')}}"
-                                        class="border-radius-20px h-550 w-100">
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
+                        @endfor
                 </div>
 
-                <button class="carousel-control-prev" type="button"
-                    data-bs-target="#L-Shaped-KitchenBeforeAndAfterTransformationcarousel" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button"
-                    data-bs-target="#L-Shaped-KitchenBeforeAndAfterTransformationcarousel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+
+{{--                <div class="carousel-inner">--}}
+{{--                    <div class="carousel-item active">--}}
+{{--                        <div class="row">--}}
+{{--                            <div class="col-lg-12 col-sm-12 px-3  ">--}}
+{{--                            @for($i=1;$i<=40;$i++)--}}
+
+
+{{--                                <div class="carousel-item">--}}
+{{--                                    <div class="overlay-recent-kitchen border-bottom-20">--}}
+{{--                                        <div class="text-center py-2">--}}
+{{--                                            <h4 class="text-white">Before</h4>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+
+{{--                                    <div class="">--}}
+{{--                                        <img src="{{asset('user/images/gallery/g1/g'.$i.'.jpg')}}" class="border-radius-20px h-550 w-100">--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            @endfor--}}
+{{--                            </div>--}}
+
+{{--                            <div class="col-lg-6 col-sm-12 px-3">--}}
+{{--                                <div class="overlay-recent-kitchen border-bottom-20">--}}
+{{--                                    <div class="text-center py-2">--}}
+{{--                                        <h4 class="text-white">After</h4>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+
+{{--                                <div class="">--}}
+{{--                                    <img src="{{asset('user/images/blog-post-kitchen-design-image1.webp')}}"--}}
+{{--                                        class="border-radius-20px h-550 w-100">--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                    <div class="carousel-item ">--}}
+
+{{--                        <div class="row">--}}
+{{--                            <div class="  col-lg-6 col-sm-12 px-3  ">--}}
+{{--                                <div class="overlay-recent-kitchen border-bottom-20">--}}
+{{--                                    <div class="text-center py-2">--}}
+{{--                                        <h4 class="text-white">Before</h4>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+
+{{--                                <div class="">--}}
+{{--                                    <img src="{{asset('user/images/section2-Image2.jpg')}}" class="border-radius-20px h-550 w-100">--}}
+{{--                                </div>--}}
+
+{{--                            </div>--}}
+
+{{--                            <div class="col-lg-6 col-sm-12 px-3">--}}
+{{--                                <div class="overlay-recent-kitchen border-bottom-20">--}}
+{{--                                    <div class="text-center py-2">--}}
+{{--                                        <h4 class="text-white">After</h4>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+
+{{--                                <div class="">--}}
+{{--                                    <img src="{{asset('user/images/Kitchen-Design-1.jpeg')}}" class="border-radius-20px h-550 w-100">--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                    <div class="carousel-item ">--}}
+
+
+{{--                        <div class="row">--}}
+{{--                            <div class="  col-lg-6 col-sm-12 px-3">--}}
+{{--                                <div class="overlay-recent-kitchen border-bottom-20">--}}
+{{--                                    <div class="text-center py-2">--}}
+{{--                                        <h4 class="text-white">Before</h4>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+
+{{--                                <div class="">--}}
+{{--                                    <img src="{{asset('user/images/section5-Image2.jpg')}}" class="border-radius-20px h-550 w-100">--}}
+{{--                                </div>--}}
+
+{{--                            </div>--}}
+
+{{--                            <div class="col-lg-6 col-sm-12 px-3">--}}
+{{--                                <div class="overlay-recent-kitchen border-bottom-20">--}}
+{{--                                    <div class="text-center py-2">--}}
+{{--                                        <h4 class="text-white">After</h4>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+
+{{--                                <div class="">--}}
+{{--                                    <img src="{{asset('user/images/kitchen-background-image.jpg')}}"--}}
+{{--                                        class="border-radius-20px h-550 w-100">--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+
+{{--                <button class="carousel-control-prev" type="button"--}}
+{{--                    data-bs-target="#L-Shaped-KitchenBeforeAndAfterTransformationcarousel" data-bs-slide="prev">--}}
+{{--                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>--}}
+{{--                    <span class="visually-hidden">Previous</span>--}}
+{{--                </button>--}}
+{{--                <button class="carousel-control-next" type="button"--}}
+{{--                    data-bs-target="#L-Shaped-KitchenBeforeAndAfterTransformationcarousel" data-bs-slide="next">--}}
+{{--                    <span class="carousel-control-next-icon" aria-hidden="true"></span>--}}
+{{--                    <span class="visually-hidden">Next</span>--}}
+{{--                </button>--}}
 
 
             </div>
-        
+
         </div>
 
         <!-- L-shaped Kitchen with Island Remodel Before & After section end here -->
@@ -136,8 +148,8 @@
 
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-    
-    
+
+
                             <div class="row">
                                 <div class="  col-lg-6 col-sm-12 px-3  ">
                                     <div class="overlay-recent-kitchen border-bottom-20">
@@ -145,30 +157,30 @@
                                             <h4 class="text-white">Before</h4>
                                         </div>
                                     </div>
-    
+
                                     <div class="">
                                         <img src="{{asset('user/images/Kitchen-Design-2.jpeg')}}" class="border-radius-20px h-550 w-100">
                                     </div>
-    
+
                                 </div>
-    
+
                                 <div class="col-lg-6 col-sm-12 px-3">
                                     <div class="overlay-recent-kitchen border-bottom-20">
                                         <div class="text-center py-2">
                                             <h4 class="text-white">After</h4>
                                         </div>
                                     </div>
-    
+
                                     <div class="">
                                         <img src="{{asset('user/images/Kitchen-Design-3.jpeg')}}"
                                             class="border-radius-20px h-550 w-100">
                                     </div>
                                 </div>
-    
+
                             </div>
                         </div>
                         <div class="carousel-item ">
-    
+
                             <div class="row">
                                 <div class="  col-lg-6 col-sm-12 px-3  ">
                                     <div class="overlay-recent-kitchen border-bottom-20">
@@ -176,30 +188,30 @@
                                             <h4 class="text-white">Before</h4>
                                         </div>
                                     </div>
-    
+
                                     <div class="">
                                         <img src="{{asset('user/images/Kitchen-Design-4.jpeg')}}" class="border-radius-20px h-550 w-100">
                                     </div>
-    
+
                                 </div>
-    
+
                                 <div class="col-lg-6 col-sm-12 px-3">
                                     <div class="overlay-recent-kitchen border-bottom-20">
                                         <div class="text-center py-2">
                                             <h4 class="text-white">After</h4>
                                         </div>
                                     </div>
-    
+
                                     <div class="">
                                         <img src="{{asset('user/images/Kitchen-Design-5.png')}}" class="border-radius-20px h-550 w-100">
                                     </div>
                                 </div>
-    
+
                             </div>
                         </div>
                         <div class="carousel-item ">
-    
-    
+
+
                             <div class="row">
                                 <div class="  col-lg-6 col-sm-12 px-3">
                                     <div class="overlay-recent-kitchen border-bottom-20">
@@ -207,30 +219,30 @@
                                             <h4 class="text-white">Before</h4>
                                         </div>
                                     </div>
-    
+
                                     <div class="">
                                         <img src="{{asset('user/images/Kitchen-Design-6.png')}}" class="border-radius-20px h-550 w-100">
                                     </div>
-    
+
                                 </div>
-    
+
                                 <div class="col-lg-6 col-sm-12 px-3">
                                     <div class="overlay-recent-kitchen border-bottom-20">
                                         <div class="text-center py-2">
                                             <h4 class="text-white">After</h4>
                                         </div>
                                     </div>
-    
+
                                     <div class="">
                                         <img src="{{asset('user/images/Kitchen-Design-7.png')}}"
                                             class="border-radius-20px h-550 w-100">
                                     </div>
                                 </div>
-    
+
                             </div>
                         </div>
                     </div>
-    
+
                     <button class="carousel-control-prev" type="button"
                         data-bs-target="#U-Shaped-KitchenBeforeAndAfterTransformationcarousel" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -241,17 +253,17 @@
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
-    
-    
+
+
                 </div>
-    
-            
-            
+
+
+
             </div>
-    
+
             <!-- U-shaped Kitchen with Island Remodel Before & After section end here -->
 
-            
+
         <!-- Again L-shaped Kitchen with Island Remodel Before & After section start here -->
         <div class="container recent-kitchen-margin-top mt-5 pt-4">
             <h1 class="text-center mb-4">L-shaped Kitchen with Island Remodel Before & After</h1>
@@ -370,13 +382,13 @@
 
             </div>
 
-       
-        
+
+
         </div>
 
         <!--Again L-shaped Kitchen with Island Remodel Before & After section end here -->
 
-        
+
         <!-- Angled Kitchen with Island Remodel Before & After section start here -->
         <div class="container recent-kitchen-margin-top mt-5 pt-4">
             <h1 class="text-center mb-4">Angled Kitchen with Island Remodel Before & After</h1>
@@ -495,7 +507,7 @@
 
             </div>
 
-        
+
         </div>
 
         <!-- Angled Kitchen with Island Remodel Before & After section end here -->
@@ -835,7 +847,7 @@
 
     <!--  What are customers says about us end -->
 
- 
+
 
         <!-- latest-blog-posts-section start here -->
         <div class="latest-blog-posts-section-wrapper mt-4">
@@ -870,9 +882,55 @@
 
         <!-- get-a-free-quote-section start here -->
         @include('user.layouts.qoute')
+<script>
+    $('.center_my_gallery').slick({
+        dots: false,
+        infinite: false,
+        speed: 300,
+        autoplay:true,
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        prevArrow:'<button style="position: absolute; top:40%; z-index: 10; transform: translateY(-50%);"> Prev </button>',
+        nextArrow:'<button style="position: absolute; top:40%;right: 0; z-index: 10; transform: translateY(-50%);"> Next </button>',
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    infinite: true,
+                    dots: true,
+                    prevArrow:'<button style="position: absolute; top:50%; z-index: 10; transform: translateY(-50%);"> hi </button>',
+                    nextArrow:'<button style="position: absolute; top:50%;right: 0; z-index: 10; transform: translateY(-50%);"> hi </button>',
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    arrows:false,
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    arrows:false,
+                }
+            }
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+        ]
+    });
+</script>
 @endsection
 
 
 @push('head')
 <script src="{{asset('js/master.js')}}"></script>
+
 @endpush
+
