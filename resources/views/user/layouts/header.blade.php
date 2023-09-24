@@ -41,9 +41,7 @@ $setting = Setting::first();
     integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <!-- Primary Meta Tags -->
     <title>@yield('title')</title>
     <meta name="title" content="@yield('title')" />
@@ -69,6 +67,9 @@ $setting = Setting::first();
 </head>
 
 <body>
+<div>
+    @yield('content')
+</div>
     <div class="main-wrapper ">
         <!-- header start here -->
         <header>
@@ -132,9 +133,7 @@ $setting = Setting::first();
         {{-- header start --}}
 
         {{-- header ends --}}
-        <div>
-            @yield('content')
-        </div>
+
 
         <footer>
             <div class="footer-content">
