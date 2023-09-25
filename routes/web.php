@@ -8,6 +8,7 @@ use App\Http\Controllers\admin\ContactUsController;
 use App\Http\Controllers\admin\ContentPageController;
 use App\Http\Controllers\admin\DashboardController;
 use App\Http\Controllers\admin\DbBackupController;
+use App\Http\Controllers\admin\DesignController;
 use App\Http\Controllers\admin\SettingController;
 use App\Http\Controllers\admin\LoginController;
 use App\Http\Controllers\admin\ProductController;
@@ -69,6 +70,15 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
             Route::get('gallery-show/{id}', 'show')->name('gallery.show');
             Route::post('gallery-update', 'update')->name('gallery.update');
             Route::get('gallery/{id}', 'delete')->name('gallery.delete');
+        });
+
+        Route::controller(DesignController::class)->group(function () {
+            Route::get('design', 'index')->name('design.index');
+            Route::get('design-create', 'create')->name('design.create');
+            Route::post('design-store', 'store')->name('design.store');
+            Route::get('design-show/{id}', 'show')->name('design.show');
+            Route::post('design-update', 'update')->name('design.update');
+            Route::get('design/{id}', 'delete')->name('design.delete');
         });
 
         Route::controller(ChangePasswordController::class)->group(function () {
