@@ -3,6 +3,12 @@
 @section('title', 'Blog Detail')
 
 @section('content')
+    <style>
+        p{
+            font-size: 12px;
+            font-family: Cardo;
+        }
+    </style>
         <div class="blog-post-detail-page main-content-wrapper">
             <div class="blog-post-detail-page left-side-section">
                 <div class="blog-post-detail-page container py-2">
