@@ -1,6 +1,6 @@
 <div class="latest-blog-posts-section-wrapper">
     <div class="latest-blog-posts-section-heading">
-        <h2>Latest Blog Posts</h2>
+        <h2>Latest Updates </h2>
         <div class="below-heading-line"></div>
     </div>
 
@@ -8,9 +8,11 @@
         <div class="latest-blog-posts-section-content-cards">
             @foreach ($blogs as $blog)
             <div class="card-1 card">
+                <a href="{{route('user.blog.detail.index', $blog->id)}}" class="text-decoration-none ">
                 <div class="img" style="background: url({{asset('storage/'.$blog->image)}})"></div>
+                </a>
                 <span>{{$blog->title}}</span>
-                <p>{{$blog->title}}</p>
+                <a href="{{route('user.blog.detail.index', $blog->id)}}" class="text-decoration-none "> <p>{{$blog->title}}</p></a>
             </div>
             @endforeach
 

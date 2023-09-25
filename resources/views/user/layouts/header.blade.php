@@ -96,7 +96,7 @@ $setting = Setting::first();
                                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">All
                                         Services</a>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Kitchen Remodeling</a></li>
+{{--                                        <li><a class="dropdown-item" href="#">Kitchen Remodeling</a></li>--}}
                                         <li><a class="dropdown-item" href="{{route('user.flooring.installation')}}">Flooring Installation</a></li>
                                         <li><a class="dropdown-item" href="{{route('user.building.services')}}">Building Permits</a></li>
                                         <li><a class="dropdown-item" href="{{route('user.basement.renovation')}}">Basement Renovations & development</a>
