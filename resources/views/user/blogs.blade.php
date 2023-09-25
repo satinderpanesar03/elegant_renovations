@@ -24,9 +24,8 @@
                   <p class="blog-post-page text-center fs-15 line-height-2 px-1">{{substr($blog->description, 0, 100)}}</p>
                 </div>
                 <div class="blog-post-page card-footer text-center text-orange bg-transparent pt-0 border-bottom-0">
-
-                 <a href="{{route('user.blog.detail.index', $blog->id)}}" class="text-decoration-none "> <p class="blog-post-page fs-20 mt-3 text-orange ">Read more &nbsp;&nbsp;&nbsp;<i class="blog-post-page fa fa-arrow-right fs-18"></i></p></a>
-
+                 <a href="{{route('user.blog.detail.index', $blog->id)}}" class="text-decoration-none "> <p class="blog-post-page fs-20 mt-3 text-orange ">Read more &nbsp;&nbsp;&nbsp;<i class="blog-post-page fa fa-arrow-right fs-18"></i></p>
+                 </a>
                 </div>
               </div>
 

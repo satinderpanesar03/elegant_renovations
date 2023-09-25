@@ -7,6 +7,7 @@
         p{
             font-size: 12px;
             font-family: Cardo;
+
         }
     </style>
         <div class="blog-post-detail-page main-content-wrapper">
