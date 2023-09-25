@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\admin;
 
 use App\Http\Controllers\Controller;
+use App\Models\Design;
 use App\Models\Gallery;
 use Illuminate\Http\Request;
 use App\Traits\ImageUploadTrait;
@@ -11,13 +12,14 @@ use Illuminate\Support\Facades\Validator;
 class GalleryController extends Controller
 {
     public function index(){
-        $galleries = Gallery::groupBy('type')->get();
+        $galleries = Gallery::with('design')->groupBy('type')->get();
         $Sr = 1;
         return view('admin.gallery.index', compact('galleries', 'Sr'));
     }
 
     public function create(){
-        return view('admin.gallery.create');
+        $titles = Design::get();
+        return view('admin.gallery.create', compact('titles'));
     }
 
     public function store(Request $request){

@@ -32,17 +32,7 @@
                                         @foreach ($galleries as $item)
                                             <tr id="Item-{{ $item->id }}">
                                                 <td>{{ $Sr++ }}</td>
-                                                <td>
-                                                  @if ( $item->type == 1)
-                                                    Kitchen Remodelling
-                                                  @elseif ($item->type == 2)
-                                                    Floor Installation
-                                                  @elseif ($item->type == 3)
-                                                    Build Permits
-                                                  @elseif ($item->type == 4)
-                                                    Basement Renovations & Development
-                                                  @endif  
-                                                </td>
+                                                <td>{{$item->design->title}}</td>
                                                 <td>{{ date('d-m-Y', strtotime($item->created_at)) ?? '' }}</td>
                                                 <td>
                                                     <a href="{{ route('admin.gallery.show', $item->id) }}"
