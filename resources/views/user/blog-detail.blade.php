@@ -24,7 +24,7 @@
                             <p> {{$blog->keywords}}</p>
                         </div>
                         <div>
-                            {{$blog->body}}
+                            {!! $blog->body  !!}
                         </div>
                     </div>
 
