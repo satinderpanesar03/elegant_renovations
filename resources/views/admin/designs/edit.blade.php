@@ -126,6 +126,7 @@
                                 </div>
                             </div>
 
+                            <input type="hidden" value="{{$design->image}}" name="selected_image">
                             <div class="row mb-3 form-group">
                                 <label for="image" class="col-md-2 col-form-label text-md-end"><span>*
                                     </span>{{ __('Image') }}</label>
@@ -133,7 +134,7 @@
                                 <div class="col-md-10">
                                     <input type="file"
                                         class="form-control" name="images"
-                                        value="" required>
+                                        value="">
 
                                     @error('image')
                                         <span class="invalid-feedback" role="alert">

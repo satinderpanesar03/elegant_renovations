@@ -131,7 +131,7 @@
 
                                 <div class="col-md-10">
                                     <input type="file"
-                                        class="form-control" name="images"
+                                        class="form-control" name="image"
                                         value="" required>
 
                                     @error('image')

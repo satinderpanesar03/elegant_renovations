@@ -47,7 +47,7 @@ class DesignController extends Controller
 
     public function show($id){
         $design = Design::find($id);
-        return view('admin.design.edit');
+        return view('admin.designs.edit', compact('design'));
     }
 
     public function update(Request $request){
@@ -61,7 +61,7 @@ class DesignController extends Controller
             $image_path = $request->file('image')->store('image', 'public');
             $image = $image_path;
         }else{
-            $image = $request->image;
+            $image = $request->selected_image;
         }
 
 
