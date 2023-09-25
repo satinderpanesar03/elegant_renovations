@@ -21,7 +21,10 @@
                             {{$blog->description}}
                         <div class="blog-post-detail-page desc-footer pt-2 border-bottom-0">
                             <p>Tags:</p>
-                            <p>Lorem ispum - Lorem ispum - Lorem ispum - Lorem ispum - Lorem ispum</p>
+                            <p> {{$blog->keywords}}</p>
+                        </div>
+                        <div>
+                            {{$blog->body}}
                         </div>
                     </div>
 
