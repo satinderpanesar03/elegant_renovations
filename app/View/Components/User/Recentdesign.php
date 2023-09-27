@@ -23,7 +23,7 @@ class Recentdesign extends Component
      */
     public function render(): View|Closure|string
     {
-        $designData = Design::with('gallery')->where('page_type', $this->design)->first();
+        $designData = Design::with('gallery')->where('page_type', $this->design)->get();
         return view('components.user.recentdesign', compact('designData'));
     }
 }
