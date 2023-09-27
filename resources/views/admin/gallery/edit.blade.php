@@ -39,7 +39,7 @@
                                         <tr id="Item-{{ $item->id }}">
                                             <td>{{ $Sr++ }}</td>
                                             <td>
-                                                <img src="{{ asset('storage/'.$item->image)}}" alt=""> 
+                                                <img src="{{ asset('storage/'.$item->image)}}" class="img-fluid" style="max-width: 400px;" alt="">
                                             </td>
                                             <td>
                                                 <a  href="{{ route('admin.gallery.delete', $item->id) }}" class="btn btn-danger pointer p-1"

@@ -7,26 +7,23 @@
 
 
     <div class="container recent-kitchen-margin-top mt-5" >
-        <br/> <br/>
-        @foreach ($designData->gallery as $item)
+
         <h1 class="text-center mb-4 mt-4"> {{$designData->title}} </h1>
-
-<div class="gg-container mt-4" >
-    <div class="gg-box">
-                <img src="{{asset($item->image)}}"  />
-    </div>
-    </div>
-@endforeach
-
-
+                <div class="gg-container" >
+                    <div class="gg-box">
+                        @foreach ($designData->gallery as $item)
+                                <img src="{{asset('/storage/'.$item->image)}}"   />
+                        @endforeach
+                    </div>
+                </div>
     </div>
 
 
 
-                  <!-- latest-blog-posts-section start here -->
-                  <x-User.Homeblog/>
-                  <!-- latest-blog-posts-section end here -->
 
+               <div style="height: 600px;">
+
+               </div>
                   <!-- get-a-free-quote-section start here -->
                   <x-User.Getquote/>
                   <!-- get-a-free-quote-section end here -->
@@ -35,7 +32,7 @@
 
 
 @push('head')
-    <link rel="stylesheet" href="css/grid-gallery.min.css">
+    <link rel="stylesheet" href="/css/grid-gallery.min.css">
     <link rel="stylesheet" href="/assets/css/main.css">
     <script src="{{asset('js/master.js')}}"></script>
 
