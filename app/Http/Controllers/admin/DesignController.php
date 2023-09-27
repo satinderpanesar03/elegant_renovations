@@ -4,6 +4,7 @@ namespace App\Http\Controllers\admin;
 
 use App\Http\Controllers\Controller;
 use App\Models\Design;
+use App\Models\PageType;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 
@@ -17,7 +18,8 @@ class DesignController extends Controller
     }
 
     public function create(){
-        return view('admin.designs.create');
+        $pageTypes = PageType::get();
+        return view('admin.designs.create', compact('pageTypes'));
     }
 
     public function store(Request $request){

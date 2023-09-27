@@ -54,6 +54,15 @@
                             </div>
 
                             <div class="row mb-3 form-group">
+                                <select class="form-select form-select-lg col-md-2" aria-label=".form-select-lg example" name="page_type">
+                                    <option selected>Open this select menu</option>
+                                    @foreach ($pageTypes as $page)
+                                        <option value="{{$page->id}}">{{$page->title}}</option>
+                                    @endforeach
+                                </select>
+                            </div>
+
+                            <div class="row mb-3 form-group">
                                 <label for="meta_title" class="col-md-2 col-form-label text-md-end"><span>*
                                     </span>{{ __('Meta Title') }}</label>
 
@@ -125,6 +134,7 @@
                                 </div>
                             </div>
 
+
                             <div class="row mb-3 form-group">
                                 <label for="image" class="col-md-2 col-form-label text-md-end"><span>*
                                     </span>{{ __('Image') }}</label>
@@ -132,7 +142,7 @@
                                 <div class="col-md-10">
                                     <input type="file"
                                         class="form-control" name="images"
-                                        value="" required>
+                                        value="">
 
                                     @error('image')
                                         <span class="invalid-feedback" role="alert">
