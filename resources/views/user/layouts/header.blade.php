@@ -195,7 +195,7 @@ $setting = Setting::first();
             <hr>
             <p class="fs-15">&copy; 2023 Amka Homes. All Rights Reserved.</p>
         </footer>
-
+        <script src="//code.tidio.co/5innug7ryhvi5oxdhqkdz8oujehxcczz.js" async></script>
 </body>
 
 </html>
