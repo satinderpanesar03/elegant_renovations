@@ -1,3 +1,4 @@
+@inject('constants', 'App\Models\Design')
 @extends('user.layouts.header')
 
 @section('title', 'AMKA Homes - Transform Your Home Into A Dream Home')
@@ -14,7 +15,7 @@
         <!-- why-choose-us-section end here-->
 
         <!-- our-recent-kitchens-design-section start here -->
-                        <x-User.Recentdesign/>
+                        <x-User.Recentdesign :design=$constants::New_Remodelling_Kicthen />
         <!-- our-recent-kitchens-design-section-end-here -->
 
                 {{--    Testimonials--}}

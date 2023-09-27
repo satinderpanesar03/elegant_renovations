@@ -2,18 +2,20 @@
 
 namespace App\View\Components\User;
 
+use App\Models\Design;
 use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
 class Recentdesign extends Component
 {
+    public $design;
     /**
      * Create a new component instance.
      */
-    public function __construct()
+    public function __construct($design)
     {
-        //
+        $this->design=$design;
     }
 
     /**
@@ -21,6 +23,7 @@ class Recentdesign extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.user.recentdesign');
+        $designData = Design::with('gallery')->where('page_type', $this->design)->first();
+        return view('components.user.recentdesign', compact('designData'));
     }
 }

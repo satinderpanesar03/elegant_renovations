@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\user;
 
 use App\Http\Controllers\Controller;
+use App\Models\Design;
 use Illuminate\Http\Request;
 
 class RenovationController extends Controller
@@ -27,5 +28,11 @@ class RenovationController extends Controller
 
     public function kitchenDesign(){
        return view('user.kitchen-desginer');
+    }
+
+    public function recentDesignListing($id){
+        $designData = Design::with('gallery')->where('id', $id)->first();
+        // dd($designData);
+        return view('components.user.recent-design-gallery', compact('designData'));
     }
 }

@@ -1,5 +1,6 @@
 <?php
 
+
 use Illuminate\Support\Facades\Facade;
 
 return [
@@ -213,6 +214,7 @@ return [
         // 'ExampleClass' => App\Example\ExampleClass::class,
         'Alert' => RealRashid\SweetAlert\Facades\Alert::class,
         'Image' => Intervention\Image\Facades\Image::class,
+        'Design' => App\Models\Design::class,
     ])->toArray(),
 
 ];

@@ -212,6 +212,7 @@ Route::group(['as' => 'user.'], function() {
         Route::get('/kitchen-renovation-edmonton', 'KrEdmonton')->name('kitchen.renovation.edmonton');
         Route::get('/homes-renovation-vancouver', 'KrVancouver')->name('kitchen.renovation.vancouver');
         Route::get('/kitchen-designer', 'kitchenDesign')->name('kitchen.designer');
+        Route::get('/recent-design-listing/{id}', 'recentDesignListing')->name('recent.design.listing');
     });
 
     Route::controller(ServiceController::class)->group(function() {
