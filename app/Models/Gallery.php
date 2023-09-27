@@ -11,4 +11,7 @@ class Gallery extends Model
 
     protected $guarded = ['id'];
     
+    public function design(){
+        return $this->belongsTo(Design::class, 'type', 'id');
+    }
 }

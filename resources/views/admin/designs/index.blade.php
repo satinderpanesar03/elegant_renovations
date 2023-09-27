@@ -23,7 +23,7 @@
                                     <thead>
                                         <tr>
                                             <th class="all">#</th>
-                                            <th class="all">Tttle</th>
+                                            <th class="all">Title</th>
                                             <th class="all">Url</th>
                                             <th class="all">Meta Title</th>
                                             <th class="all">Meta Description</th>
@@ -32,7 +32,23 @@
                                         </tr>
                                     </thead>
                                     <tbody>
+                                    @foreach ($designs as $item)
+                                            <tr id="Item-{{ $item->id }}">
+                                                <td>{{ $Sr++ }}</td>
+                                                <td>{{ $item->title }}</td>
+                                                <td>{{ $item->url }}</td>
+                                                <td>{{ $item->meta_title }}</td>
+                                                <td>{{ $item->meta_description }}</td>
+                                                <td>{{ date('d-m-Y', strtotime($item->created_at)) ?? '' }}</td>
+                                                <td>
+                                                    <a href="{{ route('admin.design.show', $item->id) }}"
+                                                        class="btn btn-warning p-1" data-toggle="tooltip" title="View">
+                                                    View
+                                                    </a>
 
+                                                </td>
+                                            </tr>
+                                        @endforeach
                                     </tbody>
                                 </table>
                             </div>

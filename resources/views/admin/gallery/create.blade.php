@@ -21,10 +21,14 @@
                             <div class="row mb-3 form-group">
                                 <select class="form-select form-select-lg col-md-2" aria-label=".form-select-lg example" name="type">
                                     <option selected>Open this select menu</option>
-                                    <option value="1">Kitchen Remodelling</option>
+                                    <!-- <option value="1">Kitchen Remodelling</option>
                                     <option value="2">Floor Installation</option>
                                     <option value="3">Build Permits</option>
-                                    <option value="4">Basement Renovations & Development</option>
+                                    <option value="4">Basement Renovations & Development</option> -->
+                                    @foreach ($titles as $title)
+                                    <option value="{{$title->id}}">{{$title->title}}</option>
+                                    @endforeach
+                                    
                                 </select>
                             </div>
 

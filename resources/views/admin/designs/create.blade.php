@@ -141,8 +141,13 @@
 
                                 <div class="col-md-10">
                                     <input type="file"
+<<<<<<< HEAD
                                         class="form-control" name="images"
                                         value="">
+=======
+                                        class="form-control" name="image"
+                                        value="" required>
+>>>>>>> 08a78a88f37876b8d9d1bef99b783af02d43bc13
 
                                     @error('image')
                                         <span class="invalid-feedback" role="alert">
