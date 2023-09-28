@@ -8,6 +8,7 @@ use Illuminate\View\Component;
 
 class Testimonial extends Component
 {
+    public $testimonials;
     /**
      * Create a new component instance.
      */
@@ -21,6 +22,7 @@ class Testimonial extends Component
      */
     public function render(): View|Closure|string
     {
+        $this->testimonials=\App\Models\Testimonial::get();
         return view('components.user.testimonial');
     }
 }
