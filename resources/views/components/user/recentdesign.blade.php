@@ -10,23 +10,24 @@
 
                     @if($designData!=null)
                         @foreach($designData as $designItem)
-                        <div class="col-md-6">
-                            <div class="our-recent-kitchens-design-section-content-card-1">
+                        <div class="col-md-6 mb-3">
+                            <div class="our-recent-kitchens-design-section-content-card-1 " style="width:400px;">
                                             <div class="img-wrapper" >
-                                                <img src="{{asset('storage/'.$designItem->image)}}" class="img-fluid" style="max-height: 400px;">
+                                                <img src="{{asset('storage/'.$designItem->image)}}" class="img-fluid"  style="max-height: 400px;">
                                             </div>
-                                    <div class="detail-wrapper">
+                                    <div class=" ">
                                                 <div class="desc-wrapper">
                                                     <p>{{substr($designItem->title, 0, 30)}}</p>
                                                     <label>{{substr($designItem->meta_description, 0, 30)}}</label>
                                                 </div>
                                                 <div class="btn-wrapper">
-                                                    <p><a href="{{route('user.recent.design.listing', $designItem->id)}}" class="btn btn-default   text-dark"> See the design</a></p>
-                                                    <img src="{{asset('user/images/orange-arrow.png.png')}}" alt="">
+                                                  <button class="btn btn-warning">
+                                                        <a href="{{route('user.recent.design.listing', $designItem->id)}}" class="text-decoration-none   text-white"> See the design <img src="{{asset('user/images/orange-arrow.png.png')}}"  style="height: 20px;" alt=""> </a></button>
                                                 </div>
                                     </div>
                             </div>
                         </div>
+
                             @endforeach
                             @endif
 
