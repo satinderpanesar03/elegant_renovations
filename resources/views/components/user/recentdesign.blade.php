@@ -21,11 +21,13 @@
                     <img src="{{asset('user/images/orange-arrow.png.png')}}" alt="">
                 </div>
             </div>
-        </div>{{asset('user/images/orange-arrow.png.png')}}
+        </div>
+
         @endforeach
         @endif
-        <div class="our-recent-kitchens-design-section-content-btn-wrapper">
-            <button>View more</button>
-        </div>
+{{--        DONT DELETE THIS , NEED TO REVIEW IN FUTURE--}}
+{{--        <div class="our-recent-kitchens-design-section-content-btn-wrapper">--}}
+{{--            <button>View more</button>--}}
+{{--        </div>--}}
     </div>
 </div>
