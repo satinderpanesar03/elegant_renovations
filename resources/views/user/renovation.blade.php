@@ -1,6 +1,6 @@
 @extends('user.layouts.header')
 
-@section('title', 'Welcome')
+@section('title', 'Amka Homes - Vancouver Dream Builder')
 
 @section('content')
 <div class="relative-position-for-Kitchen-Design-And-Renovation-Header ">
@@ -310,66 +310,6 @@
             <x-User.Uniquecap/>
             <!-- reflect-your-sense-of-style-section ends here -->
 
-        <!-- reflect-your-sense-of-style-section start here-->
-
-{{--        <div class="reflect-your-sense-of-style-section-wrapper">--}}
-{{--            <div class="reflect-your-sense-of-style-section-heading">--}}
-{{--                <h2>Reflect Your sense of style and Turn your dream kitchen into reality</h2>--}}
-{{--                <div class="below-heading-line"></div>--}}
-{{--            </div>--}}
-{{--            <div class="reflect-your-sense-of-style-section-content">--}}
-{{--                <div class="reflect-your-sense-of-style-section-content-images col-md-12 col-lg-6">--}}
-{{--                    <div class="d-flex">--}}
-{{--                        <div class="Kitchen-Design-img-1 Kitchen-design-wrapper">--}}
-{{--                        </div>--}}
-{{--                        <div class="Kitchen-Design-img-2 Kitchen-design-wrapper">--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                    <div class="d-flex">--}}
-{{--                        <div class="Kitchen-Design-img-3 Kitchen-design-wrapper">--}}
-{{--                        </div>--}}
-{{--                        <div class="Kitchen-Design-img-4 Kitchen-design-wrapper">--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--                <div class="reflect-your-sense-of-style-section-content-desc col-md-12 col-lg-6">--}}
-{{--                    <div class="desc-1 desc-wrapper">--}}
-{{--                        <div><img src="./images/success-tick.png.png" alt=""></div>--}}
-{{--                        <div>--}}
-{{--                            <h5>All-in-One Experience</h5>--}}
-{{--                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil natus, at explicabo dicta--}}
-{{--                                delectus alias architecto sint harum quos itaque debitis maxime earum minima adipisci--}}
-{{--                                ab!--}}
-{{--                                Dignissimos optio delectus eius.</p>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                    <div class="desc-2 desc-wrapper">--}}
-{{--                        <div><img src="./images/success-tick.png.png" alt=""></div>--}}
-{{--                        <div>--}}
-{{--                            <h5>Stunning Design</h5>--}}
-{{--                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, sed dignissimos! Dolorum,--}}
-{{--                                obcaecati sunt tempora corporis veritatis repellendus laboriosam voluptate vitae--}}
-{{--                                incidunt ut--}}
-{{--                                tempore, ipsa deleniti explicabo doloremque cupiditate. Molestias!</p>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                    <div class="desc-3 desc-wrapper">--}}
-{{--                        <div><img src="./images/success-tick.png.png" alt=""></div>--}}
-{{--                        <div>--}}
-{{--                            <h5>Quality Materials</h5>--}}
-{{--                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum consequuntur asperiores--}}
-{{--                                dolorem totam natus amet rerum expedita ipsa, veniam beatae animi? Eum, commodi iste?--}}
-{{--                                Cupiditate quisquam repellat reiciendis architecto aperiam?</p>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                    <div class="desc-btn-wrapper">--}}
-{{--                        <button class="">Get a Quote</button>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--        </div>--}}
-        <!-- reflect-your-sense-of-style-section ends here -->
-
 
         <!-- Premier Equipment section start -->
                 <x-User.Equipment/>
@@ -398,4 +338,13 @@
 
 @push('head')
 <script src="{{asset('js/master.js')}}"></script>
+
+<meta name="description" content="Expertise and craftsmanship for all your home renovation and remodeling needs, bringing lifestyle to your living spaces." />
+
+<!-- Open Graph / Facebook -->
+
+<meta property="og:title" content="Amka Homes - Vancouver Dream Builder" />
+<meta property="og:description" content="Expertise and craftsmanship for all your home renovation and remodeling needs, bringing lifestyle to your living spaces." />
+<meta property="og:image" content="{{asset('user/images/meta_head_amka.png')}}"  />
+
 @endpush

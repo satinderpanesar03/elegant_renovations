@@ -1,6 +1,6 @@
 @extends('user.layouts.header')
 
-@section('title', 'Welcome')
+@section('title', 'About us')
 
 @section('content')
 <div>
@@ -136,4 +136,14 @@
 @endsection
 @push('head')
 <script src="{{asset('js/master.js')}}"></script>
+
+<meta name="description" content="Expertise and craftsmanship for all your home renovation and remodeling needs, bringing lifestyle to your living spaces." />
+
+<!-- Open Graph / Facebook -->
+
+<meta property="og:title" content="About us" />
+<meta property="og:description" content="Expertise and craftsmanship for all your home renovation and remodeling needs, bringing lifestyle to your living spaces." />
+<meta property="og:image" content="{{asset('user/images/meta_head_amka.png')}}"  />
+
+
 @endpush

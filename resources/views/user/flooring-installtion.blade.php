@@ -1,6 +1,6 @@
 @extends('user.layouts.header')
 
-@section('title', 'Welcome')
+@section('title', 'Elevate Your Space with Amka Homes Flooring Installation')
 
 @section('content')
       <!-- header section start -->
@@ -427,4 +427,13 @@
 
 @push('head')
 <script src="{{asset('js/master.js')}}"></script>
+<meta name="description" content="Expertise and craftsmanship for all your home renovation and remodeling needs, bringing lifestyle to your living spaces." />
+
+<!-- Open Graph / Facebook -->
+
+<meta property="og:title" content="Elevate Your Space with Amka Homes Flooring Installation" />
+<meta property="og:description" content="Expertise and craftsmanship for all your home renovation and remodeling needs, bringing lifestyle to your living spaces." />
+<meta property="og:image" content="{{asset('user/images/meta_head_amka.png')}}"  />
+
+
 @endpush

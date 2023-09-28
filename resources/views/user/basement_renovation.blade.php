@@ -1,6 +1,6 @@
 @extends('user.layouts.header')
 
-@section('title', 'Welcome')
+@section('title', 'Amka Homes - Vancouvers Premier Basement Renovation & Development')
 
 @section('content')
 <div class="basement-renovation-and-development-expert-in-calgary-header-content-wrapper">
@@ -183,4 +183,13 @@
 
 @push('head')
 <script src="{{asset('js/master.js')}}"></script>
+
+<meta name="description" content="Expertise and craftsmanship for all your home renovation and remodeling needs, bringing lifestyle to your living spaces." />
+
+<!-- Open Graph / Facebook -->
+
+<meta property="og:title" content="Amka Homes - Vancouvers Premier Basement Renovation & Development" />
+<meta property="og:description" content="Expertise and craftsmanship for all your home renovation and remodeling needs, bringing lifestyle to your living spaces." />
+<meta property="og:image" content="{{asset('user/images/meta_head_amka.png')}}"  />
+
 @endpush

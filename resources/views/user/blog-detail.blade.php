@@ -1,6 +1,6 @@
 @extends('user.layouts.header2')
 
-@section('title', 'Blog Detail')
+@section('title', $blog->title)
 
 @section('content')
     <style>
@@ -42,4 +42,11 @@
 @endsection
 @push('head')
     <script src="{{ asset('js/master.js') }}"></script>
+    <meta name="description" content="{{$blog->description}}" />
+
+    <!-- Open Graph / Facebook -->
+
+    <meta property="og:title" content="{{$blog->title}}" />
+    <meta property="og:description" content="{{$blog->description}}" />
+    <meta property="og:image" content="{{asset('storage/'.$blog->image)}}"  />
 @endpush
