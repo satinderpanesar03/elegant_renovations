@@ -1,6 +1,13 @@
 <!-- What are customers says about us section start -->
 <div class="what-our-customer-say-section-wrapper  pt-0">
 
+    <style>
+        /* Define the yellow-star class to set the color to yellow */
+        .yellow-star {
+            color: orange;
+            font-size: 20px;
+        }
+    </style>
     <div class="what-our-customer-say-section container px-0 ">
         <div class="row g-0 m-0  d-flex">
             <div class="what-our-customer-say-section-heading col-lg-4  col-sm-12 mb-sm-2 pb-xs-4 mt-5 px-3">
@@ -39,11 +46,11 @@
                                                 </div>
                                                 <div class="swiper-js card-content p-3 ">
                                                     <div class=" swiper-js text-center mb-md-4">
-                                                        <i class=" swiper-js fa fa-star star-icon-style"></i>
-                                                        <i class=" swiper-js fa fa-star star-icon-style"></i>
-                                                        <i class=" swiper-js fa fa-star star-icon-style"></i>
-                                                        <i class=" swiper-js fa fa-star star-icon-style"></i>
-                                                        <i class=" swiper-js fa fa-star star-icon-style"></i>
+                                                        <i class=" swiper-js fa fa-star star-icon-style yellow-star"></i>
+                                                        <i class=" swiper-js fa fa-star star-icon-style yellow-star"></i>
+                                                        <i class=" swiper-js fa fa-star star-icon-style yellow-star"></i>
+                                                        <i class=" swiper-js fa fa-star star-icon-style yellow-star"></i>
+                                                        <i class=" swiper-js fa fa-star star-icon-style yellow-star"></i>
                                                     </div>
 
                                                     <p class=" swiper-js text-center card-desc mb-md-4 p-2 text-wrap  " style="width: 250px;" >
