@@ -1,7 +1,5 @@
-<div>
-    @extends('user.layouts.header')
-
-@section('title', 'Welcome')
+@extends('user.layouts.header')
+@section('title',$designData->title)
 
 @section('content')
 
@@ -36,7 +34,32 @@
     <link rel="stylesheet" href="/assets/css/main.css">
     <script src="{{asset('js/master.js')}}"></script>
 
+
+    <meta name="title" content="{{$designData->meta_title}}">
+    <meta name="description" content="{{$designData->meta_description}}">
+    <meta name="keywords" content="{{$designData->mata_keyword}}">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    <meta name="author" content="Amka Homes">
+
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{\Illuminate\Support\Facades\URL::current()}}" />
+    <meta property="og:title" content="{{$designData->meta_title}}" />
+    <meta property="og:description" content="{{$designData->meta_description}}" />
+    <meta property="og:image" content="{{asset('storage/'.$designData->image)}}" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="{{\Illuminate\Support\Facades\URL::current()}}" />
+    <meta property="twitter:title" content="{{$designData->meta_title}}" />
+    <meta property="twitter:description" content="{{$designData->meta_description}}" />
+    <meta property="twitter:image" content="{{asset('storage/'.$designData->image)}}" />
+
+    <!-- Meta Tags Generated with https://metatags.io -->
+
+
 @endpush
-
-
-</div>
