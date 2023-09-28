@@ -31,13 +31,13 @@
                                 <div class=" swiper-js swiper-wrapper">
 
                                     @foreach($testimonials as $testimonial_note)
-                                        <div class=" swiper-js swiper-slide ">
-                                            <div class=" swiper-js slide px-4 pt-5 pb-3 border-radius-20px">
-                                                <div class=" swiper-js display-card"></div>
-                                                <div class=" swiper-js Customers-profile">
+                                        <div class=" swiper-js swiper-slide bg-white m-1">
+                                            <div class=" swiper-js slide px-4 pt-5 pb-3 border-radius-20px ">
+                                                <div class=" swiper-js  shadow-lg"></div>
+                                                <div class=" swiper-js Customers-profile ">
                                                     <img src="{{asset('user/images/quotation-mark-icon.png')}}" height="25px" class=" swiper-js quotation">
                                                 </div>
-                                                <div class=" swiper-js card-content p-3">
+                                                <div class="swiper-js card-content p-3 ">
                                                     <div class=" swiper-js text-center mb-md-4">
                                                         <i class=" swiper-js fa fa-star star-icon-style"></i>
                                                         <i class=" swiper-js fa fa-star star-icon-style"></i>
@@ -46,7 +46,7 @@
                                                         <i class=" swiper-js fa fa-star star-icon-style"></i>
                                                     </div>
 
-                                                    <p class=" swiper-js text-center card-desc mb-md-4">
+                                                    <p class=" swiper-js text-center card-desc mb-md-4 p-2 text-wrap  " style="width: 250px;" >
                                                         "{{$testimonial_note->text}}"</p>
 
                                                     <h5 class=" swiper-js text-center fs-20">
@@ -57,195 +57,6 @@
                                         </div>
                                     @endforeach
 
-{{--                                    <div class=" swiper-js swiper-slide ">--}}
-{{--                                        <div class=" swiper-js slide px-4 pt-5 pb-3 border-radius-20px">--}}
-{{--                                            <div class=" swiper-js display-card"></div>--}}
-{{--                                            <div class=" swiper-js Customers-profile">--}}
-{{--                                                <img src="{{asset('user/images/quotation-mark-icon.png')}}" height="25px" class=" swiper-js quotation">--}}
-{{--                                            </div>--}}
-{{--                                            <div class=" swiper-js card-content p-3">--}}
-{{--                                                <div class=" swiper-js text-center mb-md-4">--}}
-{{--                                                    <i class=" swiper-js fa fa-star star-icon-style"></i>--}}
-{{--                                                    <i class=" swiper-js fa fa-star star-icon-style"></i>--}}
-{{--                                                    <i class=" swiper-js fa fa-star star-icon-style"></i>--}}
-{{--                                                    <i class=" swiper-js fa fa-star star-icon-style"></i>--}}
-{{--                                                    <i class=" swiper-js fa fa-star star-icon-style"></i>--}}
-{{--                                                </div>--}}
-
-{{--                                                <p class=" swiper-js text-center  card-desc mb-md-4">--}}
-{{--                                                    "Browse through--}}
-{{--                                                    the largest--}}
-{{--                                                    collection--}}
-{{--                                                    of home design ideas for every room in your home. "</p>--}}
-
-{{--                                                <h5 class=" swiper-js text-center fs-20">--}}
-{{--                                                    <b>Ward U.</b>--}}
-{{--                                                </h5>--}}
-{{--                                            </div>--}}
-{{--                                        </div>--}}
-{{--                                    </div>--}}
-{{--                                    <div class=" swiper-js swiper-slide ">--}}
-{{--                                        <div class=" swiper-js slide px-4 pt-5 pb-3 border-radius-20px">--}}
-{{--                                            <div class=" swiper-js display-card"></div>--}}
-{{--                                            <div class=" swiper-js Customers-profile">--}}
-{{--                                                <img src="{{asset('user/images/quotation-mark-icon.png')}}" height="25px" class=" swiper-js quotation">--}}
-{{--                                            </div>--}}
-{{--                                            <div class=" swiper-js card-content p-3">--}}
-{{--                                                <div class=" swiper-js text-center mb-md-4">--}}
-{{--                                                    <i class=" swiper-js fa fa-star star-icon-style"></i>--}}
-{{--                                                    <i class=" swiper-js fa fa-star star-icon-style"></i>--}}
-{{--                                                    <i class=" swiper-js fa fa-star star-icon-style"></i>--}}
-{{--                                                    <i class=" swiper-js fa fa-star star-icon-style"></i>--}}
-{{--                                                    <i class=" swiper-js fa fa-star star-icon-style"></i>--}}
-{{--                                                </div>--}}
-
-{{--                                                <p class=" swiper-js text-center  card-desc mb-md-4">--}}
-{{--                                                    "Browse through--}}
-{{--                                                    the largest--}}
-{{--                                                    collection--}}
-{{--                                                    of home design ideas for every room in your home. "</p>--}}
-
-{{--                                                <h5 class=" swiper-js text-center fs-20">--}}
-{{--                                                    <b>Ward U.</b>--}}
-{{--                                                </h5>--}}
-{{--                                            </div>--}}
-{{--                                        </div>--}}
-{{--                                    </div>--}}
-{{--                                    <div class=" swiper-js swiper-slide ">--}}
-{{--                                        <div class=" swiper-js slide px-4 pt-5 pb-3 border-radius-20px">--}}
-{{--                                            <div class=" swiper-js display-card"></div>--}}
-{{--                                            <div class=" swiper-js Customers-profile">--}}
-{{--                                                <img src="{{asset('user/images/quotation-mark-icon.png')}}" height="25px" class=" swiper-js quotation">--}}
-{{--                                            </div>--}}
-{{--                                            <div class=" swiper-js card-content p-3">--}}
-{{--                                                <div class=" swiper-js text-center mb-md-4">--}}
-{{--                                                    <i class=" swiper-js fa fa-star star-icon-style"></i>--}}
-{{--                                                    <i class=" swiper-js fa fa-star star-icon-style"></i>--}}
-{{--                                                    <i class=" swiper-js fa fa-star star-icon-style"></i>--}}
-{{--                                                    <i class=" swiper-js fa fa-star star-icon-style"></i>--}}
-{{--                                                    <i class=" swiper-js fa fa-star star-icon-style"></i>--}}
-{{--                                                </div>--}}
-
-{{--                                                <p class=" swiper-js text-center  card-desc mb-md-4">--}}
-{{--                                                    "Browse through--}}
-{{--                                                    the largest--}}
-{{--                                                    collection--}}
-{{--                                                    of home design ideas for every room in your home. "</p>--}}
-
-{{--                                                <h5 class=" swiper-js text-center fs-20">--}}
-{{--                                                    <b>Ward U.</b>--}}
-{{--                                                </h5>--}}
-{{--                                            </div>--}}
-{{--                                        </div>--}}
-{{--                                    </div>--}}
-{{--                                    <div class=" swiper-js swiper-slide ">--}}
-{{--                                        <div class=" swiper-js slide px-4 pt-5 pb-3 border-radius-20px">--}}
-{{--                                            <div class=" swiper-js display-card"></div>--}}
-{{--                                            <div class=" swiper-js Customers-profile">--}}
-{{--                                                <img src="{{asset('user/images/quotation-mark-icon.png')}}" height="25px" class=" swiper-js quotation">--}}
-{{--                                            </div>--}}
-{{--                                            <div class=" swiper-js card-content p-3">--}}
-{{--                                                <div class=" swiper-js text-center mb-md-4">--}}
-{{--                                                    <i class=" swiper-js fa fa-star star-icon-style"></i>--}}
-{{--                                                    <i class=" swiper-js fa fa-star star-icon-style"></i>--}}
-{{--                                                    <i class=" swiper-js fa fa-star star-icon-style"></i>--}}
-{{--                                                    <i class=" swiper-js fa fa-star star-icon-style"></i>--}}
-{{--                                                    <i class=" swiper-js fa fa-star star-icon-style"></i>--}}
-{{--                                                </div>--}}
-
-{{--                                                <p class=" swiper-js text-center  card-desc mb-md-4">--}}
-{{--                                                    "Browse through--}}
-{{--                                                    the largest--}}
-{{--                                                    collection--}}
-{{--                                                    of home design ideas for every room in your home. "</p>--}}
-
-{{--                                                <h5 class=" swiper-js text-center fs-20">--}}
-{{--                                                    <b>Ward U.</b>--}}
-{{--                                                </h5>--}}
-{{--                                            </div>--}}
-{{--                                        </div>--}}
-{{--                                    </div>--}}
-{{--                                    <div class=" swiper-js swiper-slide ">--}}
-{{--                                        <div class=" swiper-js slide px-4 pt-5 pb-3 border-radius-20px">--}}
-{{--                                            <div class=" swiper-js display-card"></div>--}}
-{{--                                            <div class=" swiper-js Customers-profile">--}}
-{{--                                                <img src="{{asset('user/images/quotation-mark-icon.png')}}" height="25px" class=" swiper-js quotation">--}}
-{{--                                            </div>--}}
-{{--                                            <div class=" swiper-js card-content p-3">--}}
-{{--                                                <div class=" swiper-js text-center mb-md-4">--}}
-{{--                                                    <i class=" swiper-js fa fa-star star-icon-style"></i>--}}
-{{--                                                    <i class=" swiper-js fa fa-star star-icon-style"></i>--}}
-{{--                                                    <i class=" swiper-js fa fa-star star-icon-style"></i>--}}
-{{--                                                    <i class=" swiper-js fa fa-star star-icon-style"></i>--}}
-{{--                                                    <i class=" swiper-js fa fa-star star-icon-style"></i>--}}
-{{--                                                </div>--}}
-
-{{--                                                <p class=" swiper-js text-center  card-desc mb-md-4">--}}
-{{--                                                    "Browse through--}}
-{{--                                                    the largest--}}
-{{--                                                    collection--}}
-{{--                                                    of home design ideas for every room in your home. "</p>--}}
-
-{{--                                                <h5 class=" swiper-js text-center fs-20">--}}
-{{--                                                    <b>Ward U.</b>--}}
-{{--                                                </h5>--}}
-{{--                                            </div>--}}
-{{--                                        </div>--}}
-{{--                                    </div>--}}
-{{--                                    <div class=" swiper-js swiper-slide ">--}}
-{{--                                        <div class=" swiper-js slide px-4 pt-5 pb-3 border-radius-20px">--}}
-{{--                                            <div class=" swiper-js display-card"></div>--}}
-{{--                                            <div class=" swiper-js Customers-profile">--}}
-{{--                                                <img src="{{asset('user/images/quotation-mark-icon.png')}}" height="25px" class=" swiper-js quotation">--}}
-{{--                                            </div>--}}
-{{--                                            <div class=" swiper-js card-content p-3">--}}
-{{--                                                <div class=" swiper-js text-center mb-md-4">--}}
-{{--                                                    <i class=" swiper-js fa fa-star star-icon-style"></i>--}}
-{{--                                                    <i class=" swiper-js fa fa-star star-icon-style"></i>--}}
-{{--                                                    <i class=" swiper-js fa fa-star star-icon-style"></i>--}}
-{{--                                                    <i class=" swiper-js fa fa-star star-icon-style"></i>--}}
-{{--                                                    <i class=" swiper-js fa fa-star star-icon-style"></i>--}}
-{{--                                                </div>--}}
-
-{{--                                                <p class=" swiper-js text-center  card-desc mb-md-4">--}}
-{{--                                                    "Browse through--}}
-{{--                                                    the largest--}}
-{{--                                                    collection--}}
-{{--                                                    of home design ideas for every room in your home. "</p>--}}
-
-{{--                                                <h5 class=" swiper-js text-center fs-20">--}}
-{{--                                                    <b>Ward U.</b>--}}
-{{--                                                </h5>--}}
-{{--                                            </div>--}}
-{{--                                        </div>--}}
-{{--                                    </div>--}}
-{{--                                    <div class=" swiper-js swiper-slide ">--}}
-{{--                                        <div class=" swiper-js slide px-4 pt-5 pb-3 border-radius-20px">--}}
-{{--                                            <div class=" swiper-js display-card"></div>--}}
-{{--                                            <div class=" swiper-js Customers-profile">--}}
-{{--                                                <img src="{{asset('user/images/quotation-mark-icon.png')}}" height="25px" class=" swiper-js quotation">--}}
-{{--                                            </div>--}}
-{{--                                            <div class=" swiper-js card-content p-3">--}}
-{{--                                                <div class=" swiper-js text-center mb-md-4">--}}
-{{--                                                    <i class=" swiper-js fa fa-star star-icon-style"></i>--}}
-{{--                                                    <i class=" swiper-js fa fa-star star-icon-style"></i>--}}
-{{--                                                    <i class=" swiper-js fa fa-star star-icon-style"></i>--}}
-{{--                                                    <i class=" swiper-js fa fa-star star-icon-style"></i>--}}
-{{--                                                    <i class=" swiper-js fa fa-star star-icon-style"></i>--}}
-{{--                                                </div>--}}
-
-{{--                                                <p class=" swiper-js text-center  card-desc mb-md-4">--}}
-{{--                                                    "Browse through--}}
-{{--                                                    the largest--}}
-{{--                                                    collection--}}
-{{--                                                    of home design ideas for every room in your home. "</p>--}}
-
-{{--                                                <h5 class=" swiper-js text-center fs-20">--}}
-{{--                                                    <b>Ward U.</b>--}}
-{{--                                                </h5>--}}
-{{--                                            </div>--}}
-{{--                                        </div>--}}
-{{--                                    </div>--}}
 
 
                                 </div>
@@ -260,3 +71,16 @@
     </div>
 </div>
 <!-- gallery-section start here -->
+<script>
+    $(document).ready(function () {
+        // Initialize the swiper
+        var swiper = new Swiper('.swiper-js.swiper', {
+            slidesPerView: 'auto',
+            spaceBetween: 20,
+            navigation: {
+                prevEl: '.carousel-control-left',
+                nextEl: '.carousel-control-right',
+            },
+        });
+    });
+</script>
