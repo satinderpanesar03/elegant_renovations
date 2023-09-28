@@ -5,8 +5,10 @@
 
 
     <div class="container recent-kitchen-margin-top mt-5" >
+<br/>
+        <u> <h1 class="text-center mb-4 mt-4 "> {{$designData->title}}   </h1></u>
 
-        <h1 class="text-center mb-4 mt-4"> {{$designData->title}} </h1>
+        <br/>
                 <div class="gg-container" >
                     <div class="gg-box">
                         @foreach ($designData->gallery as $item)
