@@ -5,7 +5,7 @@
         /* Define the yellow-star class to set the color to yellow */
         .yellow-star {
             color: orange;
-            font-size: 20px;
+            font-size: 40px;
         }
     </style>
     <div class="what-our-customer-say-section container px-0 ">
@@ -38,7 +38,7 @@
                                 <div class=" swiper-js swiper-wrapper">
 
                                     @foreach($testimonials as $testimonial_note)
-                                        <div class=" swiper-js swiper-slide bg-white m-1">
+                                        <div class=" swiper-js swiper-slide bg-white h-100 m-1">
                                             <div class=" swiper-js slide px-4 pt-5 pb-3 border-radius-20px ">
                                                 <div class=" swiper-js  shadow-lg"></div>
                                                 <div class=" swiper-js Customers-profile ">
