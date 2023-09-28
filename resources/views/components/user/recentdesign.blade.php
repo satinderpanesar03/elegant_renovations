@@ -9,7 +9,7 @@
         @foreach($designData as $designItem)
         <div class="our-recent-kitchens-design-section-content-card-1">
             <div class="img-wrapper" >
-            <img src="{{asset('storage/'.$designItem->image)}}" class="img-fluid">
+            <img src="{{asset('storage/'.$designItem->image)}}" class="img-fluid" style="max-height: 400px;">
             </div>
             <div class="detail-wrapper">
                 <div class="desc-wrapper">
