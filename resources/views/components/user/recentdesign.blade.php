@@ -5,7 +5,7 @@
         <div class="below-heading-line"></div>
     </div>
     <div class="our-recent-kitchens-design-section-content">
-            <div class="row">
+            <div class="row d-flex justify-content-center">
 
 
                     @if($designData!=null)
