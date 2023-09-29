@@ -17,7 +17,7 @@
                                             </div>
                                     <div class=" ">
                                                 <div class="desc-wrapper">
-                                                    <p>{{$designItem->title}}</p>
+                                                    <p class="font-weight-bold p-2 mt-3">{{$designItem->title}}</p>
                                                     <label>{{substr($designItem->meta_description, 0, 100)}}...</label>
                                                 </div>
                                                 <div class="btn-wrapper">
