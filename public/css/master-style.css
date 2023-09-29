@@ -1007,6 +1007,7 @@
   .building-servives-calgary-header-content {
     height: 40.4rem;
     backdrop-filter: brightness(0.4);
+      -webkit-backdrop-filter: brightness(0.4);
     color: white;
     position: relative;
     top: 5.6rem;
@@ -1026,7 +1027,8 @@
   .header-content {
     height: 36.4rem;
     backdrop-filter: brightness(0.4);
-    color: white;
+      -webkit-backdrop-filter: brightness(0.4);
+      color: white;
     position: relative;
     top: 5.6rem;
     display: flex;
@@ -2497,6 +2499,7 @@
   .blog-post-page.header-content {
     height: 16.4rem;
     backdrop-filter: brightness(0.4);
+      -webkit-backdrop-filter: brightness(0.4);
     color: white;
     position: relative;
     top: 5.6rem;
@@ -2943,6 +2946,7 @@
     right: 0;
     bottom: 0;
     backdrop-filter: brightness(0.4);
+      -webkit-backdrop-filter: brightness(0.4);
     z-index: 1;
     cursor: pointer;
     align-items: center;
@@ -3890,6 +3894,7 @@
   .contact-us.header-content {
     height: 24.4rem;
     backdrop-filter: brightness(0.4);
+      -webkit-backdrop-filter: brightness(0.4);
     color: white;
     position: relative;
     top: 5.6rem;
