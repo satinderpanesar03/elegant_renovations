@@ -17,8 +17,8 @@
                                             </div>
                                     <div class=" ">
                                                 <div class="desc-wrapper">
-                                                    <p>{{substr($designItem->title, 0, 30)}}...</p>
-                                                    <label>{{substr($designItem->meta_description, 0, 30)}}...</label>
+                                                    <p>{{$designItem->title}}</p>
+                                                    <label>{{substr($designItem->meta_description, 0, 100)}}...</label>
                                                 </div>
                                                 <div class="btn-wrapper">
                                                   <button class="btn btn-warning mt-2 mb-2">

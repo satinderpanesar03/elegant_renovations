@@ -35,7 +35,7 @@
                         </div>
                         <div class=" swiper-js carousel-wrapper px-5 ">
                             <div class=" swiper-js swiper">
-                                <div class=" swiper-js swiper-wrapper">
+                                    <div class=" swiper-js swiper-wrapper">
 
                                     @foreach($testimonials as $testimonial_note)
                                         <div class=" swiper-js swiper-slide bg-white h-100 m-1">
