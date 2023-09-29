@@ -45,7 +45,11 @@ $setting = Setting::first();
 
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{{\Illuminate\Support\Facades\URL::current()}}" />
-
+    <style>
+        p{
+            text-align: left;
+        }
+    </style>
     @stack('head')
 </head>
 
