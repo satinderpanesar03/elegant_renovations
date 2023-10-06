@@ -49,8 +49,11 @@ $setting = Setting::first();
         p{
             text-align: left;
         }
-        /*mobile     awesome-iframe*/
+
         .tidio-chat-iframe body{
+            width: 100%;
+        }
+        .awesome-iframe{
             width: 100%;
         }
     </style>
