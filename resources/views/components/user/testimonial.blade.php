@@ -1,5 +1,5 @@
 <!-- What are customers says about us section start -->
-<div class="what-our-customer-say-section-wrapper  pt-0">
+<div class="what-our-customer-say-section-wrapper  pt-0 desktop-display">
 
     <style>
         /* Define the yellow-star class to set the color to yellow */
