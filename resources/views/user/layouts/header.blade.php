@@ -49,6 +49,10 @@ $setting = Setting::first();
         p{
             text-align: left;
         }
+        /*mobile     awesome-iframe*/
+        .tidio-chat-iframe body{
+            width: 100%;
+        }
     </style>
     @stack('head')
 </head>
