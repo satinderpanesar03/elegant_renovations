@@ -369,9 +369,12 @@
     height: unset !important;
     padding-top: 3rem!important;
     padding-bottom: 3rem!important;
+      padding-inline: 20px !important;
 
   }
-
+      .get-a-free-quote-section .form-control{
+          padding: 16px !important;
+      }
 
   .get-a-free-quote-section-content {
     width: unset !important;
