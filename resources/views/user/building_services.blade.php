@@ -155,7 +155,7 @@
             <x-User.Testimonial/>
 
             {{--Testimonial End--}}
-
+            <x-User.Faq/>
             <!-- latest-blog-posts-section start here -->
             <x-User.Homeblog/>
             <!-- latest-blog-posts-section end here -->

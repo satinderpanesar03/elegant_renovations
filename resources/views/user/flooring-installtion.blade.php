@@ -351,7 +351,7 @@
       {{--     gallery start--}}
       <x-User.Gallery/>
       <!-- gallery-section end here -->
-
+      <x-User.Faq/>
       <!-- latest-blog-posts-section start here -->
       <x-User.Homeblog/>
       <!-- latest-blog-posts-section end here -->
