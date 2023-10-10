@@ -26,6 +26,17 @@ class ContentPageController extends Controller
 
     }
 
+    public function index_user($page)
+    {
+        $record=ContentPage::where('page_name',$page)->first();
+        if(!isset($record)){
+            abort(404);
+        }
+        return view('user.content_static', compact('record'));
+
+    }
+
+
     /**
      * Show the form for creating a new resource.
      *

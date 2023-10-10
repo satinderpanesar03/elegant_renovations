@@ -189,6 +189,11 @@ Route::group(['as' => 'user.'], function() {
     Route::controller(HomeController::class)->group(function(){
         Route::get('/', 'homePage');
     });
+    Route::controller(ContentPageController::class)->group(function(){
+        Route::get('/info/{page}', 'index_user')->name('content_static.index');
+    });
+
+
 
     Route::controller(BlogController::class)->group(function(){
         Route::get('/blogs', 'index')->name('blogs.index');

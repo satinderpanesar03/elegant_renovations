@@ -131,10 +131,10 @@ $setting = Setting::first();
                     <div class="blog-post-page helpful-links">
                         <h6 class="blog-post-page ff-other">Helpful Links</h6>
                         <ul>
-                            <li>About Us</li>
-                            <li>Blog</li>
-                            <li>Contact us</li>
-                            <li>Terms & Condition</li>
+                            <li><a href="{{route("user.aboutus.index")}}" > About Us</a></li>
+                            <li> <a href="{{route("user.blogs.index")}}"> Blogs </a> </li>
+                            <li> <a href="{{route("user.contact.us")}}"> Contact us </a> </li>
+                            <li> <a href="/info/term-conditions"> Terms & Condition </a></li>
                         </ul>
                     </div>
 
