@@ -1,27 +1,27 @@
-<div class="get-a-free-quote-section" id="inquiry-form">
+<div class="get-a-free-quote-section" id="inquiry-form" style="scale: 1">
     <div class="get-a-free-quote-section-heading">
         <h2>Get A Free Quote</h2>
 
 
     </div>
-    <form action="{{route('user.contact.us.store')}}" method="post">
+    <form action="{{route('user.contact.us.store')}}" method="post" style="scale: 1">
         @csrf
         <div class="get-a-free-quote-section-content">
             <p class="mb-3">Contact our Kitchen renovation experts serving calgary, edmonton & vancouver</p>
             <form>
                 <div class="row">
-                    <div class="col">
-                        <input type="text"  class="form-control mb-3" placeholder="First name" name="name" required>
+                    <div class="col-md-6">
+                        <input type="text"  class="form-control mb-3"  placeholder="First name" name="name" required>
                     </div>
-                    <div class="col">
+                    <div class="col-md-6">
                         <input type="text" class="form-control mb-3" placeholder="last name" name="lastname" required>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col">
+                    <div class="col-md-6">
                         <input type="text" class="form-control mb-3" placeholder="Phone no" name="phone" required>
                     </div>
-                    <div class="col">
+                    <div class="col-md-6">
                         <input type="email" class="form-control mb-3" placeholder="E-mail" name="email" required>
                     </div>
                 </div>
