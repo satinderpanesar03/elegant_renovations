@@ -11,8 +11,8 @@
                 <a href="{{route('user.blog.detail.index', $blog->id)}}" class="text-decoration-none ">
                 <div class="img" style="background: url({{asset('storage/'.$blog->image)}})"></div>
                 </a>
-                <span>{{$blog->title}}</span>
-                <a href="{{route('user.blog.detail.index', $blog->id)}}" class="text-decoration-none "> <p>{{$blog->title}}</p></a>
+                <span class="m-4">{{$blog->title}}</span>
+                <a href="{{route('user.blog.detail.index', $blog->id)}}" class="text-decoration-none "> <p class="m-4">{{$blog->title}}</p></a>
             </div>
             @endforeach
 
