@@ -154,70 +154,7 @@
 
             </div>
             <p class="text-center mb-5 px-xs-5 px-sm-5 px-md-4 px-lg-0 fs-20 fw-500">Contact us today to request samples and take the first step toward creating a beautiful and functional space that reflects your personal style.</p>
-{{--            <div class="mb-4 flooring-samples-design-section">--}}
-{{--                <div class="owl-carousel owl-theme">--}}
-{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-1.jpeg')}}" alt="" height="150"></div>--}}
-{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-1.jpeg')}}" alt="" height="150"></div>--}}
-{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-3.jpeg')}}" alt="" height="150"></div>--}}
-{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-4.jpeg')}}" alt="" height="150"></div>--}}
-{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-5.jpeg')}}" alt="" height="150"></div>--}}
-{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-7.jpeg')}}" alt="" height="150"></div>--}}
-{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-7.jpeg')}}" alt="" height="150"></div>--}}
-{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-1.jpeg')}}" alt="" height="150"></div>--}}
-{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-3.jpeg')}}" alt="" height="150"></div>--}}
-{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-4.jpeg')}}" alt="" height="150"></div>--}}
-{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-5.jpeg')}}" alt="" height="150"></div>--}}
-{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-7.jpeg')}}" alt="" height="150"></div>--}}
-{{--                  </div>--}}
 
-{{--                <div class="text-center  pb-3">--}}
-{{--                    <p class="text-center text-muted fs-18">Luxury Vinyl</p>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-
-{{--            <div class="mb-4 flooring-samples-design-section">--}}
-
-{{--                <div class="owl-carousel owl-theme">--}}
-{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-1.jpeg')}}" alt="" height="150"></div>--}}
-{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-3.jpeg')}}" alt="" height="150"></div>--}}
-{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-5.jpeg')}}" alt="" height="150"></div>--}}
-{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-6.jpeg')}}" alt="" height="150"></div>--}}
-{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-1.jpeg')}}" alt="" height="150"></div>--}}
-{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-6.jpeg')}}" alt="" height="150"></div>--}}
-{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-5.jpeg')}}" alt="" height="150"></div>--}}
-{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-3.jpeg')}}" alt="" height="150"></div>--}}
-{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-5.jpeg')}}" alt="" height="150"></div>--}}
-{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-6.jpeg')}}" alt="" height="150"></div>--}}
-{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-5.jpeg')}}" alt="" height="150"></div>--}}
-{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-6.jpeg')}}" alt="" height="150"></div>--}}
-{{--                  </div>--}}
-
-{{--                <div class="text-center  pb-3">--}}
-{{--                    <p class="text-center text-muted fs-18">Laminate Flooring</p>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-
-{{--            <div class="mb-4 flooring-samples-design-section">--}}
-
-{{--                <div class="owl-carousel owl-theme">--}}
-{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-6.jpeg')}}" alt="" height="150"></div>--}}
-{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-3.jpeg')}}" alt="" height="150"></div>--}}
-{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-4.jpeg')}}" alt="" height="150"></div>--}}
-{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-5.jpeg')}}" alt="" height="150"></div>--}}
-{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-1.jpeg')}}" alt="" height="150"></div>--}}
-{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-2.jpeg')}}" alt="" height="150"></div>--}}
-{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-5.jpeg')}}" alt="" height="150"></div>--}}
-{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-3.jpeg')}}" alt="" height="150"></div>--}}
-{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-4.jpeg')}}" alt="" height="150"></div>--}}
-{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-.jpeg')}}" alt="" height="150"></div>--}}
-{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-2.jpeg')}}" alt="" height="150"></div>--}}
-{{--                    <div class="item flooring-samples-design"><img src="{{asset('user/images/flooring-design-1.jpeg')}}" alt="" height="150"></div>--}}
-{{--                  </div>--}}
-
-{{--                <div class="text-center  pb-3">--}}
-{{--                    <p class="text-center text-muted fs-18">Engineered Hardwood</p>--}}
-{{--                </div>--}}
-{{--            </div>--}}
         </div>
 
 
