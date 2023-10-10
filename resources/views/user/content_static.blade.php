@@ -8,7 +8,7 @@
     <div class="blog-post-page left-side-section">
         <h2>{{$record->title}}</h2>
         <hr/>
-         {{$record->description}}
+         {!! $record->description !!}
 
   </div>
 
