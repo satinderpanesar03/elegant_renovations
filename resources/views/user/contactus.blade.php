@@ -6,31 +6,31 @@
 <div class="contact-us header-content-wrapper">
     <div class="contact-us header-content">
         <div class=" contact-us blog-post-detail-page header-content-detail">
-            <h2>Contact our kitchen <br>
+            <h2>Contact our Homes <br>
                <span class="text-orange">Remodelling & Renovation </span> experts</h2>
         </div>
         <div class="contact-us d-flex ">
-            <div class="px-5 py-3 text-center">
-                <p class="mb-2 fw-500">CALGARY</p>
-                <p class="fw-300">(000) 811-1114</p>
-            </div>
-            <div class="px-5 py-3 text-center">
-                <p class="mb-2 fw-500">EDMONTON</p>
-                <p class="fw-300">(000) 811-1114</p>
-            </div>
+{{--            <div class="px-5 py-3 text-center">--}}
+{{--                <p class="mb-2 fw-500">CALGARY</p>--}}
+{{--                <p class="fw-300">(000) 811-1114</p>--}}
+{{--            </div>--}}
+{{--            <div class="px-5 py-3 text-center">--}}
+{{--                <p class="mb-2 fw-500">EDMONTON</p>--}}
+{{--                <p class="fw-300">(000) 811-1114</p>--}}
+{{--            </div>--}}
             <div class="px-5 py-3 text-center">
                 <p class="mb-2 fw-500">VANCOUVER</p>
-                <p class="fw-300">(000) 811-1114</p>
+                <p class="fw-300"> (1) 6047860949</p>
             </div>
         </div>
     </div>
 </div>
-<div class="contact-us get-a-free-quote-section">
+<div class="contact-us get-a-free-quote-section" id="inquiry-form">
     <div class="contact-us get-a-free-quote-section-heading">
         <h2>Get A Free Quote</h2>
     </div>
     <div class="contact-us get-a-free-quote-section-content">
-        <p>Contact our Kitchen renovation experts serving calgary, edmonton & vancouver</p>
+        <p>Contact our Kitchen renovation experts serving Vancouver</p>
         <form action="{{route('user.contact.us.store')}}" method="post">
     @csrf
             <div class="contact-us row">
@@ -52,8 +52,12 @@
             <textarea class="contact-us form-control" placeholder="Enter your message" rows="5" id="comment"
                 name="message"></textarea>
 
-
-        <button type="submit">Submit</button>
+            @if(session('success'))
+                <div class="alert alert-success m-3">
+                    {{ session('success') }}
+                </div>
+            @endif
+        <button type="submit" class="m-3">Submit</button>
         </form>
     </div>
 </div>

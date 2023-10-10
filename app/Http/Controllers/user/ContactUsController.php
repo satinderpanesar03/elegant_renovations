@@ -13,6 +13,7 @@ class ContactUsController extends Controller
     }
 
     public function store(Request $request){
+
         $validator = $request->validate([
             'name' => 'required',
             'email' => 'required|email',
@@ -20,7 +21,9 @@ class ContactUsController extends Controller
         ]);
 
         Contactus::create($request->except('_token'));
+        // Build the URL with the query parameter and fragment
+        $url = url()->previous() . '?#inquiry-form';
 
-        return redirect()->back()->with('success', 'Successfully submitted');
+        return redirect($url)->with('success', 'Message submitted successfully , we will contact you soon.');
     }
 }

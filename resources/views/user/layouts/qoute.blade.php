@@ -6,7 +6,7 @@
         <p>Contact our Kitchen renovation experts serving calgary, edmonton & vancouver</p>
         <form action="{{route('user.contact.us.store')}}" method="post">
             @csrf
-            <div class="row">
+            <div class="row mb-3">
                 <div class="col">
                     <input type="text" class="form-control" placeholder="First name"  name="name">
                 </div>
@@ -14,7 +14,7 @@
                     <input type="text" class="form-control" placeholder="last name"  name="last_name">
                 </div>
             </div>
-            <div class="row">
+            <div class="row mb-3">
                 <div class="col">
                     <input type="text" class="form-control" placeholder="Phone no" name="phone" >
                 </div>
@@ -22,9 +22,15 @@
                     <input type="text" class="form-control" placeholder="E-mail" name="email">
                 </div>
             </div>
-            <textarea class="form-control" placeholder="Enter your message" rows="5" id="comment" name="message"></textarea>
+            <textarea class="form-control" placeholder="Enter your message" rows="5" id="comment" name="message" class="mb-3"></textarea>
+
+            @if(session('success'))
+                <div class="alert alert-success">
+                    {{ session('success') }}
+                </div>
+            @endif
             <button type="submit">Submit</button>
         </form>
-        
+
     </div>
 </div>
