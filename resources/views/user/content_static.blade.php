@@ -4,7 +4,7 @@
 
 @section('content')
 
-<div class="blog-post-page main-content-wrapper" style="margin-top: 100px;">
+<div class="blog-post-page main-content-wrapper" style="margin-top: 100px;padding: 10%;">
     <div class="blog-post-page left-side-section">
         <h2>{{$record->title}}</h2>
         <hr/>
