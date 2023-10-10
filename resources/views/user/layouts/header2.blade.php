@@ -40,6 +40,12 @@ $setting = Setting::first();
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
   integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
   crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
 </head>
 
 <body>
@@ -161,7 +167,7 @@ $setting = Setting::first();
         <!-- footer start here -->
 
     </div>
-    <script src="./js/master.js"></script>
+    <script src="/js/master.js"></script>
   </body>
 
 </html>
