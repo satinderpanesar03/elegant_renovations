@@ -20,7 +20,7 @@
 
                 {{--    Testimonials--}}
                         <x-User.Testimonial/>
-                         <x-User.Testimonial2/>
+
                 {{--Testimonial End--}}
 
                 {{--     gallery start--}}

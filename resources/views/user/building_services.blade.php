@@ -153,6 +153,7 @@
 
             {{--    Testimonials--}}
             <x-User.Testimonial/>
+
             {{--Testimonial End--}}
 
             <!-- latest-blog-posts-section start here -->

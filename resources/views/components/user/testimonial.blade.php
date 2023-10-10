@@ -91,3 +91,8 @@
         });
     });
 </script>
+
+
+
+
+<x-User.Testimonial2/>
