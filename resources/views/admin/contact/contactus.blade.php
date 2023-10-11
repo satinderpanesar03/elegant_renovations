@@ -66,7 +66,7 @@
                       <td>{{$item->email}}</td>
                       <td>{{$item->phone}}</td>
                       <td class="text-truncate">{{$item->message}}.</td>
-                      <td>{{$item->status}}</td>
+                      <td>{{ucfirst($item->status)}}</td>
                       <td>
                         <button class="action-btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                           <i class='bx bx-dots-vertical-rounded fs-5'></i>
@@ -78,9 +78,10 @@
                                    class='bx bx-chevron-right fs-5 align-middle'></i></span>
                               <ul class="sub-dropdown-menu list-unstyled mb-0">
                                 <li>
-                                  <button class="reset-btn pb-2 w-100 d-inline-block dropdown-item">Resolved</button>
+                                    <a href="{{route('admin.contactus.resolved',$item->id)}}" class="reset-btn pb-2 w-100 d-inline-block">Resolved</a>
                                 </li>
-                                <li> <button class="reset-btn pb-2 w-100 d-inline-block">Pending</button>
+                                <li>
+                                    <a href="{{route('admin.contactus.pending',$item->id)}}" class="reset-btn pb-2 w-100 d-inline-block">Pending</a>
                                 </li>
                               </ul>
                             </ul>

@@ -158,9 +158,22 @@ class ContactUsController extends Controller
         $item=Contactus::find($id);
         if($item){
             $item->delete();
-            return  redirect()->back()->with('success', 'Contact-us deleted');
+            return  redirect()->back()->with('success', 'Contact us deleted');
         }else {
             return  redirect()->back()->with('error', 'Unable to deleted');
         }
     }
+
+    public function resolved($id){
+        $item=Contactus::find($id);
+        $item->update(['status' => 'resolved']);
+        return  redirect()->back()->with('success', 'Contact us changed to resolved');
+    }
+    public function pending($id){
+        $item=Contactus::find($id);
+        $item->update(['status' => 'pending']);
+        return  redirect()->back()->with('success', 'Contact us changed to pending');
+    }
+
+
 }

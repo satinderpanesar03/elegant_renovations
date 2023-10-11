@@ -163,6 +163,8 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
         Route::middleware("ensure_permission:".Permission::Contact)->controller( ContactUsController::class)->group(function() {
             Route::get('/contact-us', 'index')->name('contactus');
             Route::get('/contact-us/{id}/delete', 'destroy')->name('contactus_delete');
+            Route::get('/contact-us/{id}/resolved', 'resolved')->name('contactus.resolved');
+            Route::get('/contact-us/{id}/pending', 'pending')->name('contactus.pending');
         });
 
 
