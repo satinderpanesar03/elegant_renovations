@@ -1928,7 +1928,7 @@
     margin: 10px;
     border-radius: 12px;
     height: 26rem;
-   
+
   }
 
   .latest-blog-posts-section-content-cards .card .img {
@@ -2013,7 +2013,7 @@
     position: relative;
     border-radius: 12px;
     top: -26rem;
-    z-index: 0;
+    z-index: 1;
   }
 
   .get-a-free-quote-section-heading {
@@ -2069,7 +2069,6 @@
     background-color: #1f2c3a;
     position: relative;
     top: -42rem;
-    z-index: -1;
     padding-bottom: 19rem;
   }
 
