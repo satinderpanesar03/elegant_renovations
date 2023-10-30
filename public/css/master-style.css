@@ -1157,6 +1157,14 @@
     border-radius: 12px;
     min-width: 15rem;
   }
+  .reflect-your-sense-of-style-section-content .Construction-design-wrapper {
+    width: 45%;
+    margin: 10px;
+    height: 14rem;
+    border-radius: 12px;
+    min-width: 15rem;
+  }
+
  .floor-installation-side-sub-category-image {
      display: flex;
      justify-content: center;
@@ -1202,6 +1210,49 @@
     top: -8rem;
   }
 
+  .reflect-your-sense-of-style-section-content .Kitchen-Design-img-1 {
+    background: url("../user/images/kithen1.webp");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 24rem;
+  }
+
+  .reflect-your-sense-of-style-section-content .Kitchen-Design-img-5 {
+    background: url("../user/images/construction1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 24rem;
+  }
+
+  .reflect-your-sense-of-style-section-content .Kitchen-Design-img-6 {
+    background: url("../user/images/construction2.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    top: 2rem;
+  }
+
+
+  .reflect-your-sense-of-style-section-content .Kitchen-Design-img-7 {
+    background: url("../user/images/construction3.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+  }
+
+  .reflect-your-sense-of-style-section-content .Kitchen-Design-img-8 {
+    background: url("../user/images/construction4.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 24rem;
+    position: relative;
+    top: -8rem;
+  }
 
   .reflect-your-sense-of-style-section-content .reflect-your-sense-of-style-section-content-desc {
     display: flex;
@@ -3756,6 +3807,40 @@
     top: -8rem;
   }
 
+  .trusted-kitchen-renovation-section-content .Construction-Design-img-1 {
+    background: url("../user/images/construction1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 24rem;
+  }
+
+  .trusted-kitchen-renovation-section-content .Construction-Design-img-2 {
+    background: url("../user/images/Kitchen-Design-2.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    top: 2rem;
+  }
+
+  .trusted-kitchen-renovation-section-content .Construction-Design-img-3 {
+    background: url("../user/images/Kitchen-Design-3.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .trusted-kitchen-renovation-section-content .Construction-Design-img-4 {
+    background: url("../user/images/Kitchen-Design-4.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 24rem;
+    position: relative;
+    top: -8rem;
+  }
+
   .trusted-kitchen-renovation-section-content .trusted-kitchen-renovation-section-content-desc {
     display: flex;
     flex-direction: column;
@@ -4059,3 +4144,13 @@
 
     /* Add more mobile-specific styles here */
 }
+@media (max-width : 575px) {
+    .reflect-your-sense-of-style-section-content .Kitchen-Design-img-6 {
+        top: 0;
+      }
+  }
+  @media (max-width : 575px) {
+    .reflect-your-sense-of-style-section-content .Kitchen-Design-img-8 {
+        top: 0;
+      }
+  }
