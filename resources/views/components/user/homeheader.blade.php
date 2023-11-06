@@ -22,7 +22,7 @@
 <div class="header-content-wrapper">
     <div class="video-background">
         <video autoplay muted loop id="video-background"  playsinline>
-            <source src="{{asset('user/video/amka_home.mp4')}}" type="video/mp4">
+            <source src="{{asset('user/video/amka_home_web.mp4')}}" type="video/mp4">
             <!-- Add additional source elements for other video formats like WebM or Ogg if needed -->
         </video>
     </div>
