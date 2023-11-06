@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\user;
 
 use App\Http\Controllers\Controller;
+use App\Jobs\ContactUsJob;
 use App\Models\Contactus;
 use Illuminate\Http\Request;
 
@@ -20,7 +21,10 @@ class ContactUsController extends Controller
             'message' => 'required',
         ]);
 
-        Contactus::create($request->except('_token'));
+        $contact = Contactus::create($request->except('_token'));
+        if($contact){
+            ContactUsJob::dispatch($contact);
+        }
         // Build the URL with the query parameter and fragment
         $url = url()->previous() . '?#inquiry-form';
 
