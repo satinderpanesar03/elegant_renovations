@@ -26,7 +26,7 @@
                                 </a>
                             </button>
                             <button type="button" class="btn btn-outline-light text-white header-button-style mx-1 mb-2 border-radius-12px">Call:
-                                <a href="tel:+16047860949">
+                                <a href="tel:+16047860949" style="text-decoration: none;color: white;">
                                     Call:
                                     +1 604-786-0949
                                 </a>
