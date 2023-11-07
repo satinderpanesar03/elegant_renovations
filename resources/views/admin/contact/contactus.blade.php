@@ -51,7 +51,7 @@
                       <th scope="col">Phone No.</th>
                       <th scope="col">Message</th>
                       <th scope="col">Status</th>
-                      <th scope="col">Action</th>
+                      <th  colspan="2" scope="col">Action</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -67,6 +67,11 @@
                       <td>{{$item->phone}}</td>
                       <td class="text-truncate">{{$item->message}}.</td>
                       <td>{{ucfirst($item->status)}}</td>
+                      <td>
+                      <a type="button" class="btn btn-primary" data-bs-toggle="modal"      data-bs-target="#exampleModal{{$item->id}}">
+                            View
+                          </a>
+                      </td>
                       <td>
                         <button class="action-btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                           <i class='bx bx-dots-vertical-rounded fs-5'></i>
@@ -90,9 +95,29 @@
                           <li><a href="{{route('admin.contactus_delete',$item->id)}}" class="reset-btn px-3 w-100 d-inline-block text-start">Delete</a>
                           </li>
                         </ul>
+
+
                       </td>
+                      
                     </tr>
 
+                    <!-- Modal -->
+                      <div class="modal fade" id="exampleModal{{$item->id}}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style=" word-wrap: break-word;">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">{{$item->name}}</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                             <b>Message</b> :<br>  <p>{{$item->message}}</p>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
 
                   @empty
                         <tr> <td colspan="5"> <span class="text-danger"> No Records</span> </td></tr>
@@ -157,3 +182,6 @@
 
 
 @include('admin.layouts.script')
+<!-- Button trigger modal -->
+
+
