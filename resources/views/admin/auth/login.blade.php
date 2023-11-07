@@ -5,7 +5,7 @@
             <!-- Form Image  -->
             <div class="col-12 col-sm-4 col-md-4 col-lg-4 d-none d-lg-block pe-md-0">
                 <div class='image-wrapper'>
-                    <img src="{{ asset('images/login.png') }}" alt="login" class="img-fluid w-100" />
+                    <img src="{{ asset('images/amka_admin.webp') }}" alt="login" class="img-fluid w-100" />
                 </div>
             </div>
             <!-- Form Wrapper  -->
@@ -16,7 +16,7 @@
                     class='form-wrapper d-flex justify-content-center align-items-center h-100 bg-white py-4 py-md-5 px-4 px-md-5'>
                     <div class="w-100">
                         <div class='logo-wrapper mb-5 text-center'>
-                            <img src="{{ asset('images/logo.png') }}" alt="login" class="img-fluid" />
+                            <img src="{{ asset('user/images/amka_svg_logo.svg') }}" alt="login" class="img-fluid" />
                         </div>
                         <form action="{{ route('admin.dologin') }}" method="post">
                             @csrf
