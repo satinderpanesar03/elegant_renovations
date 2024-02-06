@@ -2,6 +2,29 @@
 
 @section('title', 'About us')
 
+@push('header_meta_content')
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="About us" />
+    <meta name="description" content="At AMKA Homes LTD, we believe in open communication and collaboration with our clients throughout the entire renovation process, ensuring a seamless and stress-free experience." />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://amkahomes.ca/about-us" />
+    <meta property="og:title" content="About us" />
+    <meta property="og:description" content="At AMKA Homes LTD, we believe in open communication and collaboration with our clients throughout the entire renovation process, ensuring a seamless and stress-free experience." />
+    <meta property="og:image" content="https://amkahomes.ca/user/images/Kitchen-Design-1.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://amkahomes.ca/about-us" />
+    <meta property="twitter:title" content="About us" />
+    <meta property="twitter:description" content="At AMKA Homes LTD, we believe in open communication and collaboration with our clients throughout the entire renovation process, ensuring a seamless and stress-free experience." />
+    <meta property="twitter:image" content="https://amkahomes.ca/user/images/Kitchen-Design-1.png" />
+
+    <!-- Meta Tags Generated with https://metatags.io -->
+@endpush
+
+
 @section('content')
 <div>
         <header>

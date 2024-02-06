@@ -1031,8 +1031,8 @@
 
   .header-content {
     height: 36.4rem;
-    backdrop-filter: brightness(0.4);
-      -webkit-backdrop-filter: brightness(0.4);
+    backdrop-filter: brightness(0.6);
+      -webkit-backdrop-filter: brightness(0.6);
       color: white;
     position: relative;
     top: 5.6rem;

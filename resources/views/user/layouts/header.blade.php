@@ -8,6 +8,15 @@ $setting = Setting::first();
 <head>
 <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
+    <title>@yield('title')</title>
+    @stack('header_meta_content')
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{\Illuminate\Support\Facades\URL::current()}}" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -40,16 +49,8 @@ $setting = Setting::first();
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
     integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <title>@yield('title')</title>
 
 
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="{{\Illuminate\Support\Facades\URL::current()}}" />
-
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
 
     <style>
         p{

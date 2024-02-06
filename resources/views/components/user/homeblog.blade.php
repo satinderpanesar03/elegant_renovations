@@ -8,11 +8,11 @@
         <div class="latest-blog-posts-section-content-cards">
             @foreach ($blogs as $blog)
             <div class="card-1 card">
+                <span class="m-2">{{$blog->title}}</span>
                 <a href="{{route('user.blog.detail.index', $blog->id)}}" class="text-decoration-none ">
                 <div class="img" style="background: url({{asset('storage/'.$blog->image)}})"></div>
-                </a>
-                <span class="m-4">{{$blog->title}}</span>
                 <a href="{{route('user.blog.detail.index', $blog->id)}}" class="text-decoration-none "> <p class="m-4">{{$blog->title}}</p></a>
+                </a>
             </div>
             @endforeach
 
