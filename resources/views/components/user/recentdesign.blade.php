@@ -1,7 +1,7 @@
 
 <div class="our-recent-kitchens-design-section-wrapper">
     <div class="our-recent-kitchens-design-section-heading">
-        <h2>Our Recent Kitchen Designs</h2>
+        <h2>New Home Construction</h2>
         <div class="below-heading-line"></div>
     </div>
     <div class="our-recent-kitchens-design-section-content">
