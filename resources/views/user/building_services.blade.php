@@ -1,7 +1,26 @@
 @extends('user.layouts.header')
+@section('title', 'Building and Design Partner in Vancouver')
+@push('header_meta_content')
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Building and Design Partner in Vancouver" />
+    <meta name="description" content="From kitchens and bathrooms to living areas and outdoor spaces, find inspiration for every room in your home" />
 
-@section('title', 'Welcome')
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://amkahomes.ca/building-services-in-vancouver" />
+    <meta property="og:title" content="Building and Design Partner in Vancouver" />
+    <meta property="og:description" content="At Amko Homes, we are your premier partner for all your building and development needs in the beautiful city of Vancouver" />
+    <meta property="og:image" content="https://amkahomes.ca/user/images/building/woman_building.webp" />
 
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://amkahomes.ca/building-services-in-vancouver" />
+    <meta property="twitter:title" content="Building and Design Partner in Vancouver" />
+    <meta property="twitter:description" content="At Amko Homes, we are your premier partner for all your building and development needs in the beautiful city of Vancouver" />
+    <meta property="twitter:image" content="https://amkahomes.ca/user/images/building/woman_building.webp" />
+
+    <!-- Meta Tags Generated with https://metatags.io -->
+@endpush
 @section('content')
 <div class="building-servives-calgary-header-content-wrapper">
                 <div class="building-servives-calgary-header-content">
