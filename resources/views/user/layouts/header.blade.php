@@ -10,6 +10,10 @@ $setting = Setting::first();
     <meta name="viewport" content="width=device-width">
     <title>@yield('title')</title>
     @stack('header_meta_content')
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="author" content="Amka Homes">
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{{\Illuminate\Support\Facades\URL::current()}}" />
 
