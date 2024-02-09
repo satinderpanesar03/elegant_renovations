@@ -19,7 +19,7 @@
 </style>
 <!--  What are customers says about us end -->
 {{--@section('content')--}}
-<div class="header-content-wrapper"  style="background-size: cover;background-image: url('images/way-white-house.jpg')">
+<div class="header-content-wrapper"  style="background-size: cover;background-image: url('images/white_house.webp')">
     <div class="video-background">
 {{--        <video autoplay muted loop id="video-background"  playsinline>--}}
 {{--            <source src="{{asset('user/video/amka_home_web.mp4')}}" type="video/mp4">--}}
