@@ -177,7 +177,7 @@ $setting = Setting::first();
 
             </div>
             <hr>
-            <p class="blog-post-page fs-15">&copy; 2023 Amka Homes. All Rights Reserved.</p>
+            <p class="blog-post-page fs-15">&copy; 2024 Amka Homes. All Rights Reserved.</p>
         </footer>
 
         <!-- footer start here -->

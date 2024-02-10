@@ -11,12 +11,12 @@
                 @foreach ($blogs as $blog)
                 <div class="blog-post-detail-page row mt-5">
                     <div class="blog-post-detail-page col-6 pl-0">
-                        <img class="blog-post-detail-page rounded blog-post-popular-post-images"
-                             src="{{asset('storage/'.$blog->image)}}" alt="image Amka">
+                        <a href="{{route('user.blog.detail.index', $blog->id)}}" class="text-decoration-none "> <img class="blog-post-detail-page rounded blog-post-popular-post-images" src="{{asset('storage/'.$blog->image)}}" alt="image Amka"></a>
                     </div>
                     <div class="blog-post-detail-page col-6 p-0 line-height-1-5">
                         <p class="blog-post-detail-page text-orange fs-11 mb-2"><b>AMKA HOMES</b></p>
-                        <p class="blog-post-detail-page fs-11"><b>{{$blog->title}}</b></p>
+                        <a href="{{route('user.blog.detail.index', $blog->id)}}" class="text-decoration-none ">   <p class="blog-post-detail-page fs-11"><b>{{$blog->title}}</b></p>
+                        </a>
 
                     </div>
                 </div>
