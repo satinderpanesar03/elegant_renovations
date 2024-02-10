@@ -1,12 +1,32 @@
 @extends('user.layouts.header2')
 
-@section('title', 'Blogs')
+@section('title', 'News & Updates')
+@push('header_meta_content')
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="News & Updates" />
+    <meta name="description" content="Stay informed and up-to-date with the latest happenings, developments, and announcements. Our News and Updates page is your go-to destination for fresh insights, breaking news, and exciting updates" />
 
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://amkahomes.ca/blogs" />
+    <meta property="og:title" content="News & Updates" />
+    <meta property="og:description" content="Stay informed and up-to-date with the latest happenings, developments, and announcements. Our News and Updates page is your go-to destination for fresh insights, breaking news, and exciting updates" />
+    <meta property="og:image" content="https://amkahomes.ca/storage/image/e3VuiTAZMUQFoobVBcpebHSUq2ElhWOlDmdD31gR.webp" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://amkahomes.ca/blogs" />
+    <meta property="twitter:title" content="News & Updates" />
+    <meta property="twitter:description" content="Stay informed and up-to-date with the latest happenings, developments, and announcements. Our News and Updates page is your go-to destination for fresh insights, breaking news, and exciting updates" />
+    <meta property="twitter:image" content="https://amkahomes.ca/storage/image/e3VuiTAZMUQFoobVBcpebHSUq2ElhWOlDmdD31gR.webp" />
+
+    <!-- Meta Tags Generated with https://metatags.io -->
+@endpush
 @section('content')
 <div class="blog-post-page header-content-wrapper">
     <div class="blog-post-page header-content">
         <div class="blog-post-page header-content-detail">
-            <h2>Blog Posts</h2>
+            <h2>News & Updates</h2>
         </div>
     </div>
 </div>
