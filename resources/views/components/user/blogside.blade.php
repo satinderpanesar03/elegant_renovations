@@ -1,7 +1,7 @@
 <div class="blog-post-detail-page right-side-section">
     <aside id="popularPost" class="blog-post-detail-page  py-3 ">
         <div class="blog-post-detail-page card  img-rounded w-100 ">
-            <h5 class="blog-post-detail-page text-center pt-3"><b>Popular Posts</b></h5>
+            <h5 class="blog-post-detail-page text-center pt-3"><b>Read Updates</b></h5>
             <hr class="blog-post-detail-page mx-3 mt-0">
             <img class="blog-post-detail-page card-img-top img-rounded border-radius-20px px-3 w-100"
                  src="/user/images/gif/amk.gif" alt="image amka homes" height="160">
