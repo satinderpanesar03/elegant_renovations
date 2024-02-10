@@ -1771,14 +1771,14 @@
   }
 
   .gallery-section-content-left-img-1 {
-    background: url("../user/images/g_home_1_kitchen.webp");
+    background: url("../images/builfing.jpg");
     height: 30rem;
     position: relative;
     top: 3rem;
   }
 
   .gallery-section-content-left-img-2 {
-    background: url("../user/images/g_home_1_kitchen.webp");
+    background: url("../images/builfing.jpg");
     left: 1rem;
     position: relative;
     top: -28rem;
@@ -1787,7 +1787,7 @@
   }
 
   .gallery-section-content-left-img-3 {
-    background: url("../user/images/g_home_1_kitchen.webp");
+    background: url("../images/builfing.jpg");
     position: relative;
     top: -61rem;
     left: 2rem;
@@ -1823,15 +1823,15 @@
   }
 
   .gallery-section-content-right-img .img-1 {
-    background: url("../user/images/homeg1_ga.jpeg");
+    background: url("../images/hall.jpg");
   }
 
   .gallery-section-content-right-img .img-2 {
-    background: url("../user/images/homeg2_ga.jpeg");
+    background: url("../images/outer.jpg");
   }
 
   .gallery-section-content-right-img .img-3 {
-    background: url("../user/images/homeg3_ga.jpeg");
+    background: url("../images/pool.jpg");
   }
 
   .gallery-section-content-right-img .img-4 {

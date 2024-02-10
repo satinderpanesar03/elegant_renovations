@@ -14,7 +14,7 @@
         </div>
         <div class="gallery-section-content-right-img col-sm-10 col-lg-5 gallery-section">
             <div>
-                <div class="img-1 gallery-section"></div>
+                <div class="img-1 gallery-section" ></div>
                 <div class="img-2 gallery-section"></div>
             </div>
             <div>
