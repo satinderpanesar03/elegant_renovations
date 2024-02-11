@@ -146,7 +146,7 @@ $setting = Setting::first();
                                     <a class="nav-link" href="{{route('user.aboutus.index')}}">About Us</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{{route('user.blogs.index')}}     ">Blogs &  News</a>
+                                    <a class="nav-link" href="{{route('user.blogs.index')}}     ">Blogs & News</a>
                                 </li>
                                 <li class="nav-item mobile-display">
                                     <a class="nav-link" href="{{route('user.contact.us')}}     ">Contact us</a>
