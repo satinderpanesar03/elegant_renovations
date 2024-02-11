@@ -171,18 +171,15 @@ $setting = Setting::first();
 
                     </div>
                     <div class="col-lg-2 col-md-12 col-sm-12">
-
-{{--                        <div class="services">--}}
-{{--                            <h6 class="ff-other">Services</h6>--}}
+{{--                        <div class="helpful-links">--}}
+{{--                            <h6 class="ff-other">Social Links</h6>--}}
 {{--                            <ul>--}}
-{{--                                <li></li>--}}
-{{--                                <li>Scalable</li>--}}
-{{--                                <li>Modular</li>--}}
-{{--                                <li>Connectivity</li>--}}
-{{--                                <li>Corporate</li>--}}
+{{--                                <li><a href="https://www.instagram.com/amkahomesltd/" > Instagram</a></li>--}}
+{{--                                <li> <a href="{{route("user.blogs.index")}}"> Blogs </a> </li>--}}
+{{--                                <li> <a href="{{route("user.contact.us")}}"> Contact us </a> </li>--}}
+{{--                                <li><a href="/info/term-conditions"> Terms & Conditions  </a> </li>--}}
 {{--                            </ul>--}}
 {{--                        </div>--}}
-
                     </div>
                     <div class="col-lg-3 col-md-12 col-sm-12">
                         <div class="contact-us">
@@ -203,7 +200,8 @@ $setting = Setting::first();
             <hr>
             <p class="fs-15">&copy; 2024 Amka Homes. All Rights Reserved.</p>
         </footer>
-        <script src="//code.tidio.co/5innug7ryhvi5oxdhqkdz8oujehxcczz.js" async></script>
+    </div>
+    <script src="//code.tidio.co/5innug7ryhvi5oxdhqkdz8oujehxcczz.js" async></script>
 </body>
 
 </html>
