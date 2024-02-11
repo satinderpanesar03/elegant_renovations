@@ -72,6 +72,42 @@ $setting = Setting::first();
 
 
     @stack('head')
+    <script type="application/ld+json">
+{
+     "@context": "https://schema.org",
+     "@type": "GeneralContractor",
+     "name": "Amka Homes",
+     "image": "https://amkahomes.ca/images/hall.jpg",
+     "@id": "https://amkahomes.ca/",
+     "url": "https://amkahomes.ca/",
+     "telephone": "16047860949",
+     "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "6690 Ashworth Ave Burnaby BC V5E 3V1 Canada Burnaby British Columbia Canada V5E 3V1",
+          "addressLocality": "Burnaby British Columbia",
+          "postalCode": "V5E3V1",
+          "addressCountry": "CA",
+          "addressRegion": "Burnaby British Columbia"
+     },
+     "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+               "Monday",
+               "Tuesday",
+               "Wednesday",
+               "Thursday",
+               "Friday",
+               "Saturday",
+               "Sunday"
+          ],
+          "opens": "00:00",
+          "closes": "23:59"
+     },
+     "sameAs": [
+          "https://www.instagram.com/amkahomesltd/"
+     ]
+}
+</script>
 </head>
 
 <body>
