@@ -1771,14 +1771,14 @@
   }
 
   .gallery-section-content-left-img-1 {
-    background: url("../images/builfing.jpg");
+    background: url("../user/images/home_gallery.webp");
     height: 30rem;
     position: relative;
     top: 3rem;
   }
 
   .gallery-section-content-left-img-2 {
-    background: url("../images/builfing.jpg");
+    background: url("../user/images/home_gallery.webp");
     left: 1rem;
     position: relative;
     top: -28rem;
@@ -1787,7 +1787,7 @@
   }
 
   .gallery-section-content-left-img-3 {
-    background: url("../images/builfing.jpg");
+    background: url("../user/images/home_gallery.webp");
     position: relative;
     top: -61rem;
     left: 2rem;
