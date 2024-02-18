@@ -9,14 +9,14 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://amkahomes.ca/building-services-in-vancouver" />
     <meta property="og:title" content="Building and Design Partner in Vancouver" />
-    <meta property="og:description" content="At Amko Homes, we are your premier partner for all your building and development needs in the beautiful city of Vancouver" />
+    <meta property="og:description" content="At Amka Homes, we are your premier partner for all your building and development needs in the beautiful city of Vancouver" />
     <meta property="og:image" content="https://amkahomes.ca/user/images/building/woman_building.webp" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://amkahomes.ca/building-services-in-vancouver" />
     <meta property="twitter:title" content="Building and Design Partner in Vancouver" />
-    <meta property="twitter:description" content="At Amko Homes, we are your premier partner for all your building and development needs in the beautiful city of Vancouver" />
+    <meta property="twitter:description" content="At Amka Homes, we are your premier partner for all your building and development needs in the beautiful city of Vancouver" />
     <meta property="twitter:image" content="https://amkahomes.ca/user/images/building/woman_building.webp" />
 
     <!-- Meta Tags Generated with https://metatags.io -->
@@ -26,7 +26,7 @@
                 <div class="building-servives-calgary-header-content">
                     <div class="header-content-detail">
                         <p class="mb-2">WE GET IT APPROVED - One Stop Solution - Professional Team - Residential & Commercial</p>
-                        <h2 class="text-orange building-servives-calgary-header-h2 line-height-1-5">Welcome to Amko Homes: Your Building and Design Partner in  <span class="text-white">Vancouver</span></h2>
+                        <h2 class="text-orange building-servives-calgary-header-h2 line-height-1-5">Welcome to Amka Homes: Your Building and Design Partner in  <span class="text-white">Vancouver</span></h2>
 
                     </div>
 
@@ -48,16 +48,16 @@
 <div class="our-process-section-wrapper">
             <div class="our-process-section-heading">
                 <h2>Our Process</h2>
-                <p> Partner with Amko Homes, and let's embark on a journey to bring your vision to life with professionalism, precision, and a commitment to excellence.</p>
+                <p> Partner with Amka Homes, and let's embark on a journey to bring your vision to life with professionalism, precision, and a commitment to excellence.</p>
                 <div class="below-heading-line"></div>
             </div>
             <div class="our-process-section-content">
                 <div class="our-process-section-content-desc col-10 col-lg-5">
-                  <h5>Discover how Amko Homes can turn your vision into reality:</h5>
+                  <h5>Discover how Amka Homes can turn your vision into reality:</h5>
                     <ul>
                         <li style="text-align: justify">Building and Development Permits: Navigating the complexities of Vancouver's building regulations can be a daunting task. Our seasoned professionals are well-versed in local permit requirements. We simplify the process, ensuring your project complies with all codes and regulations.</li>
                         <li style="text-align: justify">Drafting and Drawings: Our skilled draftsmen and designers are artists in their own right, transforming your ideas into meticulously detailed drawings and plans. From dream homes to commercial ventures, our drawings are the blueprint for your aspirations.</li>
-                        <li style="text-align: justify">Architectural Excellence: Collaborate with our talented architects to create spaces that not only meet your needs but also reflect your unique style. Amko Homes brings a blend of innovation and timeless design to every project.</li>
+                        <li style="text-align: justify">Architectural Excellence: Collaborate with our talented architects to create spaces that not only meet your needs but also reflect your unique style. Amka Homes brings a blend of innovation and timeless design to every project.</li>
                         <li style="text-align: justify">Engineering Precision: Our experienced engineers provide structural, mechanical, and electrical engineering solutions that are not only functional but also sustainable. We ensure your projects are not just compliant but environmentally responsible.</li>
                     </ul>
                 </div>
@@ -116,7 +116,7 @@
             </div>
             <div class="permits-designs-drawing-drafting-section-content">
                 <div class="permits-designs-drawing-drafting-section-content-desc col-12 ">
-                  <p>At Amko Homes, we are your premier partner for all your building and development needs in the beautiful city of Vancouver. With a steadfast commitment to excellence, we offer a comprehensive range of services that include building and development permits, precise drafting and drawings, and top-tier architectural and engineering solutions.</p>
+                  <p>At Amka Homes, we are your premier partner for all your building and development needs in the beautiful city of Vancouver. With a steadfast commitment to excellence, we offer a comprehensive range of services that include building and development permits, precise drafting and drawings, and top-tier architectural and engineering solutions.</p>
                 </div>
                 <div class="permits-designs-drawing-drafting-section-content-tags col-12 ">
                     <div class="permits-designs-drawing-drafting-section-content-item">Building Permits</div>
@@ -139,7 +139,7 @@
         <!-- why-choose-us-section start here-->
         <div class="why-choose-us-section-wrapper">
             <div class="why-choose-us-section-heading">
-                <h2>Why Choose Amko Homes?</h2>
+                <h2>Why Choose Amka Homes?</h2>
                 <div class="below-heading-line"></div>
             </div>
             <div class="why-choose-us-section-content">
@@ -152,13 +152,13 @@
 
                         </li>
                         <li>
-                            Quality Assurance: At Amko Homes, we leave no room for error. Our meticulous attention to detail guarantees a flawless execution of your project, from concept to completion.
+                            Quality Assurance: At Amka Homes, we leave no room for error. Our meticulous attention to detail guarantees a flawless execution of your project, from concept to completion.
                         </li>
                         <li>
                             Client-Centric Approach: Communication and collaboration are at the heart of our philosophy. We work closely with you at every step, ensuring your vision is realized.
                         </li>
                         <li>
-                            Sustainability: Amko Homes is dedicated to sustainable design and construction practices, aligning your project with modern environmental standards.
+                            Sustainability: Amka Homes is dedicated to sustainable design and construction practices, aligning your project with modern environmental standards.
                         </li>
                     </ul>
 
