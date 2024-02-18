@@ -1,6 +1,6 @@
 @extends('user.layouts.header')
 
-@section('title', 'Elevate Your Space with Amka Homes Flooring Installation')
+@section('title', 'Elevate Your Space with Amko Homes Flooring Installation')
 
 @section('content')
       <!-- header section start -->
@@ -14,7 +14,7 @@
                             <h5 class="text-white m-0 py-2 fs-20">Quality - Delivered On Time - Within Budget</h5>
                         </div>
                         <div class="text-center ">
-                            <h2 class="fs-70 fw-700"> <span class="text-white">Elevate Your Space with Amka Homes  </span><br><span class="text-orange">
+                            <h2 class="fs-70 fw-700"> <span class="text-white">Elevate Your Space with Amko Homes  </span><br><span class="text-orange">
                                 Flooring Installation</span></h2>
                         </div>
                         <div class="text-center mt-5">
@@ -55,7 +55,7 @@
             <div class="our-process-section-content">
                 <div class="our-process-section-content-desc col-10 col-lg-5">
                   <h5>Save Time & Money</h5>
-                    <p style="text-align: justify"> At Amka Homes, we believe that your home or business deserves nothing but the best, and that's precisely what we deliver with our top-tier flooring installation services. Our commitment to excellence, paired with our expert craftsmanship, ensures that your space will be transformed into a stunning showcase of beauty, functionality, and durability.
+                    <p style="text-align: justify"> At Amko Homes, we believe that your home or business deserves nothing but the best, and that's precisely what we deliver with our top-tier flooring installation services. Our commitment to excellence, paired with our expert craftsmanship, ensures that your space will be transformed into a stunning showcase of beauty, functionality, and durability.
                     </p>
                     <p style="text-align: justify">  We understand that your time and budget are valuable. That's why our flooring installation services are designed to not only transform your space but also save you both time and money.
                         </p><p style="text-align: justify">
@@ -67,7 +67,7 @@
                         </p><p style="text-align: justify">
                         Expert Guidance: Our experts are here to guide you through the selection process, helping you choose materials and designs that meet your aesthetic preferences and financial constraints. We're committed to ensuring you make cost-effective choices that align with your vision.
                         </p><p style="text-align: justify">
-                        With Amka Homes, you can trust that your flooring installation project will be a seamless, cost-effective, and efficient experience from start to finish. Save both time and money while elevating your space with our exceptional flooring solutions.
+                        With Amko Homes, you can trust that your flooring installation project will be a seamless, cost-effective, and efficient experience from start to finish. Save both time and money while elevating your space with our exceptional flooring solutions.
                         </p>
 
                 </div>
@@ -147,7 +147,7 @@
             <div class="d-flex justify-content-center my-4">
                 <img src="{{asset('user/images/floor/floor_sample.jpg')}}" />
             </div>
-            <p > At Amka Homes, we understand that choosing the perfect flooring can be a challenging decision. That's why we offer a wide selection of flooring samples to make the process easier for you. Our samples allow you to see and feel the actual materials, textures, and colors in the comfort of your home. By providing you with the opportunity to examine our flooring options firsthand, you can confidently make choices that align with your style, preferences, and the unique character of your space. Our flooring samples are a tangible representation of our commitment to ensuring your complete satisfaction with your flooring investment. </p>
+            <p > At Amko Homes, we understand that choosing the perfect flooring can be a challenging decision. That's why we offer a wide selection of flooring samples to make the process easier for you. Our samples allow you to see and feel the actual materials, textures, and colors in the comfort of your home. By providing you with the opportunity to examine our flooring options firsthand, you can confidently make choices that align with your style, preferences, and the unique character of your space. Our flooring samples are a tangible representation of our commitment to ensuring your complete satisfaction with your flooring investment. </p>
 
             <div class="mb-3 d-flex justify-content-center">
                 <button type="button" class="btn btn-orange text-white header-button-style mr-2 border-radius-12px fs-18">  <a href="{{route('user.contact.us')}}" class="text-decoration-none text-white"> Get Consultation </a> </button>
@@ -244,13 +244,13 @@
                                 <p style="text-align: justify;">
                                     <b> 9. Consultation and Estimates:</b>
 
-                                Highlight that Amka Homes offers personalized consultations and estimates.
+                                Highlight that Amko Homes offers personalized consultations and estimates.
                                 Explain that these consultations are an opportunity to discuss project specifics and receive a detailed cost breakdown.
                                 </p>
                                 <p style="text-align: justify;">
                                     <b>  10. Cost Transparency:</b>
 
-                                Emphasize Amka Homes' commitment to transparent pricing with no hidden fees.
+                                Emphasize Amko Homes' commitment to transparent pricing with no hidden fees.
                                 Mention that customers will receive a clear estimate detailing the scope of work and associated costs.
                                 </p>
 
@@ -277,12 +277,12 @@
         <!-- why-choose-us-section start here-->
         <div class="why-choose-us-section-wrapper pb-0">
             <div class="why-choose-us-section-heading">
-                <h2>Why Choose Amka Homes for Your Flooring Installation?</h2>
+                <h2>Why Choose Amko Homes for Your Flooring Installation?</h2>
                 <div class="below-heading-line"></div>
             </div>
             <div class="why-choose-us-section-content">
                 <div class="why-choose-us-section-content-desc col-10 col-lg-6">
-                    <p> When you choose Amka Homes for your flooring installation needs, you're choosing a company dedicated to enhancing your space in every possible way. Here's what makes us the preferred choice for flooring installation:</p>
+                    <p> When you choose Amko Homes for your flooring installation needs, you're choosing a company dedicated to enhancing your space in every possible way. Here's what makes us the preferred choice for flooring installation:</p>
                     <ul>
                         <li>Skilled Craftsmanship: Our team of seasoned flooring installers possesses the skills, knowledge, and experience needed to provide flawless installation for a variety of flooring types.</li>
                         <li>Comprehensive Selection: Whether it's the warmth of hardwood, the versatility of laminate, the elegance of tile, or the comfort of carpet, we offer a wide range of flooring materials to suit your style and preferences.</li>
@@ -301,8 +301,8 @@
            <!-- reflect-your-sense-of-style-section start here-->
            <div class="reflect-your-sense-of-style-section-wrapper">
             <div class="reflect-your-sense-of-style-section-heading">
-                <h2> Step into Luxury: Amka Homes Flooring Installation</h2>
-                <p>Amka Homes' commitment to providing luxurious flooring installation services that go beyond aesthetics to encompass the quality of materials, craftsmanship, and personalization that truly define luxury underfoot.</p>
+                <h2> Step into Luxury: Amko Homes Flooring Installation</h2>
+                <p>Amko Homes' commitment to providing luxurious flooring installation services that go beyond aesthetics to encompass the quality of materials, craftsmanship, and personalization that truly define luxury underfoot.</p>
                 <div class="below-heading-line"></div>
 
             </div>
@@ -320,7 +320,7 @@
                         <div><img src="./images/success-tick.png.png" alt=""></div>
                         <div>
                             <h5>Exquisite Material Selection</h5>
-                            <p>Amka Homes offers a curated selection of high-quality flooring materials that exude luxury and elegance. From rich hardwoods to luxurious carpets and exquisite tile options, our range of materials ensures that you can create a luxurious ambiance that matches your unique style and vision.</p>
+                            <p>Amko Homes offers a curated selection of high-quality flooring materials that exude luxury and elegance. From rich hardwoods to luxurious carpets and exquisite tile options, our range of materials ensures that you can create a luxurious ambiance that matches your unique style and vision.</p>
                         </div>
                     </div>
                     <div class="desc-2 desc-wrapper">
@@ -334,7 +334,7 @@
                         <div><img src="./images/success-tick.png.png" alt=""></div>
                         <div>
                             <h5>Tailored Design and Personalization</h5>
-                            <p>At Amka Homes, we believe that luxury is a reflection of individual taste. We work closely with our clients to create custom flooring designs that align perfectly with their preferences. Whether you desire intricate patterns, unique inlays, or specific color schemes, our experts will transform your vision into a luxurious reality.</p>
+                            <p>At Amko Homes, we believe that luxury is a reflection of individual taste. We work closely with our clients to create custom flooring designs that align perfectly with their preferences. Whether you desire intricate patterns, unique inlays, or specific color schemes, our experts will transform your vision into a luxurious reality.</p>
                         </div>
                     </div>
                     <div class="desc-btn-wrapper">
@@ -368,7 +368,7 @@
 
 <!-- Open Graph / Facebook -->
 
-<meta property="og:title" content="Elevate Your Space with Amka Homes Flooring Installation" />
+<meta property="og:title" content="Elevate Your Space with Amko Homes Flooring Installation" />
 <meta property="og:description" content="Expertise and craftsmanship for all your home renovation and remodeling needs, bringing lifestyle to your living spaces." />
 <meta property="og:image" content="{{asset('user/images/meta_head_amka.png')}}"  />
 

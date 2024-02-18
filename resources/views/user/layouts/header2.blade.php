@@ -66,7 +66,7 @@ $setting = Setting::first();
 {
      "@context": "https://schema.org",
      "@type": "GeneralContractor",
-     "name": "Amka Homes",
+     "name": "Amko Homes",
      "image": "https://amkahomes.ca/images/hall.jpg",
      "@id": "https://amkahomes.ca/",
      "url": "https://amkahomes.ca/",
@@ -173,7 +173,7 @@ $setting = Setting::first();
                             <img class="brand-logo" src="{{asset('user/images/amka_svg_logo.svg')}}" height="70" />
                         </div>
                         <p>
-                            Welcome to Amka Homes, your trusted partner for all your home renovation needs. We are a premier home renovation company dedicated to transforming your living spaces into the epitome of style, comfort, and functionality. With a focus on home, stair, kitchen, floor, and interior and exterior renovations, we have the expertise to bring your vision to life.
+                            Welcome to Amko Homes, your trusted partner for all your home renovation needs. We are a premier home renovation company dedicated to transforming your living spaces into the epitome of style, comfort, and functionality. With a focus on home, stair, kitchen, floor, and interior and exterior renovations, we have the expertise to bring your vision to life.
 
                         </p>
                     </div>
@@ -213,7 +213,7 @@ $setting = Setting::first();
 
             </div>
             <hr>
-            <p class="blog-post-page fs-15">&copy; 2024 Amka Homes. All Rights Reserved.</p>
+            <p class="blog-post-page fs-15">&copy; 2024 Amko Homes. All Rights Reserved.</p>
         </footer>
 
         <!-- footer start here -->

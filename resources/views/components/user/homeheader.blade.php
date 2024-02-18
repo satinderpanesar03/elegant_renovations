@@ -30,7 +30,7 @@
     <div class="header-content ">
         <div class="header-content-detail">
             <p>Reliable and Accredited Home Renovation Firm</p>
-            <h2 class="heading_hompage">Transform Your Home Into A Dream Home With  <span>AMKA Homes</span></h2>
+            <h2 class="heading_hompage">Transform Your Home Into A Dream Home With  <span>AMKO Homes</span></h2>
             <p class="header-content-desc">Expertise and craftsmanship for all your home renovation and remodeling needs, bringing lifestyle to your living spaces.</p>
         </div>
         <div class="header-content-buttons">

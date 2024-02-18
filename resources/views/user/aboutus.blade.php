@@ -5,20 +5,20 @@
 @push('header_meta_content')
     <!-- Primary Meta Tags -->
     <meta name="title" content="About us" />
-    <meta name="description" content="At AMKA Homes LTD, we believe in open communication and collaboration with our clients throughout the entire renovation process, ensuring a seamless and stress-free experience." />
+    <meta name="description" content="At AMKO Homes LTD, we believe in open communication and collaboration with our clients throughout the entire renovation process, ensuring a seamless and stress-free experience." />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://amkahomes.ca/about-us" />
     <meta property="og:title" content="About us" />
-    <meta property="og:description" content="At AMKA Homes LTD, we believe in open communication and collaboration with our clients throughout the entire renovation process, ensuring a seamless and stress-free experience." />
+    <meta property="og:description" content="At AMKO Homes LTD, we believe in open communication and collaboration with our clients throughout the entire renovation process, ensuring a seamless and stress-free experience." />
     <meta property="og:image" content="https://amkahomes.ca/user/images/Kitchen-Design-1.png" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://amkahomes.ca/about-us" />
     <meta property="twitter:title" content="About us" />
-    <meta property="twitter:description" content="At AMKA Homes LTD, we believe in open communication and collaboration with our clients throughout the entire renovation process, ensuring a seamless and stress-free experience." />
+    <meta property="twitter:description" content="At AMKO Homes LTD, we believe in open communication and collaboration with our clients throughout the entire renovation process, ensuring a seamless and stress-free experience." />
     <meta property="twitter:image" content="https://amkahomes.ca/user/images/Kitchen-Design-1.png" />
 
     <!-- Meta Tags Generated with https://metatags.io -->
@@ -56,14 +56,14 @@
                     </div>
                 </div>
                 <div class="trusted-kitchen-renovation-section-content-desc col-md-12 col-lg-5 col-xl-6">
-                    <h5>Elevate Your Living Spaces with AMKA Homes: Your Trusted Home Renovation Partner</h5>
-                    <p style="text-align: justify;">AMKA Homes LTD is a leading home development and remodeling company, founded by Amit Arora and Kamal Dhingra, two highly skilled and experienced contractors with decades of industry experience. Our team is composed of industry experts, including architects, designers, and project managers, all of whom are dedicated to providing top-notch development and transformations to residential properties of all types.</p>
+                    <h5>Elevate Your Living Spaces with AMKO Homes: Your Trusted Home Renovation Partner</h5>
+                    <p style="text-align: justify;">AMKO Homes LTD is a leading home development and remodeling company, founded by Amit Arora and Kamal Dhingra, two highly skilled and experienced contractors with decades of industry experience. Our team is composed of industry experts, including architects, designers, and project managers, all of whom are dedicated to providing top-notch development and transformations to residential properties of all types.</p>
 
                     <p style="text-align: justify;">
                         We specialize in creating custom and personalized living spaces, from apartments to villas and modern contemporary to traditional homes. Our team has the skills, experience, and expertise to bring your dream home to life, utilizing the latest construction techniques and materials to ensure that your renovation project is completed to the highest standards.
                     </p>
                     <p style="text-align: justify;">
-                        At AMKA Homes LTD, we believe in open communication and collaboration with our clients throughout the entire renovation process, ensuring a seamless and stress-free experience. Our mission is to provide our clients with the highest level of craftsmanship and professionalism, resulting in exceptional and personalized living spaces that exceed their expectations. Trust us with your next home renovation project and see the difference that our expertise and commitment to excellence can make.
+                        At AMKO Homes LTD, we believe in open communication and collaboration with our clients throughout the entire renovation process, ensuring a seamless and stress-free experience. Our mission is to provide our clients with the highest level of craftsmanship and professionalism, resulting in exceptional and personalized living spaces that exceed their expectations. Trust us with your next home renovation project and see the difference that our expertise and commitment to excellence can make.
                     </p>
                     <h5>Below are some reasons to renovate your home:</h5>
                     <ul>
@@ -88,7 +88,7 @@
                             <p>Maintenance and Repairs</p>
                         </li>
                     </ul>
-                    <p style="text-align: justify;">AMKA Homes is here to transform your house into your dream home, delivering exceptional craftsmanship and professionalism at every step of the renovation process. Trust us to bring your vision to life, ensuring that your newly renovated space exceeds your expectations.</p>
+                    <p style="text-align: justify;">AMKO Homes is here to transform your house into your dream home, delivering exceptional craftsmanship and professionalism at every step of the renovation process. Trust us to bring your vision to life, ensuring that your newly renovated space exceeds your expectations.</p>
                 </div>
             </div>
         </div>
@@ -102,7 +102,7 @@
             </div>
             <div class="about-us-why-choose-us-section-content">
                 <div class="about-us-why-choose-us-section-content-desc ">
-                    <p>There are several compelling reasons to choose AMKA Homes for your home development and remodeling needs:</p>
+                    <p>There are several compelling reasons to choose AMKO Homes for your home development and remodeling needs:</p>
                 </div>
                 <div class="about-us-why-choose-us-section-content-cards">
                     <div class="about-us-why-choose-us-section-content-cards-item col-md-4 col-11">
