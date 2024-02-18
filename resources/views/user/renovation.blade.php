@@ -1,6 +1,6 @@
 @extends('user.layouts.header')
 
-@section('title', 'Amko Homes - Vancouver Dream Builder')
+@section('title', 'Amka Homes - Vancouver Dream Builder')
 
 @section('content')
 <div class="relative-position-for-Kitchen-Design-And-Renovation-Header ">

@@ -10,7 +10,7 @@
         </div>
 
         <p class=" swiper-js text-center card-desc mb-md-4 p-2 text-wrap  "   >
-            "AMKO Homes LTD. transformed our outdated kitchen into a modern, functional space that we love."</p>
+            "AMKA Homes LTD. transformed our outdated kitchen into a modern, functional space that we love."</p>
 
         <h5 class=" swiper-js text-center fs-20">
             <b>John and Jane Smith</b>
@@ -28,7 +28,7 @@
         </div>
 
         <p class=" swiper-js text-center card-desc mb-md-4 p-2 text-wrap  "   >
-            "We were so impressed with the quality and attention to detail of the work done by AMKO Homes LTD. on our bathroom remodel. "</p>
+            "We were so impressed with the quality and attention to detail of the work done by AMKA Homes LTD. on our bathroom remodel. "</p>
 
         <h5 class=" swiper-js text-center fs-20">
             <b>Michael and Susan Jones</b>
@@ -46,7 +46,7 @@
         </div>
 
         <p class=" swiper-js text-center card-desc mb-md-4 p-2 text-wrap  "   >
-            "Amit and his team at AMKO Homes LTD. did an amazing job on our home renovation. They were always on time, professional, and respectful of our home. "</p>
+            "Amit and his team at AMKA Homes LTD. did an amazing job on our home renovation. They were always on time, professional, and respectful of our home. "</p>
 
         <h5 class=" swiper-js text-center fs-20">
             <b>David and Lisa Brown</b>

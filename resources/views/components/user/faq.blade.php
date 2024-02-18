@@ -30,7 +30,7 @@
             </h2>
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#verticalAccordion">
                 <div class="accordion-body">
-                    "AMKO Homes LTD. transformed our outdated Home into a modern, functional space that we love." - Testimonial from a satisfied customer.
+                    "AMKA Homes LTD. transformed our outdated Home into a modern, functional space that we love." - Testimonial from a satisfied customer.
                 </div>
             </div>
         </div>

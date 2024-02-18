@@ -1,7 +1,7 @@
 @inject('constants', 'App\Models\Design')
 @extends('user.layouts.header')
 
-@section('title', 'AMKO Homes - Transform Your Home Into A Dream Home')
+@section('title', 'AMKA Homes - Transform Your Home Into A Dream Home')
 
 
 @push('header_meta_content')
@@ -74,7 +74,7 @@
 @push('head')
 <script src="{{asset('js/master.js')}}"></script>
 
-<meta name="title" content="AMKO Homes - Transform Your Home Into A Dream Home" />
+<meta name="title" content="AMKA Homes - Transform Your Home Into A Dream Home" />
 <meta name="description" content="Expertise and craftsmanship for all your home renovation and remodeling needs, bringing lifestyle to your living spaces." />
 
 <!-- Open Graph / Facebook -->

@@ -1,6 +1,6 @@
 @extends('user.layouts.header')
 
-@section('title', 'Amko Homes - Vancouvers Premier Basement Renovation & Development')
+@section('title', 'Amka Homes - Vancouvers Premier Basement Renovation & Development')
 
 @section('content')
 <div class="basement-renovation-and-development-expert-in-calgary-header-content-wrapper">
@@ -59,7 +59,7 @@
             <div class="our-process-section-heading">
                 <h2>Our Process</h2>
                 <p>
-                    At AMKO Homes, we're passionate about turning your basement into a space that's not just functional but also a reflection of your lifestyle and taste. Our well-defined basement renovation process ensures a hassle-free and rewarding experience, delivering exceptional results that exceed your expectations.
+                    At AMKA Homes, we're passionate about turning your basement into a space that's not just functional but also a reflection of your lifestyle and taste. Our well-defined basement renovation process ensures a hassle-free and rewarding experience, delivering exceptional results that exceed your expectations.
                 </p>
                 <div class="below-heading-line"></div>
             </div>
@@ -68,7 +68,7 @@
                   <h5>Save Time & Money</h5>
                     <p>
                        <b> 1. Expertise and Efficiency </b>
-                        Our experienced team of professionals brings extensive knowledge and skill to your basement renovation project. This expertise translates into efficient project management, accurate timelines, and streamlined processes. With AMKO Homes, you can be confident that your project will be completed on schedule.
+                        Our experienced team of professionals brings extensive knowledge and skill to your basement renovation project. This expertise translates into efficient project management, accurate timelines, and streamlined processes. With AMKA Homes, you can be confident that your project will be completed on schedule.
                     </p>
                     <p>
                         <b>
@@ -135,9 +135,9 @@
         <!-- why-choose-us-section start here-->
         <div class="why-choose-us-section-wrapper">
             <div class="why-choose-us-section-heading">
-                <h2>Why Choose AMKO Homes for Your Basement Renovation</h2>
+                <h2>Why Choose AMKA Homes for Your Basement Renovation</h2>
                 <p>
-                    When it comes to transforming your basement into a space that suits your lifestyle and reflects your unique vision, choosing the right partner is essential. At AMKO Homes, we stand out as the premier choice for your basement renovation project. Here are compelling reasons why you should choose us:
+                    When it comes to transforming your basement into a space that suits your lifestyle and reflects your unique vision, choosing the right partner is essential. At AMKA Homes, we stand out as the premier choice for your basement renovation project. Here are compelling reasons why you should choose us:
                 </p>
                 <div class="below-heading-line"></div>
             </div>
@@ -156,7 +156,7 @@
                     </p>
 
                     <p>
-                        Choose AMKO Homes as your trusted partner for your basement renovation project, and experience the difference of working with a team that is passionate about delivering outstanding results. Your vision is our mission, and we're committed to making your basement transformation a reality. Contact us today to get started on your dream basement renovation.
+                        Choose AMKA Homes as your trusted partner for your basement renovation project, and experience the difference of working with a team that is passionate about delivering outstanding results. Your vision is our mission, and we're committed to making your basement transformation a reality. Contact us today to get started on your dream basement renovation.
                     </p>
                 </div>
                 <div class="why-choose-us-section-content-images-basement col-10 col-lg-6"></div>

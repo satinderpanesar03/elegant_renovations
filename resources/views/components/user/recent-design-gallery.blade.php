@@ -44,7 +44,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="language" content="English">
     <meta name="revisit-after" content="7 days">
-    <meta name="author" content="Amko Homes">
+    <meta name="author" content="Amka Homes">
 
 
     <!-- Open Graph / Facebook -->
