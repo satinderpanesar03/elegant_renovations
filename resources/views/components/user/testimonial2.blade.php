@@ -13,7 +13,7 @@
             "AMKA Homes LTD. transformed our outdated kitchen into a modern, functional space that we love."</p>
 
         <h5 class=" swiper-js text-center fs-20">
-            <b>John and Jane Smith</b>
+            <b>Satnam Sandhu</b>
         </h5>
     </div>
 
