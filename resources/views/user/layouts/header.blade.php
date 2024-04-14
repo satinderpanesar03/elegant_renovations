@@ -129,7 +129,7 @@ $setting = Setting::first();
                             <ul class="navbar-nav">
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Homes Renovation</a>
-                                    <ul class="dropdown-menu" style="width: 200px;">
+                                    <ul class="dropdown-menu">
 {{--                                        <li><a class="dropdown-item" href="{{route('user.kitchen.renovation.calgary')}}">Kitchen Renovation Calgary</a></li>--}}
 {{--                                        <li><a class="dropdown-item" href="{{route('user.kitchen.renovation.edmonton')}}">Kitchen Renovation Edmonton</a></li>--}}
                                         <li><a class="dropdown-item" href="{{route('user.kitchen.renovation.vancouver')}}">Homes Renovation Vancouver</a></li>

@@ -141,7 +141,6 @@
         <!-- about-us-why-choose-us-section end here-->
 
     {{--    Testimonials--}}
-    <x-User.Testimonial/>
     {{--Testimonial End--}}
 
     {{--     gallery start--}}
